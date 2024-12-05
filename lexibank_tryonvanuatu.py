@@ -9,6 +9,7 @@ from pylexibank import FormSpec
 import xml
 import codecs
 
+RECREATE = True
 
 def extract_table(fname):
     """
@@ -17,7 +18,12 @@ def extract_table(fname):
 
     with codecs.open(fname, "r", "utf-8") as f:
         page = xml.dom.minidom.parseString(f.read())
-    cells = page.childNodes[0].getElementsByTagName("TableCell")
+
+    # must sort correctly (!)
+    cells = sorted(
+            page.childNodes[0].getElementsByTagName("TableCell"),
+            key = lambda x: (int(x.getAttribute("row")), int(x.getAttribute("col")))
+            )
     table = []
     previous_row = -1
     for cell in cells:
@@ -35,6 +41,33 @@ def extract_table(fname):
             value = ''
         table[-1] += [value]
     return table
+
+
+def get_language(row):
+
+    LANG = {
+            "1. Fali (OC) (AM)": ["1", "Fali (OC)", "Am"],
+            }
+    if row.strip() in LANG:
+        return LANG[row.strip()]
+    
+    number = row[:row.index(".")]
+    name_ = row[row.index(".") + 2:].strip()
+    if "(" in name_:
+        name = name_[:name_.index("(")].strip()
+        group = name_[name_.index("("):].strip()[1:-1]
+    else:
+        name = name_
+        group = ""
+    name = name.strip("*").strip(".")
+    return number, name, group
+
+
+def get_concept(row):
+   number = row[:row.index(".")]
+   concept = row[row.index(".") + 2:].strip()
+   return number, concept
+
 
 
 @attr.s
@@ -56,11 +89,14 @@ class Dataset(BaseDataset):
 
     def cmd_download(self, args):
 
-        xmlfiles = self.raw_dir.glob("tryonvanuatu-wordlist/page/*.xml")
+        xmlfiles = sorted(self.raw_dir.glob("tryonvanuatu-wordlist/page/*.xml"))
         concepts = []
         languages = []
+        data = []
         for fname in xmlfiles:
             args.log.info("Working on {0}...".format(fname))
+            img = fname.name + ".jpg"
+            page = int(fname.name.split("_p")[1].split(".")[0]) + 171
             table = extract_table(fname)
             current_concepts = table[0]
             current_languages = [row[0] for row in table[1:]]
@@ -68,32 +104,48 @@ class Dataset(BaseDataset):
             languages += current_languages
 
             # add entries to individual tables
-        with codecs.open(self.etc_dir / "concepts.tsv", "w", "utf-8") as f:
-            f.write("NUMBER\tENGLISH\n")
-            visited = set()
-            for row in concepts:
-                number = row[:row.index(".")]
-                concept = row[row.index(".")+2:].strip()
-                if (number, concept) in visited:
-                    pass
-                else:
-                    visited.add((number, concept))
-                    f.write(number + "\t" + concept + "\n")
+            for row in table[1:]:
+                number, name, group = get_language(row[0])
+                for concept_, value in zip(current_concepts[1:], row[1:]):
+                    cnum, concept = get_concept(concept_)
+                    data += [[row[0].strip(), number, name, group,
+                              concept_.strip(), cnum, concept, value, str(page), img]]
+        
+        if RECREATE:
+            with codecs.open(self.etc_dir / "concepts.tsv", "w", "utf-8") as f:
+                f.write("NUMBER\tENGLISH\n")
+                visited = set()
+                for row in concepts:
+                    number, concept = get_concept(row)
+                    if (number, concept) in visited:
+                        pass
+                    else:
+                        visited.add((number, concept))
+                        f.write(number + "\t" + concept + "\n")
 
 
-        with codecs.open(self.etc_dir / "languages.tsv", "w", "utf-8") as f:
-            f.write("ID\tNumber\tName\tSubGroup\n")
-            for row in languages:
-                number = row[:row.index(".")]
-                name_ = row[row.index("."):].strip()
-                if "(" in name_:
-                    name = name_[:name_.index("(")].strip()
-                    group = name_[name_.index("("):].strip()[:-1]
-                else:
-                    name = name_
-                    group = ""
-                f.write(slug(name) + "\t" + number + "\t" + name + "\t" + group + "\n")
+            with codecs.open(self.etc_dir / "languages.tsv", "w", "utf-8") as f:
+                f.write("ID\tNumber\tName\tSubGroup\n")
+                for row in languages:
+                    number, name, group = get_language(row)
+                    f.write(slug(name) + "\t" + number + "\t" + name + "\t" + group + "\n")
+            args.log.info("wrote concepts and languages")
 
+        
+        with codecs.open(self.raw_dir / "data.tsv", "w", "utf-8") as f:
+            f.write("\t".join(
+                ["LanguageInSource", "LanguageNumber", 
+                 "Language", "Group", 
+                 "ConceptInSource",
+                 "ConceptNumber", "Concept", 
+                 "Value",
+                 "Page",
+                 "Image"
+                 ]
+                ) + "\n")
+            for row in data:
+                f.write("\t".join(row) + "\n")
+        args.log.info("wrote data")
         
 
 
