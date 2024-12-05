@@ -36,7 +36,12 @@ def extract_table(fname):
         if textlines:
             textequiv = textlines[0].getElementsByTagName("TextEquiv")[0]
             text = textequiv.getElementsByTagName("Unicode")[0]
-            value = text.firstChild.toxml().strip()
+            try:
+                value = text.firstChild.toxml().strip()
+            except AttributeError:
+                print(cell.toxml())
+                input()
+                value = ""
         else:
             value = ''
         table[-1] += [value]
@@ -47,9 +52,17 @@ def get_language(row):
 
     LANG = {
             "1. Fali (OC) (AM)": ["1", "Fali (OC)", "Am"],
+            #"89 Timbembe": ["89", "Timbembe", ""],
+            #"117 Windua (Ma)": ["117", "Windua", "Ma"],
+            #"149 Makatea (Sh)": ["149", "Makatea", "Sh"],
+            #"177 Aneityum": ["177", "Aneityum", ""],
+            #"70 Tutuba": ["70", "Tutuba", ""],
             }
     if row.strip() in LANG:
         return LANG[row.strip()]
+
+    if not '.' in row:
+        raise ValueError(row)
     
     number = row[:row.index(".")]
     name_ = row[row.index(".") + 2:].strip()
@@ -93,6 +106,7 @@ class Dataset(BaseDataset):
         concepts = []
         languages = []
         data = []
+        errors = set()
         for fname in xmlfiles:
             args.log.info("Working on {0}...".format(fname))
             img = fname.name + ".jpg"
@@ -105,11 +119,16 @@ class Dataset(BaseDataset):
 
             # add entries to individual tables
             for row in table[1:]:
-                number, name, group = get_language(row[0])
-                for concept_, value in zip(current_concepts[1:], row[1:]):
-                    cnum, concept = get_concept(concept_)
-                    data += [[row[0].strip(), number, name, group,
-                              concept_.strip(), cnum, concept, value, str(page), img]]
+                try:
+                    number, name, group = get_language(row[0])
+                    for concept_, value in zip(current_concepts[1:], row[1:]):
+                        cnum, concept = get_concept(concept_)
+                        data += [[row[0].strip(), number, name, group,
+                                  concept_.strip(), cnum, concept, value, str(page), img]]
+                except ValueError:
+                    args.log.info("Problem with entry '{0} / {1}'".format(fname, row))
+                    errors.add((fname, row[0]))
+
         
         if RECREATE:
             with codecs.open(self.etc_dir / "concepts.tsv", "w", "utf-8") as f:
@@ -127,8 +146,12 @@ class Dataset(BaseDataset):
             with codecs.open(self.etc_dir / "languages.tsv", "w", "utf-8") as f:
                 f.write("ID\tNumber\tName\tSubGroup\n")
                 for row in languages:
-                    number, name, group = get_language(row)
-                    f.write(slug(name) + "\t" + number + "\t" + name + "\t" + group + "\n")
+                    try:
+                        number, name, group = get_language(row)
+                        f.write(slug(name) + "\t" + number + "\t" + name + "\t" + group + "\n")
+                    except ValueError:
+                        pass
+
             args.log.info("wrote concepts and languages")
 
         
@@ -147,7 +170,8 @@ class Dataset(BaseDataset):
                 f.write("\t".join(row) + "\n")
         args.log.info("wrote data")
         
-
+        for a, b in errors:
+            args.log.info("problem: {0} / {1}".format(a, b))
 
 
     def cmd_makecldf(self, args):
