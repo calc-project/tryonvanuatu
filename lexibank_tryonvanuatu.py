@@ -88,6 +88,7 @@ class CustomLanguage(Language):
     Location = attr.ib(default=None)
     Remark = attr.ib(default=None)
     Number = attr.ib(default=None)
+    SubGroup = attr.ib(default=None)
 
 
 class Dataset(BaseDataset):
@@ -193,7 +194,7 @@ class Dataset(BaseDataset):
         args.log.info("added concepts")
 
         # add language
-        languages = args.writer.add_languages(lookup_factory="Name")
+        languages = args.writer.add_languages(lookup_factory="Number")
         args.log.info("added languages")
 
         # read in data
@@ -202,11 +203,9 @@ class Dataset(BaseDataset):
         )
         # add data
         for entry in pb(data, desc="cldfify", total=len(data)):
-            if entry["ENGLISH"] in concepts.keys():
-                for key, val in languages.items():
-                    args.writer.add_forms_from_value(
-                        Language_ID=val,
-                        Parameter_ID=concepts[entry["ENGLISH"]],
-                        Value=entry[key],
-                        Source=["Bodt2019b"],
-                    )
+            if entry["ConceptNumber"] in concepts:
+                args.writer.add_forms_from_value(
+                    Language_ID=languages[entry["LanguageNumber"]],
+                    Parameter_ID=concepts[entry["ConceptNumber"]],
+                    Value=entry["Value"],
+                )
