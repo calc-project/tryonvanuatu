@@ -3,8 +3,8 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.19.0:model_id=115833:lm=none:date=21_11_2024_14:40</Creator>
         <Created>2024-10-29T16:13:37.842266</Created>
-        <LastChange>2024-11-30T20:34:28.883+01:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80939740" pageNr="21" tsid="208922481" status="GT" userId="191780" imgUrl="https://files.transkribus.eu/Get?id=VXRRWTGGOIVGLFGQOGQCIAPU&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=IVWEANOCRSOSHLYBXGEYVHPM" imageId="66362504"/>
+        <LastChange>2024-12-06T04:40:24.266+01:00</LastChange>
+        <TranskribusMetadata docId="4770512" pageId="80939740" pageNr="21" tsid="210447248" status="FINAL" userId="310155" imgUrl="https://files.transkribus.eu/Get?id=VXRRWTGGOIVGLFGQOGQCIAPU&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=LAQBGHRHQTMCOBUNIIUMKKBR" imageId="66362504"/>
     </Metadata>
     <Page imageFilename="0021_p021.jpg" imageWidth="2479" imageHeight="3508">
         <TableRegion id="t1" custom="readingOrder {index:0;}">
@@ -1517,7 +1517,7 @@
             </TableCell>
             <TableCell row="21" col="4" colSpan="1" orientation="0.0" id="t1c105">
                 <Coords points="1826,1837 1827,1900 2220,1898 2220,1835"/>
-                <TextLine id="t1c105_tl_1" custom="readingOrder {index:0;}">
+                <TextLine id="t1c105_tl_1" custom="readingOrder {index:0;} sic {offset:0; length:8;}">
                     <Coords points="1862,1841 1997,1838 2042,1844 2042,1894 1997,1888 1862,1891"/>
                     <Baseline points="1862,1886 1907,1886 1952,1883 1997,1883 2042,1889"/>
                     <TextEquiv>
@@ -1657,7 +1657,7 @@
             </TableCell>
             <TableCell row="23" col="4" colSpan="1" orientation="0.0" id="t1c115">
                 <Coords points="1827,1965 1828,2027 2220,2025 2220,1963"/>
-                <TextLine id="t1c115_tl_1" custom="readingOrder {index:0;}">
+                <TextLine id="t1c115_tl_1" custom="readingOrder {index:0;} sic {offset:7; length:4;}">
                     <Coords points="1862,1970 2149,1967 2149,2017 1862,2020"/>
                     <Baseline points="1862,2015 1880,2015 1925,2012 1970,2012 2015,2015 2060,2015 2104,2012 2149,2012"/>
                     <TextEquiv>
@@ -2047,7 +2047,7 @@
             </TableCell>
             <TableCell row="29" col="4" colSpan="1" orientation="0.0" id="t1c145">
                 <Coords points="1831,2359 1832,2425 2220,2426 2220,2359"/>
-                <TextLine id="t1c145_tl_1" custom="readingOrder {index:0;}">
+                <TextLine id="t1c145_tl_1" custom="readingOrder {index:0;} sic {offset:0; length:8;}">
                     <Coords points="1862,2355 2051,2358 2051,2408 1862,2405"/>
                     <Baseline points="1862,2400 1907,2400 1952,2400 1997,2400 2042,2403 2051,2403"/>
                     <TextEquiv>

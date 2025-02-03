@@ -2,11 +2,18 @@ Grapheme	IPA	Examples	Languages	Frequence	Codepoints
 $	NULL				
 &quot	NULL	βʷag&quot	navenevene	1	U+0026
 '	ʕ	nu-kʷ'anea-k	imreang	1	U+0027 U+0061
---	+
-_-	+
--$	NULL
---$	NULL
 -	+	βulu-k, na-βlu-k	motlav, dorig, wetamut, hiw, lakona, merig, lehalurup, koro, navenevene, peterara, merlav, vetumboso, lehali, mosina, nume, sasar, mota, tam, toga, marino, vatrata, bek, nasawa	100	U+002d
+-$	NULL
+--	+
+--$	NULL
+‧-	+
+_-_	+
+_-	NULL
+-¹$	NULL
+_¹$	NULL
+.$	NULL
+·$	NULL
+-_	+
 .	+	nči-n tleᵐb.	larevat	1	U+002e
 =	+	tenaᵐbeɣ=yah	tur	1	U+003d
 I	ɪ	ni - Iwe-k, na- Iwe-k	motlav, wetamut, hukua	4	U+0049 U+0077
@@ -92,7 +99,7 @@ I	ɪ	ni - Iwe-k, na- Iwe-k	motlav, wetamut, hukua	4	U+0049 U+0077
 ^θ	θ	θetˢu-, θəpʷə-k	tur, sharkbayii, lapwang, sharkbayi	4	U+005e U+03b8
 ^ᴺgʷ	ⁿgʷ	ᴺgʷero-ᴺgu	wailengi	1	U+005e U+1d3a U+0067 U+02b7
 ^ᴺk	ⁿk	ᴺkalina-	navut	1	U+005e U+1d3a U+006b
-^ᵏpʷ	ᵏpʷ	ᵏpʷo, ᵏpʷoe	marino, mota, wetamut, sasar, mosina, lehalurup, koro, bek, merig, merlav, fali	46	U+005e U+1d4f U+0070 U+02b7
+^ᵏpʷ	kpʷ	ᵏpʷo, ᵏpʷoe	marino, mota, wetamut, sasar, mosina, lehalurup, koro, bek, merig, merlav, fali	46	U+005e U+1d4f U+0070 U+02b7
 ^ᵐb	ⁿb	ᵐboro-k, ᵐbatu-k	maxbaxo, uripiv, wala, pinalum, burmbar, lametin, rano, litzlitz, portsandwich, nambel, timbembe, lepaxsivir, tautu, roria, uri, katbol, seke, koro, unua, navenevene, aulua, dixonreefi, vartavo, rerep, portvato, polonombauk, vao, petarmur, tam, maluabay, sa, vovo, tutuba, vetumboso, tasiriki, malonorth, dorig, apma, nume, baetora, mae, baiap, repanbitip, orap, narovorovo, ngwatua, sesivi, vowa, avok, fali, vatrata	100	U+005e U+1d50 U+0062
 ^ᵐbs	ⁿb s	ᵐbsil	seke	1	U+005e U+1d50 U+0062 U+0073
 ^ᵐbʷ	ⁿbʷ	ᵐbʷi, ᵐbʷatu-k	lolomatui, raga, repanbitip, sa, unua, tautu, baetora, uripiv, sesivi, uri, katbol, wala, rerep, timbembe, apma, baiap, tam, narovorovo, maluabay, avok, sesake, navenevene, malonorth, portvato, lepaxsivir, lehali, maxbaxo, tonga, nasawa, vinmavis, isiai, maragus, fali	73	U+005e U+1d50 U+0062 U+02b7
@@ -110,6 +117,7 @@ I	ɪ	ni - Iwe-k, na- Iwe-k	motlav, wetamut, hukua	4	U+0049 U+0077
 ^ⁿḍ	ⁿḍ/ⁿɖ	ⁿḍiuⁿḍiu, ⁿḍomi	tutuba	4	U+005e U+207f U+1e0d
 _	+	kapa kapʷa, i lu pʷa-u	nikaura, nuvi, ikiyau, sharkbayi, filakara, wetamut, lehalurup, enfit, nul, aniwa, vetumboso, larevat, nambel, narango, dorig, lehali, mae, vinmavis, vatrata, mate, sakao, lakona, penantsiro, windua, aneityum, ikiti, toak, aore, labo, imreang, northt, merlav, peterara, leviamp, rano, burupika, lorediakarkar, rerep, ura, timbembe, lolsiwoi, tavio, lembinwen, mosina, apma, pwele, laul, eton, lapwang, wusimana, tonga, repanbitip, mapremo, lenau, pango, hiw, mpotovoro, isiai, mota, toga, tam, sesivi, maemorae, piamatsina, dixonreefii, yevali, maluabay, makatea, futuna, lironesa, sharkbayii, sa, burumba, lamenu	100	U+005f
 _$	NULL	maᵑki -	navut	1	U+005f U+0024
+_-	+
 __	+	ni - Iwe-k, ne - leme-n	lingarak, motlav	2	U+005f U+005f
 a	a
 a	a	patu-, pʷatu-ku	wusivalui, seke, lametin, tasiriki, dorig, wusimana, lakona, hukua, kerepua, matae, nonona, raga, navut, piamatsina, akei, tasmate, penantsiro, batunlamak, morouas, apma, baetora, wailapa, sowa, tolomako, malmariv, lolomatui, nasawa, wailengi, mota, narovorovo, fortsenal, sa, vunapu, merig, wetamut, koro, navenevene, peterara, merlav, valpei, lolsiwoi, roria, amblong, tam, ngwatua, marino	100	U+0061
@@ -318,14 +326,32 @@ zw	z w	buzwut	sowa	1	U+007a U+0077
 ᴺg	ⁿg	βulu-ᴺgu, ᵑgʷaŋo-ᴺgu	wailengi, peterara, ngwatua, lolomatui, narango, lolsiwoi	8	U+1d3a U+0067
 ᴺk	ⁿk	fulu-ᴺku, nalsu-ᴺku	narango	3	U+1d3a U+006b
 ᴺk$	ⁿk	ᵐban-tilña-ᴺk, nu-ᵑguna-ᴺk	labo, seke	2	U+1d3a U+006b U+0024
-ᵏp	ᵏp	nu-ᵏpupu na-ᵑk	labo	1	U+1d4f U+0070
-ᵏpʷ	ᵏpʷ
-ᵏpʷ	ᵏpʷ	aᵏ	raᵏpʷa, taᵏpʷa-k	wetamut, koro, marino, nume	10	U+0061 U+1d4f
-ᵏpʷ	ᵏpʷ	na-ᵏpʷete-gara-k, na-ᵏpʷuru-k	dorig	3	U+1d4f U+0070 U+02b7
+ᵏp	kp	nu-ᵏpupu na-ᵑk	labo	1	U+1d4f U+0070
+ᵏpʷ	kpʷ
+ᵏpʷ	kpʷ	aᵏ	raᵏpʷa, taᵏpʷa-k	wetamut, koro, marino, nume	10	U+0061 U+1d4f
+ᵏpʷ	kpʷ	na-ᵏpʷete-gara-k, na-ᵏpʷuru-k	dorig	3	U+1d4f U+0070 U+02b7
 ᵐb	ⁿb	maᵐbe, saᵐbe-ᵑk	aulua, portsandwich, lepaxsivir, burumba, burmbar, lametin, dixonreefii, navut, avok, vovo, northt, axamb, litzlitz, vartavo, narango, lembinwen, lolomatui, vao, tur, narovorovo, ngwatua, maemorae, maskelynes, bonga, filakara, butmas, motlav, seke, lingarak, batunlamak, unua, labo, aore, vetumboso, malonorth, burupika, larevat, nambel, rerep, benour, dorig, timbembe, nume, baetora, polonombauk, maxbaxo, tonga, tambotalo, repanbitip, mapremo, amblong, malfaxal, vinmavis, uri, katbol, vatrata	100	U+0061 U+1d50
 ᵐb	ⁿb	na-ᵐbati-ŋ, ro-ᵐbatu-k	lingarak, lembinwen, vinmavis, benour, maskelynes, windua, labo, tonga, malfaxal, bonga, pinalum, lepaxsivir, vovo, wala, vetumboso, burupika, dixonreefi, ura, tautu, mae, bonkovia, mpotovoro, woraviu, uripiv, avok, sesake, makura, burmbar, northt, rano, axamb, mataso, portsandwich, vartavo, timbembe, tavio, maxbaxo, repanbitip, mapremo, petarmur, sie, orap, yevali, vatrata, burumba	100	U+1d50 U+0062
 ᵐb	ⁿb	ᵐbeᵐbe, ᵐpeᵐpe	repanbitip, maskelynes, dixonreefi, unua, labo, peterara, axamb, burupika, portsandwich, aulua, larevat, rerep, lolsiwoi, lepaxsivir, nume, bonkovia, sie, vinmavis, yevali, avok, vovo, bonga, makura, motlav, tutuba, koro, aore, navenevene, lametin, vetumboso, narango, nambel, vartavo, tavio, lembinwen, roria, baetora, timbembe, malmariv, nasawa, lolomatui, vao, mapremo, navut, wailengi, amblong, tam, malfaxal, narovorovo, ngwatua, toga, uri, vowa, katbol, burumba	80	U+0065 U+1d50
 ᵐbʷ	ⁿbʷ
+^puruᴺ-ku	p u r u + ⁿk u
+ⁿḍ	ⁿɖ
+ˀ	ʔ
+^mɔ:ˀe	m oː ʔ e
+a	a
+^meˀe-ɣаβ	m e ʔ e + ɣ a β
+^βʷag"a-k	βʷ a gʷ a + k
+^tiᵑgʷ̣a-ᵑgu	t i ⁿgʷ a + ⁿg u
+ˤ	ʕ
+^čiᵑo	tʃ i ⁿg o
+ᵑ	ⁿg
+ŋw	ŋʷ
+ⁿdʳ	ⁿdʳ
+^ⁿdiŋwaŋo-ᵑgu	ⁿd i ŋʷ a ŋ o + ⁿg u
+^fɔⁿdʳowo-n	f ɔ ⁿdʳ o w o + n
+kˀ	kˀ
+^ikˀa	i kˀ a
+ⁿb	ⁿb
 ᵐbʷ	ⁿbʷ	aᵐbat, aᵐbʷat	maat, batunlamak, unua, toak, axamb, portsandwich, dixonreefi, nambel, narango, portvato, benour, ura, timbembe, lembinwen, maxbaxo, amblong, sesivi, maskelynes, avok	20	U+005e U+0061 U+1d50
 ᵐbʷ	ⁿbʷ	na-ᵐbʷaʔi-ŋ, na-ᵐbʷelekaβatu	woraviu, malfaxal, sesake, benour, bonga, vinmavis, uripiv, wala, mataso, makura, rerep, lingarak, avok, labo, burumba	21	U+1d50 U+0062 U+02b7
 ᵐbʷ	ⁿbʷ	tuᵐbʷa-k, aᵐbʷat	timbembe, lingarak, raga, malonorth, lepaxsivir, apma, maxbaxo, lolomatui, uri, katbol, pinalum, burumba, burmbar, unua, navenevene, burupika, rerep, lembinwen, baetora, lehali, sowa, repanbitip, pango, tam, malfaxal, narovorovo, yevali, avok, northt	44	U+0062 U+02b7
