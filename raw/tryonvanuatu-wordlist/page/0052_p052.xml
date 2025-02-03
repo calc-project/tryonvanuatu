@@ -3,8 +3,8 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.19.0:model_id=115833:lm=none:date=20_11_2024_11:15</Creator>
         <Created>2024-10-29T16:15:26.003576</Created>
-        <LastChange>2024-12-05T21:00:46.981+01:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80939856" pageNr="52" tsid="210311317" status="FINAL" userId="191780" imgUrl="https://files.transkribus.eu/Get?id=BDKUYGEFPBSFKBWTPFDNPZJP&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=NNNUGTFCWDROFVNPPDIGKYVX" imageId="66362580"/>
+        <LastChange>2024-11-21T01:30:30.439+01:00</LastChange>
+        <TranskribusMetadata docId="4770512" pageId="80939856" pageNr="52" tsid="209385560" status="GT" userId="191780" imgUrl="https://files.transkribus.eu/Get?id=BDKUYGEFPBSFKBWTPFDNPZJP&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=ZNRRHCFIVUQEEPNAIVRYOHJL" imageId="66362580"/>
     </Metadata>
     <Page imageFilename="0052_p052.jpg" imageWidth="2479" imageHeight="3508">
         <TableRegion id="t1" custom="readingOrder {index:0;}">
@@ -159,7 +159,7 @@
                     <Coords points="867,657 897,675 943,673 964,655 984,675 1123,667 1123,630 1017,629 1009,637 974,612 960,612 944,628 867,644"/>
                     <Baseline points="872,653 1125,656"/>
                     <TextEquiv>
-                        <Unicode>ni-ⁿdeinin</Unicode>
+                        <Unicode>ni-ⁿdeinin.</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -759,7 +759,14 @@
             </TableCell>
             <TableCell row="11" col="2" colSpan="1" orientation="0.0" id="t1c58">
                 <Coords points="1170,1199 1171,1264 1516,1263 1516,1198"/>
-                <TextLine id="l_11640" custom="readingOrder {index:0;}">
+                <TextLine id="l_2342" custom="readingOrder {index:0;}">
+                    <Coords points="1316,1228 1316,1198"/>
+                    <Baseline points="1316,1228 1316,1228 1316,1228 1316,1228 1316,1228 1316,1228 1316,1228 1316,1228 1316,1228 1316,1228"/>
+                    <TextEquiv>
+                        <Unicode></Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextLine id="l_11640" custom="readingOrder {index:1;}">
                     <Coords points="1211,1259 1265,1260 1279,1268 1296,1260 1351,1260 1351,1220 1314,1220 1295,1212 1280,1221 1266,1221 1232,1196 1211,1198"/>
                     <Baseline points="1216,1258 1285,1260 1329,1259 1353,1259"/>
                     <TextEquiv>

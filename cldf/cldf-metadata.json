@@ -7,14 +7,13 @@
     "dc:isVersionOf": null,
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:related": null,
-    "dc:source": "sources.bib",
     "dc:title": "CLDF dataset derived from Tryon's \"New Hebriden Languages\" from 1976",
     "dcat:accessURL": "git@github.com:calc-project/tryonvanuatu",
     "prov:wasDerivedFrom": [
         {
             "rdf:about": "git@github.com:calc-project/tryonvanuatu",
             "rdf:type": "prov:Entity",
-            "dc:created": "31cd7d7",
+            "dc:created": "b3e7f68",
             "dc:title": "Repository"
         },
         {
@@ -30,7 +29,7 @@
             "dc:title": "Concepticon"
         },
         {
-            "rdf:about": "https://github.com/cldf-clts/clts",
+            "rdf:about": "https://github.com/cldf-clts/clts/",
             "rdf:type": "prov:Entity",
             "dc:created": "v2.3.0",
             "dc:title": "CLTS"
@@ -43,7 +42,7 @@
         },
         {
             "dc:title": "python",
-            "dc:description": "3.12.7"
+            "dc:description": "3.13.1"
         },
         {
             "dc:title": "python-packages",
@@ -56,7 +55,7 @@
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
             "dc:description": "\nRaw lexical data item as it can be pulled out of the original datasets.\n\nThis is the basis for creating rows in CLDF representations of the data by\n- splitting the lexical item into forms\n- cleaning the forms\n- potentially tokenizing the form\n",
-            "dc:extent": 13528,
+            "dc:extent": 13512,
             "tableSchema": {
                 "columns": [
                     {
@@ -159,7 +158,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 207,
+            "dc:extent": 208,
             "tableSchema": {
                 "columns": [
                     {

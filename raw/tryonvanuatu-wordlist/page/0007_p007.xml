@@ -3,8 +3,8 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.19.0:model_id=115833:lm=none:date=26_10_2024_13:34</Creator>
         <Created>2024-10-23T13:33:11.724427</Created>
-        <LastChange>2024-11-30T06:55:49.946+01:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80939751" pageNr="7" tsid="208826005" status="GT" userId="191780" imgUrl="https://files.transkribus.eu/Get?id=IXHEGXBFXTAVHHBCNEBIVQKH&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=NMQTMSWEBFKGAXMFQNHOABIL" imageId="66362477"/>
+        <LastChange>2024-11-28T21:29:41.922+01:00</LastChange>
+        <TranskribusMetadata docId="4770512" pageId="80939751" pageNr="7" tsid="208443674" status="FINAL" userId="191780" imgUrl="https://files.transkribus.eu/Get?id=IXHEGXBFXTAVHHBCNEBIVQKH&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=UAGLZOGXFFMYUPCHOYQVVKYJ" imageId="66362477"/>
     </Metadata>
     <Page imageFilename="0007_p007.jpg" imageWidth="2479" imageHeight="3508">
         <TableRegion id="t" custom="readingOrder {index:0;}">
@@ -17,7 +17,7 @@
                 <Coords points="808,411 808,510 1129,510 1129,411"/>
                 <TextLine id="c_1674_tl_1" custom="readingOrder {index:0;}">
                     <Coords points="893,478 922,483 958,481 968,486 980,481 1007,481 1009,432 996,433 974,453 965,453 955,443 942,445 931,454 921,443 894,443"/>
-                    <Baseline points="839,492 919,474 964,474 1009,471"/>
+                    <Baseline points="898,474 919,474 964,474 1009,471"/>
                     <TextEquiv>
                         <Unicode>1. head</Unicode>
                     </TextEquiv>
@@ -31,7 +31,7 @@
                 <Coords points="1129,411 1129,510 1463,510 1463,411"/>
                 <TextLine id="c_1877_tl_1" custom="readingOrder {index:0;}">
                     <Coords points="1204,472 1223,472 1244,486 1257,482 1294,482 1301,486 1326,472 1326,448 1298,447 1288,437 1272,452 1260,452 1243,439 1216,460 1204,460"/>
-                    <Baseline points="1150,477 1253,474 1298,474 1328,471"/>
+                    <Baseline points="1209,471 1253,474 1298,474 1328,471"/>
                     <TextEquiv>
                         <Unicode>2. hair</Unicode>
                     </TextEquiv>
@@ -629,7 +629,7 @@
                     <Coords points="293,1102 574,1114 599,1097 616,1114 686,1114 692,1058 660,1071 621,1058 600,1076 572,1058 449,1075 410,1067 392,1087 356,1064 292,1075"/>
                     <Baseline points="298,1089 343,1092 388,1095 432,1095 477,1095 522,1098 567,1095 612,1098 656,1098 695,1098"/>
                     <TextEquiv>
-                        <Unicode>121. Fali (CC) (Am)</Unicode>
+                        <Unicode>121. Fali (OC) (Am)</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -699,7 +699,7 @@
                     <Coords points="299,1170 399,1162 512,1178 536,1164 550,1178 633,1175 633,1126 621,1122 599,1141 553,1124 533,1144 407,1133 389,1148 373,1132 299,1133"/>
                     <Baseline points="304,1161 349,1161 394,1161 438,1161 483,1161 528,1161 573,1164 618,1164 635,1164"/>
                     <TextEquiv>
-                        <Unicode>122. Baiap (Am)</Unicode>
+                        <Unicode>122. Baŧap (Am)</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
