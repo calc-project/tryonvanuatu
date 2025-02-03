@@ -98,7 +98,8 @@ class Dataset(BaseDataset):
     form_spec = FormSpec(
             separators="~;,/", 
             missing_data=[], 
-            first_form_only=True
+            first_form_only=True,
+            replacements=[(" ", "_")]
             )
 
     def cmd_download(self, args):
@@ -187,8 +188,8 @@ class Dataset(BaseDataset):
             args.writer.add_concept(
                     ID=idx,
                     Name=concept["ENGLISH"],
-                    #Concepticon_ID=concept["CONCEPTICON_ID"],
-                    #Concepticon_Gloss=concept["CONCEPTICON_GLOSS"]
+                    Concepticon_ID=concept["CONCEPTICON_ID"],
+                    Concepticon_Gloss=concept["CONCEPTICON_GLOSS"]
                     )
             concepts[concept["NUMBER"]] = idx
         args.log.info("added concepts")
