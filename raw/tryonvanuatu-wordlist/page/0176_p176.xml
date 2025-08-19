@@ -1,0 +1,2096 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.20.0:model_id=265269:lm=none:date=15_01_2025_11:56</Creator>
+        <Created>2024-10-29T15:24:08.845397</Created>
+        <LastChange>2025-04-26T13:18:21.816+02:00</LastChange>
+        <TranskribusMetadata docId="4770512" pageId="80940074" pageNr="176" tsid="241579692" status="FINAL" userId="191957" imgUrl="https://files.transkribus.eu/Get?id=RTDMULDFCWWEHMKRVCTZAUUQ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=FMKLGSLYOTGJRQBDYPHSRQNC" imageId="66362819"/>
+    </Metadata>
+    <Page imageFilename="0176_p176.jpg" imageWidth="2479" imageHeight="3508">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1755600451897" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_575"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r_575" custom="readingOrder {index:0;}">
+            <Coords points="291,3071 880,3071 880,3151 291,3151"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="305,3128 862,3128 862,3098 305,3098"/>
+                <Baseline points="305,3128 862,3128"/>
+                <TextEquiv>
+                    <Unicode>¹Bichelamar baril paddle.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TableRegion id="t1" custom="readingOrder {index:1;}">
+            <Coords points="272,412 272,2880 2356,2880 2356,412"/>
+            <TableCell row="0" col="0" colSpan="1" orientation="0.0" id="t1c1">
+                <Coords points="272,412 272,502 719,502 719,412"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="1" colSpan="1" orientation="0.0" id="t1c2">
+                <Coords points="719,412 719,502 1113,502 1113,412"/>
+                <TextLine id="t1c2_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="754,478 790,492 832,492 866,476 898,496 922,484 984,484 984,438 908,432 870,456 844,434 754,432"/>
+                    <Baseline points="764,474 809,474 853,474 898,474 943,474 988,477"/>
+                    <TextEquiv>
+                        <Unicode>137. foam</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="2" colSpan="1" orientation="0.0" id="t1c3">
+                <Coords points="1113,412 1113,502 1491,502 1492,412"/>
+                <TextLine id="t1c3_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1148,484 1200,488 1256,476 1266,486 1386,484 1384,438 1354,442 1338,426 1314,440 1294,430 1280,444 1256,442 1226,416 1210,430 1146,428"/>
+                    <Baseline points="1158,471 1203,471 1247,471 1292,474 1337,474 1382,474 1388,474"/>
+                    <TextEquiv>
+                        <Unicode>138. canoe</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="3" colSpan="1" orientation="0.0" id="t1c4">
+                <Coords points="1492,412 1491,502 1840,502 1840,412"/>
+                <TextLine id="t1c4_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1518,482 1592,492 1624,478 1640,494 1672,496 1698,484 1786,484 1786,432 1738,434 1706,424 1690,442 1658,432 1642,450 1614,452 1586,430 1516,430"/>
+                    <Baseline points="1528,471 1573,471 1618,471 1662,474 1707,474 1752,474 1788,471"/>
+                    <TextEquiv>
+                        <Unicode>139. paddle</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="4" colSpan="1" orientation="0.0" id="t1c5">
+                <Coords points="1840,412 1840,502 2356,502 2356,412"/>
+                <TextLine id="t1c5_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1888,482 1992,484 2000,476 2048,486 2156,484 2156,432 2028,438 2004,458 1980,436 1888,430"/>
+                    <Baseline points="1898,471 1943,471 1988,474 2033,474 2077,474 2122,474 2158,474"/>
+                    <TextEquiv>
+                        <Unicode>140. anchor</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="1" col="0" colSpan="1" orientation="0.0" id="t1c6">
+                <Coords points="272,502 272,592 719,592 719,502"/>
+                <TextLine id="t1c6_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="308,604 376,596 386,586 434,616 454,596 520,596 520,546 436,554 418,538 388,568 360,540 308,542"/>
+                    <Baseline points="319,585 364,582 409,582 453,582 498,582 525,585"/>
+                    <TextEquiv>
+                        <Unicode>76. Axamb</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="1" col="1" colSpan="1" orientation="0.0" id="t1c7">
+                <Coords points="719,502 719,592 1113,592 1113,502"/>
+                <TextLine id="t1c7_tl_2" custom="readingOrder {index:0;}">
+                    <Coords points="754,590 822,592 838,604 888,590 902,604 954,592 968,604 988,594 1034,596 1032,546 1000,536 944,564 912,556 900,568 850,550 752,564"/>
+                    <Baseline points="764,579 809,582 853,582 898,582 943,582 988,582 1032,582 1038,579"/>
+                    <TextEquiv>
+                        <Unicode>na-paᵐpüspüs</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="1" col="2" colSpan="1" orientation="0.0" id="t1c8">
+                <Coords points="1113,502 1113,592 1491,592 1491,502"/>
+                <TextLine id="t1c8_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1148,594 1202,594 1218,610 1246,610 1272,592 1300,598 1300,552 1288,552 1276,540 1256,540 1224,556 1204,550 1190,558 1170,544 1158,556 1148,556"/>
+                    <Baseline points="1158,582 1170,579 1215,579 1259,582 1304,579"/>
+                    <TextEquiv>
+                        <Unicode>nu-woŋ</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="1" col="3" colSpan="1" orientation="0.0" id="t1c9">
+                <Coords points="1491,502 1491,592 1839,592 1840,502"/>
+                <TextLine id="t1c9_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1518,586 1540,594 1582,592 1598,608 1616,608 1640,590 1666,590 1666,540 1642,540 1632,550 1620,550 1610,540 1602,540 1592,550 1580,546 1536,550 1528,542 1518,542"/>
+                    <Baseline points="1528,576 1573,576 1618,576 1662,579 1671,582"/>
+                    <TextEquiv>
+                        <Unicode>na-βos</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="1" col="4" colSpan="1" orientation="0.0" id="t1c10">
+                <Coords points="1840,502 1839,592 2356,592 2356,502"/>
+                <TextLine id="t1c10_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1882,586 1974,594 1996,582 2010,596 2150,588 2150,550 2134,550 2104,524 2090,540 2008,538 1996,526 1976,526 1962,540 1882,542"/>
+                    <Baseline points="1892,579 1937,579 1982,579 2027,579 2071,582 2116,579 2152,582"/>
+                    <TextEquiv>
+                        <Unicode>nari körkör</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="2" col="0" rowSpan="1" colSpan="1" id="c">
+                <Coords points="272,592 272,678 718,678 719,592"/>
+                <TextLine id="c_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="308,666 342,660 360,668 388,656 402,664 578,662 580,612 556,622 514,614 504,622 454,614 428,622 406,612 384,632 358,610 310,618"/>
+                    <Baseline points="319,653 358,647 403,647 447,647 492,647 537,647 582,647"/>
+                    <TextEquiv>
+                        <Unicode>77. Letemboi</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="2" col="1" rowSpan="1" colSpan="1" id="c_213">
+                <Coords points="719,592 718,678 1113,678 1113,592"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="2" col="2" rowSpan="1" colSpan="1" id="c_215">
+                <Coords points="1113,592 1113,678 1490,678 1491,592"/>
+                <TextLine id="c_215_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1148,666 1226,668 1234,660 1248,658 1280,668 1296,666 1294,602 1266,600 1248,620 1224,618 1210,626 1204,620 1176,618 1148,622"/>
+                    <Baseline points="1158,647 1203,644 1247,644 1292,650 1298,650"/>
+                    <TextEquiv>
+                        <Unicode>na-rap</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="2" col="3" rowSpan="1" colSpan="1" id="c_217">
+                <Coords points="1491,592 1490,678 1838,678 1839,592"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="2" col="4" rowSpan="1" colSpan="1" id="c_219">
+                <Coords points="1839,592 1838,678 2356,678 2356,592"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="3" col="0" rowSpan="1" colSpan="1" id="c_212">
+                <Coords points="272,678 272,724 718,724 718,678"/>
+                <TextLine id="c_212_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="316,732 388,716 396,724 566,722 566,686 536,676 456,676 442,684 428,670 418,676 406,668 378,692 352,668 334,682 316,682"/>
+                    <Baseline points="326,712 373,707 417,707 462,707 507,707 552,710 570,710"/>
+                    <TextEquiv>
+                        <Unicode>78. Maxbaxo</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="3" col="1" rowSpan="1" colSpan="1" id="c_214">
+                <Coords points="718,678 718,724 1113,724 1113,678"/>
+                <TextLine id="c_214_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="772,728 782,728 792,738 812,724 852,722 874,728 880,722 926,728 930,690 916,692 896,674 870,670 852,652 832,668 820,670 804,668 788,652 770,654"/>
+                    <Baseline points="782,713 826,710 871,713 916,716 934,716"/>
+                    <TextEquiv>
+                        <Unicode>ᵐbœᵐbœs</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="3" col="2" rowSpan="1" colSpan="1" id="c_216">
+                <Coords points="1113,678 1113,724 1489,724 1490,678"/>
+                <TextLine id="c_216_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1156,738 1190,738 1212,720 1230,726 1284,720 1304,738 1316,738 1314,676 1304,676 1292,664 1276,664 1246,686 1228,676 1154,676"/>
+                    <Baseline points="1164,710 1209,710 1253,710 1298,713 1319,713"/>
+                    <TextEquiv>
+                        <Unicode>nə-noᵑk</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="3" col="3" rowSpan="1" colSpan="1" id="c_218">
+                <Coords points="1490,678 1489,724 1838,724 1838,678"/>
+                <TextLine id="c_218_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1512,712 1522,712 1534,724 1568,726 1584,720 1600,734 1618,724 1628,732 1646,724 1666,726 1666,682 1650,682 1640,674 1614,674 1608,668 1598,680 1554,674 1552,678 1538,666 1526,680 1512,680"/>
+                    <Baseline points="1522,710 1567,713 1612,710 1656,713 1671,710"/>
+                    <TextEquiv>
+                        <Unicode>na-βos</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="3" col="4" rowSpan="1" colSpan="1" id="c_220">
+                <Coords points="1838,678 1838,724 2356,724 2356,678"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="4" col="0" rowSpan="1" colSpan="1" id="c_432">
+                <Coords points="272,724 272,806 718,806 718,724"/>
+                <TextLine id="c_432_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="306,794 374,796 386,786 398,798 440,790 444,796 464,792 496,802 498,746 466,746 444,756 428,744 408,744 380,766 342,734 308,738"/>
+                    <Baseline points="316,779 361,782 406,779 450,779 495,779 501,782"/>
+                    <TextEquiv>
+                        <Unicode>79. Avok</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="4" col="1" rowSpan="1" colSpan="1" id="c_434">
+                <Coords points="718,724 718,806 1113,806 1113,724"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="4" col="2" rowSpan="1" colSpan="1" id="c_436">
+                <Coords points="1113,724 1113,806 1489,806 1489,724"/>
+                <TextLine id="c_436_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1150,794 1176,794 1184,788 1196,796 1210,794 1222,784 1238,798 1264,790 1280,800 1300,798 1300,752 1270,752 1260,742 1248,750 1228,732 1198,752 1170,752 1160,742 1150,742"/>
+                    <Baseline points="1161,776 1206,776 1250,776 1295,779 1304,782"/>
+                    <TextEquiv>
+                        <Unicode>nu-woŋ</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="4" col="3" rowSpan="1" colSpan="1" id="c_438">
+                <Coords points="1489,724 1489,806 1838,806 1838,724"/>
+                <TextLine id="c_438_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1518,810 1544,812 1562,794 1576,792 1584,784 1598,796 1646,794 1654,786 1666,786 1666,756 1656,756 1648,748 1626,748 1618,740 1604,740 1590,748 1576,736 1562,738 1552,748 1518,748"/>
+                    <Baseline points="1528,776 1573,776 1618,776 1662,776 1671,776"/>
+                    <TextEquiv>
+                        <Unicode>na-βos</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="4" col="4" rowSpan="1" colSpan="1" id="c_440">
+                <Coords points="1838,724 1838,806 2356,806 2356,724"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="5" col="0" rowSpan="1" colSpan="1" id="c_659">
+                <Coords points="272,806 272,870 718,870 718,806"/>
+                <TextLine id="c_659_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="306,860 386,850 436,868 488,868 496,858 510,868 630,864 630,802 588,804 576,816 512,804 484,816 472,804 438,814 408,800 384,824 328,800 306,812"/>
+                    <Baseline points="316,841 361,841 406,841 450,841 495,844 540,844 585,844 629,844 635,847"/>
+                    <TextEquiv>
+                        <Unicode>80. Maskelynes</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="5" col="1" rowSpan="1" colSpan="1" id="c_661">
+                <Coords points="718,806 718,870 1113,870 1113,806"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="5" col="2" rowSpan="1" colSpan="1" id="c_663">
+                <Coords points="1113,806 1113,870 1488,870 1489,806"/>
+                <TextLine id="c_663_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1148,850 1158,848 1176,858 1192,850 1216,858 1254,858 1266,850 1284,866 1300,862 1300,800 1282,802 1268,790 1222,814 1176,806 1166,816 1148,818"/>
+                    <Baseline points="1158,841 1203,838 1247,841 1292,844 1304,841"/>
+                    <TextEquiv>
+                        <Unicode>n-uaᵑk</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="5" col="3" rowSpan="1" colSpan="1" id="c_665">
+                <Coords points="1489,806 1488,870 1837,870 1838,806"/>
+                <TextLine id="c_665_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1518,848 1584,850 1608,868 1616,868 1636,852 1670,852 1670,816 1640,816 1630,806 1602,806 1592,816 1584,816 1574,806 1562,806 1552,816 1518,826"/>
+                    <Baseline points="1528,841 1573,841 1618,841 1662,841 1674,841"/>
+                    <TextEquiv>
+                        <Unicode>ne-βos</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="5" col="4" rowSpan="1" colSpan="1" id="c_667">
+                <Coords points="1838,806 1837,870 2356,870 2356,806"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="6" col="0" rowSpan="1" colSpan="1" id="c_660">
+                <Coords points="272,870 272,926 718,926 718,870"/>
+                <TextLine id="c_660_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="300,916 324,926 388,914 546,930 698,924 698,888 666,876 658,886 634,876 450,886 412,872 386,892 344,872 298,882"/>
+                    <Baseline points="310,907 355,907 400,907 444,910 489,910 534,910 579,910 623,910 668,913 701,913"/>
+                    <TextEquiv>
+                        <Unicode>81. Port Sandwich</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="6" col="1" rowSpan="1" colSpan="1" id="c_662">
+                <Coords points="718,870 718,926 1113,926 1113,870"/>
+                <TextLine id="c_662_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="760,922 870,924 910,934 930,924 950,932 970,922 998,924 998,868 974,868 958,886 950,878 940,886 920,866 818,880 760,878"/>
+                    <Baseline points="770,907 815,910 859,913 904,910 949,910 994,910 1000,913"/>
+                    <TextEquiv>
+                        <Unicode>emænepɣapo</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="6" col="2" rowSpan="1" colSpan="1" id="c_664">
+                <Coords points="1113,870 1113,926 1488,926 1488,870"/>
+                <TextLine id="c_664_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1148,924 1204,920 1238,930 1290,918 1304,930 1324,926 1342,944 1406,944 1406,858 1392,856 1366,878 1340,854 1306,882 1252,872 1230,882 1148,878"/>
+                    <Baseline points="1158,907 1203,907 1247,910 1292,910 1337,907 1382,907 1409,907"/>
+                    <TextEquiv>
+                        <Unicode>n-œaŋ xaβoi</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="6" col="3" rowSpan="1" colSpan="1" id="c_666">
+                <Coords points="1488,870 1488,926 1837,927 1837,870"/>
+                <TextLine id="c_666_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1518,926 1540,922 1566,926 1584,918 1598,932 1606,932 1618,922 1666,924 1666,880 1624,882 1612,870 1604,870 1594,880 1582,880 1572,870 1560,870 1550,880 1538,882 1518,878"/>
+                    <Baseline points="1528,907 1573,904 1618,907 1662,907 1668,910"/>
+                    <TextEquiv>
+                        <Unicode>ni-βos</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="6" col="4" rowSpan="1" colSpan="1" id="c_668">
+                <Coords points="1837,870 1837,927 2356,927 2356,870"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="7" col="0" colSpan="1" orientation="0.0" id="t1c21">
+                <Coords points="272,926 272,990 718,990 718,926"/>
+                <TextLine id="t1c21_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="304,984 386,986 398,998 430,986 552,988 554,940 530,948 490,934 436,948 416,930 402,930 372,958 354,940 306,936"/>
+                    <Baseline points="316,976 334,973 379,973 423,970 468,973 513,970 558,973"/>
+                    <TextEquiv>
+                        <Unicode>82. Burmbar</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="7" col="1" colSpan="1" orientation="0.0" id="t1c22">
+                <Coords points="718,926 718,990 1113,990 1113,926"/>
+                <TextLine id="t1c22_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="774,992 818,996 838,988 864,1000 884,992 912,1000 932,998 930,948 914,946 892,954 866,944 850,954 818,952 786,924 770,926"/>
+                    <Baseline points="782,967 826,973 871,973 916,976 934,976"/>
+                    <TextEquiv>
+                        <Unicode>ᵑgoɣtes</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="7" col="2" colSpan="1" orientation="0.0" id="t1c23">
+                <Coords points="1113,926 1113,990 1487,991 1488,926"/>
+                <TextLine id="t1c23_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1154,988 1198,980 1210,992 1236,988 1268,1000 1312,1000 1338,986 1404,988 1404,952 1386,952 1370,938 1358,946 1304,934 1286,952 1262,952 1246,936 1218,944 1200,932 1184,948 1154,948"/>
+                    <Baseline points="1164,973 1209,976 1253,976 1298,976 1343,976 1388,979 1409,973"/>
+                    <TextEquiv>
+                        <Unicode>n-oaŋ-gatin</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="7" col="3" colSpan="1" orientation="0.0" id="t1c24">
+                <Coords points="1488,926 1487,991 1836,991 1837,927"/>
+                <TextLine id="t1c24_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1518,984 1528,984 1542,998 1560,998 1582,982 1600,996 1616,988 1670,988 1670,948 1656,948 1650,942 1644,948 1626,948 1610,938 1600,948 1518,948"/>
+                    <Baseline points="1528,973 1573,973 1618,973 1662,973 1674,973"/>
+                    <TextEquiv>
+                        <Unicode>ne-βos</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="7" col="4" colSpan="1" orientation="0.0" id="t1c25">
+                <Coords points="1837,927 1836,991 2356,991 2356,927"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="8" col="0" colSpan="1" orientation="0.0" id="t1c26">
+                <Coords points="272,990 272,1056 718,1056 718,990"/>
+                <TextLine id="t1c26_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="300,1044 340,1060 388,1046 446,1062 618,1056 618,1012 588,1004 580,1012 414,1012 404,1004 374,1014 358,1002 320,1002 300,1012"/>
+                    <Baseline points="310,1038 355,1041 400,1041 444,1038 489,1038 534,1038 579,1038 623,1041"/>
+                    <TextEquiv>
+                        <Unicode>83. Lepaxsivir</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="8" col="1" colSpan="1" orientation="0.0" id="t1c27">
+                <Coords points="718,990 718,1056 1113,1056 1113,990"/>
+                <TextLine id="t1c27_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="784,1052 834,1054 848,1046 864,1056 908,1054 926,1068 946,1068 968,1054 1014,1054 1014,1004 1000,1004 990,1016 974,1016 962,1004 946,1004 934,1016 904,1016 864,996 838,994 828,1004 784,996"/>
+                    <Baseline points="794,1041 838,1041 883,1041 928,1041 973,1041 1018,1044"/>
+                    <TextEquiv>
+                        <Unicode>ⁿdeᵐbteɣtes</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="8" col="2" colSpan="1" orientation="0.0" id="t1c28">
+                <Coords points="1113,990 1113,1056 1486,1056 1487,991"/>
+                <TextLine id="t1c28_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1148,1052 1200,1048 1254,1060 1282,1054 1312,1076 1338,1054 1398,1052 1398,1018 1372,1006 1350,1006 1338,1018 1324,1008 1314,1016 1300,1002 1276,1016 1260,1002 1224,1004 1214,1014 1202,1004 1190,1014 1148,1010"/>
+                    <Baseline points="1158,1038 1203,1038 1247,1041 1292,1041 1337,1041 1382,1041 1403,1038"/>
+                    <TextEquiv>
+                        <Unicode>n-oaŋ-katin</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="8" col="3" colSpan="1" orientation="0.0" id="t1c29">
+                <Coords points="1487,991 1486,1056 1836,1056 1836,991"/>
+                <TextLine id="t1c29_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1518,1052 1586,1048 1598,1060 1626,1052 1666,1052 1666,1006 1656,1006 1648,1014 1628,1014 1618,1004 1602,1004 1586,1014 1576,1004 1568,1004 1558,1014 1548,1010 1518,1014"/>
+                    <Baseline points="1528,1038 1573,1038 1618,1038 1662,1038 1671,1041"/>
+                    <TextEquiv>
+                        <Unicode>ne-βos</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="8" col="4" colSpan="1" orientation="0.0" id="t1c30">
+                <Coords points="1836,991 1836,1056 2356,1055 2356,991"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="9" col="0" colSpan="1" orientation="0.0" id="t1c31">
+                <Coords points="272,1056 272,1121 718,1121 718,1056"/>
+                <TextLine id="t1c31_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="312,1118 378,1118 394,1104 422,1126 470,1116 512,1128 570,1116 570,1082 490,1082 482,1074 462,1082 418,1070 374,1088 350,1064 312,1064"/>
+                    <Baseline points="322,1104 367,1104 412,1101 456,1104 501,1104 546,1104 573,1104"/>
+                    <TextEquiv>
+                        <Unicode>84. Vartavo</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="9" col="1" colSpan="1" orientation="0.0" id="t1c32">
+                <Coords points="718,1056 718,1121 1113,1121 1113,1056"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="9" col="2" colSpan="1" orientation="0.0" id="t1c33">
+                <Coords points="1113,1056 1113,1121 1486,1120 1486,1056"/>
+                <TextLine id="t1c33_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1148,1126 1174,1130 1198,1112 1216,1128 1288,1122 1304,1130 1324,1118 1348,1128 1408,1122 1406,1062 1376,1070 1364,1060 1340,1080 1292,1080 1258,1060 1148,1080"/>
+                    <Baseline points="1158,1104 1203,1101 1247,1104 1292,1104 1337,1104 1382,1107 1412,1104"/>
+                    <TextEquiv>
+                        <Unicode>n-oaŋ-gatin</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="9" col="3" colSpan="1" orientation="0.0" id="t1c34">
+                <Coords points="1486,1056 1486,1120 1836,1120 1836,1056"/>
+                <TextLine id="t1c34_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1518,1112 1528,1112 1542,1122 1574,1124 1590,1116 1622,1130 1632,1120 1652,1122 1656,1116 1666,1116 1664,1078 1630,1080 1614,1070 1604,1070 1596,1078 1548,1064 1532,1080 1516,1080"/>
+                    <Baseline points="1528,1104 1573,1101 1618,1104 1662,1104 1671,1104"/>
+                    <TextEquiv>
+                        <Unicode>ne-βos</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="9" col="4" colSpan="1" orientation="0.0" id="t1c35">
+                <Coords points="1836,1056 1836,1120 2356,1119 2356,1055"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="10" col="0" colSpan="1" orientation="0.0" id="t1c36">
+                <Coords points="272,1121 272,1189 718,1188 718,1121"/>
+                <TextLine id="t1c36_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="306,1188 374,1190 388,1176 404,1188 518,1188 516,1146 472,1146 462,1136 436,1146 414,1136 396,1154 378,1156 358,1136 304,1136"/>
+                    <Baseline points="316,1170 361,1170 406,1170 450,1173 495,1170 522,1173"/>
+                    <TextEquiv>
+                        <Unicode>85. Aulua</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="10" col="1" colSpan="1" orientation="0.0" id="t1c37">
+                <Coords points="718,1121 718,1188 1113,1187 1113,1121"/>
+                <TextLine id="t1c37_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="754,1182 814,1188 844,1170 870,1190 914,1184 940,1202 970,1184 1014,1192 1014,1146 996,1146 970,1122 950,1142 922,1128 904,1146 890,1146 858,1116 842,1116 816,1142 754,1144"/>
+                    <Baseline points="764,1170 809,1170 853,1170 898,1173 943,1173 988,1173 1018,1173"/>
+                    <TextEquiv>
+                        <Unicode>ne-ᵐbsaɣtis</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="10" col="2" colSpan="1" orientation="0.0" id="t1c38">
+                <Coords points="1113,1121 1113,1187 1485,1187 1486,1120"/>
+                <TextLine id="t1c38_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1154,1182 1190,1184 1230,1204 1276,1186 1312,1188 1326,1180 1334,1188 1384,1188 1384,1142 1362,1142 1336,1118 1312,1124 1296,1140 1154,1140"/>
+                    <Baseline points="1164,1170 1209,1170 1253,1170 1298,1173 1343,1173 1388,1173 1391,1170"/>
+                    <TextEquiv>
+                        <Unicode>na-ɣetuᵐbu</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="10" col="3" colSpan="1" orientation="0.0" id="t1c39">
+                <Coords points="1486,1120 1485,1187 1835,1186 1836,1120"/>
+                <TextLine id="t1c39_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1518,1184 1558,1186 1584,1176 1598,1190 1608,1190 1620,1180 1628,1184 1670,1180 1670,1136 1600,1136 1592,1144 1570,1144 1560,1134 1546,1134 1532,1148 1518,1148"/>
+                    <Baseline points="1528,1170 1573,1167 1618,1170 1662,1170 1674,1170"/>
+                    <TextEquiv>
+                        <Unicode>ne-βos</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="10" col="4" colSpan="1" orientation="0.0" id="t1c40">
+                <Coords points="1836,1120 1835,1186 2356,1185 2356,1119"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="11" col="0" colSpan="1" orientation="0.0" id="t1c41">
+                <Coords points="272,1189 272,1253 718,1252 718,1188"/>
+                <TextLine id="t1c41_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="300,1246 344,1258 392,1246 444,1260 472,1252 624,1260 624,1212 588,1202 578,1212 544,1202 526,1212 516,1202 456,1214 434,1200 372,1212 358,1198 324,1198 300,1212"/>
+                    <Baseline points="310,1238 355,1238 400,1238 444,1241 489,1238 534,1238 579,1238 623,1241 629,1244"/>
+                    <TextEquiv>
+                        <Unicode>86. Repanbitip</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="11" col="1" colSpan="1" orientation="0.0" id="t1c42">
+                <Coords points="718,1188 718,1252 1113,1252 1113,1187"/>
+                <TextLine id="t1c42_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="774,1246 790,1252 870,1248 880,1258 954,1252 954,1216 900,1210 878,1188 860,1188 832,1212 816,1210 794,1188 774,1190"/>
+                    <Baseline points="785,1241 824,1238 868,1238 913,1238 958,1236"/>
+                    <TextEquiv>
+                        <Unicode>ᵐbsaᵐbse</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="11" col="2" colSpan="1" orientation="0.0" id="t1c43">
+                <Coords points="1113,1187 1113,1252 1485,1251 1485,1187"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="11" col="3" colSpan="1" orientation="0.0" id="t1c44">
+                <Coords points="1485,1187 1485,1251 1835,1251 1835,1186"/>
+                <TextLine id="t1c44_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1520,1242 1546,1258 1578,1252 1592,1238 1604,1250 1640,1258 1754,1252 1754,1210 1706,1212 1696,1202 1630,1210 1610,1190 1586,1210 1520,1212"/>
+                    <Baseline points="1531,1238 1534,1236 1579,1236 1624,1236 1668,1238 1713,1238 1758,1236"/>
+                    <TextEquiv>
+                        <Unicode>na-ipospos</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="11" col="4" colSpan="1" orientation="0.0" id="t1c45">
+                <Coords points="1835,1186 1835,1251 2356,1250 2356,1185"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="12" col="0" colSpan="1" orientation="0.0" id="t1c46">
+                <Coords points="272,1253 272,1320 718,1320 718,1252"/>
+                <TextLine id="t1c46_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="308,1312 344,1324 392,1310 406,1320 518,1320 518,1272 460,1282 410,1268 386,1290 368,1272 308,1258"/>
+                    <Baseline points="319,1301 364,1307 409,1301 453,1304 498,1304 522,1307"/>
+                    <TextEquiv>
+                        <Unicode>87. Rerep</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="12" col="1" colSpan="1" orientation="0.0" id="t1c47">
+                <Coords points="718,1252 718,1320 1113,1320 1113,1252"/>
+                <TextLine id="t1c47_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="772,1306 782,1306 794,1316 836,1312 852,1316 866,1330 880,1330 894,1316 912,1316 912,1278 862,1280 850,1278 834,1262 814,1270 798,1254 772,1256"/>
+                    <Baseline points="782,1304 826,1301 871,1301 916,1301"/>
+                    <TextEquiv>
+                        <Unicode>ᵐbison</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="12" col="2" colSpan="1" orientation="0.0" id="t1c48">
+                <Coords points="1113,1252 1113,1320 1484,1320 1485,1251"/>
+                <TextLine id="t1c48_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1156,1314 1184,1314 1202,1332 1240,1314 1296,1308 1340,1330 1358,1330 1372,1316 1426,1316 1426,1270 1382,1274 1362,1254 1334,1254 1318,1270 1280,1270 1258,1248 1234,1270 1200,1246 1186,1258 1156,1258"/>
+                    <Baseline points="1167,1301 1212,1304 1256,1301 1301,1301 1346,1301 1391,1304 1430,1301"/>
+                    <TextEquiv>
+                        <Unicode>reβ/ni-ketin</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="12" col="3" colSpan="1" orientation="0.0" id="t1c49">
+                <Coords points="1485,1251 1484,1320 1834,1319 1835,1251"/>
+                <TextLine id="t1c49_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1518,1312 1576,1316 1584,1310 1598,1324 1610,1324 1620,1314 1666,1316 1666,1276 1656,1276 1646,1266 1632,1276 1616,1266 1606,1266 1596,1276 1566,1276 1556,1266 1546,1266 1536,1276 1518,1276"/>
+                    <Baseline points="1528,1301 1573,1301 1618,1301 1662,1301 1671,1301"/>
+                    <TextEquiv>
+                        <Unicode>ne-βos</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="12" col="4" colSpan="1" orientation="0.0" id="t1c50">
+                <Coords points="1835,1251 1834,1319 2356,1319 2356,1250"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="13" col="0" colSpan="1" orientation="0.0" id="t1c51">
+                <Coords points="272,1320 272,1387 718,1386 718,1320"/>
+                <TextLine id="t1c51_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="308,1382 384,1388 400,1374 426,1388 444,1382 496,1388 494,1346 442,1344 424,1330 404,1332 386,1352 360,1330 326,1330 316,1342 306,1342"/>
+                    <Baseline points="319,1367 364,1367 409,1367 453,1370 498,1370 501,1373"/>
+                    <TextEquiv>
+                        <Unicode>88. Unua</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="13" col="1" colSpan="1" orientation="0.0" id="t1c52">
+                <Coords points="718,1320 718,1386 1113,1386 1113,1320"/>
+                <TextLine id="t1c52_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="778,1378 834,1380 840,1386 858,1386 872,1378 880,1386 916,1380 916,1344 894,1344 886,1336 876,1344 840,1344 830,1334 812,1334 794,1316 778,1316"/>
+                    <Baseline points="788,1367 832,1367 877,1367 919,1367"/>
+                    <TextEquiv>
+                        <Unicode>ᵐbison</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="13" col="2" colSpan="1" orientation="0.0" id="t1c53">
+                <Coords points="1113,1320 1113,1386 1484,1385 1484,1320"/>
+                <TextLine id="t1c53_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1154,1376 1164,1376 1168,1380 1186,1380 1192,1386 1210,1390 1234,1386 1234,1334 1154,1334"/>
+                    <Baseline points="1164,1367 1209,1370 1238,1367"/>
+                    <TextEquiv>
+                        <Unicode>raβ</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="13" col="3" colSpan="1" orientation="0.0" id="t1c54">
+                <Coords points="1484,1320 1484,1385 1834,1385 1834,1319"/>
+                <TextLine id="t1c54_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1518,1376 1588,1388 1614,1388 1622,1380 1666,1380 1666,1336 1654,1336 1646,1344 1636,1334 1594,1332 1566,1334 1556,1344 1518,1344"/>
+                    <Baseline points="1528,1367 1573,1367 1618,1367 1662,1370 1668,1367"/>
+                    <TextEquiv>
+                        <Unicode>ne-βos</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="13" col="4" colSpan="1" orientation="0.0" id="t1c55">
+                <Coords points="1834,1319 1834,1385 2356,1384 2356,1319"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="14" col="0" colSpan="1" orientation="0.0" id="t1c56">
+                <Coords points="272,1387 272,1452 717,1452 718,1386"/>
+                <TextLine id="t1c56_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="308,1452 384,1452 396,1442 406,1452 528,1458 590,1448 590,1408 554,1406 540,1392 520,1406 484,1406 472,1394 446,1404 432,1392 420,1404 402,1398 384,1416 352,1392 308,1406"/>
+                    <Baseline points="319,1433 364,1433 409,1430 453,1433 498,1433 543,1433 588,1436 594,1436"/>
+                    <TextEquiv>
+                        <Unicode>89. Timbembe</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="14" col="1" colSpan="1" orientation="0.0" id="t1c57">
+                <Coords points="718,1386 717,1452 1113,1452 1113,1386"/>
+                <TextLine id="t1c57_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="760,1444 864,1444 890,1460 906,1448 914,1454 940,1446 954,1458 974,1458 972,1406 910,1406 878,1384 860,1384 818,1404 760,1404"/>
+                    <Baseline points="770,1430 815,1433 859,1433 904,1433 949,1433 976,1436"/>
+                    <TextEquiv>
+                        <Unicode>melæᵐbœsn</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="14" col="2" colSpan="1" orientation="0.0" id="t1c58">
+                <Coords points="1113,1386 1113,1452 1483,1452 1484,1385"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="14" col="3" colSpan="1" orientation="0.0" id="t1c59">
+                <Coords points="1484,1385 1483,1452 1833,1452 1834,1385"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="14" col="4" colSpan="1" orientation="0.0" id="t1c60">
+                <Coords points="1834,1385 1833,1452 2356,1452 2356,1384"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="15" col="0" colSpan="1" orientation="0.0" id="t1c61">
+                <Coords points="272,1452 272,1518 717,1518 717,1452"/>
+                <TextLine id="t1c61_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="308,1524 338,1514 384,1516 394,1506 406,1516 462,1516 470,1524 586,1516 586,1480 564,1468 436,1468 426,1478 400,1468 382,1486 356,1466 308,1472"/>
+                    <Baseline points="319,1504 364,1501 409,1501 453,1501 498,1501 543,1501 588,1504"/>
+                    <TextEquiv>
+                        <Unicode>90. Lingarak</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="15" col="1" colSpan="1" orientation="0.0" id="t1c62">
+                <Coords points="717,1452 717,1518 1114,1519 1113,1452"/>
+                <TextLine id="t1c62_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="824,1514 838,1514 846,1508 862,1524 874,1524 880,1530 894,1530 906,1516 952,1516 950,1468 940,1468 932,1478 926,1478 912,1466 880,1468 858,1446 822,1454"/>
+                    <Baseline points="766,1509 880,1501 925,1501 955,1498"/>
+                    <TextEquiv>
+                        <Unicode>ne-ᵐpsen</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="15" col="2" colSpan="1" orientation="0.0" id="t1c63">
+                <Coords points="1113,1452 1114,1519 1482,1519 1483,1452"/>
+                <TextLine id="t1c63_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1150,1514 1226,1514 1250,1520 1266,1506 1280,1514 1298,1510 1296,1454 1284,1454 1272,1444 1258,1444 1246,1456 1230,1456 1218,1470 1150,1472"/>
+                    <Baseline points="1161,1498 1206,1498 1250,1501 1295,1498 1301,1501"/>
+                    <TextEquiv>
+                        <Unicode>n-uaᵑk</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="15" col="3" colSpan="1" orientation="0.0" id="t1c64">
+                <Coords points="1483,1452 1482,1519 1833,1519 1833,1452"/>
+                <TextLine id="t1c64_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1514,1514 1576,1512 1618,1524 1630,1512 1664,1512 1698,1524 1736,1510 1758,1524 1776,1518 1774,1450 1744,1470 1722,1456 1692,1458 1680,1470 1624,1460 1610,1474 1512,1470"/>
+                    <Baseline points="1522,1495 1567,1498 1612,1498 1656,1501 1701,1501 1746,1501 1779,1501"/>
+                    <TextEquiv>
+                        <Unicode>na-ɣasœβsœβ</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="15" col="4" colSpan="1" orientation="0.0" id="t1c65">
+                <Coords points="1833,1452 1833,1519 2356,1520 2356,1452"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="16" col="0" colSpan="1" orientation="0.0" id="t1c66">
+                <Coords points="272,1518 272,1586 717,1586 717,1518"/>
+                <TextLine id="t1c66_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="302,1580 334,1590 390,1574 412,1592 492,1578 542,1580 540,1536 492,1542 404,1532 386,1550 374,1550 348,1530 302,1546"/>
+                    <Baseline points="313,1570 358,1564 403,1564 447,1567 492,1567 537,1570 546,1570"/>
+                    <TextEquiv>
+                        <Unicode>91. Katbol</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="16" col="1" colSpan="1" orientation="0.0" id="t1c67">
+                <Coords points="717,1518 717,1586 1114,1586 1114,1519"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="16" col="2" colSpan="1" orientation="0.0" id="t1c68">
+                <Coords points="1114,1519 1114,1586 1482,1586 1482,1519"/>
+                <TextLine id="t1c68_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1156,1580 1192,1584 1202,1578 1230,1584 1256,1580 1264,1572 1274,1580 1296,1580 1296,1522 1282,1524 1268,1510 1220,1542 1212,1534 1200,1540 1180,1528 1174,1534 1170,1530 1156,1534"/>
+                    <Baseline points="1167,1564 1212,1564 1256,1564 1301,1567 1304,1564"/>
+                    <TextEquiv>
+                        <Unicode>a-waᵑk</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="16" col="3" colSpan="1" orientation="0.0" id="t1c69">
+                <Coords points="1482,1519 1482,1586 1832,1585 1833,1519"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="16" col="4" colSpan="1" orientation="0.0" id="t1c70">
+                <Coords points="1833,1519 1832,1585 2356,1585 2356,1520"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="17" col="0" colSpan="1" orientation="0.0" id="t1c71">
+                <Coords points="272,1586 272,1648 717,1647 717,1586"/>
+                <TextLine id="t1c71_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="302,1646 328,1652 388,1638 404,1646 580,1646 580,1604 554,1594 502,1594 492,1604 466,1604 456,1594 428,1604 406,1594 384,1616 358,1600 302,1600"/>
+                    <Baseline points="313,1627 358,1633 403,1630 447,1633 492,1630 537,1630 582,1633 585,1633"/>
+                    <TextEquiv>
+                        <Unicode>92. Litzlitz</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="17" col="1" colSpan="1" orientation="0.0" id="t1c72">
+                <Coords points="717,1586 717,1647 1114,1647 1114,1586"/>
+                <TextLine id="t1c72_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="754,1634 790,1648 874,1642 896,1652 922,1646 936,1660 952,1660 972,1650 974,1598 920,1604 890,1572 872,1574 854,1592 826,1586 812,1600 754,1598"/>
+                    <Baseline points="764,1633 800,1636 844,1633 889,1633 934,1633 979,1630"/>
+                    <TextEquiv>
+                        <Unicode>melaᵐpsen</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="17" col="2" colSpan="1" orientation="0.0" id="t1c73">
+                <Coords points="1114,1586 1114,1647 1481,1646 1482,1586"/>
+                <TextLine id="t1c73_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1148,1640 1172,1646 1196,1642 1214,1660 1222,1660 1238,1644 1300,1644 1298,1588 1278,1594 1270,1586 1254,1588 1238,1606 1180,1604 1160,1616 1148,1616"/>
+                    <Baseline points="1158,1630 1203,1630 1247,1630 1292,1633 1304,1633"/>
+                    <TextEquiv>
+                        <Unicode>n-oaᵑk</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="17" col="3" colSpan="1" orientation="0.0" id="t1c74">
+                <Coords points="1482,1586 1481,1646 1832,1646 1832,1585"/>
+                <TextLine id="t1c74_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1518,1642 1588,1642 1600,1652 1616,1644 1660,1646 1666,1644 1664,1600 1646,1602 1638,1594 1588,1594 1580,1602 1544,1598 1516,1602"/>
+                    <Baseline points="1528,1630 1573,1627 1618,1630 1662,1630 1671,1630"/>
+                    <TextEquiv>
+                        <Unicode>ne-βas</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="17" col="4" colSpan="1" orientation="0.0" id="t1c75">
+                <Coords points="1832,1585 1832,1646 2356,1645 2356,1585"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="18" col="0" colSpan="1" orientation="0.0" id="t1c76">
+                <Coords points="272,1648 272,1715 717,1714 717,1647"/>
+                <TextLine id="t1c76_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="306,1714 382,1716 394,1704 406,1716 470,1712 470,1660 460,1660 450,1670 412,1660 390,1680 380,1680 364,1664 306,1664"/>
+                    <Baseline points="316,1701 361,1698 406,1695 450,1695 474,1701"/>
+                    <TextEquiv>
+                        <Unicode>93. Uri</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="18" col="1" colSpan="1" orientation="0.0" id="t1c77">
+                <Coords points="717,1647 717,1714 1114,1714 1114,1647"/>
+                <TextLine id="t1c77_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="762,1708 816,1710 822,1716 860,1716 868,1708 878,1716 896,1716 904,1708 934,1714 972,1708 972,1674 922,1676 878,1646 862,1650 846,1666 790,1674 762,1670"/>
+                    <Baseline points="773,1698 797,1698 841,1695 886,1698 931,1695 976,1695"/>
+                    <TextEquiv>
+                        <Unicode>melaᵐbsen</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="18" col="2" colSpan="1" orientation="0.0" id="t1c78">
+                <Coords points="1114,1647 1114,1714 1481,1713 1481,1646"/>
+                <TextLine id="t1c78_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1154,1716 1192,1716 1200,1708 1208,1714 1230,1714 1242,1704 1260,1720 1272,1720 1284,1708 1302,1708 1302,1670 1274,1670 1252,1648 1244,1652 1236,1646 1212,1670 1154,1670"/>
+                    <Baseline points="1164,1695 1209,1695 1253,1695 1298,1695 1307,1695"/>
+                    <TextEquiv>
+                        <Unicode>n-dʳau</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="18" col="3" colSpan="1" orientation="0.0" id="t1c79">
+                <Coords points="1481,1646 1481,1713 1832,1713 1832,1646"/>
+                <TextLine id="t1c79_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1520,1706 1530,1704 1542,1716 1560,1716 1588,1698 1598,1708 1626,1706 1634,1714 1664,1714 1662,1666 1646,1672 1582,1670 1574,1662 1560,1662 1552,1670 1518,1674"/>
+                    <Baseline points="1531,1695 1576,1692 1621,1692 1665,1698 1668,1698"/>
+                    <TextEquiv>
+                        <Unicode>ni-wos</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="18" col="4" colSpan="1" orientation="0.0" id="t1c80">
+                <Coords points="1832,1646 1832,1713 2356,1712 2356,1645"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="19" col="0" colSpan="1" orientation="0.0" id="t1c81">
+                <Coords points="272,1715 272,1781 717,1780 717,1714"/>
+                <TextLine id="t1c81_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="312,1782 342,1776 380,1782 392,1770 404,1780 462,1780 474,1790 496,1778 544,1780 542,1738 520,1738 502,1724 488,1738 470,1738 456,1724 406,1722 376,1748 348,1722 310,1722"/>
+                    <Baseline points="322,1761 367,1764 412,1761 456,1764 501,1764 546,1767 549,1767"/>
+                    <TextEquiv>
+                        <Unicode>94. Uripiv</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="19" col="1" colSpan="1" orientation="0.0" id="t1c82">
+                <Coords points="717,1714 717,1780 1114,1779 1114,1714"/>
+                <TextLine id="t1c82_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="760,1770 798,1780 824,1772 832,1780 936,1774 950,1788 988,1780 988,1722 976,1722 948,1750 930,1750 908,1730 878,1728 854,1738 836,1728 816,1738 780,1732 760,1742"/>
+                    <Baseline points="770,1764 815,1761 859,1761 904,1764 949,1764 991,1764"/>
+                    <TextEquiv>
+                        <Unicode>melamseⁿdi</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="19" col="2" colSpan="1" orientation="0.0" id="t1c83">
+                <Coords points="1114,1714 1114,1779 1480,1778 1481,1713"/>
+                <TextLine id="t1c83_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1156,1774 1250,1770 1278,1788 1300,1786 1298,1728 1268,1730 1250,1712 1232,1712 1212,1730 1178,1726 1168,1736 1154,1736"/>
+                    <Baseline points="1164,1761 1209,1764 1253,1764 1298,1764 1304,1767"/>
+                    <TextEquiv>
+                        <Unicode>n-dʳaβ</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="19" col="3" colSpan="1" orientation="0.0" id="t1c84">
+                <Coords points="1481,1713 1480,1778 1831,1777 1832,1713"/>
+                <TextLine id="t1c84_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1520,1770 1566,1774 1590,1764 1600,1774 1668,1772 1668,1734 1636,1732 1622,1722 1612,1734 1582,1734 1568,1722 1518,1722"/>
+                    <Baseline points="1531,1758 1576,1758 1621,1758 1665,1761 1671,1761"/>
+                    <TextEquiv>
+                        <Unicode>ni-wos</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="19" col="4" colSpan="1" orientation="0.0" id="t1c85">
+                <Coords points="1832,1713 1831,1777 2356,1776 2356,1712"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="20" col="0" colSpan="1" orientation="0.0" id="t1c86">
+                <Coords points="272,1781 272,1846 717,1845 717,1780"/>
+                <TextLine id="t1c86_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="306,1850 384,1844 394,1834 406,1844 518,1846 518,1794 492,1804 482,1794 460,1802 412,1790 388,1812 378,1812 356,1790 328,1790 306,1800"/>
+                    <Baseline points="316,1824 361,1827 406,1827 450,1827 495,1830 522,1827"/>
+                    <TextEquiv>
+                        <Unicode>95. Tautu</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="20" col="1" colSpan="1" orientation="0.0" id="t1c87">
+                <Coords points="717,1780 717,1845 1114,1844 1114,1779"/>
+                <TextLine id="t1c87_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="768,1846 798,1842 830,1852 852,1840 976,1844 976,1800 956,1804 942,1792 926,1796 906,1778 882,1778 846,1804 828,1796 802,1804 788,1790 768,1790"/>
+                    <Baseline points="779,1830 800,1827 844,1827 889,1827 934,1827 979,1827"/>
+                    <TextEquiv>
+                        <Unicode>lapsoⁿdis</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="20" col="2" colSpan="1" orientation="0.0" id="t1c88">
+                <Coords points="1114,1779 1114,1844 1479,1843 1480,1778"/>
+                <TextLine id="t1c88_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1148,1830 1158,1830 1174,1846 1192,1846 1202,1836 1238,1866 1264,1844 1302,1838 1300,1796 1282,1804 1258,1782 1222,1782 1196,1802 1146,1800"/>
+                    <Baseline points="1158,1824 1203,1827 1247,1827 1292,1830 1307,1827"/>
+                    <TextEquiv>
+                        <Unicode>n-dʳaw</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="20" col="3" colSpan="1" orientation="0.0" id="t1c89">
+                <Coords points="1480,1778 1479,1843 1831,1842 1831,1777"/>
+                <TextLine id="t1c89_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1518,1834 1554,1838 1572,1850 1594,1834 1600,1840 1622,1844 1666,1844 1666,1802 1518,1802"/>
+                    <Baseline points="1528,1827 1573,1827 1618,1827 1662,1827 1668,1830"/>
+                    <TextEquiv>
+                        <Unicode>ne-wos</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="20" col="4" colSpan="1" orientation="0.0" id="t1c90">
+                <Coords points="1831,1777 1831,1842 2356,1840 2356,1776"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="21" col="0" colSpan="1" orientation="0.0" id="t1c91">
+                <Coords points="272,1846 272,1909 717,1908 717,1845"/>
+                <TextLine id="t1c91_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="302,1910 326,1918 390,1902 472,1906 492,1916 562,1908 562,1866 402,1862 386,1876 366,1856 344,1866 302,1862"/>
+                    <Baseline points="313,1889 358,1895 403,1889 447,1892 492,1895 537,1895 567,1892"/>
+                    <TextEquiv>
+                        <Unicode>96. Maragus</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="21" col="1" colSpan="1" orientation="0.0" id="t1c92">
+                <Coords points="717,1845 717,1908 1114,1907 1114,1844"/>
+                <TextLine id="t1c92_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="784,1904 882,1908 896,1922 954,1908 954,1870 900,1870 890,1862 882,1870 822,1872 798,1846 786,1846"/>
+                    <Baseline points="794,1895 824,1895 868,1892 913,1892 958,1892"/>
+                    <TextEquiv>
+                        <Unicode>ᵐbəsetes</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="21" col="2" colSpan="1" orientation="0.0" id="t1c93">
+                <Coords points="1114,1844 1114,1907 1479,1906 1479,1843"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="21" col="3" colSpan="1" orientation="0.0" id="t1c94">
+                <Coords points="1479,1843 1479,1906 1830,1905 1831,1842"/>
+                <TextLine id="t1c94_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1518,1902 1546,1908 1560,1922 1576,1918 1592,1902 1614,1918 1632,1918 1642,1908 1666,1908 1666,1860 1648,1866 1634,1864 1624,1854 1612,1866 1596,1866 1582,1852 1568,1852 1554,1866 1518,1868"/>
+                    <Baseline points="1528,1892 1573,1889 1618,1889 1662,1892 1671,1892"/>
+                    <TextEquiv>
+                        <Unicode>ne-wos</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="21" col="4" colSpan="1" orientation="0.0" id="t1c95">
+                <Coords points="1831,1842 1830,1905 2356,1904 2356,1840"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="22" col="0" colSpan="1" orientation="0.0" id="t1c96">
+                <Coords points="272,1909 272,1978 717,1976 717,1908"/>
+                <TextLine id="t1c96_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="308,1978 356,1980 392,1964 462,1974 578,1970 578,1934 518,1934 508,1924 490,1934 450,1934 426,1920 412,1920 394,1940 336,1922 308,1930"/>
+                    <Baseline points="319,1964 358,1952 403,1955 447,1958 492,1961 537,1958 582,1961"/>
+                    <TextEquiv>
+                        <Unicode>97. Pinalum</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="22" col="1" colSpan="1" orientation="0.0" id="t1c97">
+                <Coords points="717,1908 717,1976 1114,1974 1114,1907"/>
+                <TextLine id="t1c97_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="772,1970 822,1980 844,1972 910,1972 910,1934 826,1936 818,1928 804,1934 792,1926 772,1928"/>
+                    <Baseline points="782,1958 824,1958 868,1958 913,1955"/>
+                    <TextEquiv>
+                        <Unicode>lapson</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="22" col="2" colSpan="1" orientation="0.0" id="t1c98">
+                <Coords points="1114,1907 1114,1974 1478,1973 1479,1906"/>
+                <TextLine id="t1c98_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1154,1968 1164,1966 1176,1972 1196,1972 1206,1982 1238,1976 1232,1916 1218,1916 1212,1922 1202,1924 1198,1920 1174,1932 1150,1934"/>
+                    <Baseline points="1164,1952 1209,1958 1241,1961"/>
+                    <TextEquiv>
+                        <Unicode>raβ</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="22" col="3" colSpan="1" orientation="0.0" id="t1c99">
+                <Coords points="1479,1906 1478,1973 1830,1972 1830,1905"/>
+                <TextLine id="t1c99_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1520,1974 1638,1978 1644,1972 1664,1972 1664,1924 1654,1924 1646,1932 1634,1922 1624,1922 1614,1932 1578,1932 1562,1926 1554,1934 1544,1924 1520,1926"/>
+                    <Baseline points="1531,1958 1576,1955 1621,1955 1665,1955 1668,1958"/>
+                    <TextEquiv>
+                        <Unicode>ne-wos</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="22" col="4" colSpan="1" orientation="0.0" id="t1c100">
+                <Coords points="1830,1905 1830,1972 2356,1969 2356,1904"/>
+                <TextLine id="l_1703" custom="readingOrder {index:0;}">
+                    <Coords points="1901,1959 2012,1962 2013,1932 1902,1929"/>
+                    <Baseline points="1901,1959 2012,1962"/>
+                    <TextEquiv>
+                        <Unicode>ⁿdil</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="23" col="0" colSpan="1" orientation="0.0" id="t1c101">
+                <Coords points="272,1978 272,2041 717,2040 717,1976"/>
+                <TextLine id="t1c101_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="308,2044 336,2044 344,2036 382,2038 394,2026 406,2038 502,2036 502,2002 448,1990 400,1992 384,2002 362,1982 344,1992 306,1992"/>
+                    <Baseline points="319,2024 364,2024 409,2024 453,2024 498,2027 507,2030"/>
+                    <TextEquiv>
+                        <Unicode>98. Wala</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="23" col="1" colSpan="1" orientation="0.0" id="t1c102">
+                <Coords points="717,1976 717,2040 1114,2039 1114,1974"/>
+                <TextLine id="t1c102_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="768,2032 828,2044 840,2034 886,2036 912,2022 926,2036 996,2036 996,1998 972,1998 924,1960 876,1998 798,1998 786,1986 768,1986"/>
+                    <Baseline points="779,2024 824,2024 868,2024 913,2021 958,2024 1000,2024"/>
+                    <TextEquiv>
+                        <Unicode>lapso-ⁿdis</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="23" col="2" colSpan="1" orientation="0.0" id="t1c103">
+                <Coords points="1114,1974 1114,2039 1478,2038 1478,1973"/>
+                <TextLine id="l_1400" custom="readingOrder {index:0;}">
+                    <Coords points="1165,2027 1247,2026 1246,1996 1165,1997"/>
+                    <Baseline points="1165,2027 1247,2026"/>
+                    <TextEquiv>
+                        <Unicode>raβ</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="23" col="3" colSpan="1" orientation="0.0" id="t1c104">
+                <Coords points="1478,1973 1478,2038 1829,2037 1830,1972"/>
+                <TextLine id="t1c104_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1526,2036 1578,2036 1588,2026 1598,2036 1664,2036 1664,1994 1650,1994 1642,1986 1624,1994 1618,1990 1614,1994 1564,1994 1552,1984 1536,1996 1526,1996"/>
+                    <Baseline points="1537,2021 1579,2018 1624,2018 1668,2018"/>
+                    <TextEquiv>
+                        <Unicode>ne-wos</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="23" col="4" colSpan="1" orientation="0.0" id="t1c105">
+                <Coords points="1830,1972 1829,2037 2356,2035 2356,1969"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="24" col="0" colSpan="1" orientation="0.0" id="t1c106">
+                <Coords points="272,2041 272,2103 716,2102 717,2040"/>
+                <TextLine id="t1c106_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="308,2108 360,2108 394,2090 402,2098 440,2106 500,2102 500,2062 478,2064 462,2052 450,2064 436,2054 406,2054 388,2072 376,2072 356,2052 308,2056"/>
+                    <Baseline points="319,2089 325,2086 370,2086 414,2086 459,2086 504,2083"/>
+                    <TextEquiv>
+                        <Unicode>99. Rano</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="24" col="1" colSpan="1" orientation="0.0" id="t1c107">
+                <Coords points="717,2040 716,2102 1114,2102 1114,2039"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="24" col="2" colSpan="1" orientation="0.0" id="t1c108">
+                <Coords points="1114,2039 1114,2102 1477,2101 1478,2038"/>
+                <TextLine id="t1c108_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1156,2100 1186,2098 1210,2108 1238,2106 1234,2052 1216,2052 1206,2064 1190,2058 1154,2060"/>
+                    <Baseline points="1167,2086 1212,2089 1241,2089"/>
+                    <TextEquiv>
+                        <Unicode>raβ</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="24" col="3" colSpan="1" orientation="0.0" id="t1c109">
+                <Coords points="1478,2038 1477,2101 1829,2101 1829,2037"/>
+                <TextLine id="t1c109_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1518,2096 1568,2102 1590,2094 1616,2106 1630,2100 1638,2106 1668,2106 1666,2050 1654,2050 1646,2058 1590,2056 1580,2066 1570,2056 1518,2058"/>
+                    <Baseline points="1528,2083 1573,2080 1618,2083 1662,2086 1671,2083"/>
+                    <TextEquiv>
+                        <Unicode>ne-wos</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="24" col="4" colSpan="1" orientation="0.0" id="t1c110">
+                <Coords points="1829,2037 1829,2101 2356,2100 2356,2035"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="25" col="0" colSpan="1" orientation="0.0" id="t1c111">
+                <Coords points="272,2103 272,2171 716,2171 716,2102"/>
+                <TextLine id="t1c111_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="288,2164 376,2168 396,2154 412,2166 500,2168 500,2130 436,2124 426,2114 412,2116 392,2136 356,2114 346,2122 326,2114 288,2120"/>
+                    <Baseline points="298,2155 343,2149 388,2152 432,2149 477,2155 504,2155"/>
+                    <TextEquiv>
+                        <Unicode>100. Orap</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="25" col="1" colSpan="1" orientation="0.0" id="t1c112">
+                <Coords points="716,2102 716,2171 1114,2170 1114,2102"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="25" col="2" colSpan="1" orientation="0.0" id="t1c113">
+                <Coords points="1114,2102 1114,2170 1477,2169 1477,2101"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="25" col="3" colSpan="1" orientation="0.0" id="t1c114">
+                <Coords points="1477,2101 1477,2169 1828,2169 1829,2101"/>
+                <TextLine id="t1c114_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1542,2160 1562,2164 1582,2180 1596,2178 1602,2172 1634,2172 1642,2164 1664,2164 1662,2116 1652,2116 1640,2128 1588,2126 1560,2104 1540,2106"/>
+                    <Baseline points="1539,2150 1597,2149 1642,2152 1693,2151"/>
+                    <TextEquiv>
+                        <Unicode>ᵐbaɣel¹</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="25" col="4" colSpan="1" orientation="0.0" id="t1c115">
+                <Coords points="1829,2101 1828,2169 2356,2168 2356,2100"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="26" col="0" colSpan="1" orientation="0.0" id="t1c116">
+                <Coords points="272,2171 272,2236 716,2234 716,2171"/>
+                <TextLine id="t1c116_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="292,2232 382,2230 392,2220 416,2232 552,2228 550,2192 520,2194 510,2184 462,2182 448,2190 420,2180 390,2204 370,2200 348,2180 290,2180"/>
+                    <Baseline points="301,2215 346,2215 391,2218 435,2215 480,2218 525,2218 555,2215"/>
+                    <TextEquiv>
+                        <Unicode>101. Atchin</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="26" col="1" colSpan="1" orientation="0.0" id="t1c117">
+                <Coords points="716,2171 716,2234 1114,2232 1114,2170"/>
+                <TextLine id="t1c117_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="760,2222 834,2228 840,2234 862,2234 874,2226 884,2236 906,2228 960,2236 960,2188 934,2188 920,2174 900,2174 890,2184 760,2180"/>
+                    <Baseline points="770,2215 815,2215 859,2215 904,2215 949,2215 964,2215"/>
+                    <TextEquiv>
+                        <Unicode>melkoβin</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="26" col="2" colSpan="1" orientation="0.0" id="t1c118">
+                <Coords points="1114,2170 1114,2232 1476,2230 1477,2169"/>
+                <TextLine id="t1c118_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1156,2226 1166,2226 1176,2234 1190,2234 1200,2224 1216,2238 1246,2226 1258,2226 1258,2186 1242,2186 1234,2180 1230,2186 1226,2182 1208,2186 1190,2180 1188,2184 1182,2182 1170,2194 1156,2194"/>
+                    <Baseline points="1167,2215 1212,2215 1256,2218 1262,2218"/>
+                    <TextEquiv>
+                        <Unicode>n-ak</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="26" col="3" colSpan="1" orientation="0.0" id="t1c119">
+                <Coords points="1477,2169 1476,2230 1828,2229 1828,2169"/>
+                <TextLine id="t1c119_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1520,2226 1590,2226 1600,2234 1620,2228 1670,2228 1666,2180 1650,2180 1640,2192 1622,2182 1612,2190 1600,2184 1520,2192"/>
+                    <Baseline points="1531,2212 1576,2209 1621,2215 1665,2215 1671,2215"/>
+                    <TextEquiv>
+                        <Unicode>no-wos</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="26" col="4" colSpan="1" orientation="0.0" id="t1c120">
+                <Coords points="1828,2169 1828,2229 2356,2226 2356,2168"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="27" col="0" colSpan="1" orientation="0.0" id="t1c121">
+                <Coords points="272,2236 272,2296 716,2295 716,2234"/>
+                <TextLine id="t1c121_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="290,2292 380,2294 394,2284 418,2308 478,2294 478,2252 444,2252 434,2242 412,2242 392,2262 380,2262 360,2242 346,2242 338,2250 330,2242 290,2246"/>
+                    <Baseline points="301,2280 304,2277 349,2277 394,2277 438,2277 483,2277"/>
+                    <TextEquiv>
+                        <Unicode>102. Vao</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="27" col="1" colSpan="1" orientation="0.0" id="t1c122">
+                <Coords points="716,2234 716,2295 1114,2295 1114,2232"/>
+                <TextLine id="t1c122_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="778,2300 800,2290 868,2292 894,2306 908,2292 936,2308 960,2298 990,2308 1004,2294 1052,2294 1052,2250 974,2252 964,2242 918,2242 906,2254 850,2254 836,2240 816,2250 804,2238 778,2238"/>
+                    <Baseline points="789,2276 835,2280 880,2280 925,2283 970,2280 1015,2277 1056,2280"/>
+                    <TextEquiv>
+                        <Unicode>p̈ihan naneteh</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="27" col="2" colSpan="1" orientation="0.0" id="t1c123">
+                <Coords points="1114,2232 1114,2295 1475,2295 1476,2230"/>
+                <TextLine id="t1c123_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1156,2292 1204,2290 1224,2306 1246,2306 1252,2300 1266,2300 1274,2292 1284,2292 1282,2254 1270,2254 1260,2244 1246,2254 1228,2254 1216,2242 1206,2250 1196,2250 1180,2240 1166,2254 1154,2254"/>
+                    <Baseline points="1167,2280 1212,2277 1256,2280 1286,2280"/>
+                    <TextEquiv>
+                        <Unicode>n-uak</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="27" col="3" colSpan="1" orientation="0.0" id="t1c124">
+                <Coords points="1476,2230 1475,2295 1828,2294 1828,2229"/>
+                <TextLine id="t1c124_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1518,2292 1574,2290 1606,2300 1614,2292 1676,2288 1676,2242 1602,2240 1592,2252 1518,2252"/>
+                    <Baseline points="1528,2274 1573,2277 1618,2277 1662,2280 1680,2277"/>
+                    <TextEquiv>
+                        <Unicode>na-βoh</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="27" col="4" colSpan="1" orientation="0.0" id="t1c125">
+                <Coords points="1828,2229 1828,2294 2356,2293 2356,2226"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="28" col="0" colSpan="1" orientation="0.0" id="t1c126">
+                <Coords points="272,2296 272,2362 716,2360 716,2295"/>
+                <TextLine id="t1c126_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="284,2356 368,2364 394,2348 416,2370 470,2356 616,2356 616,2316 408,2312 386,2330 362,2304 344,2304 284,2318"/>
+                    <Baseline points="295,2346 340,2346 385,2346 429,2343 474,2343 519,2343 564,2343 609,2346 620,2346"/>
+                    <TextEquiv>
+                        <Unicode>103. Mpotovoro</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="28" col="1" colSpan="1" orientation="0.0" id="t1c127">
+                <Coords points="716,2295 716,2360 1114,2359 1114,2295"/>
+                <TextLine id="t1c127_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="766,2356 814,2356 824,2348 838,2362 978,2356 978,2314 958,2322 946,2312 886,2308 868,2318 820,2318 810,2308 790,2320 766,2314"/>
+                    <Baseline points="776,2346 821,2340 865,2340 910,2346 955,2346 982,2346"/>
+                    <TextEquiv>
+                        <Unicode>ni-ntihan</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="28" col="2" colSpan="1" orientation="0.0" id="t1c128">
+                <Coords points="1114,2295 1114,2359 1475,2357 1475,2295"/>
+                <TextLine id="t1c128_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1156,2356 1180,2358 1198,2348 1206,2356 1226,2356 1232,2362 1284,2362 1284,2314 1240,2312 1234,2318 1182,2318 1178,2314 1170,2322 1156,2322"/>
+                    <Baseline points="1167,2346 1212,2343 1256,2346 1286,2346"/>
+                    <TextEquiv>
+                        <Unicode>n-oak</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="28" col="3" colSpan="1" orientation="0.0" id="t1c129">
+                <Coords points="1475,2295 1475,2357 1827,2356 1828,2294"/>
+                <TextLine id="t1c129_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1518,2352 1528,2350 1544,2362 1584,2356 1588,2350 1596,2356 1666,2356 1664,2308 1644,2310 1636,2318 1620,2310 1612,2316 1536,2316 1528,2326 1518,2328"/>
+                    <Baseline points="1528,2340 1573,2340 1618,2343 1662,2343 1671,2343"/>
+                    <TextEquiv>
+                        <Unicode>nə-woh</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="28" col="4" colSpan="1" orientation="0.0" id="t1c130">
+                <Coords points="1828,2294 1827,2356 2356,2354 2356,2293"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="29" col="0" rowSpan="1" colSpan="1" id="c_943">
+                <Coords points="272,2362 272,2434 716,2434 716,2360"/>
+                <TextLine id="c_943_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="284,2420 386,2420 392,2414 398,2420 472,2420 472,2384 438,2384 414,2374 384,2394 356,2366 336,2376 284,2376"/>
+                    <Baseline points="295,2409 340,2409 385,2409 429,2409 474,2409 477,2409"/>
+                    <TextEquiv>
+                        <Unicode>104. Mae</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="29" col="1" rowSpan="1" colSpan="1" id="c_945">
+                <Coords points="716,2360 716,2434 1114,2434 1114,2359"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="29" col="2" rowSpan="1" colSpan="1" id="c_947">
+                <Coords points="1114,2359 1114,2434 1474,2434 1475,2357"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="29" col="3" rowSpan="1" colSpan="1" id="c_949">
+                <Coords points="1475,2357 1474,2434 1826,2434 1827,2356"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="29" col="4" rowSpan="1" colSpan="1" id="c_951">
+                <Coords points="1827,2356 1826,2434 2356,2434 2356,2354"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="30" col="0" rowSpan="1" colSpan="1" id="c_944">
+                <Coords points="272,2434 272,2490 716,2490 716,2434"/>
+                <TextLine id="c_944_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="288,2492 382,2492 402,2474 416,2488 500,2488 500,2448 448,2448 438,2438 410,2438 382,2456 364,2438 288,2442"/>
+                    <Baseline points="298,2477 325,2472 370,2472 414,2472 459,2472 504,2472"/>
+                    <TextEquiv>
+                        <Unicode>105. Vovo</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="30" col="1" rowSpan="1" colSpan="1" id="c_946">
+                <Coords points="716,2434 716,2490 1114,2489 1114,2434"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="30" col="2" rowSpan="1" colSpan="1" id="c_948">
+                <Coords points="1114,2434 1114,2489 1474,2488 1474,2434"/>
+                <TextLine id="c_948_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1148,2480 1158,2480 1168,2490 1190,2490 1200,2478 1216,2492 1246,2484 1282,2488 1280,2428 1248,2426 1230,2446 1204,2440 1146,2444"/>
+                    <Baseline points="1158,2472 1203,2472 1247,2475 1286,2477"/>
+                    <TextEquiv>
+                        <Unicode>n-uak</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="30" col="3" rowSpan="1" colSpan="1" id="c_950">
+                <Coords points="1474,2434 1474,2488 1826,2488 1826,2434"/>
+                <TextLine id="c_950_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1520,2478 1538,2484 1588,2482 1598,2492 1616,2492 1628,2482 1678,2490 1678,2440 1652,2434 1632,2450 1614,2432 1594,2446 1570,2446 1558,2434 1520,2434"/>
+                    <Baseline points="1531,2472 1576,2472 1621,2472 1665,2472 1683,2472"/>
+                    <TextEquiv>
+                        <Unicode>na-βoh</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="30" col="4" rowSpan="1" colSpan="1" id="c_952">
+                <Coords points="1826,2434 1826,2488 2356,2487 2356,2434"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="31" col="0" colSpan="1" orientation="0.0" id="t1c136">
+                <Coords points="272,2490 272,2555 716,2554 716,2490"/>
+                <TextLine id="t1c136_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="294,2554 318,2562 384,2556 396,2546 406,2556 466,2562 592,2544 592,2508 534,2512 512,2502 484,2514 414,2498 390,2522 360,2500 316,2498 294,2510"/>
+                    <Baseline points="304,2537 349,2540 394,2537 438,2537 483,2540 528,2540 573,2537 594,2537"/>
+                    <TextEquiv>
+                        <Unicode>106. Petarmur</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="31" col="1" colSpan="1" orientation="0.0" id="t1c137">
+                <Coords points="716,2490 716,2554 1114,2554 1114,2489"/>
+                <TextLine id="t1c137_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="772,2542 862,2562 874,2550 930,2550 952,2528 978,2552 1046,2552 1046,2498 978,2500 960,2480 934,2506 916,2506 902,2492 892,2500 812,2498 794,2480 772,2482"/>
+                    <Baseline points="782,2540 826,2537 871,2540 916,2537 961,2537 1006,2540 1050,2537"/>
+                    <TextEquiv>
+                        <Unicode>ⁿdəpsən ⁿdas</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="31" col="2" colSpan="1" orientation="0.0" id="t1c138">
+                <Coords points="1114,2489 1114,2554 1473,2553 1474,2488"/>
+                <TextLine id="t1c138_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1154,2548 1272,2546 1292,2550 1304,2562 1346,2560 1344,2502 1290,2500 1280,2510 1256,2510 1236,2496 1224,2508 1198,2510 1180,2498 1168,2510 1154,2510"/>
+                    <Baseline points="1164,2537 1209,2537 1253,2537 1298,2540 1343,2543 1349,2543"/>
+                    <TextEquiv>
+                        <Unicode>n-ok-reβ</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="31" col="3" colSpan="1" orientation="0.0" id="t1c139">
+                <Coords points="1474,2488 1473,2553 1826,2553 1826,2488"/>
+                <TextLine id="t1c139_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1518,2544 1584,2548 1600,2562 1616,2562 1626,2550 1666,2548 1666,2502 1582,2502 1572,2512 1536,2512 1528,2520 1518,2520"/>
+                    <Baseline points="1528,2534 1573,2534 1618,2534 1662,2537 1671,2537"/>
+                    <TextEquiv>
+                        <Unicode>nə-βos</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="31" col="4" colSpan="1" orientation="0.0" id="t1c140">
+                <Coords points="1826,2488 1826,2553 2356,2552 2356,2487"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="32" col="0" colSpan="1" orientation="0.0" id="t1c141">
+                <Coords points="272,2555 272,2619 716,2618 716,2554"/>
+                <TextLine id="t1c141_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="282,2616 384,2620 396,2610 408,2620 554,2618 610,2628 610,2574 536,2570 522,2580 492,2570 482,2580 472,2570 404,2570 380,2580 356,2564 282,2574"/>
+                    <Baseline points="292,2606 337,2606 382,2603 426,2603 471,2603 516,2603 561,2603 606,2609 612,2609"/>
+                    <TextEquiv>
+                        <Unicode>107. Malua Bay</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="32" col="1" colSpan="1" orientation="0.0" id="t1c142">
+                <Coords points="716,2554 716,2618 1114,2617 1114,2554"/>
+                <TextLine id="t1c142_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="786,2616 832,2620 848,2628 888,2614 914,2622 936,2618 936,2570 924,2572 898,2554 878,2576 860,2582 784,2558"/>
+                    <Baseline points="797,2603 841,2603 886,2603 931,2606 940,2603"/>
+                    <TextEquiv>
+                        <Unicode>ⁿdəpsin</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="32" col="2" colSpan="1" orientation="0.0" id="t1c143">
+                <Coords points="1114,2554 1114,2617 1473,2617 1473,2553"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="32" col="3" colSpan="1" orientation="0.0" id="t1c144">
+                <Coords points="1473,2553 1473,2617 1825,2617 1826,2553"/>
+                <TextLine id="t1c144_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1526,2614 1578,2618 1590,2606 1604,2620 1626,2620 1646,2606 1654,2612 1718,2612 1716,2574 1670,2576 1658,2564 1644,2564 1620,2574 1572,2568 1524,2576"/>
+                    <Baseline points="1537,2600 1582,2597 1627,2603 1671,2603 1716,2603 1722,2600"/>
+                    <TextEquiv>
+                        <Unicode>ne-gilne</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="32" col="4" colSpan="1" orientation="0.0" id="t1c145">
+                <Coords points="1826,2553 1825,2617 2356,2616 2356,2552"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="33" col="0" colSpan="1" orientation="0.0" id="t1c146">
+                <Coords points="272,2619 272,2678 716,2677 716,2618"/>
+                <TextLine id="t1c146_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="288,2684 384,2684 396,2674 420,2686 450,2680 552,2692 566,2688 568,2642 506,2644 486,2632 462,2644 416,2626 388,2654 360,2626 340,2636 290,2636"/>
+                    <Baseline points="298,2669 343,2669 388,2669 432,2669 477,2669 522,2669 567,2666 570,2669"/>
+                    <TextEquiv>
+                        <Unicode>108. Leviamp</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="33" col="1" colSpan="1" orientation="0.0" id="t1c147">
+                <Coords points="716,2618 716,2677 1114,2676 1114,2617"/>
+                <TextLine id="t1c147_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="766,2672 816,2676 824,2684 854,2672 980,2676 980,2638 958,2638 948,2628 926,2638 868,2638 832,2622 810,2638 788,2632 766,2638"/>
+                    <Baseline points="776,2663 821,2663 865,2663 910,2663 955,2663 985,2663"/>
+                    <TextEquiv>
+                        <Unicode>tup̈ianata</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="33" col="2" colSpan="1" orientation="0.0" id="t1c148">
+                <Coords points="1114,2617 1114,2676 1472,2676 1473,2617"/>
+                <TextLine id="t1c148_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1156,2674 1306,2678 1306,2620 1292,2620 1286,2626 1238,2620 1224,2630 1156,2628"/>
+                    <Baseline points="1167,2660 1212,2660 1256,2663 1301,2660 1310,2663"/>
+                    <TextEquiv>
+                        <Unicode>na-wak</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="33" col="3" colSpan="1" orientation="0.0" id="t1c149">
+                <Coords points="1473,2617 1472,2676 1825,2675 1825,2617"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="33" col="4" colSpan="1" orientation="0.0" id="t1c150">
+                <Coords points="1825,2617 1825,2675 2356,2674 2356,2616"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="34" col="0" colSpan="1" orientation="0.0" id="t1c151">
+                <Coords points="272,2678 272,2748 715,2748 716,2677"/>
+                <TextLine id="t1c151_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="290,2748 352,2756 364,2744 386,2748 396,2738 406,2748 468,2754 528,2748 528,2712 506,2702 486,2702 476,2712 404,2702 386,2720 364,2702 290,2702"/>
+                    <Baseline points="301,2734 346,2737 391,2734 435,2734 480,2734 525,2734 531,2734"/>
+                    <TextEquiv>
+                        <Unicode>109. Unmet</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="34" col="1" colSpan="1" orientation="0.0" id="t1c152">
+                <Coords points="716,2677 715,2748 1114,2747 1114,2676"/>
+                <TextLine id="t1c152_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="772,2748 806,2746 832,2754 860,2744 934,2752 986,2746 986,2714 966,2704 930,2698 906,2712 898,2704 834,2696 816,2706 772,2708"/>
+                    <Baseline points="782,2737 826,2737 871,2734 916,2734 961,2737 991,2740"/>
+                    <TextEquiv>
+                        <Unicode>tup̈ianata</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="34" col="2" colSpan="1" orientation="0.0" id="t1c153">
+                <Coords points="1114,2676 1114,2747 1471,2746 1472,2676"/>
+                <TextLine id="t1c153_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1156,2746 1232,2750 1264,2746 1270,2752 1284,2748 1296,2760 1308,2760 1308,2702 1234,2702 1226,2710 1192,2710 1182,2702 1174,2710 1156,2710"/>
+                    <Baseline points="1167,2734 1212,2734 1256,2734 1301,2734 1313,2734"/>
+                    <TextEquiv>
+                        <Unicode>na-wak</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="34" col="3" colSpan="1" orientation="0.0" id="t1c154">
+                <Coords points="1472,2676 1471,2746 1825,2746 1825,2675"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="34" col="4" colSpan="1" orientation="0.0" id="t1c155">
+                <Coords points="1825,2675 1825,2746 2356,2745 2356,2674"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="35" col="0" colSpan="1" orientation="0.0" id="t1c156">
+                <Coords points="272,2748 272,2813 715,2812 715,2748"/>
+                <TextLine id="t1c156_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="288,2812 382,2812 392,2802 450,2816 562,2812 560,2764 538,2764 528,2776 432,2776 408,2766 388,2786 360,2762 342,2772 330,2762 286,2766"/>
+                    <Baseline points="298,2800 343,2797 388,2800 432,2800 477,2800 522,2800 567,2800"/>
+                    <TextEquiv>
+                        <Unicode>110. Larevat</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="35" col="1" colSpan="1" orientation="0.0" id="t1c157">
+                <Coords points="715,2748 715,2812 1114,2812 1114,2747"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="35" col="2" colSpan="1" orientation="0.0" id="t1c158">
+                <Coords points="1114,2747 1114,2812 1471,2811 1471,2746"/>
+                <TextLine id="t1c158_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1156,2812 1198,2808 1212,2822 1222,2822 1234,2812 1246,2820 1284,2818 1282,2756 1266,2758 1256,2748 1240,2746 1214,2772 1156,2776"/>
+                    <Baseline points="1167,2800 1212,2797 1256,2800 1286,2803"/>
+                    <TextEquiv>
+                        <Unicode>n-oᵑg</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="35" col="3" colSpan="1" orientation="0.0" id="t1c159">
+                <Coords points="1471,2746 1471,2811 1824,2811 1825,2746"/>
+                <TextLine id="t1c159_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1520,2800 1574,2810 1586,2822 1614,2822 1630,2806 1738,2810 1738,2748 1724,2748 1700,2772 1676,2752 1658,2768 1640,2750 1616,2770 1520,2764"/>
+                    <Baseline points="1531,2794 1576,2800 1621,2800 1665,2797 1710,2797 1743,2797"/>
+                    <TextEquiv>
+                        <Unicode>naɣafeləs</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="35" col="4" colSpan="1" orientation="0.0" id="t1c160">
+                <Coords points="1825,2746 1824,2811 2356,2811 2356,2745"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="36" col="0" rowSpan="1" colSpan="1" id="c_1463">
+                <Coords points="272,2813 269,2891 712,2891 715,2812"/>
+                <TextLine id="c_1463_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="282,2876 382,2878 398,2864 424,2876 586,2876 586,2838 554,2828 538,2838 410,2828 390,2848 374,2848 354,2828 282,2832"/>
+                    <Baseline points="292,2866 337,2863 382,2863 426,2863 471,2863 516,2863 561,2863 591,2866"/>
+                    <TextEquiv>
+                        <Unicode>111. Vinmavis</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="36" col="1" rowSpan="1" colSpan="1" id="c_1465">
+                <Coords points="715,2812 712,2891 1111,2891 1114,2812"/>
+                <TextLine id="c_1465_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="762,2874 1046,2876 1046,2842 1018,2824 966,2832 938,2804 908,2804 882,2830 762,2830"/>
+                    <Baseline points="773,2863 818,2866 862,2866 907,2866 952,2866 997,2866 1041,2863 1050,2866"/>
+                    <TextEquiv>
+                        <Unicode>ne-melᵐbisən</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="36" col="2" rowSpan="1" colSpan="1" id="c_1467">
+                <Coords points="1114,2812 1111,2891 1467,2891 1471,2811"/>
+                <TextLine id="c_1467_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1156,2874 1210,2876 1214,2880 1238,2876 1260,2884 1288,2884 1288,2834 1204,2828 1182,2830 1166,2844 1156,2844"/>
+                    <Baseline points="1167,2866 1212,2863 1256,2866 1292,2866"/>
+                    <TextEquiv>
+                        <Unicode>n-oaŋ</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="36" col="3" rowSpan="1" colSpan="1" id="c_1469">
+                <Coords points="1471,2811 1467,2891 1821,2891 1824,2811"/>
+                <TextLine id="c_1469_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1518,2868 1592,2876 1604,2866 1646,2884 1662,2876 1714,2884 1810,2876 1808,2824 1656,2824 1638,2836 1608,2824 1598,2836 1518,2836"/>
+                    <Baseline points="1528,2860 1573,2860 1618,2860 1662,2863 1707,2863 1752,2863 1797,2863 1815,2866"/>
+                    <TextEquiv>
+                        <Unicode>na-ˀaβalβale</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="36" col="4" rowSpan="1" colSpan="1" id="c_1471">
+                <Coords points="1824,2811 1821,2891 2353,2891 2356,2811"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="37" col="0" rowSpan="1" colSpan="1" id="c_1464">
+                <Coords points="269,2891 272,2966 715,2966 712,2891"/>
+                <TextLine id="c_1464_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="284,2940 398,2932 478,2946 528,2934 550,2950 630,2932 666,2940 666,2894 640,2904 628,2894 578,2904 548,2890 528,2904 410,2894 388,2916 366,2894 284,2904"/>
+                    <Baseline points="295,2931 340,2931 385,2931 429,2931 474,2931 519,2931 564,2931 609,2931 653,2931 671,2931"/>
+                    <TextEquiv>
+                        <Unicode>112. Dixon Reef I</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="37" col="1" rowSpan="1" colSpan="1" id="c_1466">
+                <Coords points="712,2891 715,2966 1114,2966 1111,2891"/>
+                <TextLine id="c_1466_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="780,2934 806,2942 938,2940 958,2954 978,2940 1028,2938 1028,2908 966,2894 916,2906 898,2890 886,2900 834,2906 798,2882 778,2882"/>
+                    <Baseline points="791,2928 835,2931 880,2931 925,2931 970,2931 1015,2931 1030,2931"/>
+                    <TextEquiv>
+                        <Unicode>ⁿdemelnetas</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="37" col="2" rowSpan="1" colSpan="1" id="c_1468">
+                <Coords points="1111,2891 1114,2966 1470,2966 1467,2891"/>
+                <TextLine id="c_1468_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1172,2944 1210,2952 1258,2940 1302,2954 1324,2932 1352,2946 1400,2932 1440,2940 1440,2888 1424,2888 1404,2868 1360,2902 1326,2902 1314,2890 1298,2902 1274,2902 1262,2890 1212,2902 1188,2878 1172,2878"/>
+                    <Baseline points="1182,2931 1227,2931 1271,2931 1316,2931 1361,2931 1406,2928 1442,2931"/>
+                    <TextEquiv>
+                        <Unicode>ᵐbulkei-woᵑk</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="37" col="3" rowSpan="1" colSpan="1" id="c_1470">
+                <Coords points="1467,2891 1470,2966 1824,2966 1821,2891"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="37" col="4" rowSpan="1" colSpan="1" id="c_1472">
+                <Coords points="1821,2891 1824,2966 2356,2966 2353,2891"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+        </TableRegion>
+    </Page>
+</PcGts>

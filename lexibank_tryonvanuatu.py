@@ -40,7 +40,7 @@ def extract_table(fname):
                 value = text.firstChild.toxml().strip()
             except AttributeError:
                 print(cell.toxml())
-                input()
+                # input()
                 value = ""
         else:
             value = ''
@@ -137,22 +137,25 @@ class Dataset(BaseDataset):
                 f.write("NUMBER\tENGLISH\n")
                 visited = set()
                 for row in concepts:
-                    number, concept = get_concept(row)
-                    if (number, concept) in visited:
-                        pass
-                    else:
-                        visited.add((number, concept))
-                        f.write(number + "\t" + concept + "\n")
+                    try:
+                        number, concept = get_concept(row)
+                        if (number, concept) in visited:
+                            pass
+                        else:
+                            visited.add((number, concept))
+                            f.write(number + "\t" + concept + "\n")
+                    except ValueError:
+                        args.log.warning(f"Problem with parsing concept: {row}")
 
 
             with codecs.open(self.etc_dir / "languages.tsv", "w", "utf-8") as f:
                 f.write("ID\tNumber\tName\tSubGroup\n")
-                for row in languages:
+                for row in set(languages):
                     try:
                         number, name, group = get_language(row)
                         f.write(slug(name) + "\t" + number + "\t" + name + "\t" + group + "\n")
                     except ValueError:
-                        pass
+                        args.log.warning(f"Problem with parsing language: {row}")
 
             args.log.info("wrote concepts and languages")
 
@@ -188,8 +191,8 @@ class Dataset(BaseDataset):
             args.writer.add_concept(
                     ID=idx,
                     Name=concept["ENGLISH"],
-                    Concepticon_ID=concept["CONCEPTICON_ID"],
-                    Concepticon_Gloss=concept["CONCEPTICON_GLOSS"]
+                    Concepticon_ID=concept.get("CONCEPTICON_ID"),
+                    Concepticon_Gloss=concept.get("CONCEPTICON_GLOSS")
                     )
             concepts[concept["NUMBER"]] = idx
         args.log.info("added concepts")

@@ -9,30 +9,30 @@
     "dc:related": null,
     "dc:source": "sources.bib",
     "dc:title": "CLDF dataset derived from Tryon's \"New Hebriden Languages\" from 1976",
-    "dcat:accessURL": "git@github.com:calc-project/tryonvanuatu",
+    "dcat:accessURL": "https://github.com/calc-project/tryonvanuatu",
     "prov:wasDerivedFrom": [
         {
-            "rdf:about": "git@github.com:calc-project/tryonvanuatu",
+            "rdf:about": "https://github.com/calc-project/tryonvanuatu",
             "rdf:type": "prov:Entity",
-            "dc:created": "ffc8247",
+            "dc:created": "b20ce4d",
             "dc:title": "Repository"
         },
         {
-            "rdf:about": "git@github.com:glottolog/glottolog",
+            "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v5.1",
+            "dc:created": "v4.8-43-g2dfc4be1ed",
             "dc:title": "Glottolog"
         },
         {
-            "rdf:about": "git@github.com:concepticon/concepticon-data",
+            "rdf:about": "https://github.com/concepticon/concepticon-data",
             "rdf:type": "prov:Entity",
-            "dc:created": "v3.3.0",
+            "dc:created": "v3.2.0-12-g07b860f0",
             "dc:title": "Concepticon"
         },
         {
-            "rdf:about": "https://github.com/cldf-clts/clts/",
+            "rdf:about": "https://github.com/cldf-clts/clts",
             "rdf:type": "prov:Entity",
-            "dc:created": "v2.3.0",
+            "dc:created": "v2.2.0-11-g6e60c1d",
             "dc:title": "CLTS"
         }
     ],
@@ -43,7 +43,7 @@
         },
         {
             "dc:title": "python",
-            "dc:description": "3.13.1"
+            "dc:description": "3.12.6"
         },
         {
             "dc:title": "python-packages",
@@ -56,7 +56,7 @@
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
             "dc:description": "\nRaw lexical data item as it can be pulled out of the original datasets.\n\nThis is the basis for creating rows in CLDF representations of the data by\n- splitting the lexical item into forms\n- cleaning the forms\n- potentially tokenizing the form\n",
-            "dc:extent": 13512,
+            "dc:extent": 44827,
             "tableSchema": {
                 "columns": [
                     {
@@ -159,7 +159,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 208,
+            "dc:extent": 217,
             "tableSchema": {
                 "columns": [
                     {
@@ -241,7 +241,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 96,
+            "dc:extent": 305,
             "tableSchema": {
                 "columns": [
                     {

@@ -7,7 +7,7 @@ NUMBER	ENGLISH	CONCEPTICON_ID	CONCEPTICON_GLOSS	SIMILARITY
 6	tooth	1380	TOOTH	2
 7	eye	1248	EYE	2
 8	mouth	674	MOUTH	2
-8	mouth.	674	MOUTH	
+8	mouth.	674	MOUTH
 9	beard	678	BEARD	2
 10	chin	1510	CHIN	2
 11	shoulder	1482	SHOULDER	2
@@ -22,7 +22,7 @@ NUMBER	ENGLISH	CONCEPTICON_ID	CONCEPTICON_GLOSS	SIMILARITY
 20	liver	1224	LIVER	2
 21	navel	1838	NAVEL	2
 22	kidney	489	KIDNEY	2
-23	bodɣ hair	189	HAIR (BODY)	
+23	bodɣ hair	189	HAIR (BODY)
 24	penis	1222	PENIS	2
 23	body hair	189	HAIR (BODY)	2
 25	testicles	797	TESTICLES	2
@@ -36,7 +36,7 @@ NUMBER	ENGLISH	CONCEPTICON_ID	CONCEPTICON_GLOSS	SIMILARITY
 33	knee	1371	KNEE	2
 34	leg	1297	LEG	2
 35	ankle	803	ANKLE	2
-36	heel¹	980	HEEL	
+36	heel¹	980	HEEL
 36	heel	980	HEEL	2
 37	blood	946	BLOOD	2
 38	bone	1394	BONE	2
@@ -51,14 +51,14 @@ NUMBER	ENGLISH	CONCEPTICON_ID	CONCEPTICON_GLOSS	SIMILARITY
 46	child	2099	CHILD	2
 47	man	1554	MAN	2
 48	woman	962	WOMAN	2
-45	nother	1216	MOTHER	
+45	nother	1216	MOTHER
 49	husband	1200	HUSBAND	2
 50	name	1405	NAME	2
 51	person	683	PERSON	2
 52	wife	1199	WIFE	2
-50	name¹	1405	NAME	
-55	wife	1199	WIFE	
-53	unole	1327	UNCLE	
+50	name¹	1405	NAME
+55	wife	1199	WIFE
+53	unole	1327	UNCLE
 54	singsing			2
 55	house	1252	HOUSE	2
 56	men's house	408	MEN'S HOUSE	2
@@ -85,16 +85,233 @@ NUMBER	ENGLISH	CONCEPTICON_ID	CONCEPTICON_GLOSS	SIMILARITY
 74	whale	957	WHALE	2
 75	stingray	1910	STINGRAY	2
 76	butterfly	1791	BUTTERFLY	2
-74	hale			
+74	hale
 77	wing	1257	WING	2
 78	ant (red)	587	ANT	4
 79	flying fox	235	FLYING FOX	2
 80	dolphin	1479	DOLPHIN	2
 81	grasshopper	607	GRASSHOPPER	2
 82	scorpion	1538	SCORPION	2
-83	sea-snake			
+83	sea-snake
 84	tail	1220	TAIL	2
 85	turtle	112	TURTLE	2
 86	spider web	1065	SPIDER WEB	2
-87	biche de mer			
+87	biche de mer
 88	feather	1201	FEATHER	2
+89	meat
+90	food (veg.)
+91	yam
+92	taro
+90	food (veg. )
+93	sugar-cane
+94	almond¹
+95	tree
+96	leaf
+94	almond
+97	dry coconut
+98	coconut palm
+99	banana
+100	breadfruit
+101	sandalwood
+102	flower
+103	fruit
+104	grass
+105	root
+106	woods
+107	sun
+108	moon
+109	star
+110	cloud
+111	water
+112	rain
+113	sand
+114	stone
+115	salt
+116	mountain
+117	fire
+118	smoke
+119	ashes
+120	road
+121	wind
+122	lightning
+123	rainbow
+124	earth
+125	earthquake
+126	hole
+127	thunder
+128	fog
+129	lake
+130	sea
+131	seed
+132	sky
+133	stick
+134	firewood
+135	mud
+136	wave
+136	wavel
+137	foam
+138	canoe
+139	paddle
+140	anchor
+141	outrigger
+142	sail
+143	dust
+144	rope
+145	bow
+146	arrow
+147	knife
+148	axe
+149	digging stick
+150	fish-hook
+151	spear
+152	oven
+153	fight
+154	black
+155	white
+156	red
+157	yellow
+158	green
+159	blind
+160	deaf
+161	big
+162	small
+163	good
+164	bad
+165	cooked
+166	dead
+167	dry
+168	wet
+169	lazy
+170	heavy
+171	light
+172	sick
+173	cold
+174	dirty
+175	long
+176	narrow
+177	new
+178	old
+179	right
+180	rotten
+181	sharp
+182	short
+183	smooth
+184	straight
+185	thick
+186	thin
+187	one
+188	two
+189	three
+190	four
+191	five
+192	six
+193	seven
+194	eight
+195	nine
+196	ten
+197	other
+198	who
+199	what
+200	when¹
+200	when
+201	how many
+202	many
+203	where
+204	work
+205	warm
+206	yesterday
+207	tomorrow
+208	night
+209	year
+210	day
+211	I
+212	thou
+213	he
+214	we pl. incl.
+215	we pl.excl.
+216	you pl.
+216	you p1.
+214	we pl.incl.
+217	they
+218	we dl. incl.
+219	we dl.excl.
+220	you dl.
+219	we dl. excl.
+218	we dl.incl.
+218	we dl.incl
+221	they dl.
+222	give
+223	hit
+224	see
+225	bite
+226	hear
+227	cry
+226	die
+228	die
+229	vomit
+230	go
+231	come
+232	swim
+233	eat
+234	stand
+235	sit
+236	call out
+135	sit
+237	run
+238	fall
+239	sleep
+240	laugh
+241	blow
+242	hold
+243	fly
+244	tie
+245	spit
+246	breathe
+247	burn
+248	count
+249	cut
+250	dig
+251	drink
+252	fear
+253	float
+254	flow
+255	hunt
+256	kill
+257	know
+258	lie down
+259	live
+260	play
+261	pull
+262	push
+263	rub
+264	say¹
+264	say
+265	scratch
+266	sew
+267	sing
+268	smell
+269	split
+270	squeeze
+271	stab
+272	suck
+273	swell
+274	think
+275	throw
+276	turn
+277	walk
+278	wash
+279	wipe
+280	all
+281	and
+282	far
+283	here
+284	how
+285	if
+286	in
+287	near
+288	not
+289	that
+290	there
+291	this
+292	with
+282	with
