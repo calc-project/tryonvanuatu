@@ -21,9 +21,8 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 20_liver,liver,1224,LIVER
 21_navel,navel,1838,NAVEL
 22_kidney,kidney,489,KIDNEY
-23_bodhair,bodɣ hair,189,HAIR (BODY)
-24_penis,penis,1222,PENIS
 23_bodyhair,body hair,189,HAIR (BODY)
+24_penis,penis,1222,PENIS
 25_testicles,testicles,797,TESTICLES
 26_vulva,vulva,1837,VULVA
 27_back,back,2323,BACK (PART)
@@ -40,7 +39,6 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 38_bone,bone,1394,BONE
 39_skin,skin,763,SKIN
 40_sore,sore,51,SORE
-10_sore,sore,51,SORE
 41_fat,fat,323,FAT (ORGANIC SUBSTANCE)
 42_sweat,sweat,126,SWEAT (PERSPIRE)
 43_tears,tears,1651,TEAR (OF EYE)
@@ -49,23 +47,18 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 46_child,child,2099,CHILD
 47_man,man,1554,MAN
 48_woman,woman,962,WOMAN
-45_nother,nother,1216,MOTHER
 49_husband,husband,1200,HUSBAND
 50_name,name,1405,NAME
 51_person,person,683,PERSON
 52_wife,wife,1199,WIFE
-55_wife,wife,1199,WIFE
-53_unole,unole,1327,UNCLE
+53_uncle,uncle,1327,UNCLE
 54_singsing,singsing,,
 55_house,house,1252,HOUSE
 56_menshouse,men's house,408,MEN'S HOUSE
-53_uncle,uncle,1327,UNCLE
-55_uncle,uncle,1327,UNCLE
 57_door,door,1567,DOOR
 58_story,story,2060,STORY
 59_pig,pig,1337,PIG
 60_tusk,tusk,3280,TUSK
-58_pig,pig,1337,PIG
 61_centipede,centipede,1974,CENTIPEDE
 62_crayfish,crayfish,467,CRAYFISH
 63_dog,dog,2009,DOG
@@ -82,7 +75,6 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 74_whale,whale,957,WHALE
 75_stingray,stingray,1910,STINGRAY
 76_butterfly,butterfly,1791,BUTTERFLY
-74_hale,hale,,
 77_wing,wing,1257,WING
 78_antred,ant (red),587,ANT
 79_flyingfox,flying fox,235,FLYING FOX
@@ -100,7 +92,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 91_yam,yam,410,YAM
 92_taro,taro,351,TARO
 93_sugarcane,sugar-cane,146,SUGAR CANE
-94_almond,almond¹,3815,ALMOND
+94_almond,almond,3815,ALMOND
 95_tree,tree,906,TREE
 96_leaf,leaf,628,LEAF
 97_drycoconut,dry coconut,,
@@ -143,7 +135,6 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 134_firewood,firewood,10,FIREWOOD
 135_mud,mud,640,MUD
 136_wave,wave,978,WAVE
-136_wavel,wavel,978,WAVE
 137_foam,foam,1768,FOAM
 138_canoe,canoe,1970,CANOE
 139_paddle,paddle,234,PADDLE
@@ -226,7 +217,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 216_youpl,you pl.,1213,YOU
 216_youp1,you p1.,1213,YOU
 217_they,they,817,THEY
-218_wedlincl,we dl. incl.,2637,WE TWO (INCLUSIVE)
+218_wedlincl,we dl.incl.,,2637
 219_wedlexcl,we dl.excl.,2636,WE TWO (EXCLUSIVE)
 220_youdl,you dl.,1213,YOU
 221_theydl,they dl.,2635,THEY TWO
@@ -236,7 +227,6 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 225_bite,bite,1403,BITE
 226_hear,hear,1408,HEAR
 227_cry,cry,1839,CRY
-226_die,die,1494,DIE
 228_die,die,1494,DIE
 229_vomit,vomit,1278,VOMIT
 230_go,go,695,GO
@@ -246,7 +236,6 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 234_stand,stand,1442,STAND
 235_sit,sit,1416,SIT
 236_callout,call out,715,SHOUT
-135_sit,sit,1416,SIT
 237_run,run,1519,RUN
 238_fall,fall,1280,FALL
 239_sleep,sleep,1585,SLEEP

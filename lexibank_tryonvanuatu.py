@@ -5,11 +5,13 @@ from pylexibank import Dataset as BaseDataset
 from pylexibank import progressbar as pb
 from pylexibank import Language
 from pylexibank import FormSpec
+from csv import DictReader
 
 import xml
 import codecs
 
-RECREATE = True
+RECREATE = False
+VALIDATE = True
 
 def extract_table(fname):
     """
@@ -103,6 +105,8 @@ class Dataset(BaseDataset):
             )
 
     def cmd_download(self, args):
+        recreate = args["recreate"] if "recreate" in args else RECREATE
+        validate = args["validate"] if "validate" in args else VALIDATE
 
         xmlfiles = sorted(self.raw_dir.glob("tryonvanuatu-wordlist/page/*.xml"))
         concepts = []
@@ -132,7 +136,7 @@ class Dataset(BaseDataset):
                     errors.add((fname, row[0]))
 
         
-        if RECREATE:
+        if recreate:
             with codecs.open(self.etc_dir / "concepts.tsv", "w", "utf-8") as f:
                 f.write("NUMBER\tENGLISH\n")
                 visited = set()
@@ -174,7 +178,40 @@ class Dataset(BaseDataset):
             for row in data:
                 f.write("\t".join(row) + "\n")
         args.log.info("wrote data")
-        
+
+        if validate:
+            # collect concepts
+            concepts = set()
+            with open(self.etc_dir / "concepts.tsv") as f:
+                reader = DictReader(f, delimiter="\t")
+                for row in reader:
+                    concepts.add((row["NUMBER"], row["ENGLISH"]))
+
+            # collect languages
+            languages = set()
+            with open(self.etc_dir / "languages.tsv") as f:
+                reader = DictReader(f, delimiter="\t")
+                for row in reader:
+                    group = row["SubGroup"] or ""
+                    languages.add((row["Number"], row["Name"], group))
+
+            visited_issues = set()
+            for row in data:
+                page = row[8]
+                # validate concepts
+                concept_number, concept = row[5], row[6]
+                if (concept_number, concept) not in concepts and (page, concept_number, concept) not in visited_issues:
+                    args.log.warning(f"{page}: {concept_number}. {concept}")
+                    visited_issues.add((page, concept_number, concept))
+                # validate languages
+                language_num, language, group = row[1], row[2], row[3]
+                if (language_num, language, group) not in languages and (page, language_num, language, group) not in visited_issues:
+                    msg = f"{page}: {language_num}. {language}"
+                    if group:
+                        msg += f" ({group})"
+                    args.log.warning(msg)
+                    visited_issues.add((page, language_num, language, group))
+
         for a, b in errors:
             args.log.info("problem: {0} / {1}".format(a, b))
 
@@ -207,9 +244,10 @@ class Dataset(BaseDataset):
         )
         # add data
         for entry in pb(data, desc="cldfify", total=len(data)):
-            if entry["ConceptNumber"] in concepts:
+            if entry["ConceptNumber"] in concepts and entry["LanguageNumber"] in languages:
                 args.writer.add_forms_from_value(
                     Language_ID=languages[entry["LanguageNumber"]],
                     Parameter_ID=concepts[entry["ConceptNumber"]],
                     Value=entry["Value"],
+                    Source="Tryon1976"
                 )
