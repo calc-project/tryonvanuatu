@@ -197,7 +197,7 @@ class Dataset(BaseDataset):
 
             visited_issues = set()
             for row in data:
-                page = row[8]
+                page = str(int(row[8]) - 171)
                 # validate concepts
                 concept_number, concept = row[5], row[6]
                 if (concept_number, concept) not in concepts and (page, concept_number, concept) not in visited_issues:
@@ -211,6 +211,16 @@ class Dataset(BaseDataset):
                         msg += f" ({group})"
                     args.log.warning(msg)
                     visited_issues.add((page, language_num, language, group))
+
+            with (open(self.etc_dir / "concepts-issues.tsv", "w") as concept_file,
+                  open(self.etc_dir / "languages-issues.tsv", "w") as language_file):
+                concept_file.write("PAGE\tNUMBER\tCONCEPT\n")
+                language_file.write("PAGE\tNUMBER\tLANGUAGE\tGROUP\n")
+                for issue in visited_issues:
+                    if len(issue) == 3:
+                        concept_file.write("\t".join(issue) + "\n")
+                    else:
+                        language_file.write("\t".join(issue) + "\n")
 
         for a, b in errors:
             args.log.info("problem: {0} / {1}".format(a, b))
