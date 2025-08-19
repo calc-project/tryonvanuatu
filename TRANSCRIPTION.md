@@ -155,7 +155,6 @@
 | apma-223_hit-1 | apma | 223_hit | -hi | + h i |
 | apma-224_see-1 | apma | 224_see | -kita | + k i t a |
 | araki-208_night-1 | araki | 208_night | čcčo | tʃ <s> <<c>> </s> tʃ o |
-| aulua-176_narrow-2 | aulua | 176_narrow | awa-lili⁴ | a w a + l i l i <s> <<⁴>> </s> |
 | aulua-179_right-1 | aulua | 179_right | mentiment⁴ | m e n t i m e n t <s> <<⁴>> </s> |
 | avok-179_right-1 | avok | 179_right | no-mœr⁴ | n o + m œ r <s> <<⁴>> </s> |
 | axamb-182_short-1 | axamb | 182_short | kiki1 | k i k i <s> <<1>> </s> |
@@ -166,12 +165,12 @@
 | burmbar-176_narrow-1 | burmbar | 176_narrow | kakes⁴ | k a k e s <s> <<⁴>> </s> |
 | burmbar-179_right-1 | burmbar | 179_right | ma-nur⁴ | m a + n u r <s> <<⁴>> </s> |
 | dixonreefi-176_narrow-1 | dixonreefi | 176_narrow | i-rəkᵐboi⁴ | i + r ə kⁿ b o i <s> <<⁴>> </s> |
-| faulili-124_earth-1 | faulili | 124_earth | a-tano̥ | a + t a n o <s> <<̥>> </s> |
-| faulili-170_heavy-1 | faulili | 170_heavy | melasi̥ | m e l a s i <s> <<̥>> </s> |
-| faulili-173_cold-1 | faulili | 173_cold | maⁿdili̥ | m a ⁿd i l i <s> <<̥>> </s> |
-| faulili-174_dirty-1 | faulili | 174_dirty | maliatano̥ | m a l i a t a n o <s> <<̥>> </s> |
-| faulili-175_long-1 | faulili | 175_long | taβalahi̥ | t a β a l a h i <s> <<̥>> </s> |
-| faulili-212_thou-1 | faulili | 212_thou | kaiko̥ | k a i k o <s> <<̥>> </s> |
+| faulili-124_earth-2 | faulili | 124_earth | a-tano̥ | a + t a n o <s> <<̥>> </s> |
+| faulili-170_heavy-2 | faulili | 170_heavy | melasi̥ | m e l a s i <s> <<̥>> </s> |
+| faulili-173_cold-2 | faulili | 173_cold | maⁿdili̥ | m a ⁿd i l i <s> <<̥>> </s> |
+| faulili-174_dirty-2 | faulili | 174_dirty | maliatano̥ | m a l i a t a n o <s> <<̥>> </s> |
+| faulili-175_long-2 | faulili | 175_long | taβalahi̥ | t a β a l a h i <s> <<̥>> </s> |
+| faulili-212_thou-2 | faulili | 212_thou | kaiko̥ | k a i k o <s> <<̥>> </s> |
 | futuna-156_red-1 | futuna | 156_red | m̥ea | m <s> <<̥>> </s> e a |
 | futuna-170_heavy-1 | futuna | 170_heavy | m̥afa | m <s> <<̥>> </s> a f a |
 | ikiyau-155_white-1 | ikiyau | 155_white | l̥awan | l <s> <<̥>> </s> a w a n |
@@ -182,14 +181,16 @@
 | karbol-179_right-1 | karbol | 179_right | yaⁿdʳyaⁿdʳ⁴ | j a ⁿdʳ j a ⁿdʳ <s> <<⁴>> </s> |
 | kerepua-136_wavel-1 | kerepua | 136_wavel | hu‧_hu‧ | h u + + h u |
 | lakona-178_old-1 | lakona | 178_old | ɣa-ᵐwosi | ɣ a + <s> <<ᵐ>> </s> w o s i |
-| lapwang-155_white-2 | lapwang | 155_white | l̥awən | l <s> <<̥>> </s> a w ə n |
-| lapwang-178_old-1 | lapwang | 178_old | marancea | m a r a n <s> <<c>> </s> e a |
+| lapwang-155_white-1 | lapwang | 155_white | l̥awən | l <s> <<̥>> </s> a w ə n |
 | lapwang-199_what-1 | lapwang | 199_what | l̥awəl | l <s> <<̥>> </s> a w ə l |
 | lapwang-205_warm-1 | lapwang | 205_warm | l̥aluwon | l <s> <<̥>> </s> a l u w o n |
 | laviamp-176_narrow-1 | laviamp | 176_narrow | i-ᵐbihᵐbih⁴ | i + ⁿb i h ⁿb i h <s> <<⁴>> </s> |
 | lehalurup-119_ashes-1 | lehalurup | 119_ashes | cou_yep | <s> <<c>> </s> o u + j e p |
-| lepaxsivir-176_narrow-1 | lepaxsivir | 176_narrow | məkakis⁴ | m ə k a k i s <s> <<⁴>> </s> |
-| lepaxsivir-179_right-1 | lepaxsivir | 179_right | ma-nœr⁴ | m a + n œ r <s> <<⁴>> </s> |
+| lepaxsivir-176_narrow-2 | lepaxsivir | 176_narrow | məkakis⁴ | m ə k a k i s <s> <<⁴>> </s> |
+| lepaxsivir-179_right-2 | lepaxsivir | 179_right | ma-nœr⁴ | m a + n œ r <s> <<⁴>> </s> |
+| lepaxsivir-222_give-1 | lepaxsivir | 222_give | -sani | + s a n i |
+| lepaxsivir-223_hit-1 | lepaxsivir | 223_hit | -osi | + o s i |
+| lepaxsivir-224_see-1 | lepaxsivir | 224_see | -lsi | + l s i |
 | letenboi-182_short-1 | letenboi | 182_short | sebaraβai2 | s e b a r a β a i <s> <<2>> </s> |
 | letenboi-222_give-1 | letenboi | 222_give | -ogətbul | + o g ə t b u l |
 | letenboi-224_see-1 | letenboi | 224_see | -lis | + l i s |
@@ -199,45 +200,44 @@
 | lironesa-212_thou-1 | lironesa | 212_thou | keiko̥ | k e i k o <s> <<̥>> </s> |
 | litzlitz-176_narrow-1 | litzlitz | 176_narrow | parox⁴ | p a r o x <s> <<⁴>> </s> |
 | litzlitz-179_right-1 | litzlitz | 179_right | pətet⁴ | p ə t e t <s> <<⁴>> </s> |
-| maluabay-179_right-1 | maluabay | 179_right | mowos⁴ | m o w o s <s> <<⁴>> </s> |
+| malonorth-178_old-1 | malonorth | 178_old | marancea | m a r a n <s> <<c>> </s> e a |
+| maluabav-179_right-1 | maluabav | 179_right | mowos⁴ | m o w o s <s> <<⁴>> </s> |
+| mapremo-176_narrow-1 | mapremo | 176_narrow | saltis⁴ | s a l t i s <s> <<⁴>> </s> |
+| mapremo-222_give-1 | mapremo | 222_give | -lfe | + l f e |
+| mapremo-223_hit-1 | mapremo | 223_hit | -uši | + u ʃ i |
+| mapremo-224_see-1 | mapremo | 224_see | -lsi | + l s i |
 | maragus-179_right-1 | maragus | 179_right | i-liŋən⁴ | i + l i ŋ ə n <s> <<⁴>> </s> |
 | maskelynes-179_right-1 | maskelynes | 179_right | i-nœr⁴ | i + n œ r <s> <<⁴>> </s> |
 | maxbaxo-169_lazy-1 | maxbaxo | 169_lazy | ŋo-parmʷec | ŋ o + p a r mʷ e <s> <<c>> </s> |
 | narango-92_taro-1 | narango | 92_taro | pɛ:t | p ɛ <s> <<:>> </s> t |
 | narango-99_banana-1 | narango | 99_banana | fɔ:tal | f ɔ <s> <<:>> </s> t a l |
-| nikaura-222_give-1 | nikaura | 222_give | -sani | + s a n i |
-| nikaura-223_hit-1 | nikaura | 223_hit | -osi | + o s i |
-| nikaura-224_see-1 | nikaura | 224_see | -lsi | + l s i |
 | nonona-111_water-1 | nonona | 111_water | ḍ̣ano | ḍ/ɖ <s> <<̣>> </s> a n o |
 | northt-90_foodveg-1 | northt | 90_foodveg | na-ŋwanən | n a + <s> ŋw </s> a n ə n |
 | nume-132_sky-1 | nume | 132_sky | miliɣˡ | m i l i ɣ <s> <<ˡ>> </s> |
 | orap-176_narrow-1 | orap | 176_narrow | i-ᵐbihᵐbih⁴ | i + ⁿb i h ⁿb i h <s> <<⁴>> </s> |
-| petarmur-132_sky-1 | petarmur | 132_sky | ᵐbeknaranˡ | ⁿb e k n a r a n <s> <<ˡ>> </s> |
-| pinalum-176_narrow-1 | pinalum | 176_narrow | we-lele⁴ | w e + l e l e <s> <<⁴>> </s> |
-| pinalum-179_right-1 | pinalum | 179_right | mi-mawos⁴ | m i + m a w o s <s> <<⁴>> </s> |
+| petarnur-132_sky-1 | petarnur | 132_sky | ᵐbeknaranˡ | ⁿb e k n a r a n <s> <<ˡ>> </s> |
+| pinalum-176_narrow-3 | pinalum | 176_narrow | we-lele⁴ | w e + l e l e <s> <<⁴>> </s> |
+| pinalum-179_right-2 | pinalum | 179_right | mi-mawos⁴ | m i + m a w o s <s> <<⁴>> </s> |
 | pwele-99_banana-2 | pwele | 99_banana | na-‧di | n a + + d i |
 | repanbitip-179_right-1 | repanbitip | 179_right | i-metetes⁴ | i + m e t e t e s <s> <<⁴>> </s> |
 | rerep-176_narrow-1 | rerep | 176_narrow | keroi⁴ | k e r o i <s> <<⁴>> </s> |
 | rerep-179_right-1 | rerep | 179_right | manmanon⁴ | m a n m a n o n <s> <<⁴>> </s> |
-| seke-176_narrow-1 | seke | 176_narrow | saltis⁴ | s a l t i s <s> <<⁴>> </s> |
-| seke-222_give-1 | seke | 222_give | -lfe | + l f e |
-| seke-223_hit-1 | seke | 223_hit | -uši | + u ʃ i |
-| seke-224_see-1 | seke | 224_see | -lsi | + l s i |
 | sowa-196_ten-1 | sowa | 196_ten | sebʳenok | s e b <s> <<ʳ>> </s> e n o k |
 | sowa-221_theydl-1 | sowa | 221_theydl | ne‧_raziru | n e + + r a z i r u |
 | sowa-222_give-1 | sowa | 222_give | -sarani | + s a r a n i |
 | sowa-223_hit-1 | sowa | 223_hit | -tumu | + t u m u |
 | sowa-224_see-1 | sowa | 224_see | -lesi | + l e s i |
+| tasiriki-176_narrow-1 | tasiriki | 176_narrow | awa-lili⁴ | a w a + l i l i <s> <<⁴>> </s> |
 | tasiriki-92_taro-1 | tasiriki | 92_taro | pɛ:te | p ɛ <s> <<:>> </s> t e |
 | tavio-134_firewood-1 | tavio | 134_firewood | yato̥ | j a t o <s> <<̥>> </s> |
-| tavio-144_rope-2 | tavio | 144_rope | tali̥ | t a l i <s> <<̥>> </s> |
-| tinbenbe-104_grass-1 | tinbenbe | 104_grass | a-ᵐwanai | a + <s> <<ᵐ>> </s> w a n a i |
-| tinbenbe-176_narrow-1 | tinbenbe | 176_narrow | e-lelei⁴ | e + l e l e i <s> <<⁴>> </s> |
-| tinbenbe-179_right-1 | tinbenbe | 179_right | yaⁿdʳyaⁿdʳ⁴ | j a ⁿdʳ j a ⁿdʳ <s> <<⁴>> </s> |
+| tavio-144_rope-1 | tavio | 144_rope | tali̥ | t a l i <s> <<̥>> </s> |
+| tinbembe-104_grass-1 | tinbembe | 104_grass | a-ᵐwanai | a + <s> <<ᵐ>> </s> w a n a i |
+| tinbembe-176_narrow-1 | tinbembe | 176_narrow | e-lelei⁴ | e + l e l e i <s> <<⁴>> </s> |
+| tinbembe-179_right-1 | tinbembe | 179_right | yaⁿdʳyaⁿdʳ⁴ | j a ⁿdʳ j a ⁿdʳ <s> <<⁴>> </s> |
 | unmet-176_narrow-1 | unmet | 176_narrow | i-susupa⁴ | i + s u s u p a <s> <<⁴>> </s> |
 | unua-176_narrow-1 | unua | 176_narrow | kiki⁴ | k i k i <s> <<⁴>> </s> |
-| uri-176_narrow-2 | uri | 176_narrow | we-lili⁴ | w e + l i l i <s> <<⁴>> </s> |
-| uri-179_right-2 | uri | 179_right | a-mawos⁴ | a + m a w o s <s> <<⁴>> </s> |
+| uri-176_narrow-1 | uri | 176_narrow | we-lili⁴ | w e + l i l i <s> <<⁴>> </s> |
+| uri-179_right-1 | uri | 179_right | a-mawos⁴ | a + m a w o s <s> <<⁴>> </s> |
 | uripiv-176_narrow-1 | uripiv | 176_narrow | we-lili⁴ | w e + l i l i <s> <<⁴>> </s> |
 | valpei-157_yellow-1 | valpei | 157_yellow | mʷacina | mʷ a <s> <<c>> </s> i n a |
 | vartavo-176_narrow-1 | vartavo | 176_narrow | kakes⁴ | k a k e s <s> <<⁴>> </s> |
