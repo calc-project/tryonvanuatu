@@ -1,20 +1,20 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
     "aboutUrl": null,
-    "dc:bibliographicCitation": "Tryon, D. (1976): New Hebriden lanugages: An internal classification. Canberra: Australian National University.",
+    "dc:bibliographicCitation": "Tryon, D. T. (1976): New Hebrides languages: An internal classification. Canberra: Australian National University.",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
-    "dc:identifier": "URL OF ORIGINAL DATA",
+    "dc:identifier": "https://doi.org/10.15144/PL-C50",
     "dc:isVersionOf": null,
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:related": null,
     "dc:source": "sources.bib",
-    "dc:title": "CLDF dataset derived from Tryon's \"New Hebriden Languages\" from 1976",
+    "dc:title": "CLDF dataset derived from Tryon's \"New Hebrides Languages\" from 1976",
     "dcat:accessURL": "https://github.com/calc-project/tryonvanuatu",
     "prov:wasDerivedFrom": [
         {
             "rdf:about": "https://github.com/calc-project/tryonvanuatu",
             "rdf:type": "prov:Entity",
-            "dc:created": "0399ea8",
+            "dc:created": "1278195",
             "dc:title": "Repository"
         },
         {

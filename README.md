@@ -1,10 +1,10 @@
-# CLDF dataset derived from Tryon's "New Hebriden Languages" from 1976
+# CLDF dataset derived from Tryon's "New Hebrides Languages" from 1976
 
 ## How to cite
 
 If you use these data please cite
 - the original source
-  > Tryon, D. (1976): New Hebriden lanugages: An internal classification. Canberra: Australian National University.
+  > Tryon, D. T. (1976): New Hebrides languages: An internal classification. Canberra: Australian National University.
 - the derived dataset using the DOI of the [particular released version](../../releases/) you were using
 
 ## Description
@@ -12,7 +12,7 @@ If you use these data please cite
 
 This dataset is licensed under a CC-BY-4.0 license
 
-Available online at URL OF ORIGINAL DATA
+Available online at https://doi.org/10.15144/PL-C50
 
 ## Notes
 
