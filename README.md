@@ -31,13 +31,13 @@ Available online at https://doi.org/10.15144/PL-C50
 ## Statistics
 
 
-![Glottolog: 0%](https://img.shields.io/badge/Glottolog-0%25-red.svg "Glottolog: 0%")
+![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 98%](https://img.shields.io/badge/Concepticon-98%25-green.svg "Concepticon: 98%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
 ![BIPA: 87%](https://img.shields.io/badge/BIPA-87%25-yellowgreen.svg "BIPA: 87%")
 ![CLTS SoundClass: 87%](https://img.shields.io/badge/CLTS%20SoundClass-87%25-yellowgreen.svg "CLTS SoundClass: 87%")
 
-- **Varieties:** 179 (linked to 0 different Glottocodes)
+- **Varieties:** 179 (linked to 121 different Glottocodes)
 - **Concepts:** 292 (linked to 285 different Concepticon concept sets)
 - **Lexemes:** 44,814
 - **Sources:** 1
