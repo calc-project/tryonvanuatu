@@ -105,9 +105,6 @@ class Dataset(BaseDataset):
             )
 
     def cmd_download(self, args):
-        recreate = args["recreate"] if "recreate" in args else RECREATE
-        validate = args["validate"] if "validate" in args else VALIDATE
-
         xmlfiles = sorted(self.raw_dir.glob("tryonvanuatu-wordlist/page/*.xml"))
         concepts = []
         languages = []
@@ -136,7 +133,7 @@ class Dataset(BaseDataset):
                     errors.add((fname, row[0]))
 
         
-        if recreate:
+        if RECREATE:
             with codecs.open(self.etc_dir / "concepts.tsv", "w", "utf-8") as f:
                 f.write("NUMBER\tENGLISH\n")
                 visited = set()
@@ -179,7 +176,7 @@ class Dataset(BaseDataset):
                 f.write("\t".join(row) + "\n")
         args.log.info("wrote data")
 
-        if validate:
+        if VALIDATE:
             # collect concepts
             concepts = set()
             with open(self.etc_dir / "concepts.tsv") as f:
