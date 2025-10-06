@@ -3,12 +3,12 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.20.0:model_id=235849:lm=none:date=03_12_2024_14:39</Creator>
         <Created>2024-10-29T16:15:26.003576</Created>
-        <LastChange>2025-09-05T09:25:50.346+02:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80939882" pageNr="73" tsid="254916290" status="FINAL" userId="191957" imgUrl="https://files.transkribus.eu/Get?id=EASKOBKPFXNTOXQISPSIJITT&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=MGXQPEVBUDCRIQCXCGGNTACA" imageId="66362608"/>
+        <LastChange>2025-10-07T00:44:24.957+02:00</LastChange>
+        <TranskribusMetadata docId="4770512" pageId="80939882" pageNr="73" tsid="257276879" status="FINAL" userId="315306" imgUrl="https://files.transkribus.eu/Get?id=EASKOBKPFXNTOXQISPSIJITT&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=LUIKYQVRLVGZHTVDBRIOPNZT" imageId="66362608"/>
     </Metadata>
     <Page imageFilename="0073_p073.jpg" imageWidth="2479" imageHeight="3508">
         <ReadingOrder>
-            <OrderedGroup id="ro_1759786690136" caption="Regions reading order">
+            <OrderedGroup id="ro_1759791227780" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -333,7 +333,7 @@
                     <Coords points="302,844 684,848 684,794 602,792 584,810 420,796 402,814 346,788 302,796"/>
                     <Baseline points="313,829 358,829 403,829 447,832 492,832 537,832 582,832 626,829 671,829 689,829"/>
                     <TextEquiv>
-                        <Unicode>149 Makatea (Sh)</Unicode>
+                        <Unicode>149. Makatea (Sh)</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -343,13 +343,6 @@
             </TableCell>
             <TableCell row="5" col="1" colSpan="1" orientation="0.0" id="t1c27">
                 <Coords points="694,785 694,848 1055,848 1055,785"/>
-                <TextLine id="t1c27_tl_1" custom="readingOrder {index:0;}">
-                    <Coords points="754,838 764,838 772,846 812,842 878,844 878,804 860,804 850,796 836,810 820,796 804,806 790,798 754,798"/>
-                    <Baseline points="764,832 809,835 853,832 883,832"/>
-                    <TextEquiv>
-                        <Unicode>loloa</Unicode>
-                    </TextEquiv>
-                </TextLine>
                 <TextEquiv>
                     <Unicode></Unicode>
                 </TextEquiv>
