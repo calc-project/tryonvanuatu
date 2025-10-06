@@ -3,8 +3,8 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.19.0:model_id=229489:lm=none:date=27_11_2024_14:05</Creator>
         <Created>2024-10-29T16:15:26.003576</Created>
-        <LastChange>2024-11-27T14:20:23.006+01:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80939858" pageNr="54" tsid="208027512" status="GT" userId="191780" imgUrl="https://files.transkribus.eu/Get?id=SWOAJOQTMYATLFEUCZVIFEPQ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=VNZJECOXMYYWLTXRGGOLCART" imageId="66362582"/>
+        <LastChange>2025-09-05T10:46:44.475+02:00</LastChange>
+        <TranskribusMetadata docId="4770512" pageId="80939858" pageNr="54" tsid="254925546" status="GT" userId="191957" imgUrl="https://files.transkribus.eu/Get?id=SWOAJOQTMYATLFEUCZVIFEPQ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=PKXIUTLUNGBYMOUZKTCFWZIA" imageId="66362582"/>
     </Metadata>
     <Page imageFilename="0054_p054.jpg" imageWidth="2479" imageHeight="3508">
         <TableRegion id="t1" custom="readingOrder {index:0;}">
@@ -2235,6 +2235,13 @@
             </TableCell>
             <TableCell row="34" col="1" rowSpan="1" colSpan="1" id="c_423">
                 <Coords points="742,2668 744,2754 1106,2754 1104,2668"/>
+                <TextLine id="l" custom="readingOrder {index:0;}">
+                    <Coords points="823,2722 953,2722 953,2692 823,2692"/>
+                    <Baseline points="823,2722 953,2722"/>
+                    <TextEquiv>
+                        <Unicode>-ru</Unicode>
+                    </TextEquiv>
+                </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
             <TableCell row="34" col="2" rowSpan="1" colSpan="1" id="c_425">

@@ -3,10 +3,15 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.20.0:model_id=235849:lm=none:date=02_01_2025_10:08</Creator>
         <Created>2024-10-29T16:15:26.003576</Created>
-        <LastChange>2025-01-02T10:17:23.907+01:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80939880" pageNr="69" tsid="217351878" status="FINAL" userId="191957" imgUrl="https://files.transkribus.eu/Get?id=TMJQSUJFRXYCIZLASZPFFIEI&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=VZBEKQKGVNDSBXXVAEFUJCLR" imageId="66362606"/>
+        <LastChange>2025-08-26T11:30:44.934+02:00</LastChange>
+        <TranskribusMetadata docId="4770512" pageId="80939880" pageNr="69" tsid="254177015" status="FINAL" userId="191957" imgUrl="https://files.transkribus.eu/Get?id=TMJQSUJFRXYCIZLASZPFFIEI&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=NZJUYJBCEQTJLWEMZILYCZNG" imageId="66362606"/>
     </Metadata>
     <Page imageFilename="0069_p069.jpg" imageWidth="2479" imageHeight="3508">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1759786689942" caption="Regions reading order">
+                <RegionRefIndexed index="1" regionRef="r"/>
+            </OrderedGroup>
+        </ReadingOrder>
         <TableRegion id="t1" custom="readingOrder {index:0;}">
             <Coords points="266,417 272,2735 2366,2738 2360,426"/>
             <TableCell row="0" col="0" colSpan="1" orientation="0.0" id="t1c1">
@@ -17,9 +22,9 @@
                 <Coords points="744,419 743,511 1083,511 1082,421"/>
                 <TextLine id="t1c2_tl_1" custom="readingOrder {index:0;}">
                     <Coords points="800,489 815,498 855,498 890,480 903,491 1001,492 1022,484 1022,428 973,446 959,461 906,450 882,468 847,446 800,454"/>
-                    <Baseline points="806,486 844,480 889,480 934,480 979,480 1024,483"/>
+                    <Baseline points="806,486 844,480 889,480 932,486 979,485 1024,483"/>
                     <TextEquiv>
-                        <Unicode>53. unole</Unicode>
+                        <Unicode>53. uncle¹</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -1777,11 +1782,11 @@
             </TableCell>
             <TableCell row="26" col="1" colSpan="1" orientation="0.0" id="t1c132">
                 <Coords points="740,2166 740,2229 1089,2229 1089,2166"/>
-                <TextLine id="t1c132_tl_1" custom="readingOrder {index:0;}">
-                    <Coords points="806,2224 969,2227 992,2212 1019,2235 1069,2215 1203,2227 1203,2176 1154,2180 1127,2205 1064,2204 998,2163 944,2194 870,2177 806,2191"/>
-                    <Baseline points="812,2215 847,2212 892,2212 937,2212 982,2212 1027,2212 1071,2215 1116,2215 1161,2215 1206,2209"/>
+                <TextLine id="l_3" custom="readingOrder {index:0;}">
+                    <Coords points="1090,2217 1069,2215 1019,2235 992,2212 969,2227 806,2224 806,2191 870,2177 944,2194 998,2163 1064,2204 1090,2204"/>
+                    <Baseline points="812,2215 847,2212 892,2212 937,2212 982,2212 1027,2212 1071,2215 1090,2215"/>
                     <TextEquiv>
-                        <Unicode>takarue-ᵑgu ahi</Unicode>
+                        <Unicode>takarue-ᵑgu</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -1791,6 +1796,13 @@
             </TableCell>
             <TableCell row="26" col="2" colSpan="1" orientation="0.0" id="t1c133">
                 <Coords points="1089,2166 1089,2229 1423,2229 1424,2166"/>
+                <TextLine id="l_2" custom="readingOrder {index:0;}">
+                    <Coords points="1090,2204 1127,2205 1154,2180 1203,2176 1203,2227 1090,2217"/>
+                    <Baseline points="1090,2215 1116,2215 1161,2215 1206,2209"/>
+                    <TextEquiv>
+                        <Unicode>ahi</Unicode>
+                    </TextEquiv>
+                </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
             <TableCell row="26" col="3" colSpan="1" orientation="0.0" id="t1c134">
@@ -2291,5 +2303,18 @@
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
         </TableRegion>
+        <TextRegion id="r" custom="readingOrder {index:1;}">
+            <Coords points="297,3057 714,3057 714,3179 297,3179"/>
+            <TextLine id="l_1" custom="readingOrder {index:0;}">
+                <Coords points="305,3136 679,3145 680,3115 306,3106"/>
+                <Baseline points="305,3136 679,3145"/>
+                <TextEquiv>
+                    <Unicode>¹Maternal uncle</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
     </Page>
 </PcGts>

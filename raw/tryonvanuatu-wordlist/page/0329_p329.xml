@@ -3,12 +3,12 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.25.0:model_id=314733:lm=none:date=28_03_2025_17:26</Creator>
         <Created>2024-10-31T18:11:07.325695</Created>
-        <LastChange>2025-07-29T10:07:07.615+02:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80940277" pageNr="329" tsid="252121535" status="FINAL" userId="191957" imgUrl="https://files.transkribus.eu/Get?id=GYJHSYDPKVVODJQVRJTXPAYK&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=THTKJJVVMFNFZYXOGRHVYPUZ" imageId="66363022"/>
+        <LastChange>2025-09-05T09:05:53.032+02:00</LastChange>
+        <TranskribusMetadata docId="4770512" pageId="80940277" pageNr="329" tsid="254915480" status="FINAL" userId="191957" imgUrl="https://files.transkribus.eu/Get?id=GYJHSYDPKVVODJQVRJTXPAYK&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=CGTEIPHBMJCAYGWIYVILXKNA" imageId="66363022"/>
     </Metadata>
     <Page imageFilename="0329_p329.jpg" imageWidth="2479" imageHeight="3508">
         <ReadingOrder>
-            <OrderedGroup id="ro_1755600457247" caption="Regions reading order">
+            <OrderedGroup id="ro_1759786702560" caption="Regions reading order">
                 <RegionRefIndexed index="1" regionRef="r"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -2087,7 +2087,7 @@
                     <Coords points="345,2679 370,2669 382,2681 415,2683 448,2671 466,2685 488,2675 546,2685 544,2626 519,2626 511,2634 478,2634 462,2626 441,2647 399,2626 364,2649 345,2649"/>
                     <Baseline points="356,2665 403,2669 447,2669 492,2666 537,2669 549,2669"/>
                     <TextEquiv>
-                        <Unicode>2. Sa (Pe)</Unicode>
+                        <Unicode>32. Sa (Pe)</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -2139,13 +2139,6 @@
             </TableCell>
             <TableCell row="33" col="4" colSpan="1" orientation="0.0" id="t1c170">
                 <Coords points="1822,2622 1822,2687 2367,2688 2367,2624"/>
-                <TextLine id="l_3" custom="readingOrder {index:0;}">
-                    <Coords points="1857,2677 1933,2677 1933,2647 1857,2647"/>
-                    <Baseline points="1857,2677 1933,2677"/>
-                    <TextEquiv>
-                        <Unicode>-pe</Unicode>
-                    </TextEquiv>
-                </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
             <TableCell row="34" col="0" colSpan="1" orientation="0.0" id="t1c171">

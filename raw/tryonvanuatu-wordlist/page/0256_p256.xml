@@ -3,12 +3,12 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.20.0:model_id=265269:lm=none:date=15_01_2025_11:56</Creator>
         <Created>2024-10-31T10:04:45.844745</Created>
-        <LastChange>2025-03-27T10:16:25.083+01:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80940161" pageNr="256" tsid="237520363" status="FINAL" userId="191957" imgUrl="https://files.transkribus.eu/Get?id=WMVCSPLIOOXZIEARAHBCJNEG&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=CBMQMGZDUQVJTBEXQBGAHSWO" imageId="66362906"/>
+        <LastChange>2025-09-05T09:55:00.750+02:00</LastChange>
+        <TranskribusMetadata docId="4770512" pageId="80940161" pageNr="256" tsid="254918447" status="FINAL" userId="191957" imgUrl="https://files.transkribus.eu/Get?id=WMVCSPLIOOXZIEARAHBCJNEG&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=WSZENJCVWLXTRPZTIODJXQIT" imageId="66362906"/>
     </Metadata>
     <Page imageFilename="0256_p256.jpg" imageWidth="2479" imageHeight="3508">
         <ReadingOrder>
-            <OrderedGroup id="ro_1755600454332" caption="Regions reading order">
+            <OrderedGroup id="ro_1759786699974" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -443,7 +443,7 @@
                     <Coords points="324,1436 398,1444 418,1428 434,1440 602,1444 602,1398 572,1398 562,1388 546,1398 490,1388 476,1398 464,1386 398,1408 376,1388 350,1386 324,1400"/>
                     <Baseline points="334,1427 337,1427 382,1424 426,1421 471,1424 516,1424 561,1424 606,1424"/>
                     <TextEquiv>
-                        <Unicode>89. Tinbembe</Unicode>
+                        <Unicode>89. Timbembe</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -471,7 +471,7 @@
                     <Coords points="1174,1434 1200,1438 1208,1432 1228,1446 1236,1446 1260,1426 1270,1436 1312,1436 1312,1390 1296,1390 1278,1372 1246,1374 1224,1396 1204,1398 1196,1390 1174,1392"/>
                     <Baseline points="1185,1427 1227,1421 1271,1424 1316,1427"/>
                     <TextEquiv>
-                        <Unicode>i-pʷar</Unicode>
+                        <Unicode>i-pʷarb</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -481,6 +481,13 @@
             </TableCell>
             <TableCell row="14" col="3" colSpan="1" orientation="0.0" id="t1c74">
                 <Coords points="1450,1373 1450,1439 1783,1438 1783,1372"/>
+                <TextLine id="l_1" custom="readingOrder {index:0;}">
+                    <Coords points="1494,1423 1597,1427 1598,1397 1495,1393"/>
+                    <Baseline points="1494,1423 1597,1427"/>
+                    <TextEquiv>
+                        <Unicode>ᵐba</Unicode>
+                    </TextEquiv>
+                </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
             <TableCell row="14" col="4" colSpan="1" orientation="0.0" id="t1c75">

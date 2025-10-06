@@ -3,8 +3,8 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.20.0:model_id=235849:lm=none:date=19_12_2024_21:35</Creator>
         <Created>2024-10-29T16:15:26.003576</Created>
-        <LastChange>2024-12-19T21:44:03.981+01:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80939864" pageNr="67" tsid="213833514" status="FINAL" userId="191780" imgUrl="https://files.transkribus.eu/Get?id=UWPXQZXIVIBDRFBDVWEQEKPL&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=XDTVRWWAEXNHUCVCRDPEJSHW" imageId="66362588"/>
+        <LastChange>2025-09-05T10:50:44.777+02:00</LastChange>
+        <TranskribusMetadata docId="4770512" pageId="80939864" pageNr="67" tsid="254925722" status="FINAL" userId="191957" imgUrl="https://files.transkribus.eu/Get?id=UWPXQZXIVIBDRFBDVWEQEKPL&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=IMBQXILRDWIXKHVZTQBKPCRK" imageId="66362588"/>
     </Metadata>
     <Page imageFilename="0067_p067.jpg" imageWidth="2479" imageHeight="3508">
         <TableRegion id="t1" custom="readingOrder {index:0;}">
@@ -103,8 +103,7 @@
                     <Coords points="1423,586 1408,586 1391,601 1213,589 1213,567 1319,549 1391,557 1410,576 1423,576"/>
                     <Baseline points="1218,585 1233,585 1277,582 1322,585 1367,585 1412,585 1423,585"/>
                     <TextEquiv>
-                        <Unicode>na-kiana
-</Unicode>
+                        <Unicode>na-kiana</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -616,6 +615,13 @@
             </TableCell>
             <TableCell row="9" col="4" colSpan="1" orientation="0.0" id="t1c50">
                 <Coords points="1799,1066 1799,1133 2344,1136 2344,1068"/>
+                <TextLine id="l_40" custom="readingOrder {index:0;}">
+                    <Coords points="1840,1123 1940,1120 1939,1090 1839,1093"/>
+                    <Baseline points="1840,1123 1940,1120"/>
+                    <TextEquiv>
+                        <Unicode>βin</Unicode>
+                    </TextEquiv>
+                </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
             <TableCell row="10" col="0" colSpan="1" orientation="0.0" id="t1c51">
@@ -1188,6 +1194,13 @@
             </TableCell>
             <TableCell row="18" col="4" colSpan="1" orientation="0.0" id="t1c95">
                 <Coords points="1798,1651 1798,1714 2342,1716 2342,1653"/>
+                <TextLine id="l_41" custom="readingOrder {index:0;}">
+                    <Coords points="1837,1704 1938,1706 1939,1676 1838,1674"/>
+                    <Baseline points="1837,1704 1938,1706"/>
+                    <TextEquiv>
+                        <Unicode>o-u</Unicode>
+                    </TextEquiv>
+                </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
             <TableCell row="19" col="0" colSpan="1" orientation="0.0" id="t1c96">

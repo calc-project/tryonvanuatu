@@ -3,12 +3,12 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.19.0:model_id=229489:lm=none:date=01_12_2024_16:31</Creator>
         <Created>2024-12-01T16:28:09.789550</Created>
-        <LastChange>2024-12-01T16:36:38.361+01:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80939761" pageNr="28" tsid="209047467" status="GT" userId="191780" imgUrl="https://files.transkribus.eu/Get?id=JJPJNCUMBWXTXCZZBZLOOQJA&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=FKSSPSJVZAAZVZYDNLLWKTGQ" imageId="66362487"/>
+        <LastChange>2025-09-05T09:56:46.929+02:00</LastChange>
+        <TranskribusMetadata docId="4770512" pageId="80939761" pageNr="28" tsid="254918503" status="GT" userId="191957" imgUrl="https://files.transkribus.eu/Get?id=JJPJNCUMBWXTXCZZBZLOOQJA&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=XDIKSIUZYJFEMODLQNJFBHYI" imageId="66362487"/>
     </Metadata>
     <Page imageFilename="0028_p028.jpg" imageWidth="2479" imageHeight="3508">
         <ReadingOrder>
-            <OrderedGroup id="ro_1755600448450" caption="Regions reading order">
+            <OrderedGroup id="ro_1759786686420" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -726,7 +726,7 @@
                     <Coords points="308,1252 388,1254 402,1244 518,1260 562,1242 578,1254 636,1252 634,1204 588,1196 558,1216 540,1206 420,1202 398,1222 370,1198 306,1202"/>
                     <Baseline points="317,1235 364,1236 409,1236 453,1238 498,1238 543,1238 588,1238 632,1236 638,1236"/>
                     <TextEquiv>
-                        <Unicode>155. Lelepa (Ef</Unicode>
+                        <Unicode>155. Lelepa (Ef)</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -1108,6 +1108,13 @@
             </TableCell>
             <TableCell row="16" col="4" colSpan="1" orientation="0.0" id="t1c70">
                 <Coords points="1822,1519 1822,1587 2270,1587 2269,1520"/>
+                <TextLine id="l_1" custom="readingOrder {index:0;}">
+                    <Coords points="1854,1570 1928,1572 1929,1542 1855,1540"/>
+                    <Baseline points="1854,1570 1928,1572"/>
+                    <TextEquiv>
+                        <Unicode>ate</Unicode>
+                    </TextEquiv>
+                </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
             <TableCell row="17" col="0" colSpan="1" orientation="0.0" id="t1c71">
@@ -2096,7 +2103,7 @@
                     <Coords points="300,2606 344,2612 400,2598 432,2610 532,2600 548,2612 604,2606 604,2558 572,2558 562,2548 538,2566 518,2558 412,2562 394,2580 364,2548 354,2558 300,2558"/>
                     <Baseline points="310,2591 337,2591 382,2594 426,2594 471,2594 516,2591 561,2591 608,2590"/>
                     <TextEquiv>
-                        <Unicode>176. Ikiti (Ta</Unicode>
+                        <Unicode>176. Ikiti (Ta)</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>

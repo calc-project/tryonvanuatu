@@ -3,10 +3,15 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.19.0:model_id=115833:lm=none:date=20_11_2024_10:49</Creator>
         <Created>2024-10-29T16:15:26.003576</Created>
-        <LastChange>2024-11-20T21:31:45.294+01:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80939872" pageNr="51" tsid="205851165" status="GT" userId="191780" imgUrl="https://files.transkribus.eu/Get?id=QWDTXIMZCICOWAOZAXNCSYAV&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=MNLZIOWULCJVPCFGGRDTGUZV" imageId="66362598"/>
+        <LastChange>2025-08-26T11:46:20.553+02:00</LastChange>
+        <TranskribusMetadata docId="4770512" pageId="80939872" pageNr="51" tsid="254177698" status="GT" userId="191957" imgUrl="https://files.transkribus.eu/Get?id=QWDTXIMZCICOWAOZAXNCSYAV&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=AHLCWRNODKJTMNSBMDQENDWZ" imageId="66362598"/>
     </Metadata>
     <Page imageFilename="0051_p051.jpg" imageWidth="2479" imageHeight="3508">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1759786689255" caption="Regions reading order">
+                <RegionRefIndexed index="1" regionRef="r"/>
+            </OrderedGroup>
+        </ReadingOrder>
         <TableRegion id="t1" custom="readingOrder {index:0;}">
             <Coords points="278,416 272,2864 2365,2864 2365,416"/>
             <TableCell row="0" col="0" colSpan="1" orientation="0.0" id="t1c1">
@@ -61,7 +66,7 @@
                     <Coords points="1842,420 1886,426 2015,426 2015,476 1886,476 1842,470"/>
                     <Baseline points="1842,465 1886,471 1931,471 1976,471 2015,471"/>
                     <TextEquiv>
-                        <Unicode>10. sore</Unicode>
+                        <Unicode>40. sore</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -2631,7 +2636,7 @@
                     <Coords points="1836,2868 1979,2868 1979,2918 1836,2918"/>
                     <Baseline points="1836,2913 1880,2913 1925,2913 1970,2910 1979,2913"/>
                     <TextEquiv>
-                        <Unicode>te-tən</Unicode>
+                        <Unicode>te-tən¹</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -2640,5 +2645,18 @@
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
         </TableRegion>
+        <TextRegion id="r" custom="readingOrder {index:1;}">
+            <Coords points="289,3063 628,3063 628,3154 289,3154"/>
+            <TextLine id="l_1" custom="readingOrder {index:0;}">
+                <Coords points="304,3129 603,3129 603,3099 304,3099"/>
+                <Baseline points="304,3129 603,3129"/>
+                <TextEquiv>
+                    <Unicode>¹= it is sore</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
     </Page>
 </PcGts>

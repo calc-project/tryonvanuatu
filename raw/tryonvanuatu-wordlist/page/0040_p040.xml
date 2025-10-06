@@ -3,12 +3,12 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.19.0:model_id=229489:lm=none:date=02_12_2024_11:34</Creator>
         <Created>2024-10-29T16:13:37.842266</Created>
-        <LastChange>2024-12-03T08:45:25.915+01:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80939850" pageNr="40" tsid="209383088" status="GT" userId="191780" imgUrl="https://files.transkribus.eu/Get?id=BBFHRGNBCBALLTZXBTQPMMUU&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=GCBKEBNNWBIFHIILAFXCPUHC" imageId="66362574"/>
+        <LastChange>2025-08-26T13:44:50.419+02:00</LastChange>
+        <TranskribusMetadata docId="4770512" pageId="80939850" pageNr="40" tsid="254186495" status="GT" userId="191957" imgUrl="https://files.transkribus.eu/Get?id=BBFHRGNBCBALLTZXBTQPMMUU&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=PCQTIDTKOAZDMEJKBNORCLYC" imageId="66362574"/>
     </Metadata>
     <Page imageFilename="0040_p040.jpg" imageWidth="2479" imageHeight="3508">
         <ReadingOrder>
-            <OrderedGroup id="ro_1755600448720" caption="Regions reading order">
+            <OrderedGroup id="ro_1759786688121" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r_212"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -1673,11 +1673,11 @@
             </TableCell>
             <TableCell row="24" col="0" colSpan="1" orientation="0.0" id="t1c111">
                 <Coords points="271,2041 271,2102 698,2103 698,2041"/>
-                <TextLine id="t1c111_tl_1" custom="readingOrder {index:0;}">
-                    <Coords points="314,2098 688,2080 887,2099 909,2062 745,2053 590,2077 406,2046 380,2072 315,2047"/>
-                    <Baseline points="319,2083 364,2080 409,2083 453,2080 498,2083 543,2083 588,2086 632,2086 677,2080 722,2080 767,2080 812,2080 856,2080 901,2080 910,2077"/>
+                <TextLine id="l_2" custom="readingOrder {index:0;}">
+                    <Coords points="699,2081 688,2080 314,2098 315,2047 380,2072 406,2046 590,2077 699,2060"/>
+                    <Baseline points="319,2083 364,2080 409,2083 453,2080 498,2083 543,2083 588,2086 632,2086 677,2080 699,2080"/>
                     <TextEquiv>
-                        <Unicode>58. Amblong marau-na</Unicode>
+                        <Unicode>58. Amblong</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -1687,6 +1687,13 @@
             </TableCell>
             <TableCell row="24" col="1" colSpan="1" orientation="0.0" id="t1c112">
                 <Coords points="698,2041 698,2103 1062,2104 1062,2040"/>
+                <TextLine id="l_1" custom="readingOrder {index:0;}">
+                    <Coords points="699,2060 745,2053 909,2062 887,2099 699,2081"/>
+                    <Baseline points="699,2080 722,2080 767,2080 812,2080 856,2080 901,2080 910,2077"/>
+                    <TextEquiv>
+                        <Unicode>marau-na</Unicode>
+                    </TextEquiv>
+                </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
             <TableCell row="24" col="2" colSpan="1" orientation="0.0" id="t1c113">
