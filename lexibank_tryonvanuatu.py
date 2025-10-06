@@ -118,7 +118,8 @@ class CustomLanguage(Language):
     Location = attr.ib(default=None)
     Remark = attr.ib(default=None)
     Number = attr.ib(default=None)
-    SubGroup = attr.ib(default=None)
+    Region = attr.ib(default=None)
+    FullName = attr.ib(default=None)
 
 
 class Dataset(BaseDataset):
