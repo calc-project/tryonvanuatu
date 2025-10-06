@@ -18,31 +18,31 @@ for l in languages:
 
 # manually name mapping for mismatches
 lang_name_maps = {
-    "Port R": "Port Resolution",
+    "Port R.": "Port Resolution",
     "Shark Bay I": "Shark Bay",
     "Shark Bay II": "Shark Bay",
     "Dixon Reef I": "Dixon Reef",
     "Dixon Reef II": "Dixon Reef",
     "Malo North": "North",
     "Malo South": "South",
-    "North T": "Tanna, North",
+    "North T.": "Tanna, North",
     "Lehalurup": "Löyöp",
     "Motlav": "Mwotlap",
     "Wusi-Valui": "Valui",
     "Wusi-Mana": "Mana",
     "Repanbitip": "Repanbitipmbangir",
-    "Lapwang": "Lapwangtoai",
-    "Enfit": "Enfitena",
-    "Bonga": "Bongabonga",
-    "Tonga": "Tongariki",
+    "Lapwang.": "Lapwangtoai",
+    "Enfit.": "Enfitena",
+    "Bonga.": "Bongabonga",
+    "Tonga.": "Tongariki",
     "Vinmavis": "Neve'ei",
     "Burumba": "Baki",
     "Labo": "Ninde",
-    "Lenau": "Lenaukas",  # ?
+    "Lenau.": "Lenaukas",
     "Mae-Morae": "Maii",
-    "Yatuk": "Yatukwey",  # ?
+    "Yatuk.": "Yatukwey",
     "Malfaxal": "Naha'ai",
-    "Lonas": "Lonasilian",
+    "Lonas.": "Lonasilian",
     "Malmariv": "Tiale",
     "Lingarak": "Neverver",
     "Fali": "Lonwolwol",
@@ -58,15 +58,29 @@ manual_glottomaps = {
     "Pango": "sout2856"
 }
 
+# abbreviations used by Tryon in the tables, full names are given in the preface
+language_abbreviations = {
+    "Port R.": "Port Resolution",
+    "North T.": "North Tanna",
+    "Lapwang.": "Lapwangtoai",
+    "Enfit.": "Enfitena",
+    "Bonga.": "Bongabonga",
+    "Tonga.": "Tongariki",
+    "Lenau.": "Lenaukas",
+    "Yatuk.": "Yatukwey",
+    "Lonas.": "Lonasilian",
+}
+
 for lang, glottocode in manual_glottomaps.items():
     lang_to_glottocode[lang] = glottocode
 
 table = []
 
-with open(Path(__file__).parent / "languages.tsv") as f:
+with open(Path(__file__).parent.parent / "raw" / "languages.tsv") as f:
     reader = csv.DictReader(f, delimiter="\t")
     for row in reader:
         name = row["Name"]
+        row["FullName"] = language_abbreviations.get(name, name)
         name = lang_name_maps[name] if name in lang_name_maps else name
         if row["Region"] == "NULL":
             row["Region"] = ""
@@ -76,6 +90,9 @@ with open(Path(__file__).parent / "languages.tsv") as f:
             table.append(row)
         except KeyError:
             print(f"{name} not found!")
+
+# sort by language number
+table = sorted(table, key=lambda x: int(x["Number"]))
 
 with open(Path(__file__).parent / "languages.tsv", "w") as f:
     writer = csv.DictWriter(f, fieldnames=table[0].keys(), delimiter="\t")

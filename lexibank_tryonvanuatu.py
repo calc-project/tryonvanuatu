@@ -10,8 +10,9 @@ from csv import DictReader
 import xml
 import codecs
 
-RECREATE = False
-VALIDATE = True
+RECREATE_CONCEPTS = False
+RECREATE_LANGUAGES = True
+VALIDATE = False
 
 def extract_table(fname):
     """
@@ -51,17 +52,44 @@ def extract_table(fname):
 
 
 def get_language(row):
+    # handle typos/inconsistencies from the original document
+    REPLACEMENTS = {
+        "1. Hiw (To": "1. Hiw (To)",
+        "9. Verumboso (Ba)": "9. Vetumboso (Ba)",
+        "13. Koro (Ba)": "13. Dorig (Ba)",
+        "17. Merig": "17. Merig (Ba)",
+        "21. Nevenevene (Ma)": "21. Navenevene (Ma)",
+        "31. Apma (Pe": "31. Apma (Pe)",
+        "52. Akei (Pilipili)": "52. Akei",  # not sure if this one should be here; i think Tryon gives an alternative name in the first instance
+        "70 Tutuba": "70. Tutuba",
+        "7 . Malo South": "73. Malo South",
+        "86. Repanbitip.": "86. Repanbitip",
+        "91. Karbol": "91. Katbol",
+        "99. Wala": "99. Rano",
+        "121. Fali(CC) (Am)": "121. Fali (Am)",
+        "132. Mae-Morae(Ep)": "132. Mae-Morae (Ep)",
+        "133. Nukaura (Ep)": "133. Nikaura (Ep)",
+        "144. Vowa(Ep)": "144. Vowa (Ep)",
+        "144. Vovo (Ep)": "144. Vowa (Ep)",
+        "161. Sie": "161. Sie (Er)",
+        "161. Sie (Ef)": "161. Sie (Er)",
+        "162. Ura": "162. Ura (Er)",
+        "162. Ura (Ef)": "162. Ura (Er)",
+        "170. Lenau (Ta)": "170. Lenau. (Ta)",
+    }
 
-    LANG = {
-            "1. Fali (OC) (AM)": ["1", "Fali (OC)", "Am"],
+    row = REPLACEMENTS.get(row, row)
+
+    # LANG = {
+    #        "1. Fali (OC) (AM)": ["1", "Fali (OC)", "Am"],
             #"89 Timbembe": ["89", "Timbembe", ""],
             #"117 Windua (Ma)": ["117", "Windua", "Ma"],
             #"149 Makatea (Sh)": ["149", "Makatea", "Sh"],
             #"177 Aneityum": ["177", "Aneityum", ""],
             #"70 Tutuba": ["70", "Tutuba", ""],
-            }
-    if row.strip() in LANG:
-        return LANG[row.strip()]
+    #        }
+    # if row.strip() in LANG:
+    #    return LANG[row.strip()]
 
     if not '.' in row:
         raise ValueError(row)
@@ -74,7 +102,7 @@ def get_language(row):
     else:
         name = name_
         group = ""
-    name = name.strip("*").strip(".")
+    name = name.strip("*") # .strip(".")
     return number, name, group
 
 
@@ -132,8 +160,8 @@ class Dataset(BaseDataset):
                     args.log.info("Problem with entry '{0} / {1}'".format(fname, row))
                     errors.add((fname, row[0]))
 
-        
-        if RECREATE:
+
+        if RECREATE_CONCEPTS:
             with codecs.open(self.etc_dir / "concepts.tsv", "w", "utf-8") as f:
                 f.write("NUMBER\tENGLISH\n")
                 visited = set()
@@ -149,14 +177,19 @@ class Dataset(BaseDataset):
                         args.log.warning(f"Problem with parsing concept: {row}")
 
 
-            with codecs.open(self.etc_dir / "languages.tsv", "w", "utf-8") as f:
-                f.write("ID\tNumber\tName\tSubGroup\n")
-                for row in set(languages):
-                    try:
-                        number, name, group = get_language(row)
-                        f.write(slug(name) + "\t" + number + "\t" + name + "\t" + group + "\n")
-                    except ValueError:
-                        args.log.warning(f"Problem with parsing language: {row}")
+        if RECREATE_LANGUAGES:
+            language_triples = set()  # triples of (number, name, region)
+            for row in set(languages):
+                try:
+                    number, name, region = get_language(row)
+                    language_triples.add((number, name, region))
+                except ValueError:
+                    args.log.warning(f"Problem with parsing language: {row}")
+
+            with codecs.open(self.raw_dir / "languages.tsv", "w", "utf-8") as f:
+                f.write("ID\tNumber\tName\tRegion\n")
+                for number, name, region in language_triples:
+                    f.write(slug(name) + "\t" + number + "\t" + name + "\t" + region + "\n")
 
             args.log.info("wrote concepts and languages")
 
