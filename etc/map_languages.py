@@ -49,6 +49,18 @@ lang_name_maps = {
     "Lametin": "Merei"
 }
 
+# set manual exceptions to Glottocode mapping from ABVD
+manual_glottomaps = {
+    "Maxbaxo": "avok1244",
+    "Vovo": "vaoo1237",
+    "Toak": "toak1237",
+    "Maat": "sout2859",
+    "Pango": "sout2856"
+}
+
+for lang, glottocode in manual_glottomaps.items():
+    lang_to_glottocode[lang] = glottocode
+
 table = []
 
 with open(Path(__file__).parent / "languages.tsv") as f:
@@ -56,8 +68,8 @@ with open(Path(__file__).parent / "languages.tsv") as f:
     for row in reader:
         name = row["Name"]
         name = lang_name_maps[name] if name in lang_name_maps else name
-        if row["SubGroup"] == "NULL":
-            row["SubGroup"] = ""
+        if row["Region"] == "NULL":
+            row["Region"] = ""
         try:
             glottocode = lang_to_glottocode[name]
             row["Glottocode"] = glottocode
