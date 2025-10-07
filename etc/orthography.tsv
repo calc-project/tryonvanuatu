@@ -1,379 +1,185 @@
-Grapheme	IPA	Examples	Languages	Frequence	Codepoints
-$	NULL				
-&quot	NULL	βʷag&quot	navenevene	1	U+0026
-'	ʕ	nu-kʷ'anea-k	imreang	1	U+0027 U+0061
--	+	βulu-k, na-βlu-k	motlav, dorig, wetamut, hiw, lakona, merig, lehalurup, koro, navenevene, peterara, merlav, vetumboso, lehali, mosina, nume, sasar, mota, tam, toga, marino, vatrata, bek, nasawa	100	U+002d
+Grapheme	IPA	Frequence	Codepoints
+a	a	37099	U+0061
+-	+	21744	U+002d
+^-	NULL
 -$	NULL
---	+
---$	NULL
-‧-	+
-_-_	+
-_-	NULL
--¹$	NULL
-_¹$	NULL
-.$	NULL
-·$	NULL
--_	+
-.	+	nči-n tleᵐb.	larevat	1	U+002e
-=	+	tenaᵐbeɣ=yah	tur	1	U+003d
-I	ɪ	ni - Iwe-k, na- Iwe-k	motlav, wetamut, hukua	4	U+0049 U+0077
-^	NULL				
-^B	β	Bi lu-ŋ, Biču-ᵑgu	yevali, maemorae, burumba	3	U+005e U+0042
-^I	ɪ	Iiwœ-k	vetumboso	1	U+005e U+0049
-^a	a	afuru, ako-	dixonreefi, fila, fortsenal, vowa, sa, aore, toak, eton, sharkbayii, penantsiro, mele, matae, valpei, lorediakarkar, maat, timbembe, roria, laul, malmariv, tonga, tur, raga, nokuku, makatea, akei, lironesa, vunapu, sharkbayi, sakao, butmas, hukua, tutuba, batunlamak, mafea, aniwa, leviamp, tasiriki, malonorth, nonona, narango, nambel, lolsiwoi, lepaxsivir, katbol, polonombauk, baiap, repanbitip, lolomatui, nasawa, navut, wailengi, amblong, ngwatua, faulili, sesivi, futuna	100	U+005e U+0061
-^b	b	boto-k, boa	amblong, marino, butmas, lehali, tur, letemboi, apma, sowa, batunlamak, malonorth, sesake, kerepua, northt, larevat, nume, eton, nasawa, siviri, orap, toga, vowa, katbol, sa, burumba	71	U+005e U+0062
-^bw	b w	bwozo-, bwa-ŋsu-	sowa	2	U+005e U+0062 U+0077
-^bʷ	bʷ	bʷa-k, bʷarasok	sowa, apma, nasawa, sa	7	U+005e U+0062 U+02b7
-^d	d	delŋo-k, deliño-k	sowa, amblong, larevat, toga, marino, lehalurup, koro, portvato, filakara, sesake, pinalum, seke, batunlamak, letemboi, fonah, lehali, baiap, sie, orap, sesivi, avok, vatrata	43	U+005e U+0064
-^dʳ	dʳ	dʳeleŋa-k, dʳete-k	butmas, lakona	5	U+005e U+0064 U+02b3
-^e	e	ese-, es	dixonreefi, aniwa, matae, laul, baiap, toga, maragus, katbol, northt, sharkbayi, aneityum, kerepua, merig, batunlamak, mele, mafea, lametin, merlav, lironesa, nonona, nambel, tolomako, tambotalo, amblong, fortsenal, filakara, lakona, wusivalui, penantsiro, eratap, tutuba, lehalurup, navenevene, araki, morouas, letemboi, vetumboso, tasiriki, malonorth, narango, portvato, ura, baetora, roria, sowa, malmariv, nuvi, mae, nasawa, hiw, navut, sie, nokuku, tam, tangoa, narovorovo, piamatsina, sesivi, akei, vatrata, mate	100	U+005e U+0065
-^f	f	fulu-, furu	butmas, futuna, sharkbayi, lorediakarkar, tur, polonombauk, amblong, lironesa, batunlamak, mafea, nambel, narango, seke, aniwa, lolomatui, faulili, makatea, mele, peterara, fonah, eton, tambotalo, raga, sasar, maemorae, ranon, vowa, sharkbayii	100	U+005e U+0066
-^fs	f s	fsɛl	polonombauk	1	U+005e U+0066 U+0073
-^fw	f w	fwiriu, fwefwe-ku	raga	2	U+005e U+0066 U+0077
-^g	g	gere-n, gege	apma, toga, ranon, tur, lironesa	6	U+005e U+0067
-^gʷ	gʷ	gʷula-ᵑgu	ngwatua	1	U+005e U+0067 U+02b7
-^h	h	hui-ᵑgu, hui-ku	toak, maat, lironesa, laul, tangoa, faulili, tambotalo, toga, ngwatua, sharkbayi, wusivalui, valpei, malosouth, wusimana, vao, piamatsina, lakona, kerepua, unua, nul, lehali, lolomatui, raga, wailengi, ranon, vowa, fali, sakao, vovo, hukua, araki, fonah, larevat, narovorovo, sesivi, sharkbayii	100	U+005e U+0068
-^i	i	imʷa, iŋoa	aneityum, raga, motlav, filakara, aniwa, timbembe, futuna, seke, fonah, baetora, sowa, lenakel, maemorae, makatea, sa, tasmate, eratap, hukua, merig, lonas, tutuba, mele, fila, unua, aore, toak, navenevene, nul, merlav, lironesa, morouas, letemboi, valpei, tasiriki, portsandwich, dixonreefi, maat, loniel, narango, portvato, apma, wailapa, laul, malmariv, repanbitip, lenau, navut, sie, mota, tam, narovorovo, ngwatua, faulili, maluabay, akei, katbol, vatrata, lamenu, mate	100	U+005e U+0069
-^i$	i	i	sa	1	U+005e U+0069 U+0024
-^k	k	kunu-u, kalsu-	nul, filakara, visina, nuvi, mapremo, mate, nikaura, yevali, lamenu, tasmate, hukua, makura, ikiti, tutuba, fila, mafea, matae, burupika, lolsiwoi, mae, tambotalo, ngwatua, maemorae, maragus, futuna, sakao, iarkei, mele, ikiyau, aore, enfit, navenevene, imreang, valpei, rano, aniwa, tasiriki, aulua, rerep, portvato, tavio, apma, laul, eton, baiap, lapwang, lolomatui, mpotovoro, atchin, orap, nokuku, isiai, faulili, sesivi, fortsenal, vowa, makatea, akei, katbol	100	U+005e U+006b
-^ks	k s	ksowaᵑk	dixonreefi	1	U+005e U+006b U+0073
-^kw	k w	kwo-ᵑgu, kwafafa	yevali, aniwa	2	U+005e U+006b U+0077
-^kʰ	kʰ	kʰug	orap	1	U+005e U+006b U+02b0
-^kʷ	kʷ	kʷo, kʷoro-k	ikiyau, vetumboso, lapwang, lakona, imreang, lehali, nume, hiw, enfit, ikiti, merlav, lolsiwoi, toga, vatrata, merig, ngwatua, portr, isiai, lehalurup, yatuk, yevali, sharkbayii, lamenu	93	U+005e U+006b U+02b7
-^l	l	lu-k, lowo-k	marino, seke, merig, navenevene, peterara, merlav, leviamp, sowa, tam, toga, lakona, butmas, lehalurup, timbembe, nume, polonombauk, baetora, nasawa, tur, unmet, narovorovo, sharkbayi, wusivalui, koro, fila, mele, toak, lironesa, matae, fonah, lorediakarkar, aulua, maat, portvato, lolsiwoi, tavio, lehali, mosina, apma, tautu, laul, mae, baiap, lolomatui, petarmur, raga, navut, wailengi, sasar, atchin, orap, mota, uripiv, faulili, uri, sesivi, ranon, maemorae, maluabay, vowa, akei, maragus, katbol, fali, vatrata, sharkbayii, sa, vunapu	100	U+005e U+006c
-^ll	l l	llβa	malonorth	1	U+005e U+006c U+006c
-^lll$	l i l	lll	lorediakarkar	1	U+005e U+006c U+006c U+006c U+0024
-^m	m	mata-ku, mata-k	wusivalui, kerepua, lametin, nonona, nume, wusimana, lakona, tasmate, penantsiro, hukua, merig, wetamut, lehalurup, koro, batunlamak, valpei, vetumboso, morouas, matae, tasiriki, lolsiwoi, lehali, mosina, wailapa, malmariv, lolomatui, hiw, raga, navut, wailengi, sasar, nokuku, mota, toga, ngwatua, vunapu, piamatsina, fortsenal, akei, vatrata, sa, seke, navenevene, peterara, bek, baetora, apma, sowa, nasawa, tam, narovorovo, marino, northt	100	U+005e U+006d
-^mʷ	mʷ
-^mʷ	mʷ	mʷel, mʷatu-k	bonkovia, nikaura, koro, nul, portr, timbembe, nuvi, mapremo, raga, filakara, wusivalui, lonas, enfit, imreang, burupika, tavio, apma, laul, lapwang, baiap, atchin, yevali, sa, northt, lamenu, mate, lakona, eratap, wala, hukua, seke, lingarak, wetamut, ikiyau, toak, labo, navenevene, merlav, valpei, axamb, yatuk, maat, rerep, portvato, dorig, nume, tautu, sowa, eton, repanbitip, lolomatui, wailengi, sasar, lenakel, mota, vinmavis, uripiv, faulili, sesivi, uri, maluabay, maragus, katbol	100	U+005e U+006d U+02b7
-^m̈	m̈/ʙ	m̈asi, m̈atˢi	tangoa, mafea, leviamp, aore, unmet, vao, araki, mpotovoro	36	U+005e U+006d U+0308
-^n	n	nalsu-, nasu-	windua, motlav, lingarak, labo, benour, dorig, lembinwen, malfaxal, vinmavis, dixonreefii, maskelynes, bonga, letemboi, mpotovoro, vovo, burmbar, axamb, litzlitz, vartavo, lepaxsivir, maxbaxo, petarmur, piamatsina, avok, tasmate, penantsiro, wetamut, batunlamak, lametin, valpei, morouas, leviamp, tasiriki, aulua, larevat, nambel, narango, rerep, dixonreefi, roria, wailapa, malmariv, repanbitip, hiw, unmet, amblong, nokuku, fortsenal, maluabay, maragus, vunapu	100	U+005e U+006e
-^nʷ	nʷ	nʷaxata, nʷaɣata	nasawa, narovorovo	2	U+005e U+006e U+02b7
-^n̥	n̥	n̥aŋə-k, n̥e le-k	ikiyau, enfit, imreang, lapwang, lenakel, aneityum, vowa, lenau	16	U+005e U+006e U+0325
-^o	o	ou, o-u	dorig, mosina, vetumboso, lironesa, dixonreefi, laul, nokuku, katbol, filakara, tasmate, merig, wetamut, koro, nul, merlav, aniwa, maat, timbembe, faulili, sesivi, piamatsina, lamenu, mate, sharkbayi, sakao, wusivalui, penantsiro, kerepua, lehalurup, aore, toak, valpei, rerep, lehali, nuvi, baiap, wusimana, repanbitip, sie, mota, toga, makatea, maragus, vunapu	90	U+005e U+006f
-^p	p	patu-, poro-	burupika, malosouth, sharkbayi, penantsiro, kerepua, burumba, mafea, aore, araki, morouas, axamb, leviamp, fonah, lorediakarkar, narango, visina, wailapa, tambotalo, nuvi, bonkovia, mapremo, hiw, nikaura, sasar, atchin, nokuku, tangoa, piamatsina, ranon, fortsenal, yevali, sharkbayii, vunapu, mate, filakara, wusivalui, butmas, tasmate, hukua, lehalurup, unua, nul, matae, valpei, vetumboso, malonorth, nonona, aulua, larevat, tavio, lehali, mosina, laul, mae, unmet, mota, toga, ngwatua, maemorae, akei, fali, vatrata, sa, lamenu	100	U+005e U+0070
-^pʰ	pʰ	pʰaŋe	malonorth	1	U+005e U+0070 U+02b0
-^pʷ	pʷ	pʷatu-ku, pʷəkah	valpei, wusimana, raga, wusivalui, hukua, maragus, lenau, iarkei, ikiti, lonas, ikiyau, enfit, imreang, northt, portr, eton, lapwang, atchin, nokuku, fali, filakara, kerepua, lehalurup, toak, araki, nul, malonorth, yatuk, fonah, maat, visina, lehali, mosina, laul, bonkovia, mapremo, unmet, woraviu, lenakel, isiai, nguna, piamatsina, ranon, vunapu	80	U+005e U+0070 U+02b7
-^p̈	p̈/ʙ̥	p̈ep̈e, p̈etə-n	vao, tangoa, leviamp, unmet, mafea, araki	17	U+005e U+0070 U+0308
-^r	r	roro-, rima	nul, atchin, fila, aniwa, rerep, loniel, lironesa, wala, unua, araki, tasiriki, yatuk, portr, roria, laul, polonombauk, tur, tangoa, ranon, makatea, futuna, northt, mate, iarkei, lakona, tasmate, butmas, penantsiro, hukua, pinalum, aneityum, wetamut, mele, batunlamak, aore, toak, koro, lametin, peterara, valpei, rano, morouas, matae, axamb, portsandwich, lorediakarkar, nonona, nambel, fonah, mosina, wailapa, bek, tolomako, malmariv, unmet, navut, sasar, nokuku, isiai, uripiv, faulili, piamatsina, uri, fortsenal, akei, fali, vatrata, sa	100	U+005e U+0072
-^rs	r s	rsie	lorediakarkar	1	U+005e U+0072 U+0073
-^r̃	r̃	r̃ir̃i, r̃e-	sharkbayi, lorediakarkar	4	U+005e U+0072 U+0303
-^r̥	r̥	r̥aso-n, r̥ipnəik su-ᵑk	unua, rerep, isiai	7	U+005e U+0072 U+0325
-^s	s	susu-, susu-k	unua, butmas, lorediakarkar, apma, aore, mafea, baetora, tur, sharkbayii, sharkbayi, sowa, katbol, nume, wailengi, narovorovo, lakona, tutuba, polonombauk, filakara, araki, peterara, morouas, matae, tasiriki, portsandwich, nonona, vartavo, tambotalo, orap, akei, vovo, penantsiro, hukua, pinalum, koro, burmbar, lametin, burupika, rerep, lolsiwoi, tolomako, mae, bonkovia, tam, vatrata, vunapu, tasmate, lehalurup, batunlamak, valpei, vetumboso, tavio, roria, lolomatui, navut, sasar, amblong, mota, fortsenal, merig, navenevene, merlav, malonorth, nambel, narango, lehali, mosina, wailapa, malmariv, malosouth, unmet, tangoa, piamatsina, marino, vowa, sa, burumba	100	U+005e U+0073
-^ss	s s	ssye-	sharkbayi	1	U+005e U+0073 U+0073
-^t	t	tia-, tariŋa	mele, navenevene, peterara, nonona, tolomako, hiw, marino, wusivalui, hukua, kerepua, merig, burmbar, merlav, aniwa, valpei, tavio, mosina, baetora, malmariv, nasawa, sasar, sie, nokuku, tam, mota, narovorovo, ngwatua, vunapu, sa, burumba, lakona, makura, ikiti, lonas, seke, wetamut, fila, koro, vetumboso, malonorth, burupika, aulua, narango, lolsiwoi, lehali, bek, nume, sowa, eton, maxbaxo, wusimana, bonkovia, lolomatui, lenau, navut, wailengi, lenakel, isiai, toga, maemorae, piamatsina, makatea, futuna	100	U+005e U+0074
-^tʰ	tʰ	tʰai	malosouth	1	U+005e U+0074 U+02b0
-^tʳ	tʳ	tʳui, tʳuitʳui	wusivalui, lakona	7	U+005e U+0074 U+02b3
-^tˢ	ts	tˢiri-, tˢino-	wailapa, tolomako, wala, matae, wusivalui, morouas, navut, uri, fortsenal, lametin, nonona, malmariv, piamatsina, akei, penantsiro, hukua, pinalum, araki, nambel, timbembe, polonombauk, tur, vunapu, sharkbayi, vovo, rano, tasiriki, narango, tavio, roria, tambotalo, nokuku, tangoa, maragus	90	U+005e U+0074 U+02e2
-^tˢʰ	tsʰ	tˢʰnu-m	amblong	1	U+005e U+0074 U+02e2 U+02b0
-^tᵑ	tⁿ	tᵑino-	lametin	1	U+005e U+0074 U+1d51
-^u	u	uri-, uro-	kerepua, lakona, wusivalui, mafea, apma, wailapa, vatrata, sharkbayii, sharkbayi, penantsiro, hukua, tutuba, aore, lametin, morouas, letemboi, tasiriki, nonona, nambel, narango, laul, tolomako, marino, akei, lironesa, sakao, tasmate, wetamut, mele, fila, batunlamak, koro, navenevene, peterara, valpei, matae, leviamp, portsandwich, lorediakarkar, ura, dorig, tautu, polonombauk, sowa, malmariv, baiap, wusimana, lolomatui, vao, tur, unmet, raga, navut, sie, amblong, tam, mota, narovorovo, toga, maemorae, sesivi, fortsenal, makatea, vowa, futuna, sa	100	U+005e U+0075
-^u$	u	u	futuna	1	U+005e U+0075 U+0024
-^v	v	vatˢae	tolomako	1	U+005e U+0076
-^v̈	v̈/v	v̈ate-k, v̈av̈ine	vao, leviamp, mafea, unmet	7	U+005e U+0076 U+0308
-^w	w	wulu-ku, wawa-ku	nokuku, tasmate, mota, hukua, kerepua, merig, lehali, wusimana, ranon, merlav, valpei, vetumboso, tasiriki, fonah, maat, nume, sasar, vatrata, sa, lakona, apma, mosina, sowa, hiw, atchin, piamatsina, wusivalui, motlav, wetamut, lehalurup, araki, imreang, burupika, dorig, lolsiwoi, timbembe, lolomatui, nasawa, sie, tam, fali, vunapu	100	U+005e U+0077
-^x	x	xaᵐbe-n, xiriu	malonorth, raga, peterara, aulua, navenevene, araki, rerep, sasar, burmbar, maxbaxo, mae, nasawa, unmet, tangoa, unua, toak, portsandwich, vao, lingarak, valpei, axamb, leviamp, litzlitz, larevat, vartavo, lepaxsivir, orap, toga, sa	89	U+005e U+0078
-^xw	x w	xwita	peterara, toga	2	U+005e U+0078 U+0077
-^y	j	yerum an, yila	hiw, nul, yevali, lonas, burupika, yatuk, nuvi, nikaura, isiai, lamenu, filakara, ikiti, lehalurup, ikiyau, enfit, loniel, portr, lehali, lapwang, mapremo, lenau, imreang, visina, ura, burumba, sakao, iarkei, wusivalui, labo, lorediakarkar, portvato, tavio, bonkovia, lenakel, toga, sesivi, ranon, katbol, mate	100	U+005e U+0079
-^z	z	zomo, zama	sowa	5	U+005e U+007a
-^æ	æ	æmio	baiap	1	U+005e U+00e6
-^ð	ð	ðya-, ðana-	roria, sakao, lorediakarkar	6	U+005e U+00f0
-^ñ	ɲ	ñumu, ñu-ᵑgut	bonkovia, burumba, imreang, vovo, aniwa, fonah, vao, seke, labo	13	U+005e U+00f1
-^ü	y	üβɣøl, üβøl	sakao	2	U+005e U+00fc
-^č	tʃ	čine-k, či-k	burumba, tautu, wusimana, uripiv, kerepua, lehalurup, burupika, bonkovia, yevali, batunlamak, araki, rerep, apma, atchin, pinalum, unua, uri, ikiti, valpei, aniwa, tasiriki, malonorth, portsandwich, narango, malosouth, baiap, amblong, tam, maluabay, maragus, futuna	85	U+005e U+010d
-^ŋ	ŋ	ŋoro, ŋata	mele, fila, eton, makatea, hukua, larevat, apma, sasar, futuna, mafea, araki, merlav, aniwa, vetumboso, portsandwich, maat, vartavo, visina, baetora, roria, bek, sowa, nuvi, vao, mapremo, hiw, nikaura, siviri, malfaxal, tangoa, nguna, maemorae, yevali, lelepa, vowa, vatrata, lamenu	51	U+005e U+014b
-^ŋʷ	ŋʷ	ŋʷat, ŋʷera	ngwatua, merlav, merig, lolsiwoi, lehali, aniwa, toga, lolomatui, wailengi	23	U+005e U+014b U+02b7
-^œ	œ	œrø-, œpœs	sakao, dorig	26	U+005e U+0153
-^ř	ř/r	řařna-ku, řaŋaha-ku	araki	3	U+005e U+0159
-^ɔ	ɔ	ɔrlɔ-, ɔlɔm	sakao	10	U+005e U+0254
-^ə	ə	əmɣut, əworsoŋ	dixonreefi, leviamp, maemorae, lorediakarkar, unmet	12	U+005e U+0259
-^ɛ	ɛ	ɛle, ɛsɛ-ŋ	sakao, narango, sharkbayii, batunlamak, wailapa, amblong	16	U+005e U+025b
-^ɣ	ɣ	ɣala, ɣoro-k	toga, lehalurup, tolomako, hiw, merlav, vetumboso, narovorovo, marino, vatrata, lakona, merig, wetamut, koro, lehali, mosina, nume, mota, tam, burmbar, vartavo, dorig, baetora, sasar, lametin, nonona, lepaxsivir, bek, roria	100	U+005e U+0263
-^ɣʷ	ɣʷ	ɣʷawa-ᵑgu, ɣʷiriu	peterara	2	U+005e U+0263 U+02b7
-^ˀ	ʔ	ˀarai, ˀamʷaŋ	penantsiro, sasar, vunapu, lembinwen, nokuku, wusivalui, mataso, vatrata, bek	12	U+005e U+02c0 U+0061
-^ˤ	ʕ	ˤoβa-na, ˤon	lorediakarkar, vunapu	3	U+005e U+02e4 U+006f
-^ˤ	ʕ	ˤumi-ˀu, ˤutu	vunapu	2	U+005e U+02e4 U+0075
-^β	β	βulu-, βulu-ese-	nonona, toak, morouas, maat, nume, roria, orap, lakona, wusivalui, merig, koro, aore, merlav, matae, portsandwich, rerep, tavio, mosina, malmariv, vao, navut, fortsenal, akei, vunapu, penantsiro, wetamut, tutuba, lehalurup, burmbar, unua, lametin, araki, vetumboso, malonorth, vartavo, aulua, visina, portvato, lolsiwoi, timbembe, baetora, bek, wailapa, lehali, katbol, tolomako, nuvi, tambotalo, baiap, bonkovia, repanbitip, mapremo, nikaura, wailengi, sasar, mota, tangoa, ngwatua, piamatsina, sesivi, marino, vowa, maskelynes, maragus, fali, vatrata, sharkbayii, lamenu	100	U+005e U+03b2
-^βw	β w	βwatisi-n	laul	1	U+005e U+03b2 U+0077
-^βʷ	βʷ	βʷita, βʷarβʷle	katbol, navenevene, narovorovo, baetora, timbembe, repanbitip, portsandwich, maat, lolsiwoi	14	U+005e U+03b2 U+02b7
-^θ	θ	θetˢu-, θəpʷə-k	tur, sharkbayii, lapwang, sharkbayi	4	U+005e U+03b8
-^ᴺgʷ	ⁿgʷ	ᴺgʷero-ᴺgu	wailengi	1	U+005e U+1d3a U+0067 U+02b7
-^ᴺk	ⁿk	ᴺkalina-	navut	1	U+005e U+1d3a U+006b
-^ᵏpʷ	kpʷ	ᵏpʷo, ᵏpʷoe	marino, mota, wetamut, sasar, mosina, lehalurup, koro, bek, merig, merlav, fali	46	U+005e U+1d4f U+0070 U+02b7
-^ᵐb	ⁿb	ᵐboro-k, ᵐbatu-k	maxbaxo, uripiv, wala, pinalum, burmbar, lametin, rano, litzlitz, portsandwich, nambel, timbembe, lepaxsivir, tautu, roria, uri, katbol, seke, koro, unua, navenevene, aulua, dixonreefi, vartavo, rerep, portvato, polonombauk, vao, petarmur, tam, maluabay, sa, vovo, tutuba, vetumboso, tasiriki, malonorth, dorig, apma, nume, baetora, mae, baiap, repanbitip, orap, narovorovo, ngwatua, sesivi, vowa, avok, fali, vatrata	100	U+005e U+1d50 U+0062
-^ᵐbs	ⁿb s	ᵐbsil	seke	1	U+005e U+1d50 U+0062 U+0073
-^ᵐbʷ	ⁿbʷ	ᵐbʷi, ᵐbʷatu-k	lolomatui, raga, repanbitip, sa, unua, tautu, baetora, uripiv, sesivi, uri, katbol, wala, rerep, timbembe, apma, baiap, tam, narovorovo, maluabay, avok, sesake, navenevene, malonorth, portvato, lepaxsivir, lehali, maxbaxo, tonga, nasawa, vinmavis, isiai, maragus, fali	73	U+005e U+1d50 U+0062 U+02b7
-^ᵐp	ⁿp	ᵐpeᵐpe, ᵐputo-	malmariv, navut, tutuba, toga, piamatsina, rerep, mpotovoro	32	U+005e U+1d50 U+0070
-^ᵐʰb	ⁿbʱ	ᵐʰbeᵐʰbe, ᵐʰbaɣeo	aore	2	U+005e U+1d50 U+02b0
-^ᵑg	ⁿg	ᵑgere, ᵑgio	lolsiwoi, peterara, tautu, wala, pinalum, unua, burmbar, aulua, rerep, portvato, lepaxsivir, baetora, baiap, raga, wailengi, uripiv, narovorovo, sesivi, fali, sa, lametin, rano, vartavo, timbembe, lolomatui, maemorae, maluabay, sesake, eratap, ikiti, seke, navenevene, litzlitz, fonah, larevat, portsandwich, ura, roria, maxbaxo, repanbitip, nasawa, bonkovia, hiw, tam, uri, yevali, vowa, avok	100	U+005e U+1d51 U+0067
-^ᵑgw	ᵑg w	ᵑgwero-ᵑgu	lolsiwoi	1	U+005e U+1d51 U+0067 U+0077
-^ᵑgʷ	ⁿgʷ	ᵑgʷaratu, ᵑgʷono-ᵑgu	wailengi, ngwatua, peterara, lolsiwoi	22	U+005e U+1d51 U+0067 U+02b7
-^ᵑk	ⁿk	ᵑkarai, ᵑkae-	malmariv, navut, polonombauk, roria	13	U+005e U+1d51 U+006b
-^ḍ	ḍ/ɖ	ḍuiḍui, ḍano na mata-	nonona	4	U+005e U+1e0d
-^ṭ	ṭ/ʈ	ṭae-, ṭom̈i-	mafea	3	U+005e U+1e6d
-^ⁿd	ⁿd	ⁿdara-k, ⁿdi-ŋ	roria, filakara, petarmur, maemorae, litzlitz, larevat, eratap, windua, pinalum, merig, unua, peterara, merlav, leviamp, portsandwich, dixonreefi, rerep, vartavo, ura, lolsiwoi, lepaxsivir, lehali, polonombauk, mae, repanbitip, lolomatui, unmet, wailengi, narovorovo, uripiv, uri, vatrata, wala, batunlamak, lehalurup, navenevene, axamb, vetumboso, portvato, benour, timbembe, apma, tautu, lembinwen, nume, baetora, nasawa, pango, raga, siviri, orap, malfaxal, tam, maluabay, maragus, fali, katbol	100	U+005e U+207f U+0064
-^ⁿdʳ	ⁿdʳ	ⁿdʳae-, ⁿdʳalo-	polonombauk, tambotalo, lametin, butmas, morouas, vartavo, aore, aulua, nambel, lepaxsivir, tautu, mae, katbol, seke, batunlamak, burmbar, leviamp, narango, timbembe, maxbaxo, tur, unmet, orap, uripiv, uri, sesivi	52	U+005e U+207f U+0064 U+02b3
-^ⁿdʷ	ⁿdʷ	ⁿdʷu-	roria	1	U+005e U+207f U+0064 U+02b7
-^ⁿḍ	ⁿḍ/ⁿɖ	ⁿḍiuⁿḍiu, ⁿḍomi	tutuba	4	U+005e U+207f U+1e0d
-_	+	kapa kapʷa, i lu pʷa-u	nikaura, nuvi, ikiyau, sharkbayi, filakara, wetamut, lehalurup, enfit, nul, aniwa, vetumboso, larevat, nambel, narango, dorig, lehali, mae, vinmavis, vatrata, mate, sakao, lakona, penantsiro, windua, aneityum, ikiti, toak, aore, labo, imreang, northt, merlav, peterara, leviamp, rano, burupika, lorediakarkar, rerep, ura, timbembe, lolsiwoi, tavio, lembinwen, mosina, apma, pwele, laul, eton, lapwang, wusimana, tonga, repanbitip, mapremo, lenau, pango, hiw, mpotovoro, isiai, mota, toga, tam, sesivi, maemorae, piamatsina, dixonreefii, yevali, maluabay, makatea, futuna, lironesa, sharkbayii, sa, burumba, lamenu	100	U+005f
-_$	NULL	maᵑki -	navut	1	U+005f U+0024
-_-	+
-__	+	ni - Iwe-k, ne - leme-n	lingarak, motlav	2	U+005f U+005f
-a	a
-a	a	patu-, pʷatu-ku	wusivalui, seke, lametin, tasiriki, dorig, wusimana, lakona, hukua, kerepua, matae, nonona, raga, navut, piamatsina, akei, tasmate, penantsiro, batunlamak, morouas, apma, baetora, wailapa, sowa, tolomako, malmariv, lolomatui, nasawa, wailengi, mota, narovorovo, fortsenal, sa, vunapu, merig, wetamut, koro, navenevene, peterara, merlav, valpei, lolsiwoi, roria, amblong, tam, ngwatua, marino	100	U+0061
-a$	a	mata-, mata	nuvi, visina, pwele, portsandwich, dixonreefii, mele, kerepua, fila, nonona, piamatsina, futuna, matae, aniwa, malonorth, roria, sowa, malosouth, raga, navut, siviri, lenakel, makatea, akei, sakao, iarkei, windua, penantsiro, ikiti, lonas, tutuba, ikiyau, enfit, mafea, aore, lametin, imreang, morouas, letemboi, nambel, loniel, benour, tolomako, malmariv, lapwang, lenau, isiai, tangoa, fortsenal, northt	100	U+0061 U+0024
-a:	aː	mata:-ᵑku	narango	1	U+0061 U+003a
-aˡ$	a	mamaˡ, na-naˡ	batunlamak, tasmate, baiap	3	U+0061 U+02e1 U+0024
-b	b	aᵐbat, maᵐbe	butmas, burumba, litzlitz, aulua, benour, lepaxsivir, apma, vovo, motlav, burmbar, aore, letemboi, rano, burupika, portsandwich, nambel, dixonreefi, timbembe, tavio, lembinwen, roria, mae, tonga, tambotalo, bonkovia, vao, tur, mapremo, orap, amblong, vinmavis, ngwatua, maskelynes, katbol, bonga, eratap, larevat, lametin, peterara, vetumboso, malonorth, lorediakarkar, maat, vartavo, narango, rerep, lehali, polonombauk, lolsiwoi, sowa, repanbitip, pango, malfaxal, uri, yevali, vowa, vatrata, sa, northt	100	U+0062
-b$	b	na-βeᵐb, na-koᵐb	avok, maskelynes, axamb, repanbitip, vovo, maxbaxo, wala, uri, portsandwich, larevat, rerep, nambel, lepaxsivir, nume	21	U+0062 U+0024
-bw	b w	n-bwau-k, kapak kabwa	lenakel, wusivalui, eratap, pango, enfit, apma	6	U+0062 U+0077
-d	d	mʷaⁿdu-ᵑgu, mʷeⁿdu-k	amblong, nguna, sesake, motlav, batunlamak, litzlitz, nume, roria, bonkovia, woraviu, sesivi, lehalurup, koro, vetumboso, baiap, maskelynes, vatrata, northt, lamenu, lakona, eratap, aneityum, merig, lingarak, burumba, peterara, morouas, letemboi, axamb, leviamp, malonorth, burupika, aulua, larevat, narango, portvato, timbembe, tavio, lehali, baetora, polonombauk, pwele, sowa, tambotalo, tur, mapremo, pango, unmet, petarmur, raga, siviri, sie, orap, toga, narovorovo, faulili, maemorae, dixonreefii, yevali, maragus, fali	100	U+0064
-d$	d	na-βeⁿd, ančeⁿd	roria, mae, maragus, timbembe, orap	8	U+0064 U+0024
-dʳ	dʳ	leⁿdʳumdʳum, uⁿdʳu-	narango, tambotalo, lametin, morouas, polonombauk, butmas, portsandwich, nambel, tur, burmbar, aore, axamb, vartavo, lepaxsivir, maxbaxo, eratap, wetamut, lingarak, batunlamak, letemboi, aulua, pango, seke, dixonreefi, timbembe, mae, orap, avok	100	U+0064 U+02b3
-dʳw	dʳ w	na-wuⁿdʳwuⁿdʳ	avok	1	U+0064 U+02b3 U+0077
-e	e	ne-xafent elen, ne-ⁿdeliŋa-n	larevat, lingarak, repanbitip, maskelynes, lakona, windua, fila, letemboi, litzlitz, burupika, aulua, vartavo, lepaxsivir, bek, mae, baiap, petarmur, orap, vinmavis, sesivi, makatea, fali, katbol, vatrata, tasmate, butmas, penantsiro, eratap, motlav, tutuba, koro, burmbar, unua, labo, rano, leviamp, malonorth, portsandwich, rerep, dixonreefi, fonah, portvato, benour, lolsiwoi, timbembe, lehali, baetora, tautu, lembinwen, laul, tavio, tolomako, malosouth, lolomatui, pango, unmet, raga, wailengi, sasar, malfaxal, tangoa, toga, ngwatua, ranon, dixonreefii, vowa, maragus, burumba	100	U+0065
-e$	e	ese-, meme-	sowa, sharkbayi, aore, lorediakarkar, tolomako, navut, mpotovoro, piamatsina, penantsiro, kerepua, lametin, morouas, matae, nonona, nambel, roria, malmariv, fortsenal, akei, tutuba, fila, mafea, letemboi, portsandwich, tambotalo, dixonreefii, makatea, lakona, wusivalui, hukua, mele, labo, axamb, vetumboso, malonorth, dixonreefi, wailapa, pwele, baiap, vinmavis, tangoa, vunapu	100	U+0065 U+0024
-eˡ$	e	naneˡ	litzlitz	1	U+0065 U+02e1 U+0024
-f	f
-f	f	fafine, nifo	fila, futuna, mele, larevat, raga, eratap, peterara, aniwa, pwele, lolomatui, lironesa, aneityum, tur, butmas, batunlamak, narango, polonombauk, pango, amblong, maemorae, lelepa, makatea, sharkbayi, iarkei, seke, enfit, yatuk, fonah, aulua, lorediakarkar, nambel, portr, ura, benour, nasawa, siviri, wailengi, ngwatua, faulili, northt	100	U+0066
-f$	f	arif, f-nuf	nambel, narango, apma, larevat	7	U+0066 U+0024
-fw	f w	na-rfwa-k, fwefwe-ku	loniel, raga	2	U+0066 U+0077
-g	g	ᵐbəraᵑgo-ᵑk, ne-ngingə	letemboi, peterara, burupika, bonkovia, unua, rerep, lolsiwoi, tavio, lolomatui, repanbitip, mapremo, wailengi, narovorovo, maemorae, yevali, windua, lingarak, burmbar, litzlitz, dixonreefi, vartavo, benour, baetora, lembinwen, vinmavis, aneityum, labo, navenevene, lametin, mataso, aulua, larevat, nambel, portvato, dorig, timbembe, lepaxsivir, roria, tonga, petarmur, raga, malfaxal, sesivi, avok	100	U+0067
-g$	g	sɔᵑg, ᵑgʷatug	orap, letemboi, ngwatua, vowa, polonombauk	6	U+0067 U+0024
-gʷ	gʷ	taᵑgʷaŋi-ᵑgu, siᵑgʷe-ᵑgu	peterara, ngwatua, wailengi, lolomatui, lolsiwoi	8	U+0067 U+02b7
-gʷ̣	gʷ̣/gʷ	tiᵑgʷ̣a-ᵑgu	ngwatua	1	U+0067 U+02b7 U+0323
-h	h
-h	h	na-kinihi-ŋ, na-ha-k	mpotovoro, mae, vao, benour, vowa, wusivalui, kerepua, lembinwen, wusimana, ngwatua, sakao, iarkei, bonga, lakona, ikiyau, toak, portvato, laul, tonga, lenau, orap, toga, faulili, vovo, makura, motlav, lonas, ikiti, enfit, araki, imreang, valpei, mataso, fonah, maat, loniel, ura, lehali, apma, lapwang, lolomatui, raga, wailengi, sie, lenakel, ranon, futuna, lironesa, northt	100	U+0068
-h$	h	pʷəkah, meh	bonga, toga, lakona, iarkei, motlav, mae, tonga, makura, ikiyau, mataso, maat, loniel, portvato, sie, vinmavis, lironesa, northt, lonas, toak, enfit, imreang, aulua, ura, lehali, apma, lapwang, vao, tur, lenau, petarmur, orap, vowa	62	U+0068 U+0024
-i	i	miti-k, n-ili-k	motlav, bek, sasar, polonombauk, maragus, leviamp, hiw, vatrata, lehalurup, timbembe, nasawa, kerepua, seke, mae, repanbitip, unmet, navut, mpotovoro, orap, uri, akei, katbol, vovo, wala, hukua, pinalum, lingarak, unua, navenevene, lametin, peterara, valpei, matae, axamb, letemboi, portsandwich, aulua, rerep, apma, tautu, tolomako, vao, raga, tam, vinmavis, uripiv, piamatsina, marino, maskelynes, avok, sa	100	U+0069
-i$	i	pili-, tali-	dixonreefi, sharkbayi, lorediakarkar, penantsiro, kerepua, tutuba, nonona, sowa, tangoa, fortsenal, sesake, mafea, lametin, matae, fonah, nambel, roria, tolomako, malmariv, navut, ranon, akei, futuna, sakao, eratap, motlav, mele, aore, morouas, aniwa, malonorth, yatuk, narango, loniel, portvato, ura, timbembe, lehali, mosina, polonombauk, pwele, malosouth, vao, raga, sie, woraviu, uri, piamatsina	100	U+0069 U+0024
-i_:	iː	hi :mi	polonombauk	1	U+005f U+003a
-ii	iː	fiot iᵐbii-k, mʷiir	vinmavis, butmas	3	U+0069 U+0069
-ii$	iː	amaii	fortsenal	1	U+0069 U+0069 U+0024
-k	k	βulu-ku, patu-ku	marino, wusivalui, tasmate, araki, valpei, tasiriki, wailapa, tolomako, wusimana, mapremo, tangoa, faulili, piamatsina, lironesa, burumba, hukua, maat, raga, ikiti, enfit, northt, lenau, atchin, isiai, iarkei, bonga, lonas, mele, ikiyau, imreang, leviamp, mataso, fonah, loniel, narango, lapwang, tonga, vao, unmet, lenakel, maskelynes	100	U+006b
-k$	k	βulu-k, ᵐbʷatu-k	lakona, motlav, merig, wetamut, lehalurup, batunlamak, navenevene, merlav, vetumboso, dorig, lehali, mosina, nume, bek, baetora, apma, polonombauk, hiw, sasar, mota, tam, toga, vatrata, sa, butmas, hukua	100	U+006b U+0024
-kk	k k	kekke	nume	1	U+006b U+006b
-ks	k s	na-ksæ-ᵑk, sɔksisat	repanbitip, polonombauk, dixonreefi	3	U+006b U+0073
-kʷ	kʷ	na-kʷa-k, nu-kʷane-k	motlav, lapwang, toga, ikiyau, portr, enfit, yatuk, lehali, lakona, imreang, lolsiwoi, hiw, isiai, ikiti, merlav, vetumboso, nume, ngwatua, merig, lehalurup, valpei, nikaura, vatrata	73	U+006b U+02b7
-kʷ$	kʷ	βelakʷ, mʷatu-kʷ	lapwang, enfit	4	U+006b U+02b7 U+0024
-kˀ	k ˀ	ikˀa	nokuku	1	U+006b U+02c0
-kˡ$	k	tataya-kˡ	butmas	1	U+006b U+02e1 U+0024
-kᵐ	kⁿ	ᵐbilakᵐbwihil, na- rokurukᵐbe-	apma, burmbar	2	U+006b U+1d50
-l	l
-l	l	βulu-, βulu-k	kerepua, lakona, wusivalui, tasmate, penantsiro, hukua, motlav, koro, valpei, matae, tasiriki, lehali, bek, wailapa, tolomako, malmariv, wusimana, navut, sasar, tangoa, piamatsina, akei, vatrata, sa, sharkbayi, sakao, butmas, merig, wetamut, seke, tutuba, lehalurup, batunlamak, mafea, aore, navenevene, araki, peterara, merlav, vetumboso, morouas, letemboi, malonorth, lorediakarkar, nonona, nambel, aulua, narango, dorig, lolsiwoi, mosina, nume, baetora, apma, roria, sowa, polonombauk, tambotalo, lolomatui, repanbitip, nasawa, tur, raga, wailengi, amblong, nokuku, mota, tam, toga, narovorovo, ngwatua, fortsenal, marino, sharkbayii, vunapu	100	U+006c
-l$	l	mʷel, mʷeil	lonas, lenau, malfaxal, ikiyau, lapwang, lenakel, northt, iarkei, eratap, wetamut, koro, lametin, imreang, morouas, leviamp, timbembe, apma, repanbitip, dixonreefii, maskelynes, filakara, penantsiro, merig, lingarak, lehalurup, unua, toak, enfit, merlav, nul, aniwa, axamb, letemboi, burupika, yatuk, portsandwich, lorediakarkar, maat, loniel, portr, benour, dorig, ura, tavio, mosina, lehali, laul, pwele, roria, nuvi, maxbaxo, bonkovia, vao, tur, pango, petarmur, nikaura, faulili, lelepa, maluabay, maragus, fali, lironesa, katbol, sa, lamenu, mate	100	U+006c U+0024
-lh	l h	malhu-ku, ulhari	wusimana, sakao, kerepua, wusivalui	4	U+006c U+0068
-ll	l l	na-lla-k, allβi	sakao, mae, wala, penantsiro, tasiriki, sesivi, nonona, wetamut, maragus, dorig, apma, sasar, nume	13	U+006c U+006c
-ll$	l l	kull, idoll	sesivi, raga	2	U+006c U+006c U+0024
-lll	l i l	kelllə-k	maragus	1	U+006c U+006c U+006c
-lʷ	lʷ	mʷəlʷdok	maragus	1	U+006c U+02b7
-l̥	l̥	kal̥iawen, no-nal̥e-mæniŋ	loniel, northt, iarkei, imreang, lenakel, lapwang, seke, lonas, lenau, ikiyau, apma, unua	32	U+006c U+0325
-l̥$	l̥	kʷatal̥	lapwang	1	U+006c U+0325 U+0024
-m	m
-m	m	meme-, ne-mte-k	mpotovoro, motlav, visina, dorig, tautu, vovo, wala, rano, pinalum, timbembe, pwele, uripiv, maskelynes, wetamut, lingarak, unua, araki, peterara, morouas, matae, tasiriki, portsandwich, aulua, nonona, baetora, atchin, akei, wusivalui, penantsiro, hukua, kerepua, koro, lametin, litzlitz, rerep, loniel, apma, sowa, maxbaxo, tam, katbol, vatrata, vunapu, tasmate, lehalurup, batunlamak, valpei, vetumboso, letemboi, hiw, navut, sasar, amblong, nokuku, mota, narovorovo, fortsenal, maragus, iarkei, lakona, aneityum, merig, tutuba, navenevene, merlav, axamb, malonorth, nambel, narango, lehali, mosina, wailapa, malmariv, malosouth, wusimana, nasawa, toga, piamatsina, uri, marino	100	U+006d
-m$	m	na-nekam, na-kini-lam	uri, amblong, mpotovoro, vinmavis, mae, tonga, bonga, portvato, maragus, makura, motlav, imreang, mataso, portsandwich, timbembe, tautu, lehali, mosina, apma, sie, nokuku, lenakel, maemorae, ranon, vowa, fali, lironesa	100	U+006d U+0024
-mm	m m	mammloti-, məmme-ɣ	larevat, nambel, lingarak, labo	5	U+006d U+006d
-mw	m w	nə-kəmwə-k	portr	1	U+006d U+0077
-mʷ	mʷ
-mʷ	mʷ	nə-mʷeimʷei-k, na-mʷau	nuvi, iarkei, loniel, sasar, ikiti, lingarak, ikiyau, imreang, yatuk, unmet, motlav, enfit, labo, portsandwich, portr, timbembe, nume, lenau, siviri, lenakel, woraviu, katbol, northt, filakara, tasmate, wala, lonas, nul, mataso, dixonreefi, visina, lolsiwoi, tautu, wailapa, laul, pwele, sowa, eton, raga, nokuku, uripiv, nguna, lelepa, avok, futuna	100	U+006d U+02b7
-mʷ$	mʷ	na-imʷ, na-sumʷ	motlav, ikiyau, mataso, fali, iarkei, bonga, sesake, eratap, makura, lonas, enfit, imreang, portsandwich, fonah, lepaxsivir, sowa, eton, tonga, hiw, lenau, lenakel	25	U+006d U+02b7 U+0024
-m̈	m̈/ʙ	nə-m̈e-k, m̈em̈e-	vao, unmet, tangoa, mpotovoro, mafea, leviamp, aore, araki, mae	45	U+006d U+0308
-m̥	m̥	knam̥aləm̥al, kam̥alim̥al	lapwang, lonas, lenau, lenakel, iarkei, ikiyau, enfit	10	U+006d U+0325
-m̥ʷ	m̥ʷ	nu-m̥ʷeri-k, nə-m̥ʷerə-k	yatuk, isiai	2	U+006d U+0325 U+02b7
-n	n
-n	n	kunu-u, na-kinihi-ŋ	dixonreefii, letemboi, larevat, yatuk, portr, lenakel, iarkei, tasmate, lonas, labo, northt, matae, burupika, loniel, timbembe, tavio, lapwang, lenau, navut, vinmavis, maskelynes, akei, fali, filakara, bonga, wusivalui, windua, hukua, kerepua, makura, seke, lehalurup, mele, lametin, nul, valpei, leviamp, tasiriki, malonorth, portsandwich, nonona, fonah, mataso, visina, lolsiwoi, mosina, pwele, malosouth, nuvi, tonga, wusimana, bonkovia, mapremo, unmet, nikaura, mpotovoro, atchin, orap, nokuku, mota, isiai, ngwatua, maemorae, ranon, yevali, vowa, katbol, burumba, lamenu, mate	100	U+006e
-n$	n	ni-huhun, ni-nakəl-n	petarmur, lingarak, katbol, lenakel, axamb, ura, sie, litzlitz, lembinwen, laul, larevat, tonga, dixonreefii, aneityum, burmbar, leviamp, aulua, portvato, benour, apma, tautu, mpotovoro, malfaxal, vinmavis	100	U+006e U+0024
-n-n	n + n	noˀonlin-neteu, onno-ˀu	nokuku, benour	2	U+006e U+006e
-nʷ	nʷ	nə-nʷaŋ-nowa-, ma-lua-nʷa	iarkei, lenakel, nuvi, lenau	5	U+006e U+02b7
-n̥	n̥	na-n̥ə-k, tapin̥a	yatuk, portr, isiai, imreang, lenakel, lapwang, lenau, ikiyau, enfit, lonas, loniel, northt	39	U+006e U+0325
-o	o	poro-, ᵐboro-k	valpei, lolsiwoi, nume, ngwatua, sharkbayi, tasmate, merig, lingarak, batunlamak, burmbar, navenevene, araki, peterara, nambel, vartavo, baetora, mosina, polonombauk, tolomako, lolomatui, nasawa, tur, hiw, wailengi, amblong, nokuku, mota, tam, narovorovo, piamatsina, uri, marino, sharkbayii, butmas, hukua, seke, unua, mafea, aore, lametin, morouas, axamb, litzlitz, malonorth, lorediakarkar, rerep, timbembe, lehali, wailapa, roria, sowa, malmariv, malosouth, tambotalo, raga, sasar, tangoa, toga, fortsenal, katbol, vatrata, vunapu	100	U+006f
-o$	o	roro-, tˢino-	tambotalo, nambel, roria, penantsiro, mafea, lametin, morouas, matae, malmariv, navut, fortsenal, sharkbayi, lorediakarkar, akei, kerepua, tutuba, burmbar, aore, aniwa, malonorth, nonona, sowa, tolomako, malosouth, tonga, piamatsina, makatea, futuna, sakao, makura, mele, fila, lehalurup, aulua, vartavo, lepaxsivir, lehali, mpotovoro, orap, amblong, tangoa	100	U+006f U+0024
-oo	oː	loono-lima, woo-ᵑgu	kerepua, lolsiwoi	2	U+006f U+006f
-p	p	
-p	p	kini-lapa, kapa kapʷa	litzlitz, pwele, siviri, nguna, dixonreefii, lelepa, sharkbayii, sharkbayi, sesake, penantsiro, ikiti, batunlamak, mafea, araki, narango, timbembe, mosina, wailapa, lapwang, nikaura, mpotovoro, sasar, isiai, tangoa, maemorae, lakona, tasmate, windua, wala, aneityum, pinalum, wetamut, lehalurup, ikiyau, unua, enfit, labo, imreang, nul, valpei, matae, axamb, leviamp, burupika, yatuk, larevat, nambel, portr, visina, nume, tautu, roria, tolomako, eton, nuvi, hiw, pango, navut, atchin, amblong, woraviu, mota, toga, vunapu, piamatsina, akei, northt, lamenu	100	U+0070
-p$	p	kap, na-βep	mosina, petarmur, axamb, lepaxsivir, malfaxal, sharkbayi, sakao, eratap, aneityum, pinalum, labo, leviamp, portsandwich, vartavo, portvato, timbembe, eton, baiap, repanbitip, maragus, sharkbayii, sa, northt, filakara, lakona, butmas, windua, wala, motlav, ikiti, wetamut, lehalurup, ikiyau, enfit, imreang, letemboi, rano, litzlitz, yatuk, aulua, rerep, portr, benour, apma, lembinwen, laul, roria, tautu, maxbaxo, nuvi, nasawa, vao, tur, hiw, pango, unmet, siviri, sasar, sie, atchin, isiai, narovorovo, toga, maemorae, fortsenal, dixonreefii, lelepa, vowa, maluabay, avok	100	U+0070 U+0024
-pp	p p	ne-ppa-n, aᵐppaᵐpa-na	aneityum, batunlamak	2	U+0070 U+0070
-pʷ	pʷ	təpʷə-k, toᵏpʷa-k	imreang, ikiyau, loniel, lenau, iarkei, lonas, enfit, yatuk, nguna, portr, lapwang, siviri, lenakel, lelepa, marino, mate, filakara, ikiti, koro, labo, mosina, pwele, sasar, isiai, lakona, wusivalui, wala, hukua, wetamut, merig, lehalurup, nul, valpei, dorig, nume, tautu, bek, nikaura, atchin, nokuku, woraviu, mota, uripiv, piamatsina, futuna, vatrata	100	U+0070 U+02b7
-pʷ$	pʷ	kipʷ	imreang	1	U+0070 U+02b7 U+0024
-p̈	p̈/ʙ̥	nap̈el, p̈ep̈e	vao, unmet, leviamp, mafea, mpotovoro, tangoa	16	U+0070 U+0308
-r	r
-r	r	ᵐboro-k, poro-	portsandwich, vao, rerep, maxbaxo, axamb, unua, araki, tautu, vovo, nuvi, raga, uripiv, avok, nikaura, mpotovoro, maskelynes, wala, wetamut, lingarak, mafea, toak, peterara, morouas, rano, maat, vartavo, visina, portvato, dorig, baetora, tambotalo, tur, mapremo, atchin, ngwatua, maluabay, sharkbayii, sharkbayi, butmas, penantsiro, pinalum, burmbar, lametin, lorediakarkar, lolsiwoi, bonkovia, petarmur, tam, sakao, batunlamak, aore, vetumboso, tavio, nume, roria, lolomatui, wailengi, amblong, mota, narovorovo, fortsenal, lamenu, merig, tutuba, navenevene, merlav, nambel, narango, lepaxsivir, mosina, wailapa, polonombauk, malmariv, nasawa, tangoa, uri, marino, sa	100	U+0072
-r$	r	maur, mair	maxbaxo, fonah, larevat, enfit, lametin, axamb, portsandwich, aulua, avok, sharkbayi, sakao, vovo, letemboi, lorediakarkar, rerep, lepaxsivir, mae, repanbitip, isiai, maskelynes, fali, sa, wala, eratap, pinalum, ikiti, seke, lingarak, koro, burmbar, unua, merlav, litzlitz, yatuk, vartavo, portvato, dixonreefi, dorig, timbembe, benour, tautu, lembinwen, roria, eton, baiap, nasawa, vao, pango, petarmur, sasar, atchin, orap, sie, malfaxal, vinmavis, uripiv, mota, uri, sesivi, dixonreefii, maluabay, katbol, sharkbayii, northt	100	U+0072 U+0024
-rh	r h	parhu neni, karhuke-ᵑgu	wailengi, ranon	2	U+0072 U+0068
-rr	r r	lerrum	maat	1	U+0072 U+0072
-rw	r w	nərwo, sororwaβo	maemorae, sie, lorediakarkar	3	U+0072 U+0077
-r̃	r̃	par̃u, mar̃au	malonorth, malosouth, sharkbayi, wusimana, lorediakarkar	14	U+0072 U+0303
-r̃$	r̃	hor̃, momoner̃	sharkbayi	3	U+0072 U+0303 U+0024
-r̥	r̥	nu-mr̥itar̥u-k, nə-mr̥itar̥u-k	unua, isiai, rerep, portr, enfit, yatuk, ikiti	15	U+0072 U+0325
-s	s
-s	s	ese-, βulu-ese-	penantsiro, morouas, roria, malmariv, navut, fortsenal, akei, batunlamak, navenevene, lametin, merlav, matae, nonona, wailapa, tam, marino, sa, vunapu, sharkbayi, sakao, sesake, butmas, aneityum, hukua, merig, lingarak, mele, fila, peterara, lironesa, axamb, aniwa, valpei, tasiriki, yatuk, portsandwich, lorediakarkar, maat, portr, portvato, benour, timbembe, apma, lembinwen, nume, polonombauk, laul, baetora, eton, tolomako, baiap, tur, hiw, petarmur, raga, siviri, amblong, woraviu, nokuku, malfaxal, tangoa, isiai, nguna, faulili, sesivi, piamatsina, maluabay, makatea, maskelynes, avok, maragus, katbol, fali, futuna, sharkbayii	100	U+0073
-s$	s	es, tamlos	lehali, roria, baiap, wetamut, lehalurup, ikiyau, dixonreefii, wala, pinalum, motlav, ikiti, lonas, lingarak, enfit, navenevene, lametin, peterara, merlav, imreang, rano, nambel, timbembe, mosina, laul, lapwang, amblong, tam, mota, uri, sesivi, northt, iarkei, merig, koro, batunlamak, labo, morouas, vetumboso, yatuk, larevat, lorediakarkar, rerep, loniel, portr, narango, lepaxsivir, nume, maxbaxo, wusimana, repanbitip, lenau, sasar, sie, atchin, lenakel, malfaxal, uripiv, lironesa, vatrata	100	U+0073 U+0024
-sh	s h	bosharap	letemboi	1	U+0073 U+0068
-ss	s s	ɛssi, marapopossu	sakao, wetamut, nuvi	4	U+0073 U+0073
-sw	s w	waswas, wuswus	nume, nokuku	3	U+0073 U+0077
-t	t	patu-, ᵐbatu-k	wala, wetamut, lingarak, rano, dorig, tautu, atchin, orap, pinalum, uripiv, hiw, maragus, lakona, mpotovoro, motlav, unua, mafea, peterara, morouas, matae, tasiriki, aulua, nonona, vartavo, baetora, tambotalo, vao, tur, ngwatua, akei, wusivalui, butmas, penantsiro, hukua, kerepua, koro, burmbar, lametin, litzlitz, lolsiwoi, timbembe, mae, raga, tam, katbol, vunapu, batunlamak, aore, valpei, vetumboso, nume, roria, lolomatui, navut, wailengi, sasar, amblong, nokuku, mota, narovorovo, fortsenal, merig, seke, tutuba, navenevene, merlav, malonorth, nambel, narango, lepaxsivir, lehali, mosina, bek, wailapa, polonombauk, malmariv, malosouth, wusimana, repanbitip, nasawa, tangoa, toga, piamatsina, uri, marino, sa	100	U+0074
-t$	t	mʷerat, aᵐbat	letemboi, lehali, maluabay, motlav, hiw, eratap, wala, aneityum, merig, lingarak, burmbar, merlav, vetumboso, leviamp, aulua, larevat, rerep, roria, polonombauk, sowa, tonga, repanbitip, mpotovoro, maskelynes, katbol, vovo, bonga, lakona, butmas, pinalum, makura, wetamut, seke, koro, navenevene, lametin, axamb, rano, portsandwich, nambel, narango, vartavo, benour, ura, dorig, lepaxsivir, timbembe, lembinwen, mosina, nume, maxbaxo, mae, baiap, vao, tur, pango, petarmur, unmet, sasar, sie, amblong, mota, toga, uri, avok, maragus, sa	100	U+0074 U+0024
-th	t h	mathin tasi	hukua	1	U+0074 U+0068
-ts	ts	potsu-, lanutsu-	wala, sharkbayi, litzlitz, matae	5	U+0074 U+0073
-tw	t w	na-twu-k, nu- ᵐputwaxa-ᵑk	pango, labo, lakona, dixonreefi	5	U+0074 U+0077
-tʳ	tʳ	naˀtautʳu, tʳuitʳui	wusivalui, lakona, rano, litzlitz, lelepa, rerep, mpotovoro	12	U+0074 U+02b3
-tʷ	tʷ	atʷewa	malmariv	1	U+0074 U+02b7
-tˢ	ts	metˢometˢo-, βatˢeβatˢe-	wailapa, penantsiro, araki, morouas, matae, navut, fortsenal, sharkbayi, tolomako, akei, batunlamak, litzlitz, tasiriki, nonona, nambel, roria, malmariv, butmas, wala, pinalum, narango, tautu, tambotalo, mpotovoro, amblong, tangoa, kerepua, lametin, portsandwich, aulua, apma, polonombauk, maxbaxo, uri, piamatsina, maluabay	100	U+0074 U+02e2
-tˢ$	ts	nə-metˢ, mantˢ	larevat, maragus, nambel, maluabay, narango, petarmur, mpotovoro, roria, atchin	11	U+0074 U+02e2 U+0024
-tˢw	tˢ w	watˢwatˢi-ku	tasiriki	1	U+0074 U+02e2 U+0077
-tˢʰ	tsʰ	ⁿdžətˢʰelwərən, ntˢʰa-	petarmur, roria, amblong	4	U+0074 U+02e2 U+02b0
-tˢˤ	tsˤ	matˢˤariβ	vunapu	1	U+0074 U+02e2 U+02e4
-u	u
-u	u	βulu-k, βulu-ᴺgu	wetamut, merlav, mosina, koro, dorig, toga, sa, lakona, merig, lehali, nume, apma, navenevene, peterara, lolsiwoi, baetora, lolomatui, hiw, raga, wailengi, mota, tam, ngwatua, marino, hukua, nasawa, narovorovo	100	U+0075
-u$	u	βulu-, patu-	wusivalui, tasmate, peterara, valpei, tasiriki, narango, lolsiwoi, wailapa, tolomako, wusimana, lolomatui, raga, wailengi, piamatsina, marino, penantsiro, hukua, kerepua, morouas, matae, nonona, roria, malmariv, navut, ngwatua, fortsenal, akei, lametin, nambel, sowa	100	U+0075 U+0024
-u-u$	u + u	kunu-u, mʷasu-u	nikaura, nul, filakara, lamenu, mate	12	U+0075 U+0075 U+0024
-uˡ$	u	mamuˡ	dorig	1	U+0075 U+02e1 U+0024
-u̥$	u̥	namu̥	tavio	1	U+0075 U+0325 U+0024
-v	v	mamava-k¹	butmas	1	U+0076
-v̈	v̈/v	tav̈at, nuku v̈av̈ine	mafea, vao, leviamp, unmet	11	U+0076 U+0308
-v̈$	v̈/v	ariv̈, ɣariv̈	aore, vao	2	U+0076 U+0308 U+0024
-w	w
-w	w	lowo-k, liwo-k	iarkei, lenau, lenakel, lonas, loniel, atchin, motlav, wetamut, peterara, fonah, portr, dorig, mosina, apma, sowa, isiai, toga, uripiv, uri, makatea, fali, filakara, tasmate, eratap, hukua, pinalum, aneityum, merig, lehalurup, koro, navenevene, merlav, nul, valpei, vetumboso, aniwa, litzlitz, burupika, yatuk, portvato, timbembe, tavio, lehali, nume, tautu, lembinwen, wusimana, lolomatui, hiw, petarmur, nikaura, mpotovoro, sasar, sie, nokuku, mota, tam, vinmavis, ranon, marino, maluabay, katbol, vatrata, lamenu	100	U+0077
-w$	w	lew, ɣasew	lenakel, koro, merig, merlav, vetumboso, dorig, iarkei, bonga, lakona, motlav, wetamut, loniel, lehali, tonga, hiw, unmet, sasar, toga, maragus, lamenu	31	U+0077 U+0024
-ws	w s	nu-suwsuw-tai, na-wsitoan	lenakel, motlav	2	U+0077 U+0073
-w̥	w̥	naw̥i-na-mta-k	northt	1	U+0077 U+0325
-x	x
-x	x	na-xut, na-xamal	maskelynes, axamb, unua, larevat, mae, raga, orap, labo, nasawa, peterara, avok, vovo, windua, navenevene, aniwa, malonorth, aulua, lepaxsivir, maxbaxo, dixonreefii, maragus, lingarak, burmbar, araki, leviamp, maat, lehali, repanbitip, unmet, sie, malfaxal, vinmavis	100	U+0078
-x$	x	lipax, na-lipax	toak, maragus, windua, labo, axamb, leviamp, litzlitz, aulua, lepaxsivir, katbol, orap, maxbaxo, mae, unmet, vinmavis, lingarak, navenevene, portsandwich, vartavo, petarmur, sie, uri, maluabay, maskelynes, avok	100	U+0078 U+0024
-xʷ	xʷ	manoxʷa, saxʷana	peterara	2	U+0078 U+02b7
-y	j	sisiya-k, na-kau yenirak	lehalurup, hiw, butmas, motlav, yevali, filakara, labo, bonkovia, tur, burumba, sakao, nul, imreang, burupika, visina, benour, lehali, polonombauk, nuvi, repanbitip, mapremo, malfaxal, sharkbayii, sharkbayi, aneityum, lonas, lingarak, peterara, northt, aniwa, axamb, letemboi, yatuk, lorediakarkar, rerep, narango, portvato, ura, portr, tavio, lembinwen, lapwang, maxbaxo, pango, nikaura, isiai, fali	100	U+0079
-y$	j	ⁿdaᵐbxa-ɣ n-sne-y, ne-lewlewy	larevat, hiw, motlav	6	U+0079 U+0024
-z	z	azoziamat, azu	sowa, seke	14	U+007a
-zw	z w	buzwut	sowa	1	U+007a U+0077
-¬$	NULL	čomre-ᵐbatu¬, œrü¬	sakao, tautu	2	U+00ac U+0024
-²$	NULL	moɣoue², amiyer²	repanbitip, pinalum, rerep, maluabay, hiw, mapremo, sie	8	U+00b2 U+0024
-³$	NULL	i-βret³, nemia³	tavio, dixonreefi	2	U+00b3 U+0024
-·	+	n-a·nu-k, kauk ka·pa	kerepua, maemorae, isiai, maat, pango, siviri, northt	9	U+00b7
-·$	+	ɣoloβala·, ᵐbra·	pango, narovorovo	2	U+00b7 U+0024
-¹$	NULL	tata¹, mama¹	fila, lembinwen, eratap, lironesa, iarkei, windua, pinalum, lingarak, unua, rano, litzlitz, rerep, laul, pwele, eton, maxbaxo, mae, baiap, petarmur, sesivi, sharkbayi, bonga, tasmate, butmas, wala, makura, ikiti, tutuba, mele, ikiyau, enfit, burmbar, labo, imreang, peterara, aniwa, letemboi, portsandwich, lorediakarkar, larevat, vartavo, portr, maat, portvato, benour, visina, timbembe, lepaxsivir, tavio, tautu, nuvi, lapwang, repanbitip, nasawa, tur, hiw, pango, unmet, mapremo, orap, mota, vinmavis, uripiv, piamatsina, uri, maemorae, lelepa, maluabay, avok, katbol, sharkbayii, northt, lamenu, mate	100	U+00b9 U+0024
-ß	β	na-ßœl-na	dixonreefii	1	U+00df
-æ	æ	mærua, mætu	visina, burupika, loniel, yevali, valpei, tavio, lembinwen, nikaura, isiai, maat, portvato, timbembe, ranon, fali, wala, merig, toak, fonah, nuvi, baiap, mapremo, eratap, ikiti, lonas, koro, unua, imreang, merlav, axamb, yatuk, larevat, vartavo, lepaxsivir, laul, wusimana, repanbitip, lenau, unmet, atchin, maluabay, katbol, northt, lamenu, mate	100	U+00e6
-æ$	æ	mara-seβæ, mæruæ	lehali, isiai, nuvi, wusimana, sesivi, portsandwich, yevali, nikaura, lembinwen, lamenu	12	U+00e6 U+0024
-ð	ð	na-maðap, ne-ðaðen	sakao, labo, windua, lorediakarkar, roria, mpotovoro, tambotalo	41	U+00f0
-ð$	ð	œwœð, momənəð	sakao, roria, lorediakarkar	7	U+00f0 U+0024
-ñ	ɲ	tiñe-ᵑgu, deliño-k	burumba, bonkovia, burupika, fonah, portvato, ranon, seke, yevali, vovo, baiap, sesivi, uri, aneityum	33	U+00f1
-ñ̥	ɲ̊	na-pʷaŋ-ñ̥iŋi-k	imreang	1	U+00f1 U+0325
-ö	ø	parβusö-n, rasö-n	axamb, sakao	18	U+00f6
-ös	ø s	n-ösö-n	axamb	1	U+00f6 U+0073
-ø	ø	søsø-ŋ, üβɣøl	narovorovo, sakao	19	U+00f8
-ø$	ø	œrø-, œnø	sakao	2	U+00f8 U+0024
-ü	y	na-βürü-n, βülu-k	vetumboso, axamb, sakao, lehalurup, atchin, baiap, wala, merlav, lembinwen, sesivi, ranon, lingarak, portvato, fali, benour, navenevene, araki	53	U+00fc
-ü	y	ni-ᵐbüsü-n, na-süsu-k	lembinwen, vetumboso, axamb, maluabay, koro, benour, atchin	8	U+00fc U+0073
-ü$	y	βülü, oβülü	vetumboso, navenevene, lehalurup	4	U+00fc U+0024
-č	tʃ	ranaču-k, mærči-čima-ᵑga	aneityum, apma, burumba, sharkbayii, lehalurup, yevali, burupika, larevat, bonkovia, valpei, merig, araki, aniwa, litzlitz, wusimana, atchin, vinmavis, uripiv, uri, avok, futuna, sa, batunlamak, unua, navenevene, axamb, malonorth, rerep, tautu, roria, maxbaxo, fali	100	U+010d
-č$	tʃ	uč, melkaᵐbač	maxbaxo, portsandwich	3	U+010d U+0024
-čʰ	tʃʰ	mačʰiaβʷaβu	malosouth	1	U+010d U+02b0
-ŋ	ŋ
-ŋ	ŋ	kiliŋa-u, na-tiliŋa-ŋ	nguna, woraviu, lelepa, sesake, eratap, lironesa, ura, laul, maxbaxo, pango, siviri, isiai, faulili, piamatsina, dixonreefii, vovo, lakona, filakara, bonga, windua, hukua, makura, motlav, lingarak, mele, koro, unua, fila, labo, toak, peterara, nul, valpei, axamb, litzlitz, mataso, portsandwich, maat, dixonreefi, rerep, visina, benour, apma, baetora, lehali, bek, lembinwen, pwele, sowa, eton, mae, nuvi, tonga, lolomatui, repanbitip, hiw, mapremo, nikaura, raga, wailengi, sasar, sie, malfaxal, vinmavis, toga, maemorae, yevali, vowa, makatea, avok, maragus, katbol, vatrata, sa, lamenu, mate	100	U+014b
-ŋ$	ŋ	mata-ŋ, ᵐbatu-ŋ	koro, rerep, ranon, sharkbayii, timbembe, nasawa, vinmavis, narovorovo, bonga, mataso, fonah, eton, maemorae, makura, siviri, sie, vowa, axamb, tonga, letemboi, portsandwich, woraviu, katbol	100	U+014b U+0024
-ŋw	ŋw	ⁿdiŋwaŋo-ᵑgu	wailengi	1	U+014b U+0077
-ŋʷ	ŋʷ	taŋʷan, ŋʷataŋʷataileu	ngwatua, lolsiwoi, lehali, merlav, toga, lolomatui, merig, lehalurup, northt	20	U+014b U+02b7
-ŋʷ$	ŋʷ	eŋʷ, eaŋʷ	merlav, toga	2	U+014b U+02b7 U+0024
-ŋˡ$	ŋ	tata ya-ŋˡ, tata-ŋˡ	tur, sharkbayii, sie	3	U+014b U+02e1 U+0024
-œ	œ	čœᵏpʷœ-k	lehalurup	1	U+0153 U+1d4f
-œ	œ	ŋœrœk, na-ⁿdœlœ-n	lehalurup, vetumboso, sasar, dixonreefii, malfaxal, aulua, isiai, sakao, imreang, portvato, dorig, lepaxsivir, lembinwen, maxbaxo, ranon, ikiyau, unua, enfit, merlav, axamb, litzlitz, fonah, larevat, dixonreefi, loniel, vartavo, bek, lapwang, baiap, vao, unmet, sesivi, katbol	100	U+0153
-œ$	œ	pæᵑgi æneñœ, ni-malaᵐbœ	sakao, portvato, dixonreefii, lehalurup, tam, maxbaxo, vetumboso, hiw, portr, benour, koro, unua, sasar, bek	30	U+0153 U+0024
-œˀ$	œ ʔ	ᵏpʷœrœˀ	sasar	1	U+0153 U+02c0 U+0024
-ř	ř/r	mařa řas, nřiunřiu	piamatsina, araki, narango	16	U+0159
-řs	ř/r s	imafařfařsa‧-ᵑku	narango	1	U+0159 U+0073
-š	ʃ	ntšana-, no-iβinisnaiši	roria, dixonreefi	2	U+0161
-ž	dʒ	ⁿdžətˢʰelwərən, n-dži-n	petarmur	5	U+017e
-ǰ	ǰ/dʒ	nǰapa	bonkovia, burupika	2	U+01f0
-ɒ	ɒ	œwɒlpap, œðɒlβarkɛ	sakao	2	U+0252
-ɒ$	ɒ	œnɒ-, œβrɒ-	sakao	9	U+0252 U+0024
-ɔ	ɔ	pʷɔrɔrɔ-ku, fɔ-kɔr	polonombauk, valpei, sakao, narango, nokuku, hukua, araki, wusimana, malonorth	51	U+0254
-ɔ$	ɔ	pis-liwɔ, na-kuᵐpɔ	wetamut, sakao, axamb, dorig	4	U+0254 U+0024
-ɔ:$	ɔː	xɔčɔ-pɔ:, pɔ:	araki	2	U+0254 U+003a U+0024
-ɔː	ɔː	nɔːwɔː	valpei	1	U+0254 U+02d0
-ɔː$	ɔː	nɔːwɔː	valpei	1	U+0254 U+02d0 U+0024
-ɔⁿ	ɔⁿ	fɔⁿdʳowo-n	polonombauk	1	U+0254 U+207f
-ɘ	ɘ	na-lamɘ-k, na- lamɘ-k	imreang, ikiyau, lapwang, leviamp	4	U+0258
-ə	ə	nə-paseŋə-k, pənə-k	lenakel, yatuk, portr, unmet, leviamp, lenau, maluabay, lonas, ikiyau, imreang, letemboi, larevat, tavio, mpotovoro, maemorae, maragus, burmbar, mae, bonkovia, petarmur, orap, isiai, vovo, iarkei, windua, aneityum, seke, enfit, labo, araki, axamb, burupika, loniel, ura, dorig, tautu, maxbaxo, lapwang, vao, mapremo, toga, narovorovo, burumba	100	U+0259
-ə$	ə	ləkʷeβinə, kiə	maemorae, toga, hiw, lorediakarkar, imreang, letemboi, lapwang, leviamp, sharkbayi, merlav, lenakel, ikiti, merig	75	U+0259 U+0024
-ɛ	ɛ	na-kʷtɛɣ-bɛnɛ-k, ɛtɛnɛwœr	sharkbayii, sakao, motlav, nokuku, valpei, narango, amblong, butmas, batunlamak, malonorth, polonombauk, tasiriki, tautu, wailapa, tur, tasmate, araki, malosouth, baiap, toga, maemorae	99	U+025b
-ɛ$	ɛ	mɛmɛ-, mɛmɛ	sakao, malonorth, malosouth, baiap	7	U+025b U+0024
-ɣ	ɣ	nenoɣᵐbue	aulua	1	U+0263 U+1d50
-ɣ	ɣ	taɣu-k, ᵐbʷalaɣirɣir	motlav, mosina, marino, portsandwich, tolomako, petarmur, malfaxal, avok, koro, dorig, vao, hiw, orap, aneityum, lingarak, unua, merlav, larevat, rerep, vartavo, baetora, maxbaxo, repanbitip, vinmavis, narovorovo, sharkbayi, windua, merig, lehalurup, burmbar, toak, navenevene, vetumboso, litzlitz, lorediakarkar, portvato, lepaxsivir, lehali, apma, mae, unmet, mota, toga, tam, uri, maluabay, maragus, katbol, vatrata	100	U+0263
-ɣ$	ɣ	na-iɣ, ne-βroɣ	larevat, merig, merlav, portsandwich, wetamut, lingarak, vartavo, mosina, hiw, sasar, koro, vetumboso, dorig, nume, roria, toga, avok, sharkbayi, sakao, vovo, motlav, burmbar, aulua, ura, vao, malfaxal, maragus, vatrata, sa	79	U+0263 U+0024
-ɣh	ɣ h	na-ɣhou, nəɣha-ɣ	motlav, larevat	2	U+0263 U+0068
-ɣw	ɣ w	aɣwi	maat	1	U+0263 U+0077
-ɣɣ	ɣ ɣ	ni-ᵐpəɣɣa-ᵑk	labo	1	U+0263 U+0263
-ɨ	ɨ	fɨlɨn-ese-, fɨr	lorediakarkar, sakao	6	U+0268
-ɨ$	ɨ	fo-nsɨ-	lorediakarkar	1	U+0268 U+0024
-ɯ	ɯ	ⁿdiŋaⁿdiŋanɯði-	roria	1	U+026f
-ʔ	ʔ	moʔo, na-ᵐbʷaʔi-ŋ	vunapu, vinmavis, wala, vatrata, sasar, lembinwen, bek, nokuku, bonga, tonga, penantsiro, mataso, makura, benour	28	U+0294
-ʷ	w	βanua uluʷou	vunapu	1	U+0075 U+02b7
-ˀ	ʔ
-ˀ$	ʔ	ni-ᵐbulu-ˀ, ni-liβo-ˀ	lembinwen, benour	19	U+02c0 U+0024
-ˀe	ʔ e	ne-ˀehe-n, na-ˀet-awoh	lembinwen, bonga, wusivalui	3	U+02c0 U+0065
-β	β	liβo-k, na-βili-ŋ	sakao, axamb, maxbaxo, vovo, avok, burmbar, letemboi, ura, maskelynes, portsandwich, dixonreefi, vartavo, dorig, lepaxsivir, repanbitip, sie, malfaxal, bonga, lakona, makura, seke, wetamut, lingarak, unua, navenevene, lametin, imreang, northt, rano, litzlitz, mataso, yatuk, aulua, nonona, rerep, lolsiwoi, benour, baetora, roria, lembinwen, polonombauk, tolomako, mae, tonga, baiap, bonkovia, nasawa, vao, petarmur, mpotovoro, wailengi, orap, isiai, tam, narovorovo, vinmavis, uri, sesivi, maemorae, dixonreefii, piamatsina, maluabay, vowa, maragus, katbol, burumba	100	U+03b2
-β$	β	n-ariβ, ɣasuβ	burmbar, sakao, aneityum, portsandwich, vartavo, merig, merlav, dorig, nume, sowa, mae, nokuku, maskelynes, vunapu, vovo, wala, pinalum, wetamut, koro, unua, toak, navenevene, lametin, araki, axamb, rano, leviamp, maat, aulua, rerep, tavio, tautu, roria, laul, mpotovoro, sasar, atchin, amblong, tam, uripiv, uri, dixonreefii, maluabay, avok, maragus, sa	66	U+03b2 U+0024
-βw	β w	il βwa-u	nul	1	U+03b2 U+0077
-βʷ	βʷ	ne-tuβʷot, nu-βʷoβʷo	repanbitip, lingarak, unua, sesivi, maluabay, wala, burmbar, axamb, malonorth, portsandwich, maat, rerep, benour, timbembe, lepaxsivir, tavio, baetora, maxbaxo, malosouth, baiap, bonkovia, malfaxal, uripiv	32	U+03b2 U+02b7
-ββ	β β	raββe-k	nume	1	U+03b2 U+03b2
-θ	θ	ne-θuo-k, ni-θi-ne-mta-k	aneityum, lorediakarkar	8	U+03b8
-θ$	θ	pikaθ, n-iθ	aneityum	3	U+03b8 U+0024
-а	а	meˀe-ɣаβ	sasar	1	U+0430
-о$	o	ᵏpʷо, no-kʷо	sasar, motlav	2	U+043e U+0024
-ᴂ	æ	fⁿdʳᴂyᴂⁿdʳᴂ	polonombauk	1	U+1d02 U+207f
-ᴂ	æ	fⁿdʳᴂyᴂⁿdʳᴂ, βᴂrᵏpʷok	koro, enfit, polonombauk	4	U+1d02
-ᴂ$	æ	fⁿdʳᴂyᴂⁿdʳᴂ	polonombauk	1	U+1d02 U+0024
-ᴺg	ⁿg	βulu-ᴺgu, ᵑgʷaŋo-ᴺgu	wailengi, peterara, ngwatua, lolomatui, narango, lolsiwoi	8	U+1d3a U+0067
-ᴺk	ⁿk	fulu-ᴺku, nalsu-ᴺku	narango	3	U+1d3a U+006b
-ᴺk$	ⁿk	ᵐban-tilña-ᴺk, nu-ᵑguna-ᴺk	labo, seke	2	U+1d3a U+006b U+0024
-ᵏp	kp	nu-ᵏpupu na-ᵑk	labo	1	U+1d4f U+0070
-ᵏpʷ	kpʷ
-ᵏpʷ	kpʷ	aᵏ	raᵏpʷa, taᵏpʷa-k	wetamut, koro, marino, nume	10	U+0061 U+1d4f
-ᵏpʷ	kpʷ	na-ᵏpʷete-gara-k, na-ᵏpʷuru-k	dorig	3	U+1d4f U+0070 U+02b7
-ᵐb	ⁿb	maᵐbe, saᵐbe-ᵑk	aulua, portsandwich, lepaxsivir, burumba, burmbar, lametin, dixonreefii, navut, avok, vovo, northt, axamb, litzlitz, vartavo, narango, lembinwen, lolomatui, vao, tur, narovorovo, ngwatua, maemorae, maskelynes, bonga, filakara, butmas, motlav, seke, lingarak, batunlamak, unua, labo, aore, vetumboso, malonorth, burupika, larevat, nambel, rerep, benour, dorig, timbembe, nume, baetora, polonombauk, maxbaxo, tonga, tambotalo, repanbitip, mapremo, amblong, malfaxal, vinmavis, uri, katbol, vatrata	100	U+0061 U+1d50
-ᵐb	ⁿb	na-ᵐbati-ŋ, ro-ᵐbatu-k	lingarak, lembinwen, vinmavis, benour, maskelynes, windua, labo, tonga, malfaxal, bonga, pinalum, lepaxsivir, vovo, wala, vetumboso, burupika, dixonreefi, ura, tautu, mae, bonkovia, mpotovoro, woraviu, uripiv, avok, sesake, makura, burmbar, northt, rano, axamb, mataso, portsandwich, vartavo, timbembe, tavio, maxbaxo, repanbitip, mapremo, petarmur, sie, orap, yevali, vatrata, burumba	100	U+1d50 U+0062
-ᵐb	ⁿb	ᵐbeᵐbe, ᵐpeᵐpe	repanbitip, maskelynes, dixonreefi, unua, labo, peterara, axamb, burupika, portsandwich, aulua, larevat, rerep, lolsiwoi, lepaxsivir, nume, bonkovia, sie, vinmavis, yevali, avok, vovo, bonga, makura, motlav, tutuba, koro, aore, navenevene, lametin, vetumboso, narango, nambel, vartavo, tavio, lembinwen, roria, baetora, timbembe, malmariv, nasawa, lolomatui, vao, mapremo, navut, wailengi, amblong, tam, malfaxal, narovorovo, ngwatua, toga, uri, vowa, katbol, burumba	80	U+0065 U+1d50
-ᵐbʷ	ⁿbʷ
-^puruᴺ-ku	p u r u + ⁿk u
-ⁿḍ	ⁿɖ
-ˀ	ʔ
-^mɔ:ˀe	m oː ʔ e
-a	a
-^meˀe-ɣаβ	m e ʔ e + ɣ a β
-^βʷag"a-k	βʷ a gʷ a + k
-^tiᵑgʷ̣a-ᵑgu	t i ⁿgʷ a + ⁿg u
+i	i	21284	U+0069
+n	n	17960	U+006e
+u	u	16240	U+0075
+e	e	16024	U+0065
+o	o	12309	U+006f
+r	r	11245	U+0072
+t	t	11131	U+0074
+l	l	11126	U+006c
+m	m	10739	U+006d
+k	k	9346	U+006b
+s	s	7598	U+0073
+β	β	6703	U+03b2
+p	p	4348	U+0070
+ŋ	ŋ	3987	U+014b
+ə	ə	3566	U+0259
+ɣ	ɣ	2842	U+0263
+w	w	2802	U+0077
+h	h	2493	U+0068
+ᵐb	ⁿb	1621	U+1d50 U+0062
+_	_	1438	U+005f
+f	f	1413	U+0066
+mʷ	mʷ	1405	U+006d U+02b7
+b	b	1352	U+0062
+x	x	1186	U+0078
+y	y	1029	U+0079
+œ	œ	1012	U+0153
+æ	æ	940	U+00e6
+d	d	814	U+0064
+č	tʃ	803	U+010d
+tˢ	ts	727	U+0074 U+02e2
+pʷ	pʷ	681	U+0070 U+02b7
+ⁿd	ⁿd	667	U+207f U+0064
+ᵑg	ⁿg	636	U+1d51 U+0067
+g	g	512	U+0067
+kʷ	kʷ	467	U+006b U+02b7
+ᵑk	ⁿk	448	U+1d51 U+006b
+‧	<?>	341	U+2027
+¹	NULL	341	U+00b9
+ɛ	ɛ	314	U+025b
+dʳ	dʳ	298	U+0064 U+02b3
+m̈	m̺	246	U+006d U+0308
+ᵐbʷ	ⁿbʷ	216	U+1d50 U+0062 U+02b7
+ⁿdʳ	ⁿdʳ	208	U+207f U+0064 U+02b3
+aˀ	aˀ	203	U+0061 U+02c0
+ɔ	ɔ	188	U+0254
+ð	ð	169	U+00f0
+ü	y	163	U+00fc
+βʷ	βʷ	159	U+03b2 U+02b7
+ᵐp	ⁿp	151	U+1d50 U+0070
+v̈	v̺	147	U+0076 U+0308
+ᵏpʷ	kpʷ	131	U+1d4f U+0070 U+02b7
+bʷ	bʷ	131	U+0062 U+02b7
+ñ	ɲ	129	U+00f1
+p̈	p̺	123	U+0070 U+0308
+ˀa	ˀa	112	U+02c0 U+0061
+n̥	n̥	97	U+006e U+0325
+ˀu	ˀu	96	U+02c0 U+0075
+ŋʷ	ŋʷ	91	U+014b U+02b7
+tʳ	tʳ	76	U+0074 U+02b3
+l̥	l̥	73	U+006c U+0325
+²	NULL	70	U+00b2
+θ	θ	69	U+03b8
+r̥	r̥	67	U+0072 U+0325
+³	NULL	59	U+00b3
+z	z	52	U+007a
+m̥	m̥	49	U+006d U+0325
+uˀ	uˀ	46	U+0075 U+02c0
+oˀ	oˀ	46	U+006f U+02c0
+ᵑgʷ	ⁿgʷ	45	U+1d51 U+0067 U+02b7
+ʔ	ʔ	40	U+0294
+ø	ø	40	U+00f8
+ř	ř	39	U+0159
+ö	ø	38	U+00f6
+⁴	NULL	35	U+2074
+r̃	r̃	34	U+0072 U+0303
+w̥	w̥	33	U+0077 U+0325
+ḍ	ɖ	30	U+1e0d
+ˀo	ˀo	29	U+02c0 U+006f
+ll	lː	28	U+006c U+006c
+ɒ	ɒ	28	U+0252
+ɨ	ɨ	27	U+0268
+ˀe	ˀe	27	U+02c0 U+0065
+ˀi	ˀi	26	U+02c0 U+0069
+m̥ʷ	m̥ʷ	26	U+006d U+0325 U+02b7
+·	<?>	24	U+00b7
+ˀ	ʔ	19	U+02c0
+gʷ	gʷ	18	U+0067 U+02b7
+nn	nː	16	U+006e U+006e
+ᴂ	<?>	16	U+1d02
+ɣʷ	ɣʷ	15	U+0263 U+02b7
+sᵐ	sⁿ	14	U+0073 U+1d50
+mm	mː	13	U+006d U+006d
+š	ʃ	13	U+0161
+ⁿḍ	ⁿɖ	13	U+207f U+1e0d
+ɣᵐ	ɣⁿ	13	U+0263 U+1d50
+uu	uː	12	U+0075 U+0075
+ṭ	ʈ	12	U+1e6d
+lᵐ	lⁿ	12	U+006c U+1d50
+kᵐ	kⁿ	12	U+006b U+1d50
+ii	iː	12	U+0069 U+0069
+mⁿ	mⁿ	11	U+006d U+207f
+nˀ	nˀ	11	U+006e U+02c0
+ǰ	dʒ	11	U+01f0
+ž	ʒ	10	U+017e
+ˀœ	ˀœ	10	U+02c0 U+0153
+ss	sː	9	U+0073 U+0073
+tt	tː	9	U+0074 U+0074
+ᴺg	ⁿg	8	U+1d3a U+0067
+œˀ	œˀ	8	U+0153 U+02c0
+lⁿ	lⁿ	8	U+006c U+207f
+xʷ	xʷ	8	U+0078 U+02b7
+sⁿ	sⁿ	8	U+0073 U+207f
+nʷ	nʷ	7	U+006e U+02b7
+tᵐ	tⁿ	7	U+0074 U+1d50
+v	v	7	U+0076
+u̥	u̥	6	U+0075 U+0325
+c	c	6	U+0063
+lˀ	lˀ	6	U+006c U+02c0
+o̥	o̥	6	U+006f U+0325
+ts	ts	5	U+0074 U+0073
+nᵐ	nⁿ	5	U+006e U+1d50
+pp	pː	5	U+0070 U+0070
+rⁿ	rⁿ	5	U+0072 U+207f
+ɘ	ɘ	4	U+0258
+oo	oː	4	U+006f U+006f
+ɔ:	ɔː	4	U+0254 U+003a
+rᵑ	rⁿ	4	U+0072 U+1d51
+iii	i l i	4	U+0069 U+0069 U+0069
+βˀ	βˀ	4	U+03b2 U+02c0
+B	<?>	3	U+0042
+tʰ	tʰ	3	U+0074 U+02b0
+ŋˡ	ŋˡ	3	U+014b U+02e1
+ββ	βː	3	U+03b2 U+03b2
+βⁿ	βⁿ	3	U+03b2 U+207f
+fⁿ	fⁿ	3	U+0066 U+207f
+ᵐʰb	ⁿʰb	3	U+0061 U+1d50 U+02b0
+‧h	<?>	3	U+2027 U+0068
+ðð	ðː	3	U+00f0 U+00f0
+pᵐ	pⁿ	3	U+0070 U+1d50
+mˀ	mˀ	3	U+006d U+02c0
+¬	<?>	2	U+00ac
+tᵑ	tⁿ	2	U+0074 U+1d51
+ᵑa	ᵑa	2	U+1d51 U+0061
+lll	l i l	2	U+006c U+006c U+006c
+.	NULL	2	U+002e
+ᵏp	kp	2	U+1d4f U+0070
+tʷ	tʷ	2	U+0074 U+02b7
+aˡ	aˡ	2	U+0061 U+02e1
+о	<?>	2	U+043e
+kk	kː	2	U+006b U+006b
+ŋⁿ	ŋⁿ	2	U+014b U+207f
+ɔː	ɔː	2	U+0254 U+02d0
+ph	pʰ	2	U+0070 U+0068
+ɛ:	ɛː	2	U+025b U+003a
+ᵐw	ⁿw	2	U+1d50 U+0077
+aa	aː	2	U+0061 U+0061
+nˡ	nˡ	2	U+006e U+02e1
+ŋᵐ	ŋⁿ	2	U+014b U+1d50
+nᵑ	nⁿ	2	U+006e U+1d51
+xᵐ	xⁿ	2	U+0078 U+1d50
+mᵐ	mⁿ	2	U+006d U+1d50
+bʳ	bʳ	2	U+0062 U+02b3
+ñ̥	ɲ̊
+tˢʰ	tʃ
 ˤ	ʕ
-^čiᵑo	tʃ i ⁿg o
-ᵑ	ⁿg
-ŋw	ŋʷ
-ⁿdʳ	ⁿdʳ
-^ⁿdiŋwaŋo-ᵑgu	ⁿd i ŋʷ a ŋ o + ⁿg u
-^fɔⁿdʳowo-n	f ɔ ⁿdʳ o w o + n
-kˀ	kˀ
-^ikˀa	i kˀ a
+kʰ	kʰ
+a:	aː
+o:	oː
+i:	iː
+ᵑgʷ̣	ᵑgʷ
 ⁿb	ⁿb
-ᵐbʷ	ⁿbʷ	aᵐbat, aᵐbʷat	maat, batunlamak, unua, toak, axamb, portsandwich, dixonreefi, nambel, narango, portvato, benour, ura, timbembe, lembinwen, maxbaxo, amblong, sesivi, maskelynes, avok	20	U+005e U+0061 U+1d50
-ᵐbʷ	ⁿbʷ	na-ᵐbʷaʔi-ŋ, na-ᵐbʷelekaβatu	woraviu, malfaxal, sesake, benour, bonga, vinmavis, uripiv, wala, mataso, makura, rerep, lingarak, avok, labo, burumba	21	U+1d50 U+0062 U+02b7
-ᵐbʷ	ⁿbʷ	tuᵐbʷa-k, aᵐbʷat	timbembe, lingarak, raga, malonorth, lepaxsivir, apma, maxbaxo, lolomatui, uri, katbol, pinalum, burumba, burmbar, unua, navenevene, burupika, rerep, lembinwen, baetora, lehali, sowa, repanbitip, pango, tam, malfaxal, narovorovo, yevali, avok, northt	44	U+0062 U+02b7
-ᵐp	ⁿp	io-ᵐput, ne-ᵐpokri	dixonreefii, sie, mpotovoro, sesake, labo, northt, woraviu, vinmavis, axamb, repanbitip, aulua, lingarak, narango, dorig, burmbar	31	U+1d50 U+0070
-ᵐp	ⁿp	ᵐbeᵐbe, ᵐpeᵐpe	repanbitip, maskelynes, dixonreefi, unua, labo, peterara, axamb, burupika, portsandwich, aulua, larevat, rerep, lolsiwoi, lepaxsivir, nume, bonkovia, sie, vinmavis, yevali, avok, vovo, bonga, makura, motlav, tutuba, koro, aore, navenevene, lametin, vetumboso, narango, nambel, vartavo, tavio, lembinwen, roria, baetora, timbembe, malmariv, nasawa, lolomatui, vao, mapremo, navut, wailengi, amblong, tam, malfaxal, narovorovo, ngwatua, toga, uri, vowa, katbol, burumba	80	U+0065 U+1d50
-ᵐpʷ	ⁿpʷ
-ᵐʰb	ⁿbʰ	ᵐʰbeᵐʰbe	aore	1	U+0065 U+1d50 U+02b0
-ᵑg	ⁿg
-ᵑg	ⁿg	kirᵑgilien	baiap	1	U+0072 U+1d51
-ᵑg	ⁿg	mea-ᵑgu, mata-ᵑgu	lolsiwoi, lolomatui, ngwatua, sesake, peterara, bonkovia, burupika, wailengi, yevali, malfaxal, windua, raga, tavio, lingarak, labo, litzlitz, benour, lembinwen, narovorovo, ranon, fali	100	U+1d51 U+0067
-ᵑg$	ⁿg	nuŋ so-ᵑg, ne-βen so-ᵑg	labo, larevat	4	U+1d51 U+0067 U+0024
-ᵑgʷ	ⁿgʷ
-ᵑk	ⁿk	taᵑgʷaŋi-ᵑgu, kiaᵑgi	unua, dixonreefi, wailengi, narovorovo, maemorae, peterara, burupika, rerep, lolsiwoi, malmariv, bonkovia, repanbitip, navut, yevali, lingarak, burmbar, labo, navenevene, lametin, mataso, aulua, nambel, vartavo, ura, benour, lepaxsivir, tavio, lehali, lembinwen, roria, mae, tonga, baiap, lolomatui, raga, sie, tam, ngwatua	57	U+0061 U+1d51
-ᵑk$	ⁿk	ᵐbaŋo-ᵑk, ᵐbatu-ᵑk	maxbaxo, maskelynes, repanbitip, avok, unua, litzlitz, seke, vartavo, burmbar, lepaxsivir, aulua, labo, windua, tavio, malfaxal, narango	100	U+1d51 U+006b U+0024
-ᵑkʷ	ⁿkʷ
-ḍ	ḍ/ɖ	uḍu-, ḍuiḍui	nonona, tutuba	9	U+1e0d
-ṭ	ṭ/ʈ	ṭiṭiu, uṭu	mafea	3	U+1e6d
-–	+	ne–lueme-ᵑk	litzlitz	1	U+2013
-‧	+	mʷatinta‧si, su‧su‧	sakao, sowa, malfaxal, valpei, navut	5	U+2027 U+0073
-‧	+	n-a‧wa	pwele	1	U+2027 U+0077
-‧	+	na-ki‧t, sa‧ki	pwele, kerepua, maemorae, siviri, pango, vowa, filakara, sakao, bonga, sesake, narango, tonga, vunapu, makatea, northt, lamenu, windua, makura, burumba, fila, tasiriki, mataso, maat, ura, apma, roria, wailapa, sowa, nuvi, baiap, nikaura, navut, vinmavis, ngwatua, fali, mate	84	U+2027
-‧$	NULL	dado‧, tukuᵐbu‧	sowa, burumba, malfaxal, maemorae, fonah, kerepua, maat, vatrata, navut, lamenu	12	U+2027 U+0024
-ⁿd	ⁿd	na-ⁿdaˀ, na-ⁿda-ŋu	lembinwen, benour, malfaxal, maskelynes, sesake, lingarak, woraviu, windua, tonga, bonga, makura, vetumboso, litzlitz, mataso, larevat, dixonreefi, petarmur, dixonreefii, maragus, northt	41	U+207f U+0064
-ⁿdʳ	ⁿdʳ	maⁿdʳu-ᵑk, mʷaⁿdu-ᵑgu	butmas, lametin, roria, polonombauk, mae, batunlamak, axamb, litzlitz, burupika, portsandwich, larevat, nambel, narango, timbembe, tambotalo, bonkovia, tur, amblong, orap, maskelynes, sharkbayii, northt, sesake, eratap, merig, burumba, burmbar, navenevene, peterara, morouas, leviamp, aulua, vartavo, portvato, lepaxsivir, tavio, baetora, maxbaxo, mapremo, unmet, sie, woraviu, tam, malfaxal, narovorovo, ngwatua, nguna, yevali, avok, fali, katbol, vatrata, lamenu	80	U+0061 U+207f
-ⁿdʳ	ⁿdʳ	ne-ⁿdʳe, na-ⁿdʳe-k	axamb, mae, repanbitip, portsandwich, aulua, dixonreefii, lingarak, avok, dorig, lepaxsivir, orap	11	U+207f U+0064 U+02b3
+ɯ	ɯ
+rˢ	rˢ
+ɦ	ɦ
+ᵐbʳ	ⁿbʳ
+ᵐβʷ	ⁿβʷ
+ᵇdʳ	bdʳ
+i̥	i̥
+pʰ	pʰ
+čʰ	tʃʰ
