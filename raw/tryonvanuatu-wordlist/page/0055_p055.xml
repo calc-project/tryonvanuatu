@@ -3,10 +3,15 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.19.0:model_id=229489:lm=none:date=27_11_2024_14:21</Creator>
         <Created>2024-10-29T16:15:26.003576</Created>
-        <LastChange>2024-11-27T21:38:45.250+01:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80939873" pageNr="55" tsid="208142062" status="GT" userId="191780" imgUrl="https://files.transkribus.eu/Get?id=ADLRLJMFTIZLYPNUGXLWPUDB&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=FNPBKXNYUMTBATTLKUXRYNUR" imageId="66362599"/>
+        <LastChange>2025-10-08T00:20:14.367+02:00</LastChange>
+        <TranskribusMetadata docId="4770512" pageId="80939873" pageNr="55" tsid="257380515" status="GT" userId="315306" imgUrl="https://files.transkribus.eu/Get?id=ADLRLJMFTIZLYPNUGXLWPUDB&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=NTUVKUUBQNJXEMBVDWSCLYXB" imageId="66362599"/>
     </Metadata>
     <Page imageFilename="0055_p055.jpg" imageWidth="2479" imageHeight="3508">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1759880492823" caption="Regions reading order">
+                <RegionRefIndexed index="1" regionRef="r"/>
+            </OrderedGroup>
+        </ReadingOrder>
         <TableRegion id="t1" custom="readingOrder {index:0;}">
             <Coords points="277,412 279,2980 2240,2980 2238,412"/>
             <TableCell row="0" col="0" colSpan="1" orientation="0.0" id="t1c1">
@@ -251,7 +256,7 @@
                     <Coords points="1890,714 1995,717 1995,675 1981,675 1973,682 1960,675 1950,675 1942,682 1929,681 1917,671 1890,677"/>
                     <Baseline points="1901,707 1907,704 1952,704 1997,704"/>
                     <TextEquiv>
-                        <Unicode>tata</Unicode>
+                        <Unicode>tata¹</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -311,7 +316,7 @@
                     <Coords points="1882,772 1892,770 1902,780 1964,782 1975,770 1991,782 2080,780 2080,739 2049,743 2038,731 2028,741 1991,739 1979,751 1958,739 1907,739 1896,751 1882,752"/>
                     <Baseline points="1892,767 1937,767 1982,767 2027,770 2071,770 2113,765"/>
                     <TextEquiv>
-                        <Unicode>nok tataˡ</Unicode>
+                        <Unicode>nok tata¹</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -501,7 +506,7 @@
                     <Coords points="1888,974 1898,974 1903,980 1952,980 1958,976 1964,982 2016,978 2016,935 1989,943 1973,929 1964,941 1937,937 1923,941 1907,933 1898,943 1888,943"/>
                     <Baseline points="1898,967 1943,964 1988,967 2021,967"/>
                     <TextEquiv>
-                        <Unicode>ta‧ta</Unicode>
+                        <Unicode>ta‧ta¹</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -1081,7 +1086,7 @@
                     <Coords points="1890,1555 1913,1557 1921,1563 1950,1563 1954,1559 1960,1565 1968,1561 2001,1563 1999,1520 1985,1524 1970,1524 1964,1519 1958,1524 1927,1520 1888,1522"/>
                     <Baseline points="1898,1546 1943,1549 1988,1549 2003,1546"/>
                     <TextEquiv>
-                        <Unicode>mamaˡ</Unicode>
+                        <Unicode>mama¹</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -1791,7 +1796,7 @@
                     <Coords points="1894,2261 1915,2269 1983,2267 2001,2277 2047,2261 2057,2267 2086,2265 2086,2218 2061,2218 2051,2228 1966,2228 1958,2220 1948,2228 1894,2228"/>
                     <Baseline points="1904,2257 1910,2257 1955,2254 2000,2254 2045,2254 2108,2254"/>
                     <TextEquiv>
-                        <Unicode>tataya-kˡ</Unicode>
+                        <Unicode>tataya-k¹</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -1851,7 +1856,7 @@
                     <Coords points="1894,2327 1935,2335 1999,2333 2008,2327 2020,2339 2042,2341 2043,2287 2032,2287 2022,2296 1973,2298 1958,2290 1925,2298 1917,2290 1907,2300 1896,2300"/>
                     <Baseline points="1904,2322 1913,2322 1958,2322 2003,2319 2065,2319"/>
                     <TextEquiv>
-                        <Unicode>tata-ŋˡ</Unicode>
+                        <Unicode>tata-ŋ¹</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -2181,7 +2186,7 @@
                     <Coords points="1896,2644 1923,2654 2008,2652 2024,2642 2051,2640 2053,2609 2038,2605 2022,2611 2007,2601 1993,2611 1970,2613 1962,2607 1925,2613 1917,2601 1898,2603"/>
                     <Baseline points="1907,2642 1922,2639 1967,2639 2012,2639 2057,2630"/>
                     <TextEquiv>
-                        <Unicode>tatai-</Unicode>
+                        <Unicode>tatai-¹</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -2241,7 +2246,7 @@
                     <Coords points="1894,2706 1923,2716 2001,2714 2012,2726 2069,2708 2084,2724 2112,2724 2112,2673 1970,2677 1958,2666 1946,2677 1929,2677 1917,2666 1894,2677"/>
                     <Baseline points="1904,2704 1949,2704 1994,2704 2039,2704 2083,2704 2133,2706"/>
                     <TextEquiv>
-                        <Unicode>tata ya-ŋˡ</Unicode>
+                        <Unicode>tata ya-ŋ¹</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -2660,5 +2665,18 @@
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
         </TableRegion>
+        <TextRegion id="r" custom="readingOrder {index:1;}">
+            <Coords points="321,3237 618,3237 618,3294 321,3294"/>
+            <TextLine id="l_1" custom="readingOrder {index:0;}">
+                <Coords points="610,3277 336,3269 336,3269 336,3239 288,3268 609,3307"/>
+                <Baseline points="610,3277 336,3269 336,3269"/>
+                <TextEquiv>
+                    <Unicode>¹Address term</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
     </Page>
 </PcGts>

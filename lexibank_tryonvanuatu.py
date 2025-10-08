@@ -9,6 +9,7 @@ from csv import DictReader
 
 import xml
 import codecs
+import re
 
 RECREATE_CONCEPTS = False
 RECREATE_LANGUAGES = True
@@ -154,6 +155,12 @@ class Dataset(BaseDataset):
                 try:
                     number, name, group = get_language(row[0])
                     for concept_, value in zip(current_concepts[1:], row[1:]):
+                        footnotes = re.compile(r"[¹²³⁴⁵]")
+                        match = re.search(footnotes, value)
+                        if match:
+                            # TODO handle footnotes!
+                            footnote = match.group()
+                            value = re.sub(footnotes, "", value)
                         cnum, concept = get_concept(concept_)
                         data += [[row[0].strip(), number, name, group,
                                   concept_.strip(), cnum, concept, value, str(page), img]]
@@ -253,8 +260,8 @@ class Dataset(BaseDataset):
                     else:
                         language_file.write("\t".join(issue) + "\n")
 
-        for a, b in errors:
-            args.log.info("problem: {0} / {1}".format(a, b))
+        #for a, b in errors:
+        #    args.log.info("problem: {0} / {1}".format(a, b))
 
 
     def cmd_makecldf(self, args):

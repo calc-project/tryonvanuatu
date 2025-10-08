@@ -3,10 +3,15 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.19.0:model_id=229489:lm=none:date=27_11_2024_13:50</Creator>
         <Created>2024-10-29T16:15:26.003576</Created>
-        <LastChange>2024-11-27T14:04:41.524+01:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80939857" pageNr="53" tsid="208013163" status="GT" userId="191780" imgUrl="https://files.transkribus.eu/Get?id=ZMSPMQIDUEMQQKLLTFBOGIWL&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=RWFTQBDDMOALIFEWEHHWMCNR" imageId="66362581"/>
+        <LastChange>2025-10-08T00:23:36.880+02:00</LastChange>
+        <TranskribusMetadata docId="4770512" pageId="80939857" pageNr="53" tsid="257380560" status="GT" userId="315306" imgUrl="https://files.transkribus.eu/Get?id=ZMSPMQIDUEMQQKLLTFBOGIWL&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=YHKADCBPYTFMUVVTLEWKEJGH" imageId="66362581"/>
     </Metadata>
     <Page imageFilename="0053_p053.jpg" imageWidth="2479" imageHeight="3508">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1759880492759" caption="Regions reading order">
+                <RegionRefIndexed index="1" regionRef="r"/>
+            </OrderedGroup>
+        </ReadingOrder>
         <TableRegion id="t1" custom="readingOrder {index:0;}">
             <Coords points="284,422 272,2808 2363,2808 2358,419"/>
             <TableCell row="0" col="0" colSpan="1" orientation="0.0" id="t1c1">
@@ -1217,7 +1222,7 @@
                     <Coords points="1494,1638 1514,1644 1552,1644 1560,1638 1574,1652 1602,1650 1602,1596 1586,1596 1576,1608 1526,1606 1516,1596 1504,1606 1494,1606"/>
                     <Baseline points="1504,1630 1549,1630 1594,1633 1632,1627"/>
                     <TextEquiv>
-                        <Unicode>ta-ŋˡ</Unicode>
+                        <Unicode>ta-ŋ¹</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -2480,5 +2485,18 @@
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
         </TableRegion>
+        <TextRegion id="r" custom="readingOrder {index:1;}">
+            <Coords points="316,3052 526,3052 526,3108 316,3108"/>
+            <TextLine id="l_1" custom="readingOrder {index:0;}">
+                <Coords points="513,3095 339,3092 326,3062 326,3062 326,3032 289,3038 317,3124 512,3125"/>
+                <Baseline points="513,3095 339,3092 326,3062 326,3062"/>
+                <TextEquiv>
+                    <Unicode>¹See back</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
     </Page>
 </PcGts>

@@ -3,43 +3,43 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.20.0:model_id=265269:lm=none:date=15_01_2025_11:56</Creator>
         <Created>2024-10-31T10:00:37.574631</Created>
-        <LastChange>2025-08-26T13:39:45.643+02:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80940120" pageNr="231" tsid="254186260" status="FINAL" userId="191957" imgUrl="https://files.transkribus.eu/Get?id=BSUZFPKXCDOVZHTGPBAUYCIN&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=KETIEYUNJHQZTDNUPXKBPMML" imageId="66362865"/>
+        <LastChange>2025-10-08T00:47:57.271+02:00</LastChange>
+        <TranskribusMetadata docId="4770512" pageId="80940120" pageNr="231" tsid="257381738" status="FINAL" userId="315306" imgUrl="https://files.transkribus.eu/Get?id=BSUZFPKXCDOVZHTGPBAUYCIN&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=JZGNENEROIMDRAUDCSKNHCCX" imageId="66362865"/>
     </Metadata>
     <Page imageFilename="0231_p231.jpg" imageWidth="2479" imageHeight="3508">
         <ReadingOrder>
-            <OrderedGroup id="ro_1759791234667" caption="Regions reading order">
+            <OrderedGroup id="ro_1759880500178" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r"/>
             </OrderedGroup>
         </ReadingOrder>
         <TextRegion id="r" custom="readingOrder {index:0;}">
             <Coords points="293,3042 1940,3042 1940,3164 293,3164"/>
-            <TextLine id="l" custom="readingOrder {index:0;} textStyle {offset:0; length:1;superscript:true;}">
+            <TextLine id="l" custom="readingOrder {index:0;}">
                 <Coords points="303,3121 525,3123 525,3093 303,3091"/>
                 <Baseline points="303,3121 525,3123"/>
                 <TextEquiv>
-                    <Unicode>1 = small</Unicode>
+                    <Unicode>¹ = small</Unicode>
                 </TextEquiv>
             </TextLine>
-            <TextLine id="l_2117" custom="readingOrder {index:1;} textStyle {offset:0; length:1;superscript:true;}">
+            <TextLine id="l_2117" custom="readingOrder {index:1;}">
                 <Coords points="587,3111 989,3121 989,3091 587,3081"/>
                 <Baseline points="587,3111 989,3121"/>
                 <TextEquiv>
-                    <Unicode>2 = Same as narrow</Unicode>
+                    <Unicode>² = Same as narrow</Unicode>
                 </TextEquiv>
             </TextLine>
-            <TextLine id="l_2314" custom="readingOrder {index:2;} textStyle {offset:0; length:2;superscript:true;}">
+            <TextLine id="l_2314" custom="readingOrder {index:2;}">
                 <Coords points="1080,3119 1540,3121 1540,3091 1080,3089"/>
                 <Baseline points="1080,3119 1540,3121"/>
                 <TextEquiv>
-                    <Unicode>3 = Bichelamar round?</Unicode>
+                    <Unicode>³ = Bichelamar round?</Unicode>
                 </TextEquiv>
             </TextLine>
-            <TextLine id="l_2511" custom="readingOrder {index:3;} textStyle {offset:0; length:1;superscript:true;}">
+            <TextLine id="l_2511" custom="readingOrder {index:3;}">
                 <Coords points="1643,3123 1852,3115 1851,3085 1642,3093"/>
                 <Baseline points="1643,3123 1852,3115"/>
                 <TextEquiv>
-                    <Unicode>4 = good</Unicode>
+                    <Unicode>⁴ = good</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextEquiv>
@@ -138,11 +138,11 @@
             </TableCell>
             <TableCell row="1" col="2" colSpan="1" orientation="0.0" id="t1c8">
                 <Coords points="1073,502 1073,592 1407,590 1407,503"/>
-                <TextLine id="t1c8_tl_1" custom="readingOrder {index:0;} textStyle {offset:4; length:1;superscript:true;}">
+                <TextLine id="t1c8_tl_1" custom="readingOrder {index:0;}">
                     <Coords points="1096,584 1150,590 1178,586 1194,588 1194,544 1170,544 1164,538 1156,540 1144,536 1136,544 1122,542 1096,546"/>
                     <Baseline points="1107,576 1152,573 1197,573"/>
                     <TextEquiv>
-                        <Unicode>kiki1</Unicode>
+                        <Unicode>kiki¹</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -208,11 +208,11 @@
             </TableCell>
             <TableCell row="2" col="2" colSpan="1" orientation="0.0" id="t1c13">
                 <Coords points="1073,592 1073,657 1407,655 1407,590"/>
-                <TextLine id="t1c13_tl_1" custom="readingOrder {index:0;} textStyle {offset:9; length:1;superscript:true;}">
+                <TextLine id="t1c13_tl_1" custom="readingOrder {index:0;}">
                     <Coords points="1094,648 1196,654 1204,662 1220,654 1244,664 1262,654 1302,656 1302,604 1268,612 1248,600 1236,612 1204,612 1190,600 1170,612 1158,600 1146,612 1094,612"/>
                     <Baseline points="1104,641 1149,641 1194,641 1238,641 1283,641 1307,644"/>
                     <TextEquiv>
-                        <Unicode>sebaraβai2</Unicode>
+                        <Unicode>sebaraβai²</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -352,7 +352,7 @@
                     <Coords points="1102,784 1128,790 1166,774 1174,782 1222,782 1232,774 1244,784 1254,784 1254,726 1236,718 1226,718 1200,744 1174,744 1166,752 1158,744 1128,746 1122,740 1102,740"/>
                     <Baseline points="1113,773 1122,770 1167,767 1212,767 1259,769"/>
                     <TextEquiv>
-                        <Unicode>ŋu-muᵑo</Unicode>
+                        <Unicode>ŋu-muⁿdʳe</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -1682,11 +1682,11 @@
             </TableCell>
             <TableCell row="23" col="3" colSpan="1" orientation="0.0" id="t1c119">
                 <Coords points="1412,1948 1412,2010 1760,2009 1761,1946"/>
-                <TextLine id="t1c119_tl_1" custom="readingOrder {index:0;} textStyle {offset:8; length:1;superscript:true;}">
+                <TextLine id="t1c119_tl_1" custom="readingOrder {index:0;}">
                     <Coords points="1470,2012 1490,2012 1496,2006 1516,2014 1530,2002 1548,2012 1632,2012 1630,1970 1614,1970 1608,1980 1586,1978 1576,1970 1562,1978 1526,1974 1502,1952 1468,1952"/>
                     <Baseline points="1451,2000 1528,1997 1573,2000 1618,2003 1666,2002"/>
                     <TextEquiv>
-                        <Unicode>mʷi-raon3</Unicode>
+                        <Unicode>mʷi-raon³</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -2146,11 +2146,11 @@
             </TableCell>
             <TableCell row="30" col="4" colSpan="1" orientation="0.0" id="t1c155">
                 <Coords points="1760,2409 1760,2471 2358,2472 2357,2410"/>
-                <TextLine id="t1c155_tl_1" custom="readingOrder {index:0;} textStyle {offset:8; length:1;superscript:true;}">
+                <TextLine id="t1c155_tl_1" custom="readingOrder {index:0;}">
                     <Coords points="1786,2458 1810,2470 1838,2468 1848,2456 1862,2468 1896,2474 1966,2464 1982,2468 1980,2420 1962,2420 1952,2410 1930,2422 1914,2414 1898,2430 1848,2426 1836,2414 1826,2424 1786,2436"/>
                     <Baseline points="1797,2451 1842,2451 1886,2454 1931,2457 1976,2454 1985,2457"/>
                     <TextEquiv>
-                        <Unicode>ti-nakih4</Unicode>
+                        <Unicode>ti-nakih⁴</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>

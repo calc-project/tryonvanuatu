@@ -3,10 +3,15 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.19.0:model_id=229489:lm=none:date=27_11_2024_14:05</Creator>
         <Created>2024-10-29T16:15:26.003576</Created>
-        <LastChange>2025-09-05T10:46:44.475+02:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80939858" pageNr="54" tsid="254925546" status="GT" userId="191957" imgUrl="https://files.transkribus.eu/Get?id=SWOAJOQTMYATLFEUCZVIFEPQ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=PKXIUTLUNGBYMOUZKTCFWZIA" imageId="66362582"/>
+        <LastChange>2025-10-08T00:21:53.799+02:00</LastChange>
+        <TranskribusMetadata docId="4770512" pageId="80939858" pageNr="54" tsid="257380536" status="GT" userId="315306" imgUrl="https://files.transkribus.eu/Get?id=SWOAJOQTMYATLFEUCZVIFEPQ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=EVSRTKKUCASNPSWZOSLQXHEM" imageId="66362582"/>
     </Metadata>
     <Page imageFilename="0054_p054.jpg" imageWidth="2479" imageHeight="3508">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1759880492790" caption="Regions reading order">
+                <RegionRefIndexed index="1" regionRef="r"/>
+            </OrderedGroup>
+        </ReadingOrder>
         <TableRegion id="t1" custom="readingOrder {index:0;}">
             <Coords points="270,417 277,2592 2228,2592 2228,410"/>
             <TableCell row="0" col="0" colSpan="1" orientation="0.0" id="t1c1">
@@ -381,7 +386,7 @@
                     <Coords points="1894,1366 1944,1382 1950,1378 1960,1380 1966,1374 1984,1380 2012,1376 2010,1328 1976,1328 1964,1340 1956,1332 1944,1340 1936,1334 1930,1338 1912,1336 1902,1346 1892,1346"/>
                     <Baseline points="1904,1361 1949,1364 1994,1364 2026,1364"/>
                     <TextEquiv>
-                        <Unicode>mamuˡ</Unicode>
+                        <Unicode>mamu¹</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -591,7 +596,7 @@
                     <Coords points="1900,1564 1936,1578 1992,1576 2002,1570 2010,1578 2028,1578 2034,1572 2048,1572 2048,1522 2020,1522 2010,1532 1994,1522 1984,1532 1978,1528 1944,1532 1928,1522 1900,1526"/>
                     <Baseline points="1910,1558 1916,1558 1961,1555 2006,1555 2051,1555"/>
                     <TextEquiv>
-                        <Unicode>tama -k</Unicode>
+                        <Unicode>tama-k</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -1531,7 +1536,7 @@
                     <Coords points="1902,722 1934,722 1952,738 1972,738 1980,746 1990,746 1990,682 1970,682 1966,686 1902,686"/>
                     <Baseline points="1913,710 1958,713 1994,710"/>
                     <TextEquiv>
-                        <Unicode>mam</Unicode>
+                        <Unicode>mam¹</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -1741,7 +1746,7 @@
                     <Coords points="1896,784 1906,784 1918,790 1938,788 1944,794 1962,790 1970,796 1984,796 1986,752 1928,754 1918,742 1898,744"/>
                     <Baseline points="1907,779 1946,779 1991,776"/>
                     <TextEquiv>
-                        <Unicode>mam</Unicode>
+                        <Unicode>mam¹</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -2287,5 +2292,18 @@
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
         </TableRegion>
+        <TextRegion id="r" custom="readingOrder {index:1;}">
+            <Coords points="319,3030 1273,3030 1273,3089 319,3089"/>
+            <TextLine id="l_1" custom="readingOrder {index:0;}">
+                <Coords points="1246,3065 345,3067 345,3067 343,3067 343,3064 329,3041 327,3039 306,3060 305,3060 314,3072 313,3097 285,3067 405,3067 1246,3095"/>
+                <Baseline points="1246,3065 345,3067 345,3067 343,3067 343,3064 329,3041 327,3039"/>
+                <TextEquiv>
+                    <Unicode>¹Address term - reference term unobtainable.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
     </Page>
 </PcGts>
