@@ -3,8 +3,8 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.19.0:model_id=229489:lm=none:date=27_11_2024_09:51</Creator>
         <Created>2024-10-29T16:15:26.003576</Created>
-        <LastChange>2025-09-05T10:10:05.312+02:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80939854" pageNr="47" tsid="254919609" status="GT" userId="191957" imgUrl="https://files.transkribus.eu/Get?id=DKDXQCJYJYOAYSMHNNCPIWBW&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=JNJSLSJSVMCMUIJEWDCDGBPL" imageId="66362578"/>
+        <LastChange>2025-10-08T19:02:39.168+02:00</LastChange>
+        <TranskribusMetadata docId="4770512" pageId="80939854" pageNr="47" tsid="257466209" status="GT" userId="315306" imgUrl="https://files.transkribus.eu/Get?id=DKDXQCJYJYOAYSMHNNCPIWBW&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=BYZFXSHMJUYMMVZJLUQTIQXT" imageId="66362578"/>
     </Metadata>
     <Page imageFilename="0047_p047.jpg" imageWidth="2479" imageHeight="3508">
         <TableRegion id="t1" custom="readingOrder {index:0;}">
@@ -117,7 +117,7 @@
                     <Coords points="1471,592 1528,595 1535,588 1559,603 1598,586 1616,603 1638,595 1661,610 1682,606 1682,549 1659,561 1626,559 1607,576 1560,549 1549,558 1518,557 1502,567 1485,558 1471,567"/>
                     <Baseline points="1477,585 1522,585 1567,585 1612,585 1656,588 1683,585"/>
                     <TextEquiv>
-                        <Unicode>na-βi poβ</Unicode>
+                        <Unicode>na-βiᵐpoβ</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -131,7 +131,7 @@
                     <Coords points="1818,587 1857,597 1887,587 1903,597 1948,591 1961,603 2001,593 2016,603 2056,588 2072,602 2119,595 2119,564 2101,557 2056,577 2038,559 2026,567 2016,557 1977,558 1956,536 1900,565 1818,564"/>
                     <Baseline points="1824,588 1854,588 1898,585 1943,585 1988,588 2033,588 2077,588 2122,585"/>
                     <TextEquiv>
-                        <Unicode>na-taᵐpota po</Unicode>
+                        <Unicode>na-taᵐpotaᵐpo</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -640,7 +640,7 @@
                     <Coords points="838,1238 868,1250 1000,1242 1024,1257 1055,1242 1087,1257 1111,1237 1208,1242 1224,1257 1253,1249 1253,1218 1235,1209 1102,1226 1083,1208 941,1217 904,1191 838,1191"/>
                     <Baseline points="844,1238 889,1238 934,1238 979,1236 1024,1236 1068,1238 1113,1236 1158,1238 1203,1238 1247,1238 1256,1241"/>
                     <TextEquiv>
-                        <Unicode>ᵐbʷetin-li-k li-k</Unicode>
+                        <Unicode>ᵐbʷetin-li-k</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -650,6 +650,13 @@
             </TableCell>
             <TableCell row="11" col="2" colSpan="1" orientation="0.0" id="t1c38">
                 <Coords points="1089,1188 1089,1255 1432,1255 1432,1187"/>
+                <TextLine id="l_39" custom="readingOrder {index:0;}">
+                    <Coords points="1161,1231 1268,1236 1271,1236 1271,1206 1269,1206 1162,1201"/>
+                    <Baseline points="1161,1231 1268,1236 1271,1236"/>
+                    <TextEquiv>
+                        <Unicode>li-k</Unicode>
+                    </TextEquiv>
+                </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
             <TableCell row="11" col="3" colSpan="1" orientation="0.0" id="t1c39">
@@ -1564,7 +1571,7 @@
                     <Coords points="1096,2343 947,2343 895,2361 826,2347 826,2326 884,2328 966,2295 1044,2337 1096,2335"/>
                     <Baseline points="832,2343 877,2346 922,2343 967,2343 1012,2346 1056,2346"/>
                     <TextEquiv>
-                        <Unicode>me re-ᵐbuk</Unicode>
+                        <Unicode>mere-ᵐbuk</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>

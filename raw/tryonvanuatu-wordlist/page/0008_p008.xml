@@ -3,10 +3,15 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.19.0:model_id=39995:lm=none:date=11_11_2024_16:10</Creator>
         <Created>2024-10-29T16:13:37.842266</Created>
-        <LastChange>2025-10-08T00:40:29.499+02:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80939733" pageNr="8" tsid="257381366" status="GT" userId="315306" imgUrl="https://files.transkribus.eu/Get?id=WJSZHGBGDJBQHQSBHAJJIULM&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=IGLXTRHYLUTVELMVGXXODAVB" imageId="66362497"/>
+        <LastChange>2025-10-08T12:22:24.608+02:00</LastChange>
+        <TranskribusMetadata docId="4770512" pageId="80939733" pageNr="8" tsid="257417119" status="GT" userId="315306" imgUrl="https://files.transkribus.eu/Get?id=WJSZHGBGDJBQHQSBHAJJIULM&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=JIYPIHNKJGWNOSGVMZHKPILM" imageId="66362497"/>
     </Metadata>
     <Page imageFilename="0008_p008.jpg" imageWidth="2479" imageHeight="3508">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1760097215960" caption="Regions reading order">
+                <RegionRefIndexed index="1" regionRef="r"/>
+            </OrderedGroup>
+        </ReadingOrder>
         <TableRegion id="t1" custom="readingOrder {index:0;}">
             <Coords points="295,410 294,2713 2224,2732 2224,407"/>
             <TableCell row="0" col="0" colSpan="1" orientation="0.0" id="t1c1">
@@ -859,7 +864,7 @@
                     <Coords points="718,653 777,651 791,659 803,647 816,657 854,647 885,659 925,647 972,661 972,613 937,605 872,605 854,590 811,586 771,613 718,615"/>
                     <Baseline points="728,646 976,644"/>
                     <TextEquiv>
-                        <Unicode>na-baʔi-o</Unicode>
+                        <Unicode>na-ᵐbʷaʔi-ŋ</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -873,7 +878,7 @@
                     <Coords points="1010,645 1041,661 1081,649 1106,663 1120,651 1175,655 1185,643 1207,661 1225,661 1225,617 1185,615 1173,607 1098,607 1091,617 1079,617 1059,605 1026,623 1010,623"/>
                     <Baseline points="1021,638 1065,641 1110,641 1155,641 1200,641 1230,644"/>
                     <TextEquiv>
-                        <Unicode>na-βili-o</Unicode>
+                        <Unicode>na-βili-ŋ</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -1531,7 +1536,7 @@
                     <Coords points="1826,2331 1974,2341 1988,2329 2031,2353 2092,2329 2130,2335 2130,2296 2108,2286 2089,2296 2039,2296 2014,2284 1998,2296 1826,2288"/>
                     <Baseline points="1837,2330 2135,2329"/>
                     <TextEquiv>
-                        <Unicode>na-paŋ-nin̥a-k</Unicode>
+                        <Unicode>na-paŋ-nin̥ə-k</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -1629,7 +1634,7 @@
                     <Coords points="712,712 749,724 777,724 793,708 816,718 850,708 872,728 901,716 919,724 929,714 945,728 982,722 982,684 876,674 860,657 793,657 765,684 747,674 712,686"/>
                     <Baseline points="722,709 988,707"/>
                     <TextEquiv>
-                        <Unicode>na-ᵐbʷaʔi-o</Unicode>
+                        <Unicode>na-ᵐbʷaʔi-ŋ</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -2520,5 +2525,18 @@
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
         </TableRegion>
+        <TextRegion id="r" custom="readingOrder {index:1;}">
+            <Coords points="319,2859 892,2859 892,2918 319,2918"/>
+            <TextLine id="l_1" custom="readingOrder {index:0;}">
+                <Coords points="335,2891 884,2897 884,2897 884,2867 884,2867 335,2861"/>
+                <Baseline points="335,2891 884,2897 884,2897"/>
+                <TextEquiv>
+                    <Unicode>* Polynesian Outliers</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
     </Page>
 </PcGts>

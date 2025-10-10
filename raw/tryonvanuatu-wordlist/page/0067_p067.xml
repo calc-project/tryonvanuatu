@@ -3,8 +3,8 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.20.0:model_id=235849:lm=none:date=19_12_2024_21:35</Creator>
         <Created>2024-10-29T16:15:26.003576</Created>
-        <LastChange>2025-09-05T10:50:44.777+02:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80939864" pageNr="67" tsid="254925722" status="FINAL" userId="191957" imgUrl="https://files.transkribus.eu/Get?id=UWPXQZXIVIBDRFBDVWEQEKPL&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=IMBQXILRDWIXKHVZTQBKPCRK" imageId="66362588"/>
+        <LastChange>2025-10-08T19:23:47.948+02:00</LastChange>
+        <TranskribusMetadata docId="4770512" pageId="80939864" pageNr="67" tsid="257467988" status="FINAL" userId="315306" imgUrl="https://files.transkribus.eu/Get?id=UWPXQZXIVIBDRFBDVWEQEKPL&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=CJSICRDFGSMVBSPYTYGUCCIM" imageId="66362588"/>
     </Metadata>
     <Page imageFilename="0067_p067.jpg" imageWidth="2479" imageHeight="3508">
         <TableRegion id="t1" custom="readingOrder {index:0;}">
@@ -284,7 +284,7 @@
                     <Coords points="1414,758 1432,771 1536,771 1579,752 1680,760 1681,794 1435,782 1414,789"/>
                     <Baseline points="1532,782 1624,782 1668,782 1683,782"/>
                     <TextEquiv>
-                        <Unicode>ni-kia-ᵑk nimkut</Unicode>
+                        <Unicode>nimkut</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -337,7 +337,7 @@
                     <Coords points="1207,847 1261,865 1278,850 1412,859 1534,847 1607,859 1619,858 1618,824 1580,816 1533,837 1473,838 1415,820 1342,829 1301,803 1206,835"/>
                     <Baseline points="1212,844 1256,847 1301,847 1346,847 1391,847 1436,847 1480,847 1525,847 1570,850 1615,850 1621,850"/>
                     <TextEquiv>
-                        <Unicode>ni-kia kine nie</Unicode>
+                        <Unicode>ni-kia kine</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -347,6 +347,13 @@
             </TableCell>
             <TableCell row="5" col="3" colSpan="1" orientation="0.0" id="t1c29">
                 <Coords points="1496,799 1496,865 1800,866 1800,799"/>
+                <TextLine id="l_42" custom="readingOrder {index:0;}">
+                    <Coords points="1625,840 1536,842 1537,872 1626,870"/>
+                    <Baseline points="1625,840 1536,842"/>
+                    <TextEquiv>
+                        <Unicode>nie</Unicode>
+                    </TextEquiv>
+                </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
             <TableCell row="5" col="4" colSpan="1" orientation="0.0" id="t1c30">
@@ -1383,7 +1390,7 @@
             </TableCell>
             <TableCell row="22" col="1" colSpan="1" orientation="0.0" id="t1c112">
                 <Coords points="833,1910 833,1975 1163,1976 1163,1912"/>
-                <TextLine id="l_23" custom="readingOrder {index:0;}">
+                <TextLine id="l_23" custom="readingOrder {index:0;} sic {offset:0; length:8;}">
                     <Coords points="1152,1960 884,1965 884,1938 1046,1924 1085,1945 1152,1947"/>
                     <Baseline points="889,1958 934,1955 979,1955 1024,1955 1068,1955"/>
                     <TextEquiv>
@@ -1542,7 +1549,7 @@
             </TableCell>
             <TableCell row="24" col="4" colSpan="1" orientation="0.0" id="t1c125">
                 <Coords points="1797,2046 1796,2112 2341,2115 2341,2047"/>
-                <TextLine id="t1c125_tl_1" custom="readingOrder {index:0;}">
+                <TextLine id="t1c125_tl_1" custom="readingOrder {index:0;} sic {offset:0; length:3;}">
                     <Coords points="1837,2101 1842,2101 1848,2106 1865,2106 1869,2102 1880,2113 1903,2113 1911,2110 1911,2069 1887,2069 1880,2076 1872,2076 1865,2069 1837,2069"/>
                     <Baseline points="1842,2092 1886,2092 1913,2092"/>
                     <TextEquiv>

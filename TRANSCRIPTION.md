@@ -5,85 +5,88 @@
 
 | Segment | Occurrence | BIPA | CLTS SoundClass |
 |:----------|-------------:|:-------|:------------------|
-| a | 38155 | ✓ | ✓ |
-| i | 21713 | ✓ | ✓ |
-| n | 18110 | ✓ | ✓ |
-| u | 16516 | ✓ | ✓ |
-| e | 16439 | ✓ | ✓ |
-| + | 15535 | ✓ | ✓ |
-| o | 12603 | ✓ | ✓ |
-| r | 11375 | ✓ | ✓ |
-| l | 11331 | ✓ | ✓ |
-| t | 11170 | ✓ | ✓ |
-| m | 10840 | ✓ | ✓ |
-| k | 9220 | ✓ | ✓ |
+| a | 37930 | ✓ | ✓ |
+| i | 21660 | ✓ | ✓ |
+| n | 18101 | ✓ | ✓ |
+| + | 16891 | ✓ | ✓ |
+| u | 16464 | ✓ | ✓ |
+| e | 16396 | ✓ | ✓ |
+| o | 12549 | ✓ | ✓ |
+| r | 11415 | ✓ | ✓ |
+| l | 11336 | ✓ | ✓ |
+| t | 11168 | ✓ | ✓ |
+| m | 10825 | ✓ | ✓ |
+| k | 9218 | ✓ | ✓ |
 | s | 8305 | ✓ | ✓ |
-| β | 6816 | ✓ | ✓ |
-| p | 4137 | ✓ | ✓ |
-| ŋ | 4031 | ✓ | ✓ |
-| ə | 3646 | ✓ | ✓ |
-| w | 3031 | ✓ | ✓ |
+| β | 6815 | ✓ | ✓ |
+| p | 4132 | ✓ | ✓ |
+| ŋ | 4045 | ✓ | ✓ |
+| ə | 3662 | ✓ | ✓ |
+| w | 3030 | ✓ | ✓ |
 | ɣ | 2881 | ✓ | ✓ |
-| ⁿb | 2627 | ✓ | ✓ |
+| ⁿb | 2628 | ✓ | ✓ |
 | h | 2581 | ✓ | ✓ |
-| _ | 1505 | ✓ | ✓ |
 | f | 1471 | ✓ | ✓ |
-| mʷ | 1404 | ✓ | ✓ |
-| y | 1247 | ✓ | ✓ |
-| ⁿd | 1200 | ✓ | ✓ |
+| mʷ | 1421 | ✓ | ✓ |
+| ⁿd | 1205 | ✓ | ✓ |
 | x | 1194 | ✓ | ✓ |
-| œ | 1040 | ✓ | ✓ |
-| ⁿg | 1023 | ✓ | ✓ |
-| æ | 971 | ✓ | ✓ |
+| œ | 1041 | ✓ | ✓ |
+| j | 1030 | ✓ | ✓ |
+| ⁿg | 1027 | ✓ | ✓ |
+| æ | 970 | ✓ | ✓ |
 | tʃ | 815 | ✓ | ✓ |
-| ts | 736 | ✓ | ✓ |
-| ⁿk | 626 | ✓ | ✓ |
+| ts | 739 | ✓ | ✓ |
 | pʷ | 623 | ✓ | ✓ |
+| ⁿk | 623 | ✓ | ✓ |
 | kʷ | 467 | ✓ | ✓ |
-| ⁿdʳ | 462 | ✓ | ✓ |
-| <?> | 417 | ? | ? |
-| ⁿp | 395 | ✓ | ✓ |
-| b | 366 | ✓ | ✓ |
-| ɛ | 321 | ✓ | ✓ |
-| ⁿbʷ | 303 | ✓ | ✓ |
-| d | 283 | ✓ | ✓ |
+| ⁿdʳ | 463 | ✓ | ✓ |
+| ⁿp | 399 | ✓ | ✓ |
+| b | 362 | ✓ | ✓ |
+| ɛ | 322 | ✓ | ✓ |
+| ⁿbʷ | 307 | ✓ | ✓ |
+| d | 270 | ✓ | ✓ |
 | m̺ | 249 | ✓ | ✓ |
+| aˑ | 221 | ✓ | ✓ |
+| y | 217 | ✓ | ✓ |
 | aˀ | 206 | ✓ | ✓ |
 | kpʷ | 192 | ✓ | ✓ |
-| ɔ | 192 | ✓ | ✓ |
-| ð | 171 | ✓ | ✓ |
+| ɔ | 189 | ✓ | ✓ |
+| ð | 172 | ✓ | ✓ |
 | βʷ | 160 | ✓ | ✓ |
-| ˀa | 156 | ? | ? |
+| ˀa | 157 | ? | ? |
 | v̺ | 147 | ✓ | ✓ |
-| g | 137 | ✓ | ✓ |
+| g | 131 | ✓ | ✓ |
 | ɲ | 129 | ✓ | ✓ |
 | p̺ | 125 | ✓ | ✓ |
-| ˀu | 107 | ? | ? |
+| ˀu | 106 | ? | ? |
 | n̥ | 98 | ✓ | ✓ |
+| ʔ | 92 | ✓ | ✓ |
 | ŋʷ | 91 | ✓ | ✓ |
-| ʔ | 91 | ✓ | ✓ |
-| ø | 84 | ✓ | ✓ |
+| ø | 82 | ✓ | ✓ |
 | ˀi | 80 | ? | ? |
 | tʳ | 76 | ✓ | ✓ |
 | l̥ | 73 | ✓ | ✓ |
 | θ | 69 | ✓ | ✓ |
 | r̥ | 67 | ✓ | ✓ |
 | ʕ | 63 | ✓ | ✓ |
-| ⁿgʷ | 58 | ✓ | ✓ |
+| ⁿgʷ | 59 | ✓ | ✓ |
+| uˑ | 57 | ✓ | ✓ |
 | ˀe | 56 | ? | ? |
 | z | 53 | ✓ | ✓ |
+| iˑ | 50 | ✓ | ✓ |
 | m̥ | 49 | ✓ | ✓ |
 | uˀ | 47 | ✓ | ✓ |
-| dʳ | 45 | ✓ | ✓ |
 | oˀ | 45 | ✓ | ✓ |
 | bʷ | 44 | ✓ | ✓ |
-| ř | 41 | ? | ? |
+| dʳ | 44 | ✓ | ✓ |
+| oˑ | 42 | ✓ | ✓ |
 | w̥ | 39 | ✓ | ✓ |
 | ˀo | 37 | ? | ? |
-| r̃ | 34 | ✓ | ✓ |
-| lː | 29 | ✓ | ✓ |
+| ɾ | 33 | ✓ | ✓ |
+| eˑ | 28 | ✓ | ✓ |
+| lː | 28 | ✓ | ✓ |
 | ɒ | 28 | ✓ | ✓ |
-| ɨ | 27 | ✓ | ✓ |
+| ɨ | 28 | ✓ | ✓ |
 | m̥ʷ | 26 | ✓ | ✓ |
 | ⁿɖ | 25 | ✓ | ✓ |
 | ɖ | 19 | ✓ | ✓ |
@@ -94,31 +97,34 @@
 | ʃ | 13 | ✓ | ✓ |
 | ʈ | 12 | ✓ | ✓ |
 | dʒ | 11 | ✓ | ✓ |
+| ɔˑ | 11 | ✓ | ✓ |
 | ˀœ | 11 | ? | ? |
-| ʒ | 10 | ✓ | ✓ |
 | sː | 9 | ✓ | ✓ |
 | œˀ | 9 | ✓ | ✓ |
 | tː | 8 | ✓ | ✓ |
 | xʷ | 8 | ✓ | ✓ |
-| nʷ | 7 | ✓ | ✓ |
 | v | 7 | ✓ | ✓ |
 | ɔː | 7 | ✓ | ✓ |
+| ⁿdʒ | 7 | ✓ | ✓ |
 | c | 6 | ✓ | ✓ |
 | gʷ | 6 | ✓ | ✓ |
 | lˀ | 6 | ✓ | ✓ |
+| nʷ | 6 | ✓ | ✓ |
 | o̥ | 6 | ✓ | ✓ |
 | u̥ | 6 | ✓ | ✓ |
-| ⁿʰb | 6 | ✓ | ✓ |
+| ⁿb̺ | 6 | ✓ | ✓ |
 | i̥ | 5 | ✓ | ✓ |
-| kp | 5 | ✓ | ✓ |
-| <<ᵑ>> | 4 | ? | ? |
+| <<‧>> | 4 | ? | ? |
+| kp | 4 | ✓ | ✓ |
 | oː | 4 | ✓ | ✓ |
 | pː | 4 | ✓ | ✓ |
 | βˀ | 4 | ✓ | ✓ |
+| <<ᵑ>> | 3 | ? | ? |
 | mˀ | 3 | ✓ | ✓ |
 | pʰ | 3 | ✓ | ✓ |
 | tʰ | 3 | ✓ | ✓ |
 | ðː | 3 | ✓ | ✓ |
+| ʒ | 3 | ✓ | ✓ |
 | aː | 2 | ✓ | ✓ |
 | kː | 2 | ✓ | ✓ |
 | tʷ | 2 | ✓ | ✓ |
@@ -134,19 +140,20 @@
 | kʰ | 1 | ✓ | ✓ |
 | lʷ | 1 | ✓ | ✓ |
 | mːʷ | 1 | ✓ | ✓ |
+| nˑ | 1 | ✓ | ✓ |
 | rʷ | 1 | ✓ | ✓ |
 | rˢ | 1 | ✓ | ✓ |
 | tʃʰ | 1 | ✓ | ✓ |
+| ɛˑ | 1 | ✓ | ✓ |
 | ɦ | 1 | ✓ | ✓ |
 | ɲ̊ | 1 | ✓ | ✓ |
 | βː | 1 | ✓ | ✓ |
-| ᵑgʷ | 1 | ✓ | ✓ |
 | ⁿbʳ | 1 | ✓ | ✓ |
 | ⁿdʷ | 1 | ✓ | ✓ |
 | ⁿkʷ | 1 | ✓ | ✓ |
 | ⁿβʷ | 1 | ✓ | ✓ |
 
-(140 rows)
+(147 rows)
 
 
 
@@ -162,107 +169,107 @@
 ## Words with invalid segments (up to 100 only)
 
 | ID | LANGUAGE | CONCEPT | FORM | SEGMENTS |
-|:------------------------|:--------------|:------------|:-----------------|:--------------------------------|
-| aneityum-7_eye-1 | aneityum | 7_eye | nesŋan_imta-k | n e s ŋ a n _ i m t a + k |
-| aniwa-2_hair-1 | aniwa | 2_hair | fiyo_ouru | f i y o _ o u r u |
-| aniwa-7_eye-1 | aniwa | 7_eye | i_-mata | i _ + m a t a |
-| apma-9_beard-1 | apma | 9_beard | səmun_bal̥e-k | s ə m u n _ b a l̥ e + k |
-| burupika-6_tooth-1 | burupika | 6_tooth | mæræ-_čuwa-_ᵑgu | m æ r æ + _ tʃ u w a + _ ⁿg u |
-| dixonreefii-3_ear-1 | dixonreefii | 3_ear | na-_ⁿdelœŋa-na | n a + _ ⁿd e l œ ŋ a + n a |
-| dixonreefii-6_tooth-1 | dixonreefii | 6_tooth | na-_lœβu-na | n a + _ l œ β u + n a |
-| dorig-12_hand-1 | dorig | 12_hand | na-_lmu-k | n a + _ l m u + k |
-| enfit-1_head-1 | enfit | 1_head | kapak_kabwa | k a p a k _ k a b w a |
-| filakara-2_hair-1 | filakara | 2_hair | ilu_pʷa-u | i l u _ pʷ a + u |
-| futuna-2_hair-1 | futuna | 2_hair | fufuru_uru | f u f u r u _ u r u |
-| hiw-9_beard-1 | hiw | 9_beard | n-uy-pai_setayuw | n + u y + p a i _ s e t a y u w |
-| ikiti-1_head-1 | ikiti | 1_head | kapak_kapa | k a p a k _ k a p a |
-| ikiyau-1_head-1 | ikiyau | 1_head | kapa_kapʷa | k a p a _ k a pʷ a |
-| ikiyau-5_tongue-1 | ikiyau | 5_tongue | na-_lamə-k | n a + _ l a m ə + k |
-| ikiyau-8_mouth-1 | ikiyau | 8_mouth | n̥e_le-k | n̥ e _ l e + k |
-| imreang-1_head-1 | imreang | 1_head | kapa_kapʷa | k a p a _ k a pʷ a |
-| isiai-1_head-1 | isiai | 1_head | kauk_ka·pa | k a u k _ k a <s> <?> </s> p a |
-| kerepua-1_head-1 | kerepua | 1_head | pa·tu | p a <s> <?> </s> t u |
-| kerepua-7_eye-1 | kerepua | 7_eye | ma‧ta | m a <s> <?> </s> t a |
-| lamenu-3_ear-1 | lamenu | 3_ear | ki_liŋa-u | k i _ l i ŋ a + u |
-| lametin-8_mouth-1 | lametin | 8_mouth | tᵑino- | t <s> <<ᵑ>> </s> i n o |
-| lapwang-1_head-1 | lapwang | 1_head | kapa_kapʷa | k a p a _ k a pʷ a |
-| larevat-2_hair-1 | larevat | 2_hair | ne-xafent_elen | n e + x a f e n t _ e l e n |
-| lehali-11_shoulder-1 | lehali | 11_shoulder | kʷota-bni_-k | kʷ o t a + b n i _ + k |
-| lehalurup-9_beard-1 | lehalurup | 9_beard | ɣœn_yœ-k | ɣ œ n _ y œ + k |
-| lembinwen-4_nose-1 | lembinwen | 4_nose | ni_-ᵑginhu-ˀ | n i _ + ⁿg i n h u + ʔ |
-| lenau-1_head-1 | lenau | 1_head | tahak_kapʷa | t a h a k _ k a pʷ a |
-| leviamp-2_hair-1 | leviamp | 2_hair | n-il_pəti-k | n + i l _ p ə t i + k |
-| lingarak-5_tongue-1 | lingarak | 5_tongue | ne_-_leme-n | n e _ + _ l e m e + n |
-| lironesa-2_hair-1 | lironesa | 2_hair | hi_lu-ku | h i _ l u + k u |
-| lorediakarkar-12_hand-1 | lorediakarkar | 12_hand | farsin_bili- | f a r s i n _ b i l i |
-| mae-7_eye-1 | mae | 7_eye | mət_a-k | m ə t _ a + k |
-| mapremo-2_hair-1 | mapremo | 2_hair | βi_li-ku | β i _ l i + k u |
-| mate-2_hair-1 | mate | 2_hair | i_lu_pʷa-u | i _ l u _ pʷ a + u |
-| merlav-11_shoulder-1 | merlav | 11_shoulder | pane_-k | p a n e _ + k |
-| mpotovoro-2_hair-1 | mpotovoro | 2_hair | ni-βil_pat-me | n i + β i l _ p a t + m e |
-| nambel-12_hand-1 | nambel | 12_hand | farlon_luma- | f a r l o n _ l u m a |
-| nambel-9_beard-1 | nambel | 9_beard | folun_ese- | f o l u n _ e s e |
-| narango-12_hand-1 | narango | 12_hand | lolol_luma-ᵑku | l o l o l _ l u m a + ⁿk u |
+|:--------------------------|:-----------|:-------------|:----------------|:--------------------------------------|
+| akei-13_thumb-1 | akei | 13_thumb | pisu-_lapa | p i s u + + l a p a |
+| bek-17_belly-1 | bek | 17_belly | ˀeᵏpʷe-k | <s> ˀe </s> kpʷ e + k |
+| bek-18_guts-1 | bek | 18_guts | ˀana_mu-k | <s> ˀa </s> n a + m u + k |
+| bek-44_father-1 | bek | 44_father | ˀeme-k | <s> ˀe </s> m e + k |
+| bek-46_child-1 | bek | 46_child | niˀi-k | n i <s> ˀi </s> + k |
+| benour-39_skin-1 | benour | 39_skin | no-ˀolsin | n o + <s> ˀo </s> l s i n |
+| bonga-43_tears-1 | bonga | 43_tears | na-tiriˀih | n a + t i r i <s> ˀi </s> h |
+| lolsiwoi-20_liver-1 | lolsiwoi | 20_liver | ate-_gu | a t e + + g u |
+| makura-19_heart-1 | makura | 19_heart | na-ˀamu-ŋ | n a + <s> ˀa </s> m u + ŋ |
+| mataso-19_heart-1 | mataso | 19_heart | na-ˀamʷo-ŋ | n a + <s> ˀa </s> mʷ o + ŋ |
 | narango-3_ear-1 | narango | 3_ear | puruᵑ-ku | p u r u <s> <<ᵑ>> </s> + k u |
-| narango-9_beard-1 | narango | 9_beard | fulun_esei-ᵑku | f u l u n _ e s e i + ⁿk u |
-| nikaura-2_hair-1 | nikaura | 2_hair | βi_lu_par-u | β i _ l u _ p a r + u |
 | nokuku-10_chin-1 | nokuku | 10_chin | ase-ˀu | a s e + <s> ˀu </s> |
 | nokuku-11_shoulder-1 | nokuku | 11_shoulder | riri-ˀu | r i r i + <s> ˀu </s> |
 | nokuku-12_hand-1 | nokuku | 12_hand | lima-ˀu | l i m a + <s> ˀu </s> |
+| nokuku-13_thumb-1 | nokuku | 13_thumb | tatopʷe-ˀu | t a t o pʷ e + <s> ˀu </s> |
+| nokuku-14_neck-1 | nokuku | 14_neck | alo-ˀu | a l o + <s> ˀu </s> |
+| nokuku-15_breasts-1 | nokuku | 15_breasts | manso-ˀu | m a n s o + <s> ˀu </s> |
+| nokuku-16_rib-1 | nokuku | 16_rib | porerɔ-ˀu | p o r e r ɔ + <s> ˀu </s> |
+| nokuku-17_belly-1 | nokuku | 17_belly | teɔ-ˀu | t e ɔ + <s> ˀu </s> |
+| nokuku-19_heart-1 | nokuku | 19_heart | wiso-ˀu | w i s o + <s> ˀu </s> |
 | nokuku-1_head-1 | nokuku | 1_head | putu-ˀu | p u t u + <s> ˀu </s> |
+| nokuku-20_liver-1 | nokuku | 20_liver | wiso-ˀu | w i s o + <s> ˀu </s> |
+| nokuku-27_back-1 | nokuku | 27_back | konpuli-ˀu | k o n p u l i + <s> ˀu </s> |
+| nokuku-28_righthand-1 | nokuku | 28_righthand | βaka_mɛtua-ˀu | β a k a + m ɛ t u a + <s> ˀu </s> |
+| nokuku-29_lefthand-1 | nokuku | 29_lefthand | βaka_mɛra-ˀu | β a k a + m ɛ r a + <s> ˀu </s> |
 | nokuku-2_hair-1 | nokuku | 2_hair | wulu-ˀu | w u l u + <s> ˀu </s> |
-| nokuku-3_ear-1 | nokuku | 3_ear | onno-ˀu | o nː o + <s> ˀu </s> |
-| nokuku-4_nose-1 | nokuku | 4_nose | nuno-ˀu | n u n o + <s> ˀu </s> |
+| nokuku-31_vein-1 | nokuku | 31_vein | kiresi-ˀu | k i r e s i + <s> ˀu </s> |
+| nokuku-32_thigh-1 | nokuku | 32_thigh | tˢeli-ˀu | ts e l i + <s> ˀu </s> |
+| nokuku-33_knee-1 | nokuku | 33_knee | wunpo-ˀu | w u n p o + <s> ˀu </s> |
+| nokuku-34_leg-1 | nokuku | 34_leg | paio-ˀu | p a i o + <s> ˀu </s> |
+| nokuku-37_blood-1 | nokuku | 37_blood | mekeβi-ˀu | m e k e β i + <s> ˀu </s> |
+| nokuku-38_bone-1 | nokuku | 38_bone | sui-ˀu | s u i + <s> ˀu </s> |
+| nokuku-39_skin-1 | nokuku | 39_skin | kurl-ˀu | k u r l + <s> ˀu </s> |
+| nokuku-3_ear-1 | nokuku | 3_ear | ɔnnɔ-ˀu | ɔ nː ɔ + <s> ˀu </s> |
+| nokuku-40_sore-1 | nokuku | 40_sore | wasa-ˀu | w a s a + <s> ˀu </s> |
+| nokuku-43_tears-1 | nokuku | 43_tears | tin_si-ˀu | t i n + s i + <s> ˀu </s> |
+| nokuku-45_mother-1 | nokuku | 45_mother | tino-ˀo | t i n o + <s> ˀo </s> |
+| nokuku-46_child-1 | nokuku | 46_child | notu-ˀu | n o t u + <s> ˀu </s> |
+| nokuku-4_nose-1 | nokuku | 4_nose | nunɔ-ˀu | n u n ɔ + <s> ˀu </s> |
 | nokuku-5_tongue-1 | nokuku | 5_tongue | meme-ˀu | m e m e + <s> ˀu </s> |
 | nokuku-6_tooth-1 | nokuku | 6_tooth | peti-ˀu | p e t i + <s> ˀu </s> |
 | nokuku-7_eye-1 | nokuku | 7_eye | mɛtɔ-ˀu | m ɛ t ɔ + <s> ˀu </s> |
 | nokuku-8_mouth-1 | nokuku | 8_mouth | wawa-ˀu | w a w a + <s> ˀu </s> |
 | nokuku-9_beard-1 | nokuku | 9_beard | kumʷi-ˀu | k u mʷ i + <s> ˀu </s> |
-| northt-1_head-1 | northt | 1_head | rak_kaᵐba | r a k _ k a ⁿb a |
-| northt-2_hair-1 | northt | 2_hair | n-a·nu-k | n + a <s> <?> </s> n u + k |
-| nul-2_hair-1 | nul | 2_hair | il_βwa-u | i l _ β w a + u |
-| nuvi-2_hair-1 | nuvi | 2_hair | βilu_paru-mʷa | β i l u _ p a r u + mʷ a |
-| nuvi-3_ear-1 | nuvi | 3_ear | ki_lŋa-mʷa | k i _ l ŋ a + mʷ a |
-| pango-6_tooth-1 | pango | 6_tooth | n-pat_i-k | n + p a t _ i + k |
-| penantsiro-12_hand-1 | penantsiro | 12_hand | pisui_lima- | p i s u i _ l i m a |
-| peterara-9_beard-1 | peterara | 9_beard | xumi_-_ᵑgu | x u m i _ + _ ⁿg u |
-| piamatsina-3_ear-1 | piamatsina | 3_ear | nřaliŋa-ku | n <s> ř </s> a l i ŋ a + k u |
-| piamatsina-5_tongue-1 | piamatsina | 5_tongue | meme_-ku | m e m e _ + k u |
-| pwele-6_tooth-1 | pwele | 6_tooth | na-pat_i | n a + p a t _ i |
-| repanbitip-6_tooth-1 | repanbitip | 6_tooth | ne_-liβo-ᵑk | n e _ + l i β o + ⁿk |
-| rerep-5_tongue-1 | rerep | 5_tongue | no-_r̥imu-ŋ | n o + _ r̥ i m u + ŋ |
-| sakao-9_beard-1 | sakao | 9_beard | n-øl_œβɛhɒ- | n + ø l _ œ β ɛ h ɒ |
-| sesivi-3_ear-1 | sesivi | 3_ear | deliño_-k | d e l i ɲ o _ + k |
-| sharkbayi-8_mouth-1 | sharkbayi | 8_mouth | s_ŋo- | s _ ŋ o |
-| sharkbayi-9_beard-1 | sharkbayi | 9_beard | fulun_ese- | f u l u n _ e s e |
-| sowa-11_shoulder-1 | sowa | 11_shoulder | bʷa‧se- | bʷ a <s> <?> </s> s e |
-| tavio-5_tongue-1 | tavio | 5_tongue | pur_-məna-ᵑgu | p u r _ + m ə n a + ⁿg u |
-| timbembe-6_tooth-1 | timbembe | 6_tooth | lipm_nai | l i p m _ n a i |
-| toak-2_hair-1 | toak | 2_hair | hi_lu-x | h i _ l u + x |
-| tonga-8_mouth-1 | tonga | 8_mouth | na-ki_roŋa-ŋ | n a + k i _ r o ŋ a + ŋ |
-| ura-5_tongue-1 | ura | 5_tongue | na-_luame-n | n a + _ l u a m e + n |
-| vatrata-2_hair-1 | vatrata | 2_hair | βi_le-k | β i _ l e + k |
-| vatrata-3_ear-1 | vatrata | 3_ear | de_lŋo-k | d e _ l ŋ o + k |
-| vetumboso-12_hand-1 | vetumboso | 12_hand | ᵐbeni_-k | ⁿb e n i _ + k |
-| vinmavis-2_hair-1 | vinmavis | 2_hair | na-nsi_len | n a + n s i _ l e n |
-| vinmavis-6_tooth-1 | vinmavis | 6_tooth | no-_loβu-ŋ | n o + _ l o β u + ŋ |
+| penantsiro-6_tooth-1 | penantsiro | 6_tooth | ˀako- | <s> ˀa </s> k o |
+| piamatsina-28_righthand-1 | piamatsina | 28_righthand | lima-_hi_matua- | l i m a + + h i + m a t u a |
+| piamatsina-29_lefthand-1 | piamatsina | 29_lefthand | lima-_hi_marau- | l i m a + + h i + m a r a u |
+| sasar-17_belly-1 | sasar | 17_belly | ˀœᵏpʷœ-k | <s> ˀœ </s> kpʷ œ + k |
+| sasar-18_guts-1 | sasar | 18_guts | ˀanamu-k | <s> ˀa </s> n a m u + k |
+| sasar-30_excrement-1 | sasar | 30_excrement | ˀe-k | <s> ˀe </s> + k |
+| sasar-33_knee-1 | sasar | 33_knee | ˀuᵏpʷu-k | <s> ˀu </s> kpʷ u + k |
+| sasar-39_skin-1 | sasar | 39_skin | βiniˀi-k | β i n i <s> ˀi </s> + k |
+| sasar-43_tears-1 | sasar | 43_tears | ˀiŋis-mœˀœ-k | <s> ˀi </s> ŋ i s + m œˀ œ + k |
+| sasar-44_father-1 | sasar | 44_father | ˀœmœk | <s> ˀœ </s> m œ k |
+| tasmate-16_rib-1 | tasmate | 16_rib | eˀe-ku | e <s> ˀe </s> + k u |
+| tonga-19_heart-1 | tonga | 19_heart | na-muliˀa-ŋ | n a + m u l i <s> ˀa </s> + ŋ |
+| tonga-24_penis-1 | tonga | 24_penis | na-ˀiti-n | n a + <s> ˀi </s> t i + n |
+| tonga-43_tears-1 | tonga | 43_tears | na-tiriˀih | n a + t i r i <s> ˀi </s> h |
+| vatrata-17_belly-1 | vatrata | 17_belly | ˀaᵏpʷa-k | <s> ˀa </s> kpʷ a + k |
+| vatrata-18_guts-1 | vatrata | 18_guts | ˀine-k | <s> ˀi </s> n e + k |
+| vatrata-30_excrement-1 | vatrata | 30_excrement | ˀie-k | <s> ˀi </s> e + k |
+| vatrata-39_skin-1 | vatrata | 39_skin | βinˀi-k | β i n <s> ˀi </s> + k |
+| vatrata-43_tears-1 | vatrata | 43_tears | ˀiŋis-maˀa-k | <s> ˀi </s> ŋ i s + m aˀ a + k |
+| vatrata-44_father-1 | vatrata | 44_father | ˀama-k | <s> ˀa </s> m a + k |
+| vatrata-46_child-1 | vatrata | 46_child | niˀi-k | n i <s> ˀi </s> + k |
 | vunapu-10_chin-1 | vunapu | 10_chin | ase-ˀu | a s e + <s> ˀu </s> |
 | vunapu-11_shoulder-1 | vunapu | 11_shoulder | paˤasau-ˀu | p a ʕ a s a u + <s> ˀu </s> |
 | vunapu-12_hand-1 | vunapu | 12_hand | lona-lima-ˀu | l o n a + l i m a + <s> ˀu </s> |
+| vunapu-14_neck-1 | vunapu | 14_neck | ˀalo-ˀu | <s> ˀa </s> l o + <s> ˀu </s> |
+| vunapu-17_belly-1 | vunapu | 17_belly | tia-ˀu | t i a + <s> ˀu </s> |
+| vunapu-19_heart-1 | vunapu | 19_heart | βuso-ˀu | β u s o + <s> ˀu </s> |
 | vunapu-1_head-1 | vunapu | 1_head | patu-ˀu | p a t u + <s> ˀu </s> |
+| vunapu-20_liver-1 | vunapu | 20_liver | ate-ˀu | a t e + <s> ˀu </s> |
+| vunapu-25_testicles-1 | vunapu | 25_testicles | laso-ˀu | l a s o + <s> ˀu </s> |
+| vunapu-26_vulva-1 | vunapu | 26_vulva | nene-ˀu | n e n e + <s> ˀu </s> |
+| vunapu-27_back-1 | vunapu | 27_back | lete-ˀu | l e t e + <s> ˀu </s> |
+| vunapu-28_righthand-1 | vunapu | 28_righthand | matua-ˀu | m a t u a + <s> ˀu </s> |
+| vunapu-29_lefthand-1 | vunapu | 29_lefthand | marau-ˀu | m a r a u + <s> ˀu </s> |
 | vunapu-2_hair-1 | vunapu | 2_hair | βulu-ˀu | β u l u + <s> ˀu </s> |
+| vunapu-30_excrement-1 | vunapu | 30_excrement | tae-ˀu | t a e + <s> ˀu </s> |
+| vunapu-31_vein-1 | vunapu | 31_vein | ˤarasi-ˀu | ʕ a r a s i + <s> ˀu </s> |
+| vunapu-32_thigh-1 | vunapu | 32_thigh | tˢani-ˀu | ts a n i + <s> ˀu </s> |
+| vunapu-33_knee-1 | vunapu | 33_knee | pou-ˀu | p o u + <s> ˀu </s> |
+| vunapu-34_leg-1 | vunapu | 34_leg | palo-ˀu | p a l o + <s> ˀu </s> |
+| vunapu-35_ankle-1 | vunapu | 35_ankle | mo‧-ˀu | m oˑ + <s> ˀu </s> |
+| vunapu-36_heel-1 | vunapu | 36_heel | kutmʷale-ˀu | k u t mʷ a l e + <s> ˀu </s> |
+| vunapu-37_blood-1 | vunapu | 37_blood | maˤaβi-ˀu | m a ʕ a β i + <s> ˀu </s> |
+| vunapu-38_bone-1 | vunapu | 38_bone | sui-ˀu | s u i + <s> ˀu </s> |
+| vunapu-39_skin-1 | vunapu | 39_skin | pino-ˀu | p i n o + <s> ˀu </s> |
 | vunapu-3_ear-1 | vunapu | 3_ear | la-ˀu | l a + <s> ˀu </s> |
-| vunapu-4_nose-1 | vunapu | 4_nose | no-ˀu | n o + <s> ˀu </s> |
+| vunapu-42_sweat-1 | vunapu | 42_sweat | maono-ˀu | m a o n o + <s> ˀu </s> |
+| vunapu-43_tears-1 | vunapu | 43_tears | tanisi-ˀu | t a n i s i + <s> ˀu </s> |
+| vunapu-44_father-1 | vunapu | 44_father | tama-ˀu | t a m a + <s> ˀu </s> |
 | vunapu-5_tongue-1 | vunapu | 5_tongue | meme-ˀu | m e m e + <s> ˀu </s> |
 | vunapu-6_tooth-1 | vunapu | 6_tooth | pati-ˀu | p a t i + <s> ˀu </s> |
 | vunapu-7_eye-1 | vunapu | 7_eye | mata-ˀu | m a t a + <s> ˀu </s> |
 | vunapu-8_mouth-1 | vunapu | 8_mouth | βi-ˀu | β i + <s> ˀu </s> |
 | vunapu-9_beard-1 | vunapu | 9_beard | ˤumi-ˀu | ʕ u m i + <s> ˀu </s> |
-| wetamut-12_hand-1 | wetamut | 12_hand | na-_lmu-k | n a + _ l m u + k |
-| wusimana-5_tongue-1 | wusimana | 5_tongue | memei_-ku | m e m e i _ + k u |
-| wusivalui-8_mouth-1 | wusivalui | 8_mouth | lon_ᵐbwa-ku | l o n _ ⁿb w a + k u |
-| yevali-7_eye-1 | yevali | 7_eye | kono-me_re-ᵑgu | k o n o + m e _ r e + ⁿg u |
-| yevali-8_mouth-1 | yevali | 8_mouth | ŋo-_ᵑgu | ŋ o + _ ⁿg u |
+| wailapa-39_skin-1 | wailapa | 39_skin | ˀuriˀuri-ku | <s> ˀu </s> r i <s> ˀu </s> r i + k u |
+| wusimana-40_sore-1 | wusimana | 40_sore | manˀa-ku | m a n <s> ˀa </s> + k u |
 
 (100 rows)
 

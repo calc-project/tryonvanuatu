@@ -3,12 +3,12 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.20.0:model_id=235849:lm=none:date=03_12_2024_14:39</Creator>
         <Created>2024-10-29T16:15:26.003576</Created>
-        <LastChange>2025-10-07T00:44:24.957+02:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80939882" pageNr="73" tsid="257276879" status="FINAL" userId="315306" imgUrl="https://files.transkribus.eu/Get?id=EASKOBKPFXNTOXQISPSIJITT&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=LUIKYQVRLVGZHTVDBRIOPNZT" imageId="66362608"/>
+        <LastChange>2025-10-08T19:30:21.781+02:00</LastChange>
+        <TranskribusMetadata docId="4770512" pageId="80939882" pageNr="73" tsid="257469115" status="FINAL" userId="315306" imgUrl="https://files.transkribus.eu/Get?id=EASKOBKPFXNTOXQISPSIJITT&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=TSAGBGTRRKRILCIRRQKMIQFT" imageId="66362608"/>
     </Metadata>
     <Page imageFilename="0073_p073.jpg" imageWidth="2479" imageHeight="3508">
         <ReadingOrder>
-            <OrderedGroup id="ro_1759880493301" caption="Regions reading order">
+            <OrderedGroup id="ro_1760097217526" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -1083,7 +1083,7 @@
             </TableCell>
             <TableCell row="16" col="1" colSpan="1" orientation="0.0" id="t1c77">
                 <Coords points="694,1500 694,1566 1058,1567 1058,1500"/>
-                <TextLine id="t1c77_tl_1" custom="readingOrder {index:0;}">
+                <TextLine id="t1c77_tl_1" custom="readingOrder {index:0;} sic {offset:0; length:6;}">
                     <Coords points="752,1562 774,1566 780,1562 802,1564 806,1560 832,1566 844,1560 850,1564 866,1562 870,1560 866,1524 856,1526 848,1520 832,1522 828,1518 818,1524 802,1512 792,1522 770,1520 762,1528 748,1528"/>
                     <Baseline points="761,1543 806,1549 850,1549 871,1552"/>
                     <TextEquiv>
