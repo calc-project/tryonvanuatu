@@ -3,10 +3,15 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.20.0:model_id=265269:lm=none:date=15_01_2025_11:56</Creator>
         <Created>2024-10-29T15:24:08.845397</Created>
-        <LastChange>2025-09-05T10:11:20.147+02:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80940077" pageNr="181" tsid="254919699" status="FINAL" userId="191957" imgUrl="https://files.transkribus.eu/Get?id=VNQSEJTRZJAAZILVILKRCMNH&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=YWLESBWKTTDUFJLUAAPDMKSI" imageId="66362822"/>
+        <LastChange>2025-10-15T15:13:40.920+02:00</LastChange>
+        <TranskribusMetadata docId="4770512" pageId="80940077" pageNr="181" tsid="258002304" status="FINAL" userId="315306" imgUrl="https://files.transkribus.eu/Get?id=VNQSEJTRZJAAZILVILKRCMNH&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=UQGIBPGUDWZCIWUHEFNQIFTG" imageId="66362822"/>
     </Metadata>
     <Page imageFilename="0181_p181.jpg" imageWidth="2479" imageHeight="3508">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1760534527960" caption="Regions reading order">
+                <RegionRefIndexed index="1" regionRef="r"/>
+            </OrderedGroup>
+        </ReadingOrder>
         <TableRegion id="t1" custom="readingOrder {index:0;}">
             <Coords points="285,424 276,2884 2265,2884 2343,424"/>
             <TableCell row="0" col="0" colSpan="1" orientation="0.0" id="t1c1">
@@ -2417,5 +2422,18 @@
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
         </TableRegion>
+        <TextRegion id="r" custom="readingOrder {index:1;}">
+            <Coords points="285,3101 746,3101 746,3160 285,3160"/>
+            <TextLine id="l_1" custom="readingOrder {index:0;}">
+                <Coords points="298,3117 733,3137 734,3107 299,3087"/>
+                <Baseline points="298,3117 733,3137"/>
+                <TextEquiv>
+                    <Unicode>¹Bichelamar sel sail.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
     </Page>
 </PcGts>

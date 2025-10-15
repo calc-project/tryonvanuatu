@@ -3,8 +3,8 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.19.0:model_id=229489:lm=none:date=01_12_2024_07:15</Creator>
         <Created>2024-10-29T16:13:37.842266</Created>
-        <LastChange>2025-10-08T18:37:40.241+02:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80939760" pageNr="26" tsid="257464836" status="GT" userId="315306" imgUrl="https://files.transkribus.eu/Get?id=EYRZNAHKUAAXBKROZFLPJXLS&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=LAJMWYIRYROWIKNQDBQXPZDT" imageId="66362486"/>
+        <LastChange>2025-10-10T16:21:42.442+02:00</LastChange>
+        <TranskribusMetadata docId="4770512" pageId="80939760" pageNr="26" tsid="257624717" status="GT" userId="315306" imgUrl="https://files.transkribus.eu/Get?id=EYRZNAHKUAAXBKROZFLPJXLS&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=LDUDWTSWZDFNETSVFSILFYVD" imageId="66362486"/>
     </Metadata>
     <Page imageFilename="0026_p026.jpg" imageWidth="2479" imageHeight="3508">
         <TableRegion id="t1" custom="readingOrder {index:0;}">
@@ -611,7 +611,7 @@
                     <Coords points="1881,1569 1895,1578 1952,1571 1974,1578 1994,1569 2022,1586 2066,1576 2135,1578 2135,1544 2033,1544 2002,1521 1968,1532 1941,1520 1881,1550"/>
                     <Baseline points="1886,1564 1931,1564 1976,1564 2021,1564 2065,1564 2110,1564 2137,1564"/>
                     <TextEquiv>
-                        <Unicode>maᵐbʷiɣərax</Unicode>
+                        <Unicode>maᵐbʷiyərax</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -720,7 +720,7 @@
                     <Coords points="1144,1694 1163,1705 1237,1705 1253,1702 1260,1695 1286,1697 1286,1665 1261,1664 1250,1670 1205,1646 1184,1654 1171,1644 1163,1651 1144,1650"/>
                     <Baseline points="1149,1686 1152,1686 1197,1683 1241,1683 1288,1685"/>
                     <TextEquiv>
-                        <Unicode>čiñe-m</Unicode>
+                        <Unicode>čine-m</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -1452,7 +1452,7 @@
                     <Coords points="1837,2332 1876,2334 1900,2354 1944,2338 1961,2354 2003,2342 2028,2355 2042,2345 2087,2345 2087,2311 2027,2314 2013,2327 1992,2312 1956,2307 1889,2314 1878,2325 1837,2323"/>
                     <Baseline points="1842,2331 1886,2334 1931,2334 1976,2334 2021,2334 2065,2334 2089,2331"/>
                     <TextEquiv>
-                        <Unicode>nə-pa pam</Unicode>
+                        <Unicode>nə-paᵐpam</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -1804,7 +1804,7 @@
                     <Coords points="783,2664 1320,2655 1239,2614 1157,2623 1136,2644 783,2620"/>
                     <Baseline points="788,2651 832,2654 877,2651 922,2651"/>
                     <TextEquiv>
-                        <Unicode>v̈ate-k</Unicode>
+                        <Unicode>v̈atə-k</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -1871,7 +1871,7 @@
                     <Coords points="777,2723 795,2731 815,2731 821,2726 826,2730 918,2729 917,2696 900,2689 883,2700 854,2699 842,2688 822,2698 806,2683 777,2683"/>
                     <Baseline points="782,2716 826,2716 871,2716 916,2719 919,2719"/>
                     <TextEquiv>
-                        <Unicode>v̈ate-k</Unicode>
+                        <Unicode>v̈atə-k</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -1931,7 +1931,7 @@
                     <Coords points="789,2783 976,2802 995,2783 1138,2780 1305,2801 1305,2750 989,2771 962,2754 894,2757 859,2730 789,2771"/>
                     <Baseline points="794,2782 818,2782 862,2779 907,2782 952,2782 997,2782 1041,2782 1086,2782 1131,2779 1176,2779 1221,2779 1265,2779 1307,2773"/>
                     <TextEquiv>
-                        <Unicode>ⁿdaᵐbxa-ɣ n-sne-y</Unicode>
+                        <Unicode>ⁿdaᵐbxa-ɣ</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -1941,6 +1941,13 @@
             </TableCell>
             <TableCell row="35" col="2" colSpan="1" orientation="0.0" id="t1c178">
                 <Coords points="1112,2732 1112,2814 1452,2812 1452,2728"/>
+                <TextLine id="l_1" custom="readingOrder {index:0;}">
+                    <Coords points="1151,2771 1312,2771 1312,2741 1151,2741"/>
+                    <Baseline points="1151,2771 1312,2771"/>
+                    <TextEquiv>
+                        <Unicode>n-sne-ɣ</Unicode>
+                    </TextEquiv>
+                </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
             <TableCell row="35" col="3" colSpan="1" orientation="0.0" id="t1c179">

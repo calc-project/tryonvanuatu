@@ -3,12 +3,12 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.19.0:model_id=229489:lm=none:date=01_12_2024_16:31</Creator>
         <Created>2024-12-01T16:28:09.789550</Created>
-        <LastChange>2025-09-05T09:56:46.929+02:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80939761" pageNr="28" tsid="254918503" status="GT" userId="191957" imgUrl="https://files.transkribus.eu/Get?id=JJPJNCUMBWXTXCZZBZLOOQJA&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=XDIKSIUZYJFEMODLQNJFBHYI" imageId="66362487"/>
+        <LastChange>2025-10-10T16:33:21.889+02:00</LastChange>
+        <TranskribusMetadata docId="4770512" pageId="80939761" pageNr="28" tsid="257625570" status="GT" userId="315306" imgUrl="https://files.transkribus.eu/Get?id=JJPJNCUMBWXTXCZZBZLOOQJA&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=UGMNPLMVHGDEWNEMSDIXRLNA" imageId="66362487"/>
     </Metadata>
     <Page imageFilename="0028_p028.jpg" imageWidth="2479" imageHeight="3508">
         <ReadingOrder>
-            <OrderedGroup id="ro_1760097216333" caption="Regions reading order">
+            <OrderedGroup id="ro_1760534523767" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -171,7 +171,7 @@
                     <Coords points="1108,656 1156,668 1176,668 1188,656 1204,668 1272,668 1286,654 1296,654 1296,602 1286,602 1264,622 1228,586 1192,620 1108,622"/>
                     <Baseline points="1119,650 1164,650 1209,650 1253,650 1298,650 1301,650"/>
                     <TextEquiv>
-                        <Unicode>na-tinai</Unicode>
+                        <Unicode>na-tinaˀ</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -409,7 +409,7 @@
                     <Coords points="1848,856 1890,860 1894,864 1908,866 1918,866 1924,860 1936,860 1934,814 1918,814 1908,806 1898,806 1890,814 1874,810 1846,812"/>
                     <Baseline points="1857,838 1898,844 1937,841"/>
                     <TextEquiv>
-                        <Unicode>ate-</Unicode>
+                        <Unicode>ate</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -1042,7 +1042,7 @@
                     <Coords points="1850,1514 1860,1512 1868,1516 1928,1516 1926,1474 1848,1476"/>
                     <Baseline points="1859,1501 1904,1501 1931,1504"/>
                     <TextEquiv>
-                        <Unicode>ate-</Unicode>
+                        <Unicode>ate</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -1331,7 +1331,7 @@
                     <Coords points="1106,1828 1150,1840 1210,1842 1222,1836 1238,1852 1274,1844 1274,1784 1106,1790"/>
                     <Baseline points="1116,1824 1143,1827 1188,1824 1233,1824 1279,1826"/>
                     <TextEquiv>
-                        <Unicode>na-nina</Unicode>
+                        <Unicode>na-nin̥a</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -1805,7 +1805,7 @@
                     <Coords points="1482,2282 1594,2284 1608,2298 1646,2298 1660,2284 1670,2284 1670,2250 1600,2248 1588,2238 1578,2246 1554,2232 1542,2248 1522,2242 1482,2248"/>
                     <Baseline points="1492,2271 1537,2271 1582,2271 1627,2271 1671,2274 1674,2274"/>
                     <TextEquiv>
-                        <Unicode>nowotaŋa</Unicode>
+                        <Unicode>nowotaw̥a</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -2321,7 +2321,7 @@
                     <Coords points="1108,2804 1134,2814 1158,2798 1168,2806 1200,2798 1230,2810 1244,2796 1260,2798 1262,2758 1232,2756 1224,2748 1212,2758 1198,2758 1190,2748 1172,2742 1148,2762 1110,2760"/>
                     <Baseline points="1119,2791 1131,2794 1176,2788 1221,2788 1265,2788"/>
                     <TextEquiv>
-                        <Unicode>naβaβa</Unicode>
+                        <Unicode>n̥aβaβa</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>

@@ -34,18 +34,18 @@ Available online at https://doi.org/10.15144/PL-C50
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 99%](https://img.shields.io/badge/Concepticon-99%25-green.svg "Concepticon: 99%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
-![BIPA: 94%](https://img.shields.io/badge/BIPA-94%25-green.svg "BIPA: 94%")
-![CLTS SoundClass: 94%](https://img.shields.io/badge/CLTS%20SoundClass-94%25-green.svg "CLTS SoundClass: 94%")
+![BIPA: 99%](https://img.shields.io/badge/BIPA-99%25-brightgreen.svg "BIPA: 99%")
+![CLTS SoundClass: 99%](https://img.shields.io/badge/CLTS%20SoundClass-99%25-brightgreen.svg "CLTS SoundClass: 99%")
 
 - **Varieties:** 179 (linked to 120 different Glottocodes)
 - **Concepts:** 292 (linked to 286 different Concepticon concept sets)
-- **Lexemes:** 44,873
+- **Lexemes:** 44,874
 - **Sources:** 1
 - **Synonymy:** 1.00
 - **Invalid lexemes:** 0
-- **Tokens:** 251,097
-- **Segments:** 147 (9 BIPA errors, 9 CLTS sound class errors, 138 CLTS modified)
-- **Inventory size (avg):** 31.87
+- **Tokens:** 251,785
+- **Segments:** 132 (1 BIPA errors, 1 CLTS sound class errors, 131 CLTS modified)
+- **Inventory size (avg):** 31.01
 
 ## CLDF Datasets
 

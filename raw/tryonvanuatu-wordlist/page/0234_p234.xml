@@ -3,10 +3,15 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.20.0:model_id=265269:lm=none:date=15_01_2025_11:56</Creator>
         <Created>2024-10-31T10:00:37.574631</Created>
-        <LastChange>2025-02-11T14:33:33.657+01:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80940149" pageNr="234" tsid="227995328" status="FINAL" userId="191957" imgUrl="https://files.transkribus.eu/Get?id=QOBDIPYPFAKPBZAFWORWTJNY&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=OADBFWYKREPSKOGYIMNWLKQQ" imageId="66362894"/>
+        <LastChange>2025-10-15T14:57:19.665+02:00</LastChange>
+        <TranskribusMetadata docId="4770512" pageId="80940149" pageNr="234" tsid="257999842" status="FINAL" userId="315306" imgUrl="https://files.transkribus.eu/Get?id=QOBDIPYPFAKPBZAFWORWTJNY&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=AXAEPDAEZJFWCCURHETWOUNZ" imageId="66362894"/>
     </Metadata>
     <Page imageFilename="0234_p234.jpg" imageWidth="2479" imageHeight="3508">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1760534529876" caption="Regions reading order">
+                <RegionRefIndexed index="1" regionRef="r"/>
+            </OrderedGroup>
+        </ReadingOrder>
         <TableRegion id="t1" custom="readingOrder {index:0;}">
             <Coords points="291,412 284,2742 2355,2753 2259,412"/>
             <TableCell row="0" col="0" colSpan="1" orientation="0.0" id="t1c1">
@@ -2305,5 +2310,18 @@
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
         </TableRegion>
+        <TextRegion id="r" custom="readingOrder {index:1;}">
+            <Coords points="327,3072 1501,3072 1501,3140 327,3140"/>
+            <TextLine id="l_1" custom="readingOrder {index:0;}">
+                <Coords points="337,3098 1479,3108 1479,3078 337,3068"/>
+                <Baseline points="337,3098 1479,3108"/>
+                <TextEquiv>
+                    <Unicode>¹There are two forms of one in New Hebrides languages.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
     </Page>
 </PcGts>

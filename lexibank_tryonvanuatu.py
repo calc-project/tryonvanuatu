@@ -23,6 +23,32 @@ def extract_table(fname):
     with codecs.open(fname, "r", "utf-8") as f:
         page = xml.dom.minidom.parseString(f.read())
 
+    # parse footnotes
+    # TODO handle the other case where footnotes are different textlines in the SAME region
+    footnotes = {}
+    footnote_pattern = re.compile(r"^\W*([¹²³⁴⁵])\W*")
+    footnote_regions = page.childNodes[0].getElementsByTagName("TextRegion")
+    # two possible XML representations for multiple footnotes:
+    # 1. under different <TextRegion> nodes,
+    # 2. different <TextLine> nodes under the same <TextRegion> node
+    for region in footnote_regions:
+        textlines = region.getElementsByTagName("TextLine")
+        for textline in textlines:
+            try:
+                footnote = textline.getElementsByTagName("TextEquiv")[0].getElementsByTagName("Unicode")[0].firstChild.toxml().strip()
+                if footnote == "* Polynesian Outliers":
+                    # this is handled in the language table
+                    continue
+                footnote_index = re.search(footnote_pattern, footnote).group(1)
+                footnote_text = re.sub(footnote_pattern, "", footnote)
+                footnotes[footnote_index] = footnote_text
+            except IndexError:
+                print("Problem with parsing footnote XML:")
+                print(region.toxml())
+            except AttributeError:
+                print("Problem with parsing footnote string:")
+                print(footnote)
+
     # must sort correctly (!)
     cells = sorted(
             page.childNodes[0].getElementsByTagName("TableCell"),
@@ -49,7 +75,8 @@ def extract_table(fname):
         else:
             value = ''
         table[-1] += [value]
-    return table
+
+    return table, footnotes
 
 
 def get_language(row):
@@ -144,7 +171,7 @@ class Dataset(BaseDataset):
             args.log.info("Working on {0}...".format(fname))
             img = fname.name + ".jpg"
             page = int(fname.name.split("_p")[1].split(".")[0]) + 171
-            table = extract_table(fname)
+            table, footnotes = extract_table(fname)
             current_concepts = table[0]
             current_languages = [row[0] for row in table[1:]]
             concepts += current_concepts[1:]
@@ -155,15 +182,19 @@ class Dataset(BaseDataset):
                 try:
                     number, name, group = get_language(row[0])
                     for concept_, value in zip(current_concepts[1:], row[1:]):
-                        footnotes = re.compile(r"[¹²³⁴⁵]")
-                        match = re.search(footnotes, value)
+                        footnotes_pattern = re.compile(r"[¹²³⁴⁵]")
+                        match = re.search(footnotes_pattern, value)
                         if match:
-                            # TODO handle footnotes!
-                            footnote = match.group()
-                            value = re.sub(footnotes, "", value)
+                            footnote_index = match.group()
+                            value = re.sub(footnotes_pattern, "", value)
+                            if footnote_index not in footnotes:
+                                args.log.warning(f"Footnote {footnote_index} not in footnotes ({fname})")
+                            footnote = footnotes.get(footnote_index, "")
+                        else:
+                            footnote = ""
                         cnum, concept = get_concept(concept_)
                         data += [[row[0].strip(), number, name, group,
-                                  concept_.strip(), cnum, concept, value, str(page), img]]
+                                  concept_.strip(), cnum, concept, value, str(page), img, footnote]]
                 except ValueError:
                     args.log.info("Problem with entry '{0} / {1}'".format(fname, row))
                     errors.add((fname, row[0]))
@@ -204,13 +235,17 @@ class Dataset(BaseDataset):
         
         with codecs.open(self.raw_dir / "data.tsv", "w", "utf-8") as f:
             f.write("\t".join(
-                ["LanguageInSource", "LanguageNumber", 
-                 "Language", "Group", 
+                ["LanguageInSource",
+                 "LanguageNumber",
+                 "Language",
+                 "Region",
                  "ConceptInSource",
-                 "ConceptNumber", "Concept", 
+                 "ConceptNumber",
+                 "Concept",
                  "Value",
                  "Page",
-                 "Image"
+                 "Image",
+                 "Footnote"
                  ]
                 ) + "\n")
             for row in data:
@@ -230,7 +265,7 @@ class Dataset(BaseDataset):
             with open(self.etc_dir / "languages.tsv") as f:
                 reader = DictReader(f, delimiter="\t")
                 for row in reader:
-                    group = row["SubGroup"] or ""
+                    group = row["Region"] or ""
                     languages.add((row["Number"], row["Name"], group))
 
             visited_issues = set()
@@ -297,5 +332,6 @@ class Dataset(BaseDataset):
                     Language_ID=languages[entry["LanguageNumber"]],
                     Parameter_ID=concepts[entry["ConceptNumber"]],
                     Value=entry["Value"],
-                    Source="Tryon1976"
+                    Source="Tryon1976",
+                    Comment=entry["Footnote"]
                 )

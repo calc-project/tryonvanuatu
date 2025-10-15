@@ -3,22 +3,22 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.19.0:model_id=229489:lm=none:date=01_12_2024_20:13</Creator>
         <Created>2024-10-29T16:13:37.842266</Created>
-        <LastChange>2025-10-07T23:23:53.212+02:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80939745" pageNr="30" tsid="257377624" status="GT" userId="315306" imgUrl="https://files.transkribus.eu/Get?id=MTYQXUVEJOIRIADBDBPTJEZK&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=JRHMAKAAJOEOZNHJRWPMOGJP" imageId="66362509"/>
+        <LastChange>2025-10-10T17:03:24.931+02:00</LastChange>
+        <TranskribusMetadata docId="4770512" pageId="80939745" pageNr="30" tsid="257627077" status="GT" userId="315306" imgUrl="https://files.transkribus.eu/Get?id=MTYQXUVEJOIRIADBDBPTJEZK&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=IWEFFMAOWXKFCNRQPPBZXOZH" imageId="66362509"/>
     </Metadata>
     <Page imageFilename="0030_p030.jpg" imageWidth="2479" imageHeight="3508">
         <ReadingOrder>
-            <OrderedGroup id="ro_1760097216366" caption="Regions reading order">
+            <OrderedGroup id="ro_1760534523823" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r"/>
             </OrderedGroup>
         </ReadingOrder>
         <TextRegion id="r" custom="readingOrder {index:0;}">
             <Coords points="330,3261 537,3261 537,3296 330,3296"/>
-            <TextLine id="l" custom="readingOrder {index:0;} textStyle {offset:5; length:4;italic:true;}">
+            <TextLine id="l" custom="readingOrder {index:0;}">
                 <Coords points="320,3306 344,3316 416,3310 422,3316 534,3316 532,3240 450,3226 440,3236 386,3234 370,3242 342,3224 320,3226"/>
                 <Baseline points="330,3291 537,3296"/>
                 <TextEquiv>
-                    <Unicode>ᵑgeeᵐbaak</Unicode>
+                    <Unicode>¹See back?</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextEquiv>
@@ -231,7 +231,7 @@
                     <Coords points="990,1244 1032,1256 1048,1256 1060,1244 1108,1258 1138,1252 1138,1210 1082,1210 1060,1188 1052,1188 1030,1210 1016,1208 1000,1224 990,1222"/>
                     <Baseline points="1000,1238 1009,1238 1053,1236 1098,1238 1143,1236"/>
                     <TextEquiv>
-                        <Unicode>atʷewa</Unicode>
+                        <Unicode>atˢewa</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
@@ -2507,7 +2507,7 @@
                     <Coords points="730,3178 740,3178 750,3188 762,3188 770,3180 840,3180 846,3174 856,3180 894,3180 894,3140 874,3140 864,3130 852,3140 826,3140 814,3128 798,3128 786,3140 756,3140 744,3152 730,3152"/>
                     <Baseline points="741,3167 898,3167"/>
                     <TextEquiv>
-                        <Unicode>purřo-ku</Unicode>
+                        <Unicode>puřo-ku</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
