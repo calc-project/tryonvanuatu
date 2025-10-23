@@ -19,9 +19,14 @@ These methods use the attributes of a `FormSpec` instance to configure their beh
   Flag signaling whether to strip content in brackets (**and** strip leading and trailing whitespace)
 - `replacements`: `[(' ', '_')]`
   List of pairs (`source`, `target`) used to replace occurrences of `source` in formswith `target` (before stripping content in brackets)
-- `first_form_only`: `True`
+- `first_form_only`: `False`
   Flag signaling whether at most one form should be returned from `split` - effectively ignoring any spelling variants, etc.
 - `normalize_whitespace`: `True`
   Flag signaling whether to normalize whitespace - stripping leading and trailing whitespace and collapsing multi-character whitespace to single spaces
 - `normalize_unicode`: `None`
   UNICODE normalization form to use for input of `split` (`None`, 'NFD' or 'NFC')
+
+### Replacement of invalid lexemes
+
+Source lexemes may be impossible to interpret correctly. 86 such lexemes are listed
+in [`etc/lexemes.csv`](etc/lexemes.csv) and replaced as specified in this file.

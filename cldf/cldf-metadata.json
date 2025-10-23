@@ -14,7 +14,7 @@
         {
             "rdf:about": "https://github.com/calc-project/tryonvanuatu",
             "rdf:type": "prov:Entity",
-            "dc:created": "0ee46af",
+            "dc:created": "d7da23e",
             "dc:title": "Repository"
         },
         {
@@ -56,7 +56,7 @@
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
             "dc:description": "\nRaw lexical data item as it can be pulled out of the original datasets.\n\nThis is the basis for creating rows in CLDF representations of the data by\n- splitting the lexical item into forms\n- cleaning the forms\n- potentially tokenizing the form\n",
-            "dc:extent": 44874,
+            "dc:extent": 45363,
             "tableSchema": {
                 "columns": [
                     {
@@ -218,11 +218,11 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "Location"
+                        "name": "Locality"
                     },
                     {
                         "datatype": "string",
-                        "name": "Remark"
+                        "name": "Comment"
                     },
                     {
                         "datatype": "string",
@@ -235,6 +235,22 @@
                     {
                         "datatype": "string",
                         "name": "FullName"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Collector"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SubFamily"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Group"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SubGroup"
                     }
                 ],
                 "primaryKey": [

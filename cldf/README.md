@@ -13,7 +13,7 @@ property | value
 [dc:identifier](http://purl.org/dc/terms/identifier) | https://doi.org/10.15144/PL-C50
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/calc-project/tryonvanuatu
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/calc-project/tryonvanuatu/tree/0ee46af">calc-project/tryonvanuatu 0ee46af</a></li><li><a href="https://github.com/glottolog/glottolog/tree/2dfc4be1ed">Glottolog v4.8-43-g2dfc4be1ed</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/07b860f0">Concepticon v3.2.0-12-g07b860f0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/6e60c1d">CLTS v2.2.0-11-g6e60c1d</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/calc-project/tryonvanuatu/tree/d7da23e">calc-project/tryonvanuatu d7da23e</a></li><li><a href="https://github.com/glottolog/glottolog/tree/2dfc4be1ed">Glottolog v4.8-43-g2dfc4be1ed</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/07b860f0">Concepticon v3.2.0-12-g07b860f0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/6e60c1d">CLTS v2.2.0-11-g6e60c1d</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>lingpy-rcParams</strong>: <a href="./lingpy-rcParams.json">lingpy-rcParams.json</a></li><li><strong>python</strong>: 3.12.6</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | tryonvanuatu
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
@@ -33,7 +33,7 @@ This is the basis for creating rows in CLDF representations of the data by
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF FormTable](http://cldf.clld.org/v1.0/terms.rdf#FormTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 44874
+[dc:extent](http://purl.org/dc/terms/extent) | 45363
 
 
 ### Columns
@@ -75,11 +75,15 @@ Name/Property | Datatype | Description
 [Latitude](http://cldf.clld.org/v1.0/terms.rdf#latitude) | `decimal`<br>&ge; -90<br>&le; 90 | 
 [Longitude](http://cldf.clld.org/v1.0/terms.rdf#longitude) | `decimal`<br>&ge; -180<br>&le; 180 | 
 `Family` | `string` | 
-`Location` | `string` | 
-`Remark` | `string` | 
+`Locality` | `string` | 
+`Comment` | `string` | 
 `Number` | `string` | 
 `Region` | `string` | 
 `FullName` | `string` | 
+`Collector` | `string` | 
+`SubFamily` | `string` | 
+`Group` | `string` | 
+`SubGroup` | `string` | 
 
 ## <a name="table-parameterscsv"></a>Table [parameters.csv](./parameters.csv)
 
