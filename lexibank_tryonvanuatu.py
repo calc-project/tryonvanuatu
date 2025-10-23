@@ -12,7 +12,7 @@ import codecs
 import re
 
 RECREATE_CONCEPTS = False
-RECREATE_LANGUAGES = True
+RECREATE_LANGUAGES = False
 VALIDATE = False
 
 def extract_table(fname):
@@ -24,7 +24,6 @@ def extract_table(fname):
         page = xml.dom.minidom.parseString(f.read())
 
     # parse footnotes
-    # TODO handle the other case where footnotes are different textlines in the SAME region
     footnotes = {}
     footnote_pattern = re.compile(r"^\W*([¹²³⁴⁵])\W*")
     footnote_regions = page.childNodes[0].getElementsByTagName("TextRegion")
@@ -140,14 +139,35 @@ def get_concept(row):
    return number, concept
 
 
+def get_alternations(value):
+    if value == "p(e)p(i)nə/si":
+        # the only cell with two brackets; it's easier to make an explicit exception than to solve programmatically
+        return ["pepinə", "pepnə", "ppinə", "si"]
+    tmp_values = value.split("/")
+    values = []
+    for value in tmp_values:
+        if "(" in value:
+            value1 = value[:value.index("(")] + value[value.index(")") + 1:]
+            value2 = value.replace("(", "").replace(")", "")
+            values.append(value1)
+            values.append(value2)
+        else:
+            values.append(value)
+
+    return values
+
 
 @attr.s
 class CustomLanguage(Language):
-    Location = attr.ib(default=None)
-    Remark = attr.ib(default=None)
+    Locality = attr.ib(default=None)
+    Comment = attr.ib(default=None)
     Number = attr.ib(default=None)
     Region = attr.ib(default=None)
     FullName = attr.ib(default=None)
+    Collector = attr.ib(default=None)
+    SubFamily = attr.ib(default=None)
+    Group = attr.ib(default=None)
+    SubGroup = attr.ib(default=None)
 
 
 class Dataset(BaseDataset):
@@ -157,7 +177,7 @@ class Dataset(BaseDataset):
     form_spec = FormSpec(
             separators="~;,/", 
             missing_data=[], 
-            first_form_only=True,
+            first_form_only=False,
             replacements=[(" ", "_")]
             )
 
@@ -166,6 +186,7 @@ class Dataset(BaseDataset):
         concepts = []
         languages = []
         data = []
+        custom_lexemes = []
         errors = set()
         for fname in xmlfiles:
             args.log.info("Working on {0}...".format(fname))
@@ -195,6 +216,8 @@ class Dataset(BaseDataset):
                         cnum, concept = get_concept(concept_)
                         data += [[row[0].strip(), number, name, group,
                                   concept_.strip(), cnum, concept, value, str(page), img, footnote]]
+                        if "(" in value:
+                            custom_lexemes.append((value, "/".join(get_alternations(value))))
                 except ValueError:
                     args.log.info("Problem with entry '{0} / {1}'".format(fname, row))
                     errors.add((fname, row[0]))
@@ -251,6 +274,11 @@ class Dataset(BaseDataset):
             for row in data:
                 f.write("\t".join(row) + "\n")
         args.log.info("wrote data")
+
+        with codecs.open(self.etc_dir / "lexemes.tsv", "w", "utf-8") as f:
+            f.write("LEXEME\tREPLACEMENT\n")
+            for row in custom_lexemes:
+                f.write("\t".join(row) + "\n")
 
         if VALIDATE:
             # collect concepts
