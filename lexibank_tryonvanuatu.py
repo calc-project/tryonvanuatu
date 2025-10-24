@@ -3,8 +3,7 @@ import attr
 from clldutils.misc import slug
 from pylexibank import Dataset as BaseDataset
 from pylexibank import progressbar as pb
-from pylexibank import Language
-from pylexibank import FormSpec
+from pylexibank import Language, Concept, FormSpec
 from csv import DictReader
 
 import xml
@@ -170,10 +169,16 @@ class CustomLanguage(Language):
     SubGroup = attr.ib(default=None)
 
 
+@attr.s
+class CustomConcept(Concept):
+    Number = attr.ib(default=None)
+
+
 class Dataset(BaseDataset):
     dir = pathlib.Path(__file__).parent
     id = "tryonvanuatu"
     language_class = CustomLanguage
+    concept_class = CustomConcept
     form_spec = FormSpec(
             separators="~;,/", 
             missing_data=[], 
@@ -338,6 +343,7 @@ class Dataset(BaseDataset):
             idx = concept["NUMBER"] + "_" + slug(concept["ENGLISH"])
             args.writer.add_concept(
                     ID=idx,
+                    Number=concept["NUMBER"],
                     Name=concept["ENGLISH"],
                     Concepticon_ID=concept.get("CONCEPTICON_ID"),
                     Concepticon_Gloss=concept.get("CONCEPTICON_GLOSS")

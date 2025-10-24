@@ -14,7 +14,7 @@
         {
             "rdf:about": "https://github.com/calc-project/tryonvanuatu",
             "rdf:type": "prov:Entity",
-            "dc:created": "d7da23e",
+            "dc:created": "615e42a",
             "dc:title": "Repository"
         },
         {
@@ -283,6 +283,10 @@
                     {
                         "datatype": "string",
                         "name": "Concepticon_Gloss"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Number"
                     }
                 ],
                 "primaryKey": [
