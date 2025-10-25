@@ -3,7 +3,7 @@ import attr
 from clldutils.misc import slug
 from pylexibank import Dataset as BaseDataset
 from pylexibank import progressbar as pb
-from pylexibank import Language, Concept, FormSpec
+from pylexibank import Language, Concept, Lexeme, FormSpec
 from csv import DictReader
 
 import xml
@@ -57,6 +57,7 @@ def extract_table(fname):
     for cell in cells:
         row = int(cell.getAttribute("row"))
         col = int(cell.getAttribute("col"))
+        coords = cell.getElementsByTagName("Coords")[0].getAttribute("points")
         textlines = cell.getElementsByTagName("TextLine")
         if row != previous_row:
             table += [[]]
@@ -72,7 +73,7 @@ def extract_table(fname):
                 value = ""
         else:
             value = ''
-        table[-1] += [value]
+        table[-1] += [(value, coords)]
 
     return table, footnotes
 
@@ -174,11 +175,17 @@ class CustomConcept(Concept):
     Number = attr.ib(default=None)
 
 
+@attr.s
+class CustomLexeme(Lexeme):
+    Coordinates = attr.ib(default=None)
+
+
 class Dataset(BaseDataset):
     dir = pathlib.Path(__file__).parent
     id = "tryonvanuatu"
     language_class = CustomLanguage
     concept_class = CustomConcept
+    lexeme_class = CustomLexeme
     form_spec = FormSpec(
             separators="~;,/", 
             missing_data=[], 
@@ -198,16 +205,16 @@ class Dataset(BaseDataset):
             img = fname.name + ".jpg"
             page = int(fname.name.split("_p")[1].split(".")[0]) + 171
             table, footnotes = extract_table(fname)
-            current_concepts = table[0]
-            current_languages = [row[0] for row in table[1:]]
+            current_concepts = [x[0] for x in table[0]]
+            current_languages = [row[0][0] for row in table[1:]]
             concepts += current_concepts[1:]
             languages += current_languages
 
             # add entries to individual tables
             for row in table[1:]:
                 try:
-                    number, name, group = get_language(row[0])
-                    for concept_, value in zip(current_concepts[1:], row[1:]):
+                    number, name, group = get_language(row[0][0])
+                    for concept_, (value, coords) in zip(current_concepts[1:], row[1:]):
                         footnotes_pattern = re.compile(r"[¹²³⁴⁵]")
                         match = re.search(footnotes_pattern, value)
                         if match:
@@ -219,8 +226,8 @@ class Dataset(BaseDataset):
                         else:
                             footnote = ""
                         cnum, concept = get_concept(concept_)
-                        data += [[row[0].strip(), number, name, group,
-                                  concept_.strip(), cnum, concept, value, str(page), img, footnote]]
+                        data += [[row[0][0].strip(), number, name, group,
+                                  concept_.strip(), cnum, concept, value, str(page), img, coords, footnote]]
                         if "(" in value:
                             custom_lexemes.append((value, "/".join(get_alternations(value))))
                 except ValueError:
@@ -273,6 +280,7 @@ class Dataset(BaseDataset):
                  "Value",
                  "Page",
                  "Image",
+                 "Coordinates",
                  "Footnote"
                  ]
                 ) + "\n")
@@ -367,5 +375,6 @@ class Dataset(BaseDataset):
                     Parameter_ID=concepts[entry["ConceptNumber"]],
                     Value=entry["Value"],
                     Source="Tryon1976",
-                    Comment=entry["Footnote"]
+                    Comment=entry["Footnote"],
+                    Coordinates=entry["Coordinates"]
                 )

@@ -13,22 +13,13 @@ property | value
 [dc:identifier](http://purl.org/dc/terms/identifier) | https://doi.org/10.15144/PL-C50
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/calc-project/tryonvanuatu
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/calc-project/tryonvanuatu/tree/615e42a">calc-project/tryonvanuatu 615e42a</a></li><li><a href="https://github.com/glottolog/glottolog/tree/2dfc4be1ed">Glottolog v4.8-43-g2dfc4be1ed</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/07b860f0">Concepticon v3.2.0-12-g07b860f0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/6e60c1d">CLTS v2.2.0-11-g6e60c1d</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/calc-project/tryonvanuatu/tree/69fb880">calc-project/tryonvanuatu 69fb880</a></li><li><a href="https://github.com/glottolog/glottolog/tree/2dfc4be1ed">Glottolog v4.8-43-g2dfc4be1ed</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/07b860f0">Concepticon v3.2.0-12-g07b860f0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/6e60c1d">CLTS v2.2.0-11-g6e60c1d</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>lingpy-rcParams</strong>: <a href="./lingpy-rcParams.json">lingpy-rcParams.json</a></li><li><strong>python</strong>: 3.12.6</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | tryonvanuatu
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
 
 
 ## <a name="table-formscsv"></a>Table [forms.csv](./forms.csv)
-
-
-Raw lexical data item as it can be pulled out of the original datasets.
-
-This is the basis for creating rows in CLDF representations of the data by
-- splitting the lexical item into forms
-- cleaning the forms
-- potentially tokenizing the form
-
 
 property | value
  --- | ---
@@ -53,6 +44,7 @@ Name/Property | Datatype | Description
 `Loan` | `boolean` | 
 `Graphemes` | `string` | 
 `Profile` | `string` | 
+`Coordinates` | `string` | 
 
 ## <a name="table-languagescsv"></a>Table [languages.csv](./languages.csv)
 
