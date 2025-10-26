@@ -177,6 +177,8 @@ class CustomConcept(Concept):
 
 @attr.s
 class CustomLexeme(Lexeme):
+    Page = attr.ib(default=None)
+    Image = attr.ib(default=None)
     Coordinates = attr.ib(default=None)
 
 
@@ -202,7 +204,7 @@ class Dataset(BaseDataset):
         errors = set()
         for fname in xmlfiles:
             args.log.info("Working on {0}...".format(fname))
-            img = fname.name + ".jpg"
+            img = fname.name.replace(".xml", ".jpg")
             page = int(fname.name.split("_p")[1].split(".")[0]) + 171
             table, footnotes = extract_table(fname)
             current_concepts = [x[0] for x in table[0]]
@@ -376,5 +378,7 @@ class Dataset(BaseDataset):
                     Value=entry["Value"],
                     Source="Tryon1976",
                     Comment=entry["Footnote"],
+                    Page=entry["Page"],
+                    Image=entry["Image"],
                     Coordinates=entry["Coordinates"]
                 )

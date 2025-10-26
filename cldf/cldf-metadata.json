@@ -14,7 +14,7 @@
         {
             "rdf:about": "https://github.com/calc-project/tryonvanuatu",
             "rdf:type": "prov:Entity",
-            "dc:created": "69fb880",
+            "dc:created": "5e65700",
             "dc:title": "Repository"
         },
         {
@@ -124,6 +124,14 @@
                     {
                         "datatype": "string",
                         "name": "Profile"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Page"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Image"
                     },
                     {
                         "datatype": "string",
