@@ -338,9 +338,6 @@ class Dataset(BaseDataset):
                     else:
                         language_file.write("\t".join(issue) + "\n")
 
-        #for a, b in errors:
-        #    args.log.info("problem: {0} / {1}".format(a, b))
-
 
     def cmd_makecldf(self, args):
         # add bib
