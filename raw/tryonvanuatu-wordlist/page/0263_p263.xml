@@ -4,11 +4,11 @@
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.25.0:model_id=314733:lm=none:date=28_03_2025_17:26</Creator>
         <Created>2024-10-31T10:04:45.844745</Created>
         <LastChange>2025-04-02T02:47:43.288+02:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80940175" pageNr="263" tsid="245633338" status="FINAL" userId="191957" imgUrl="https://files.transkribus.eu/Get?id=OSDHVWLWGGWHDEQWBDHAYLOJ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=PTRKOKHWWZAOCTNCMCFHHDIU" imageId="66362920"/>
+        <TranskribusMetadata docId="4770512" pageId="80940175" pageNr="263" tsid="245633338" status="FINAL" userId="191957" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=OSDHVWLWGGWHDEQWBDHAYLOJ" xmlUrl="https://files.transkribus.eu/Get?id=PTRKOKHWWZAOCTNCMCFHHDIU" imageId="66362920"/>
     </Metadata>
     <Page imageFilename="0263_p263.jpg" imageWidth="2479" imageHeight="3508">
         <ReadingOrder>
-            <OrderedGroup id="ro_1761240610776" caption="Regions reading order">
+            <OrderedGroup id="ro_1762439749939" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -21,7 +21,7 @@
                     <Unicode>¹Also [βaβaŋ]</Unicode>
                 </TextEquiv>
             </TextLine>
-            <TextLine id="l_7613" custom="readingOrder {index:1;} textStyle {offset:3; length:6;italic:true;}">
+            <TextLine id="l_7613" custom="readingOrder {index:1;} textStyle {offset:3; length:6;italic}">
                 <Coords points="285,3152 492,3150 492,3120 285,3122"/>
                 <Baseline points="285,3152 492,3150"/>
                 <TextEquiv>

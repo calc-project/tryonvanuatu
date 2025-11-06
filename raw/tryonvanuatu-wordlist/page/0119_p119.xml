@@ -4,18 +4,18 @@
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.20.0:model_id=265269:lm=none:date=15_01_2025_11:56</Creator>
         <Created>2024-10-29T15:24:08.845397</Created>
         <LastChange>2025-09-05T09:52:04.904+02:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80939970" pageNr="119" tsid="254918186" status="FINAL" userId="191957" imgUrl="https://files.transkribus.eu/Get?id=CTPTLXFGGFCKSKVRBPUDSGGN&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=NWBNHHYWODGATARTCTLGPZBR" imageId="66362715"/>
+        <TranskribusMetadata docId="4770512" pageId="80939970" pageNr="119" tsid="254918186" status="FINAL" userId="191957" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=CTPTLXFGGFCKSKVRBPUDSGGN" xmlUrl="https://files.transkribus.eu/Get?id=NWBNHHYWODGATARTCTLGPZBR" imageId="66362715"/>
     </Metadata>
     <Page imageFilename="0119_p119.jpg" imageWidth="2479" imageHeight="3508">
         <ReadingOrder>
-            <OrderedGroup id="ro_1761240606974" caption="Regions reading order">
+            <OrderedGroup id="ro_1762439742613" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r"/>
                 <RegionRefIndexed index="1" regionRef="r_5527"/>
             </OrderedGroup>
         </ReadingOrder>
         <TextRegion id="r" custom="readingOrder {index:0;}">
             <Coords points="291,2968 682,2968 682,3000 291,3000"/>
-            <TextLine id="l_5344" custom="readingOrder {index:0;} textStyle {offset:10; length:6;italic:true;}">
+            <TextLine id="l_5344" custom="readingOrder {index:0;} textStyle {offset:10; length:6;italic}">
                 <Coords points="291,2998 682,3000 682,2970 291,2968"/>
                 <Baseline points="291,2998 682,3000"/>
                 <TextEquiv>
@@ -28,7 +28,7 @@
         </TextRegion>
         <TextRegion id="r_5527" custom="readingOrder {index:1;}">
             <Coords points="288,3079 640,3079 640,3112 288,3112"/>
-            <TextLine id="l_5526" custom="readingOrder {index:0;} textStyle {offset:9; length:5;italic:true;}">
+            <TextLine id="l_5526" custom="readingOrder {index:0;} textStyle {offset:9; length:5;italic}">
                 <Coords points="288,3109 639,3112 640,3082 288,3079"/>
                 <Baseline points="288,3109 639,3112"/>
                 <TextEquiv>

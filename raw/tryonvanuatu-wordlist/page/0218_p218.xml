@@ -4,7 +4,7 @@
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.20.0:model_id=265269:lm=none:date=15_01_2025_11:56</Creator>
         <Created>2024-10-31T10:00:37.574631</Created>
         <LastChange>2025-09-05T10:08:40.331+02:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80940101" pageNr="218" tsid="254919510" status="FINAL" userId="191957" imgUrl="https://files.transkribus.eu/Get?id=GBVCFTNGSCNZFWUNDVHYISLT&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=VPWZLJCIHTUVPZDNPYMYJQIP" imageId="66362846"/>
+        <TranskribusMetadata docId="4770512" pageId="80940101" pageNr="218" tsid="254919510" status="FINAL" userId="191957" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=GBVCFTNGSCNZFWUNDVHYISLT" xmlUrl="https://files.transkribus.eu/Get?id=VPWZLJCIHTUVPZDNPYMYJQIP" imageId="66362846"/>
     </Metadata>
     <Page imageFilename="0218_p218.jpg" imageWidth="2479" imageHeight="3508">
         <TableRegion id="t1" custom="readingOrder {index:0;}">
@@ -1649,7 +1649,7 @@
             </TableCell>
             <TableCell row="24" col="2" colSpan="1" orientation="0.0" id="t1c123">
                 <Coords points="1186,2028 1187,2094 1546,2094 1545,2028"/>
-                <TextLine id="t1c123_tl_1" custom="readingOrder {index:0;} textStyle {offset:2; length:2;superscript:true;}">
+                <TextLine id="t1c123_tl_1" custom="readingOrder {index:0;} textStyle {offset:2; length:2;superscript}">
                     <Coords points="1230,2090 1242,2088 1258,2100 1284,2088 1338,2092 1346,2100 1354,2094 1366,2100 1384,2092 1418,2092 1416,2042 1382,2042 1360,2052 1340,2036 1318,2036 1298,2022 1262,2050 1228,2046"/>
                     <Baseline points="1241,2077 1286,2071 1331,2074 1376,2077 1421,2077"/>
                     <TextEquiv>

@@ -4,17 +4,17 @@
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.19.0:model_id=115833:lm=none:date=22_11_2024_08:46</Creator>
         <Created>2024-10-29T16:13:37.842266</Created>
         <LastChange>2025-10-08T14:13:24.441+02:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80939738" pageNr="17" tsid="257432185" status="GT" userId="315306" imgUrl="https://files.transkribus.eu/Get?id=LQQLWGCWQKWCUQAAHDVBHNYM&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=GXEDSPYDTJZWSSLUOXEVMTCD" imageId="66362502"/>
+        <TranskribusMetadata docId="4770512" pageId="80939738" pageNr="17" tsid="257432185" status="GT" userId="315306" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=LQQLWGCWQKWCUQAAHDVBHNYM" xmlUrl="https://files.transkribus.eu/Get?id=GXEDSPYDTJZWSSLUOXEVMTCD" imageId="66362502"/>
     </Metadata>
     <Page imageFilename="0017_p017.jpg" imageWidth="2479" imageHeight="3508">
         <ReadingOrder>
-            <OrderedGroup id="ro_1761240604946" caption="Regions reading order">
+            <OrderedGroup id="ro_1762439738903" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r"/>
             </OrderedGroup>
         </ReadingOrder>
         <TextRegion id="r" custom="readingOrder {index:0;}">
             <Coords points="285,3102 793,3102 793,3137 285,3137"/>
-            <TextLine id="l_175" custom="readingOrder {index:0;} textStyle {offset:11; length:6;italic:true;} textStyle {offset:18; length:5;italic:true;}">
+            <TextLine id="l_175" custom="readingOrder {index:0;} textStyle {offset:11; length:6;italic} textStyle {offset:18; length:5;italic}">
                 <Coords points="285,3132 793,3137 793,3137 793,3107 793,3107 285,3102"/>
                 <Baseline points="285,3132 793,3137 793,3137"/>
                 <TextEquiv>
