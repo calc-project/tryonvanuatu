@@ -79,6 +79,10 @@ table = []
 with open(Path(__file__).parent.parent / "raw" / "languages.tsv") as f:
     reader = csv.DictReader(f, delimiter="\t")
     for row in reader:
+        row["Collector"] = row["Collector"].replace("DT", "D.T.Tryon")
+        if not row["Group"]:
+            assert row["SubFamily"] == "Polynesian" and not row["SubGroup"]
+            row["Group"] = row["SubGroup"] = "Polynesian Outlier"
         name = row["Name"]
         row["FullName"] = language_abbreviations.get(name, name)
         name = lang_name_maps[name] if name in lang_name_maps else name
