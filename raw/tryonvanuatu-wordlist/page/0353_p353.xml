@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
     <Metadata>
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.25.0:model_id=314733:lm=none:date=28_03_2025_17:26</Creator>
         <Created>2024-10-31T18:11:07.325695</Created>
-        <LastChange>2025-10-16T15:40:27.977+02:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80940300" pageNr="353" tsid="258108768" status="FINAL" userId="191957" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=QXGOAHNZUWNZPNETZWYZPZYW" xmlUrl="https://files.transkribus.eu/Get?id=BVTKIJBOTQWTTASRPFEIOLRL" imageId="66363046"/>
+        <LastChange>2025-11-21T05:31:32.578+01:00</LastChange>
+        <TranskribusMetadata docId="4770512" pageId="80940300" pageNr="353" status="FINAL" userId="315306" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=QXGOAHNZUWNZPNETZWYZPZYW" imageId="66363046"/>
     </Metadata>
-    <Page imageFilename="0353_p353.jpg" imageWidth="2479" imageHeight="3508">
-        <ReadingOrder>
-            <OrderedGroup id="ro_1762440555990" caption="Regions reading order">
-                <RegionRefIndexed index="1" regionRef="r"/>
-            </OrderedGroup>
-        </ReadingOrder>
+    <Page imageFilename="80940300.jpg" imageWidth="2479" imageHeight="3508">
         <TableRegion id="t1" custom="readingOrder {index:0;}">
             <Coords points="285,397 265,2815 2368,2818 2368,400"/>
             <TableCell row="0" col="0" colSpan="1" orientation="0.0" id="t1c1">
@@ -1129,7 +1124,7 @@
                     <Coords points="1502,2050 1512,2048 1524,2060 1552,2060 1558,2054 1566,2060 1630,2058 1628,2014 1616,2016 1608,2024 1598,2022 1568,1996 1564,2000 1548,1998 1520,2024 1500,2026"/>
                     <Baseline points="1510,2039 1555,2042 1600,2045 1633,2048"/>
                     <TextEquiv>
-                        <Unicode>-aᵐʰbel¹</Unicode>
+                        <Unicode>-aʰᵐbel¹</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>

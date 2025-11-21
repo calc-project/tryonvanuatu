@@ -44,7 +44,7 @@ Available online at https://doi.org/10.15144/PL-C50
 - **Synonymy:** 1.01
 - **Invalid lexemes:** 0
 - **Tokens:** 254,074
-- **Segments:** 132 (0 BIPA errors, 0 CLTS sound class errors, 132 CLTS modified)
+- **Segments:** 133 (0 BIPA errors, 0 CLTS sound class errors, 133 CLTS modified)
 - **Inventory size (avg):** 31.06
 
 ## CLDF Datasets
