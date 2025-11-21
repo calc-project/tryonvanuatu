@@ -39,11 +39,11 @@ Available online at https://doi.org/10.15144/PL-C50
 
 - **Varieties:** 179 (linked to 120 different Glottocodes)
 - **Concepts:** 292 (linked to 286 different Concepticon concept sets)
-- **Lexemes:** 45,363
+- **Lexemes:** 45,364
 - **Sources:** 1
 - **Synonymy:** 1.01
 - **Invalid lexemes:** 0
-- **Tokens:** 254,070
+- **Tokens:** 254,074
 - **Segments:** 132 (0 BIPA errors, 0 CLTS sound class errors, 132 CLTS modified)
 - **Inventory size (avg):** 31.06
 

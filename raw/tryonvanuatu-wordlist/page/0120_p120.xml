@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
     <Metadata>
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.20.0:model_id=265269:lm=none:date=15_01_2025_11:56</Creator>
         <Created>2024-10-29T15:24:08.845397</Created>
-        <LastChange>2025-10-10T13:48:56.548+02:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80939966" pageNr="120" tsid="257608474" status="FINAL" userId="315306" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=HSPOLBIDPXXAUZJHXHCALNCY" xmlUrl="https://files.transkribus.eu/Get?id=ZZWSOGETOOWRVWFTWGQHSQQY" imageId="66362711"/>
+        <LastChange>2025-11-19T15:59:33.812+01:00</LastChange>
+        <TranskribusMetadata docId="4770512" pageId="80939966" pageNr="120" status="FINAL" userId="315306" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=HSPOLBIDPXXAUZJHXHCALNCY" imageId="66362711"/>
     </Metadata>
-    <Page imageFilename="0120_p120.jpg" imageWidth="2479" imageHeight="3508">
+    <Page imageFilename="80939966.jpg" imageWidth="2479" imageHeight="3508">
         <TableRegion id="t1" custom="readingOrder {index:0;}">
             <Coords points="292,416 288,2992 2367,2992 2372,410"/>
             <TableCell row="0" col="0" colSpan="1" orientation="0.0" id="t1c1">
@@ -2496,6 +2496,13 @@
             </TableCell>
             <TableCell row="41" col="1" rowSpan="1" colSpan="1" id="c_1015">
                 <Coords points="746,3126 742,3205 1128,3205 1133,3126"/>
+                <TextLine id="l_1" custom="readingOrder {index:0;}">
+                    <Coords points="819,3160 922,3160 922,3160 922,3160 922,3130 922,3130 922,3130 819,3130"/>
+                    <Baseline points="819,3160 922,3160 922,3160 922,3160"/>
+                    <TextEquiv>
+                        <Unicode>r̃oβu</Unicode>
+                    </TextEquiv>
+                </TextLine>
                 <TextEquiv>
                     <Unicode></Unicode>
                 </TextEquiv>
