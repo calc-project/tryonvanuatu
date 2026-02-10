@@ -180,6 +180,7 @@ class CustomLexeme(Lexeme):
     Page = attr.ib(default=None)
     Image = attr.ib(default=None)
     Coordinates = attr.ib(default=None)
+    Footnote = attr.ib(default=None)
 
 
 class Dataset(BaseDataset):
@@ -362,6 +363,12 @@ class Dataset(BaseDataset):
         languages = args.writer.add_languages(lookup_factory="Number")
         args.log.info("added languages")
 
+        # load editorial interventions
+        corrections = self.etc_dir.read_csv(
+            "corrections.tsv", delimiter="\t", dicts=True
+        )
+        corrections = {x["FORM"]: (x["REPLACEMENT"], x["COMMENT"]) for x in corrections}
+
         # read in data
         data = self.raw_dir.read_csv(
             "data.tsv", delimiter="\t", dicts=True
@@ -369,13 +376,28 @@ class Dataset(BaseDataset):
         # add data
         for entry in pb(data, desc="cldfify", total=len(data)):
             if entry["ConceptNumber"] in concepts and entry["LanguageNumber"] in languages:
-                args.writer.add_forms_from_value(
-                    Language_ID=languages[entry["LanguageNumber"]],
-                    Parameter_ID=concepts[entry["ConceptNumber"]],
-                    Value=entry["Value"],
-                    Source="Tryon1976",
-                    Comment=entry["Footnote"],
-                    Page=entry["Page"],
-                    Image=entry["Image"],
-                    Coordinates=entry["Coordinates"]
-                )
+                if entry["Value"] in corrections:
+                    replacement, comment = corrections[entry["Value"]]
+                    args.writer.add_form(
+                        Language_ID=languages[entry["LanguageNumber"]],
+                        Parameter_ID=concepts[entry["ConceptNumber"]],
+                        Value=entry["Value"],
+                        Form=replacement,
+                        Comment=comment,
+                        Source="Tryon1976",
+                        Footnote=entry["Footnote"],
+                        Page=entry["Page"],
+                        Image=entry["Image"],
+                        Coordinates=entry["Coordinates"]
+                    )
+                else:
+                    args.writer.add_forms_from_value(
+                        Language_ID=languages[entry["LanguageNumber"]],
+                        Parameter_ID=concepts[entry["ConceptNumber"]],
+                        Value=entry["Value"],
+                        Source="Tryon1976",
+                        Footnote=entry["Footnote"],
+                        Page=entry["Page"],
+                        Image=entry["Image"],
+                        Coordinates=entry["Coordinates"]
+                    )
