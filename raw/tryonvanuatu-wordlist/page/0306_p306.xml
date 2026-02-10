@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
     <Metadata>
         <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.25.0:model_id=314733:lm=none:date=28_03_2025_17:26</Creator>
         <Created>2024-10-31T18:11:07.325695</Created>
-        <LastChange>2025-07-28T13:25:09.778+02:00</LastChange>
-        <TranskribusMetadata docId="4770512" pageId="80940236" pageNr="306" tsid="252018787" status="FINAL" userId="191957" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=HUJSVATATYXTKYVVBRKGAVZL" xmlUrl="https://files.transkribus.eu/Get?id=HXGZJWMRBAHJKXTHFFDSNJFZ" imageId="66362981"/>
+        <LastChange>2026-02-10T23:55:40.149+01:00</LastChange>
+        <TranskribusMetadata docId="4770512" pageId="80940236" pageNr="306" status="FINAL" userId="315306" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=HUJSVATATYXTKYVVBRKGAVZL" imageId="66362981"/>
     </Metadata>
-    <Page imageFilename="0306_p306.jpg" imageWidth="2479" imageHeight="3508">
+    <Page imageFilename="80940236.jpg" imageWidth="2479" imageHeight="3508">
         <TableRegion id="t1" custom="readingOrder {index:0;}">
-            <Coords points="290,410 279,2928 2312,2909 2224,397"/>
+            <Coords points="279,397 2312,397 2312,2928 279,2928"/>
             <TableCell row="0" col="0" colSpan="1" orientation="0.0" id="t1c1">
                 <Coords points="290,410 289,493 739,493 739,407"/>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -1756,7 +1756,7 @@
                     <Coords points="1502,2134 1522,2132 1534,2142 1622,2142 1632,2134 1648,2144 1658,2142 1654,2080 1634,2082 1624,2072 1590,2102 1568,2090 1554,2100 1538,2096 1530,2108 1500,2102"/>
                     <Baseline points="1513,2122 1558,2128 1603,2131 1648,2131 1662,2134"/>
                     <TextEquiv>
-                        <Unicode>-xaxaᵑd</Unicode>
+                        <Unicode>-xaxaⁿd</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextEquiv>
