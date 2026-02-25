@@ -107,17 +107,6 @@ def get_language(row):
 
     row = REPLACEMENTS.get(row, row)
 
-    # LANG = {
-    #        "1. Fali (OC) (AM)": ["1", "Fali (OC)", "Am"],
-            #"89 Timbembe": ["89", "Timbembe", ""],
-            #"117 Windua (Ma)": ["117", "Windua", "Ma"],
-            #"149 Makatea (Sh)": ["149", "Makatea", "Sh"],
-            #"177 Aneityum": ["177", "Aneityum", ""],
-            #"70 Tutuba": ["70", "Tutuba", ""],
-    #        }
-    # if row.strip() in LANG:
-    #    return LANG[row.strip()]
-
     if not '.' in row:
         raise ValueError(row)
     
@@ -367,7 +356,7 @@ class Dataset(BaseDataset):
         corrections = self.etc_dir.read_csv(
             "corrections.tsv", delimiter="\t", dicts=True
         )
-        corrections = {x["FORM"]: (x["REPLACEMENT"], x["COMMENT"]) for x in corrections}
+        corrections = {(x["FORM"], x["LANGUAGE_ID"], x["CONCEPT_ID"]): (x["REPLACEMENT"], x["COMMENT"]) for x in corrections}
 
         # read in data
         data = self.raw_dir.read_csv(
@@ -376,12 +365,16 @@ class Dataset(BaseDataset):
         # add data
         for entry in pb(data, desc="cldfify", total=len(data)):
             if entry["ConceptNumber"] in concepts and entry["LanguageNumber"] in languages:
-                if entry["Value"] in corrections:
-                    replacement, comment = corrections[entry["Value"]]
+                language = languages[entry["LanguageNumber"]]
+                concept = concepts[entry["ConceptNumber"]]
+                value = entry["Value"]
+                if (value, language, concept) in corrections:
+                    # TODO replacement for slashed forms
+                    replacement, comment = corrections[(value, language, concept)]
                     args.writer.add_form(
-                        Language_ID=languages[entry["LanguageNumber"]],
-                        Parameter_ID=concepts[entry["ConceptNumber"]],
-                        Value=entry["Value"],
+                        Language_ID=language,
+                        Parameter_ID=concept,
+                        Value=value,
                         Form=replacement,
                         Comment=comment,
                         Source="Tryon1976",
@@ -392,9 +385,9 @@ class Dataset(BaseDataset):
                     )
                 else:
                     args.writer.add_forms_from_value(
-                        Language_ID=languages[entry["LanguageNumber"]],
-                        Parameter_ID=concepts[entry["ConceptNumber"]],
-                        Value=entry["Value"],
+                        Language_ID=language,
+                        Parameter_ID=concept,
+                        Value=value,
                         Source="Tryon1976",
                         Footnote=entry["Footnote"],
                         Page=entry["Page"],

@@ -1,26 +1,25 @@
-FORM	REPLACEMENT	COMMENT	TR notes
-puruᵑ-ku	puru-ᵑku	Typesetting error; the suffix should be -ᵑku (compare other body part nouns)	
-činɔ-ŋku	činɔ-ᵑku	Typesetting error; the suffix should be -ᵑku (compare other body part nouns)	
-aᵑand	aŋand	Intervocalic <ᵑ> can only be interpreted as consonantal segment; might indicate weak articulation.	
-na-ᵑai	na-ŋai	Intervocalic <ᵑ> can only be interpreted as consonantal segment; might indicate weak articulation.	
-tuaᵑa	tuaŋa	Intervocalic <ᵑ> can only be interpreted as consonantal segment; might indicate weak articulation.	
-miᵑut	miŋut	Intervocalic <ᵑ> can only be interpreted as consonantal segment; might indicate weak articulation.	
-βanua uluʷou	βanua_uluwou	Intervocalic <ʷ> can only be interpreted as consonantal segment; might indicate weak articulation.	
-kwo-ᵑgu	kʷo-ᵑgu	Initial segment should be <kʷ>, cf. <kʷo-ᵑgu> 'husband'.	
-ᵐbilakᵐbwihil	ᵐbilakᵐbʷihil	This language has labiovelarised labials as evidence by other datapoints, so ᵐbʷ is likely a complex segment	Apma
-bwozo-	bʷozo-	This language has labiovelarised labials as evidence by other datapoints, so bʷ is likely a complex segment	Sowa
-bwa-ŋsu-	bʷa-ŋsu-	This language has labiovelarised labials as evidence by other datapoints, so bʷ is likely a complex segment	Sowa
-lon ᵐbwa-ku	lon_pʷa-ku	This language does not have a prenasalisation contast. Carryover effects from preceding /n/ was likely interpreted as prenasalisation on the plosive. pʷ is a common segment in this language	Wusi-Valui
-n-bwau-k	n-pʷau-k	This language doesn't seem to have bʷ but has pʷ, also confirmed by Thieberger's 2006 Grammar of Nafsan. The voicing in Tryon likely due to the preceding nasal.	Eratap
-tankabwa	tankapʷa	This language doesn't seem to have bʷ but has pʷ, also confirmed by Lynch's 1978 Grammar of Lenakel	Lenakel
-kapak kabwa	kapak_kapʷa	This language doesn't seem to have bʷ but has pʷ, based on other datapoints.	Enfit.
-n-bwau-k	n-pʷau-k	This language doesn't seem to have bʷ but has pʷ, also confirmed by Thieberger's 2006 Grammar of Nafsan. Cf. Thieberger's 2021 dictionary of Nafsan: npʷau 'head'	Pango
-n-bʷaŋ	n-pʷaŋ	This language doesn't seem to have bʷ but has pʷ, also confirmed by Thieberger's 2006 Grammar of Nafsan. Cf. Thieberger's 2021 dictionary of Nafsan: pʷa:r 'deaf'	Pango
-kwo-ᵑgu	kʷo-ᵑgu	Based on other datapoints, this language seems to have a labiovelarised segment kʷ. This is likely a complex segment than a cluster	Yevali
-lokwiai	lokʷiai	Based on other datapoints, this language seems to have a labiovelarised segment kʷ. This is likely a complex segment than a cluster	Ikiyau
-ŋʷatakoro	ŋwatakoro	This language does not have labiovelarisation as a secondary articulation based on other datapoints and Capell’s 1984 Aniwa-Futuna dictionary.	Aniwa
--ᵐβʷiβʷin	-mβʷiβʷin	Prenasalised β is unlikely, not found in this language or in the entire dataset	Rerep
-ɣa-ᵐwosi	ɣa-mwosi	Prenasalised w is unlikely, not found in this language, only one other occurrence in the entire dataset	Lakona
-a-ᵐwanai	a-mwanai	Prenasalised w is unlikely, not found in this language, only one other occurrence in the entire dataset	Timbembe
-ᵑgwie	 ᵑgʷie	 ᵑgʷ is a common complex segment in this language	Wailengi
-sebʳenok	sebrenok	bʳ could be interpreted as a bilabial trill but these are very unlikely in Pentecost languages. This is one of two occurrences of bʳ in Tryon 1976, likely an error	Sowa
+LANGUAGE_ID	CONCEPT_ID	FORM	REPLACEMENT	COMMENT
+narango	3_ear	puruᵑ-ku	puru-ᵑku	Typesetting error; the suffix should be -ᵑku (compare other body part nouns)
+narango	8_mouth	činɔ-ŋku	činɔ-ᵑku	Typesetting error; the suffix should be -ᵑku (compare other body part nouns)
+timbembe	78_antred	aᵑand	aŋand	Intervocalic <ᵑ> can only be interpreted as consonantal segment; might indicate weak articulation.
+sie	94_almond	na-ᵑai	na-ŋai	Intervocalic <ᵑ> can only be interpreted as consonantal segment; might indicate weak articulation.
+burupika	164_bad	tuaᵑa	tuaŋa	Intervocalic <ᵑ> can only be interpreted as consonantal segment; might indicate weak articulation.
+rerep	202_many	miᵑut	miŋut	Intervocalic <ᵑ> can only be interpreted as consonantal segment; might indicate weak articulation.
+vunapu	56_menshouse	βanua uluʷou	βanua_uluwou	Intervocalic <ʷ> can only be interpreted as consonantal segment; might indicate weak articulation.
+yevali	52_wife	kwo-ᵑgu	kʷo-ᵑgu	Initial segment should be <kʷ>, cf. <kʷo-ᵑgu> 'husband'.
+apma	19_heart	ᵐbilakᵐbwihil	ᵐbilakᵐbʷihil	This language has labiovelarised labials as evidence by other datapoints, so ᵐbʷ is likely a complex segment
+sowa	1_head	bwozo-	bʷozo-	This language has labiovelarised labials as evidence by other datapoints, so bʷ is likely a complex segment
+sowa	4_nose	bwa-ŋsu-	bʷa-ŋsu-	This language has labiovelarised labials as evidence by other datapoints, so bʷ is likely a complex segment
+wusivalui	8_mouth	lon ᵐbwa-ku	lon_pʷa-ku	This language does not have a prenasalisation contast. Carryover effects from preceding /n/ was likely interpreted as prenasalisation on the plosive. pʷ is a common segment in this language
+eratap	1_head	n-bwau-k	n-pʷau-k	This language doesn't seem to have bʷ but has pʷ, also confirmed by Thieberger's 2006 Grammar of Nafsan. The voicing in Tryon likely due to the preceding nasal.
+lenakel	1_head	tankabwa	tankapʷa	This language doesn't seem to have bʷ but has pʷ, also confirmed by Lynch's 1978 Grammar of Lenakel
+enfit	1_head	kapak kabwa	kapak_kapʷa	This language doesn't seem to have bʷ but has pʷ, based on other datapoints.
+pango	1_head	n-bwau-k	n-pʷau-k	This language doesn't seem to have bʷ but has pʷ, also confirmed by Thieberger's 2006 Grammar of Nafsan. Cf. Thieberger's 2021 dictionary of Nafsan: npʷau 'head'
+pango	9_beard	n-bʷaŋ	n-pʷaŋ	This language doesn't seem to have bʷ but has pʷ, also confirmed by Thieberger's 2006 Grammar of Nafsan. Cf. Thieberger's 2021 dictionary of Nafsan: pʷa:r 'deaf'
+ikiyau	173_cold	lokwiai	lokʷiai	Based on other datapoints, this language seems to have a labiovelarised segment kʷ. This is likely a complex segment than a cluster
+aniwa	18_guts	ŋʷatakoro	ŋwatakoro	This language does not have labiovelarisation as a secondary articulation based on other datapoints and Capell’s 1984 Aniwa-Futuna dictionary.
+rerep	273_swell	-ᵐβʷiβʷin	-mβʷiβʷin	Prenasalised β is unlikely, not found in this language or in the entire dataset
+lakona	178_old	ɣa-ᵐwosi	ɣa-mwosi	Prenasalised w is unlikely, not found in this language, only one other occurrence in the entire dataset
+timbembe	89_grass	a-ᵐwanai	a-mwanai	Prenasalised w is unlikely, not found in this language, only one other occurrence in the entire dataset
+wailengi	119_ashes	ᵑgwie	ᵑgʷie	ᵑgʷ is a common complex segment in this language
+sowa	196_ten	sebʳenok	sebrenok	bʳ could be interpreted as a bilabial trill but these are very unlikely in Pentecost languages. This is one of two occurrences of bʳ in Tryon 1976, likely an error
