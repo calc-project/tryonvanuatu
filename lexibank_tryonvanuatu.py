@@ -125,6 +125,8 @@ def get_language(row):
 def get_concept(row):
    number = row[:row.index(".")]
    concept = row[row.index(".") + 2:].strip()
+   # amend typograhic differences in glosses; remove footnotes (they are annotated manually)
+   concept = concept.replace("we pl. incl.", "we pl.incl.").replace("you p1.", "you pl.").replace("¹", "")
    return number, concept
 
 
@@ -162,6 +164,7 @@ class CustomLanguage(Language):
 @attr.s
 class CustomConcept(Concept):
     Number = attr.ib(default=None)
+    Footnote = attr.ib(default=None)
 
 
 @attr.s
@@ -343,7 +346,8 @@ class Dataset(BaseDataset):
                     Number=concept["NUMBER"],
                     Name=concept["ENGLISH"],
                     Concepticon_ID=concept.get("CONCEPTICON_ID"),
-                    Concepticon_Gloss=concept.get("CONCEPTICON_GLOSS")
+                    Concepticon_Gloss=concept.get("CONCEPTICON_GLOSS"),
+                    Footnote=concept.get("FOOTNOTE")
                     )
             concepts[concept["NUMBER"]] = idx
         args.log.info("added concepts")

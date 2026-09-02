@@ -14,7 +14,7 @@
         {
             "rdf:about": "https://github.com/calc-project/tryonvanuatu",
             "rdf:type": "prov:Entity",
-            "dc:created": "v.0.1-6-gaa715fa",
+            "dc:created": "v.0.1-7-ge4e8b57",
             "dc:title": "Repository"
         },
         {
@@ -276,7 +276,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 293,
+            "dc:extent": 292,
             "tableSchema": {
                 "columns": [
                     {
@@ -302,6 +302,10 @@
                     {
                         "datatype": "string",
                         "name": "Number"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Footnote"
                     }
                 ],
                 "primaryKey": [
